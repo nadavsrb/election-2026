@@ -1,0 +1,56 @@
+---
+import { ELECTION_DATE_LABEL, POLLS_CLOSE_ISO, POLLS_OPEN_ISO } from '../lib/site';
+
+interface Props {
+  class?: string;
+}
+const { class: className } = Astro.props;
+---
+<p class:list={['countdown', className]} data-open={POLLS_OPEN_ISO} data-close={POLLS_CLOSE_ISO}>
+  <span class="countdown-main" data-countdown>הבחירות לכנסת ה-26</span>
+  <span class="countdown-sub">{ELECTION_DATE_LABEL}. הקלפיות פתוחות מ-07:00 עד 22:00.</span>
+</p>
+
+<script>
+  function israelDay(d: Date): number {
+    const ymd = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Asia/Jerusalem',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+    }).format(d);
+    return Date.parse(`${ymd}T00:00:00Z`);
+  }
+
+  function label(el: HTMLElement): string {
+    const open = new Date(el.dataset.open!);
+    const close = new Date(el.dataset.close!);
+    const now = new Date();
+    const days = Math.round((israelDay(open) - israelDay(now)) / 86_400_000);
+    if (days > 2) return `עוד ${days} ימים לבחירות`;
+    if (days === 2) return 'עוד יומיים לבחירות';
+    if (days === 1) return 'הבחירות מחר';
+    if (days === 0) {
+      if (now < open) return 'הבחירות היום. הקלפיות נפתחות ב-07:00';
+      if (now < close) return 'הבחירות היום. הקלפיות פתוחות עד 22:00';
+      return 'הקלפיות נסגרו. תודה שהצבעתם';
+    }
+    return 'הבחירות לכנסת ה-26 התקיימו';
+  }
+
+  for (const el of document.querySelectorAll<HTMLElement>('.countdown')) {
+    const main = el.querySelector<HTMLElement>('[data-countdown]');
+    if (main) main.textContent = label(el);
+  }
+</script>
+
+<style>
+  .countdown { display: grid; gap: 0.15rem; }
+  .countdown-main {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  .countdown-sub { font-size: 0.95rem; opacity: 0.85; }
+</style>

@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/site';
+---
+<Base title="העמוד לא נמצא">
+  <section class="wrap-narrow py-20 text-center">
+    <div class="slip mx-auto w-40 h-48 mb-8" aria-hidden="true">
+      <span class="slip-letters">404</span>
+    </div>
+    <h1 class="text-3xl font-black">הפתק הזה לא בקלפי</h1>
+    <p class="mt-3 text-[var(--color-ink-soft)]">העמוד שחיפשתם לא קיים. אולי הקישור שגוי, או שהעמוד הועבר.</p>
+    <a class="btn btn-primary mt-8" href={url()}>לדף הבית</a>
+  </section>
+</Base>

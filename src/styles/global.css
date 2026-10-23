@@ -1,0 +1,213 @@
+@import "tailwindcss";
+
+/*
+  Design tokens — see DESIGN.md.
+  The palette is deliberately not associated with any Israeli party:
+  no party blues, reds, greens or the orange/yellow protest colors.
+*/
+@theme {
+  --font-display: "Frank Ruhl Libre", "David", "Times New Roman", serif;
+  --font-sans: "IBM Plex Sans Hebrew", "Segoe UI", "Arial Hebrew", Arial, system-ui, sans-serif;
+
+  --color-canvas: #f2f0f7;
+  --color-surface: #ffffff;
+  --color-sunken: #e9e6f1;
+  --color-ink: #1a1625;
+  --color-ink-soft: #4d4760;
+  --color-line: #d9d4e6;
+  --color-accent: #5536c4;
+  --color-accent-strong: #3f24a3;
+  --color-accent-soft: #e7e1fb;
+  --color-link: #4a2db8;
+  --color-booth: #221a47;
+  --color-booth-2: #30265f;
+  --color-on-booth: #f4f1ff;
+  --color-on-booth-soft: #c9c0ec;
+  --color-lilac: #c7bbf3;
+  /* the ballot slip stays paper-white in both themes */
+  --color-slip: #ffffff;
+  --color-slip-ink: #000000;
+  --color-slip-edge: rgb(20 10 50 / 0.16);
+
+  --radius-panel: 14px;
+  --radius-control: 999px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-canvas: #14111f;
+    --color-surface: #1d1930;
+    --color-sunken: #100d1a;
+    --color-ink: #ece8f6;
+    --color-ink-soft: #b3abc9;
+    --color-line: #352f4d;
+    --color-accent: #6a4be0;
+    --color-accent-strong: #8468f0;
+    --color-accent-soft: #2b2350;
+    --color-link: #b9a9f7;
+    --color-booth: #0d0a1a;
+    --color-booth-2: #1b1533;
+    --color-slip: #f6f4ee;
+    --color-slip-edge: rgb(0 0 0 / 0.5);
+  }
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "kern";
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    line-height: 1.15;
+    text-wrap: balance;
+    font-weight: 700;
+  }
+  p { text-wrap: pretty; }
+  a { color: var(--color-link); text-underline-offset: 0.2em; }
+  :focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  ::selection { background: var(--color-lilac); color: #000; }
+  .num { font-variant-numeric: tabular-nums; }
+}
+
+@layer components {
+  /* ── Ballot slip: the site's single identity object ─────────────── */
+  .slip {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35em;
+    background: var(--color-slip);
+    color: var(--color-slip-ink);
+    border: 1px solid var(--color-slip-edge);
+    box-shadow:
+      0 1px 0 rgb(0 0 0 / 0.04),
+      0 10px 18px -12px rgb(25 12 70 / 0.45);
+    padding: 0.9em 0.6em 0.8em;
+    text-align: center;
+    text-decoration: none;
+  }
+  .slip-letters {
+    font-family: var(--font-display);
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: 0.01em;
+    font-size: 2.6em;
+  }
+  .slip-name {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.78em;
+    line-height: 1.25;
+    color: #1d1a24;
+  }
+  .slip-leader {
+    font-family: var(--font-sans);
+    font-size: 0.68em;
+    line-height: 1.2;
+    color: #55506a;
+  }
+  a.slip { transition: transform 160ms ease, box-shadow 160ms ease; }
+  a.slip:hover { transform: translateY(-2px); }
+  a.slip:active { transform: translateY(0); }
+
+  /* ── Controls ───────────────────────────────────────────────────── */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    min-height: 3rem;
+    padding: 0.6rem 1.4rem;
+    border-radius: var(--radius-control);
+    font-weight: 600;
+    font-size: 1.0625rem;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 140ms ease, transform 140ms ease, box-shadow 140ms ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .btn:active { transform: scale(0.98); }
+  .btn-primary { background: var(--color-accent); color: #fff; }
+  .btn-primary:hover { background: var(--color-accent-strong); }
+  .btn-quiet {
+    background: transparent;
+    color: var(--color-ink);
+    box-shadow: inset 0 0 0 1.5px var(--color-line);
+  }
+  .btn-quiet:hover { box-shadow: inset 0 0 0 1.5px var(--color-ink-soft); }
+  .btn-on-booth { background: var(--color-on-booth); color: var(--color-booth); }
+  .btn-on-booth:hover { background: #fff; }
+  .btn-ghost-booth {
+    background: transparent;
+    color: var(--color-on-booth);
+    box-shadow: inset 0 0 0 1.5px rgb(255 255 255 / 0.35);
+  }
+  .btn-ghost-booth:hover { box-shadow: inset 0 0 0 1.5px rgb(255 255 255 / 0.7); }
+
+  .panel {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-panel);
+  }
+
+  .prose-he { max-width: 66ch; }
+  .prose-he p + p { margin-top: 0.85em; }
+  .prose-he h2 { font-size: 1.6rem; margin-top: 2rem; margin-bottom: 0.6rem; }
+  .prose-he h3 { font-size: 1.25rem; margin-top: 1.5rem; margin-bottom: 0.4rem; }
+  .prose-he ul { list-style: disc; padding-inline-start: 1.25rem; }
+  .prose-he ol { list-style: decimal; padding-inline-start: 1.25rem; }
+  .prose-he li + li { margin-top: 0.35em; }
+
+  .source-link {
+    font-size: 0.8125rem;
+    color: var(--color-ink-soft);
+    text-decoration: underline;
+    text-decoration-color: var(--color-line);
+  }
+  .source-link:hover { color: var(--color-link); text-decoration-color: currentColor; }
+
+  .wrap { width: 100%; max-width: 72rem; margin-inline: auto; padding-inline: 1rem; }
+  @media (min-width: 640px) { .wrap { padding-inline: 1.5rem; } }
+  .wrap-narrow { width: 100%; max-width: 44rem; margin-inline: auto; padding-inline: 1rem; }
+  @media (min-width: 640px) { .wrap-narrow { padding-inline: 1.5rem; } }
+
+  .skip-link {
+    position: absolute;
+    inset-inline-start: 1rem;
+    top: -4rem;
+    z-index: 100;
+    background: var(--color-accent);
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  .skip-link:focus { top: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

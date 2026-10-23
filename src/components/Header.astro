@@ -1,0 +1,124 @@
+---
+import { NAV, SITE_NAME, url } from '../lib/site';
+
+const current = Astro.url.pathname;
+const isActive = (href: string) => current.startsWith(url(href));
+---
+<header class="site-header">
+  <div class="wrap flex items-center justify-between gap-4 py-3">
+    <a href={url()} class="logo" aria-label={`${SITE_NAME}: לדף הבית`}>
+      <span class="logo-slip" aria-hidden="true">הפתק<br />שלי</span>
+      <span class="logo-text">{SITE_NAME}</span>
+    </a>
+
+    <nav class="hidden lg:block" aria-label="ניווט ראשי">
+      <ul class="flex items-center gap-1">
+        {NAV.map((item) => (
+          <li>
+            <a
+              href={url(item.href)}
+              class:list={['nav-link', { active: isActive(item.href) }]}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <details class="mobile-menu lg:hidden">
+      <summary class="btn btn-quiet !min-h-11 !px-4 !text-base">תפריט</summary>
+      <nav aria-label="ניווט ראשי" class="mobile-sheet panel">
+        <ul>
+          {NAV.map((item) => (
+            <li>
+              <a
+                href={url(item.href)}
+                class:list={['mobile-link', { active: isActive(item.href) }]}
+                aria-current={isActive(item.href) ? 'page' : undefined}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: color-mix(in srgb, var(--color-canvas) 88%, transparent);
+    backdrop-filter: saturate(1.4) blur(10px);
+    -webkit-backdrop-filter: saturate(1.4) blur(10px);
+    border-bottom: 1px solid var(--color-line);
+  }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    color: var(--color-ink);
+    text-decoration: none;
+  }
+  .logo-slip {
+    display: grid;
+    place-items: center;
+    width: 2.6rem;
+    height: 2.9rem;
+    background: var(--color-slip);
+    color: var(--color-slip-ink);
+    border: 1px solid var(--color-slip-edge);
+    box-shadow: 0 6px 10px -8px rgb(25 12 70 / 0.6);
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.72rem;
+    line-height: 1.05;
+    text-align: center;
+    transform: rotate(-4deg);
+  }
+  .logo-text {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.35rem;
+    letter-spacing: 0.01em;
+  }
+  .nav-link {
+    display: inline-block;
+    padding: 0.45rem 0.8rem;
+    border-radius: 999px;
+    color: var(--color-ink-soft);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.98rem;
+  }
+  .nav-link:hover { color: var(--color-ink); background: var(--color-sunken); }
+  .nav-link.active { color: var(--color-ink); background: var(--color-accent-soft); }
+
+  .mobile-menu { position: relative; }
+  .mobile-menu > summary { list-style: none; }
+  .mobile-menu > summary::-webkit-details-marker { display: none; }
+  .mobile-sheet {
+    position: absolute;
+    inset-inline-end: 0;
+    top: calc(100% + 0.5rem);
+    width: min(18rem, calc(100vw - 2rem));
+    padding: 0.5rem;
+    box-shadow: 0 18px 40px -18px rgb(20 10 50 / 0.45);
+  }
+  .mobile-link {
+    display: block;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    color: var(--color-ink);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05rem;
+  }
+  .mobile-link:hover { background: var(--color-sunken); }
+  .mobile-link.active { background: var(--color-accent-soft); }
+</style>

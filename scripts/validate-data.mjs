@@ -1,0 +1,106 @@
+// Cross-checks the JSON data files so a broken reference or a missing source fails CI
+// before anything reaches the live site. Run: npm run validate
+import { readFileSync, existsSync } from 'node:fs';
+
+const dir = new URL('../src/data/', import.meta.url);
+const load = (name, fallback) => {
+  const file = new URL(name, dir);
+  if (!existsSync(file)) return fallback;
+  return JSON.parse(readFileSync(file, 'utf8'));
+};
+
+const errors = [];
+const warnings = [];
+const err = (m) => errors.push(m);
+const warn = (m) => warnings.push(m);
+
+const topics = load('topics.json', []);
+const statements = load('statements.json', []);
+const parties = load('parties.json', []);
+const lists = load('lists.json', []);
+const positions = load('positions.json', []);
+
+const unique = (arr, key, label) => {
+  const seen = new Set();
+  for (const x of arr) {
+    if (seen.has(x[key])) err(`${label}: duplicate ${key} "${x[key]}"`);
+    seen.add(x[key]);
+  }
+  return seen;
+};
+
+const topicIds = unique(topics, 'id', 'topics');
+const statementIds = unique(statements, 'id', 'statements');
+const partyIds = unique(parties, 'id', 'parties');
+unique(statements, 'order', 'statements');
+
+for (const s of statements) {
+  if (!topicIds.has(s.topic)) err(`statement ${s.id}: unknown topic "${s.topic}"`);
+  if (!s.text?.trim()) err(`statement ${s.id}: empty text`);
+  for (const [axis, dir] of Object.entries(s.axis ?? {})) {
+    if (!['dip', 'rel', 'gov'].includes(axis)) err(`statement ${s.id}: unknown axis ${axis}`);
+    if (![1, -1].includes(dir)) err(`statement ${s.id}: axis ${axis} must be 1 or -1`);
+  }
+}
+for (const t of topics) {
+  if (!statements.some((s) => s.topic === t.id)) warn(`topic ${t.id} has no statements`);
+}
+
+const isUrl = (u) => typeof u === 'string' && /^https?:\/\/\S+$/.test(u);
+const checkSources = (where, sources, required) => {
+  if (!Array.isArray(sources) || sources.length === 0) {
+    if (required) err(`${where}: no sources`);
+    return;
+  }
+  for (const src of sources) {
+    if (!isUrl(src.url)) err(`${where}: bad source url ${JSON.stringify(src.url)}`);
+    if (!src.title?.trim()) warn(`${where}: source without title (${src.url})`);
+  }
+};
+
+for (const p of parties) {
+  for (const f of ['name', 'short_name', 'letters', 'leader', 'description']) {
+    if (!p[f]?.toString().trim()) err(`party ${p.id}: missing ${f}`);
+  }
+}
+if (lists.length && parties.length) {
+  for (const p of parties) {
+    if (!lists.some((l) => l.letters === p.letters)) warn(`party ${p.id}: letters "${p.letters}" not found in lists.json`);
+  }
+}
+
+const seenPairs = new Set();
+const STANCES = new Set([-2, -1, 0, 1, 2, null]);
+for (const pos of positions) {
+  const where = `position ${pos.party}/${pos.statement}`;
+  if (!partyIds.has(pos.party)) err(`${where}: unknown party`);
+  if (!statementIds.has(pos.statement)) err(`${where}: unknown statement`);
+  const key = `${pos.party}|${pos.statement}`;
+  if (seenPairs.has(key)) err(`${where}: duplicate`);
+  seenPairs.add(key);
+  if (!STANCES.has(pos.stance)) err(`${where}: invalid stance ${pos.stance}`);
+  if (pos.stance !== null) {
+    if (!['high', 'medium', 'low'].includes(pos.confidence)) err(`${where}: invalid confidence`);
+    if (!pos.basis?.trim()) err(`${where}: missing basis`);
+    checkSources(where, pos.sources, true);
+  }
+}
+if (positions.length) {
+  for (const p of parties) {
+    for (const s of statements) {
+      if (!seenPairs.has(`${p.id}|${s.id}`)) err(`missing position ${p.id}/${s.id}`);
+    }
+  }
+}
+
+const known = positions.filter((p) => p.stance !== null).length;
+console.log(
+  `topics ${topics.length}, statements ${statements.length}, parties ${parties.length}, lists ${lists.length}, positions ${positions.length} (${known} with a stance)`,
+);
+for (const w of warnings) console.warn(`warning: ${w}`);
+if (errors.length) {
+  for (const e of errors) console.error(`error: ${e}`);
+  console.error(`\n${errors.length} error(s)`);
+  process.exit(1);
+}
+console.log('data OK');

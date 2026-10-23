@@ -1,0 +1,273 @@
+---
+import Base from '../layouts/Base.astro';
+import Countdown from '../components/Countdown.astro';
+import topics from '../data/topics.json';
+import statements from '../data/statements.json';
+import { url } from '../lib/site';
+
+const quickCount = statements.filter((s) => s.quick).length;
+const fullCount = statements.length;
+---
+<Base>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 class="hero-title">מצאו את הרשימות הקרובות לעמדות שלכם</h1>
+        <p class="hero-lead">
+          שאלון קצר על הנושאים שעל סדר היום, ואחריו השוואה מפורטת מול הרשימות המרכזיות, עם מקור לכל עמדה.
+          בלי הרשמה. התשובות לא יוצאות מהמכשיר שלכם.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-on-booth" href={url('quiz/?mode=quick')}>לשאלון הקצר ({quickCount} שאלות)</a>
+          <a class="btn btn-ghost-booth" href={url('quiz/?mode=full')}>לשאלון המלא ({fullCount} שאלות)</a>
+        </div>
+        <div class="hero-countdown"><Countdown /></div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="slip hero-slip hero-slip-back-2"></div>
+        <div class="slip hero-slip hero-slip-back-1"></div>
+        <div class="slip hero-slip hero-slip-front">
+          <div class="letter-slots">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="hero-slip-name">הפתק שלי</span>
+          <span class="hero-slip-sub">הבחירות לכנסת ה-26</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap py-14" aria-labelledby="how-title">
+    <h2 id="how-title" class="section-title">איך זה עובד</h2>
+    <ol class="steps">
+      <li>
+        <h3>עונים על השאלון</h3>
+        <p>
+          {quickCount} טענות בשאלון הקצר או {fullCount} בשאלון המלא. לכל טענה בוחרים עד כמה אתם בעד או נגד,
+          ואפשר לסמן מה חשוב לכם במיוחד.
+        </p>
+      </li>
+      <li>
+        <h3>רואים מי קרוב אליכם</h3>
+        <p>
+          אחוז התאמה לכל רשימה, ופירוט של כל טענה: מה ענית, מה עמדת הרשימה ועל איזה מקור היא מבוססת.
+        </p>
+      </li>
+      <li>
+        <h3>קוראים ומחליטים</h3>
+        <p>
+          השאלון הוא נקודת פתיחה, לא המלצה. כדאי לקרוא את פרופיל הרשימות שעלו אצלכם ולהשוות ביניהן לפני
+          שבוחרים פתק.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="topics-band" aria-labelledby="topics-title">
+    <div class="wrap py-14">
+      <h2 id="topics-title" class="section-title">הנושאים שעל הפרק</h2>
+      <p class="section-lead">
+        עשרה נושאים שעומדים במרכז מערכת הבחירות. לכל אחד יש רקע קצר, הטיעונים המרכזיים של שני הצדדים, ואיפה
+        עומדת כל רשימה.
+      </p>
+      <ul class="topic-list">
+        {topics.map((t) => (
+          <li>
+            <a href={url(`issues/${t.id}/`)}>
+              <span class="topic-name">{t.title}</span>
+              <span class="topic-q">{t.question}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="wrap py-14 grid gap-10 md:grid-cols-2" aria-label="מידע נוסף">
+    <div>
+      <h2 class="section-title">איך שמרנו על ניטרליות</h2>
+      <ul class="principles">
+        <li>כל רשימה מוצגת באותה תבנית ובאותו גודל, והסדר משתנה באקראי בכל כניסה.</li>
+        <li>לכל עמדה יש מקור ותאריך, וכתוב אם היא מפורשת או נגזרה מהצבעות והצהרות.</li>
+        <li>אין סקרים, אין לוגואים ואין צבעים של מפלגות.</li>
+        <li>הנתונים פתוחים לכולם, ואפשר לדווח על טעות בלחיצה.</li>
+      </ul>
+      <a class="inline-link" href={url('about/')}>על שיטת העבודה</a>
+    </div>
+    <div class="vote-card panel">
+      <h2 class="section-title">ביום הבחירות</h2>
+      <dl class="vote-facts">
+        <div><dt>מתי</dt><dd>יום שלישי, 27 באוקטובר, מ-07:00 עד 22:00. יום שבתון.</dd></div>
+        <div><dt>איפה</dt><dd>רק בקלפי שאליה אתם משויכים. כדאי לבדוק מראש.</dd></div>
+        <div><dt>מה להביא</dt><dd>תעודה מזהה עם תמונה: תעודת זהות, דרכון או רישיון נהיגה.</dd></div>
+        <div><dt>אחוז החסימה</dt><dd>3.25%. רשימה שלא עוברת אותו לא נכנסת לכנסת.</dd></div>
+      </dl>
+      <a class="inline-link" href={url('how-to-vote/')}>המדריך המלא להצבעה</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    background:
+      radial-gradient(120% 90% at 85% 10%, var(--color-booth-2) 0%, transparent 60%),
+      var(--color-booth);
+    color: var(--color-on-booth);
+    overflow: hidden;
+  }
+  .hero-grid {
+    display: grid;
+    gap: 2.5rem;
+    padding-block: 3rem 3.5rem;
+    align-items: center;
+  }
+  @media (min-width: 900px) {
+    .hero-grid { grid-template-columns: 1.15fr 0.85fr; padding-block: 5rem; }
+  }
+  .hero-title {
+    font-size: clamp(2.2rem, 8.5vw, 3.9rem);
+    font-weight: 900;
+    line-height: 1.05;
+    max-width: 16ch;
+  }
+  .hero-lead {
+    margin-top: 1.1rem;
+    font-size: 1.15rem;
+    color: var(--color-on-booth-soft);
+    max-width: 52ch;
+  }
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.75rem;
+  }
+  .hero-actions .btn { flex: 1 1 15rem; }
+  @media (min-width: 640px) { .hero-actions .btn { flex: 0 0 auto; } }
+  .hero-countdown {
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgb(255 255 255 / 0.16);
+  }
+
+  .hero-art {
+    position: relative;
+    height: 17rem;
+    max-width: 22rem;
+    width: 100%;
+    margin-inline: auto;
+  }
+  @media (min-width: 900px) { .hero-art { height: 24rem; } }
+  .hero-slip {
+    position: absolute;
+    inset-inline: 12% 12%;
+    top: 6%;
+    bottom: 6%;
+  }
+  .hero-slip-back-2 { transform: rotate(9deg) translate(-8%, 2%); opacity: 0.55; }
+  .hero-slip-back-1 { transform: rotate(-7deg) translate(6%, 1%); opacity: 0.8; }
+  .hero-slip-front {
+    transform: rotate(-2.5deg);
+    gap: 1.1rem;
+    animation: slip-in 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  }
+  @keyframes slip-in {
+    from { transform: translateY(18px) rotate(1deg); opacity: 0; }
+    to { transform: rotate(-2.5deg); opacity: 1; }
+  }
+  .letter-slots { display: flex; gap: 0.6rem; }
+  .letter-slots span {
+    width: 3.1rem;
+    height: 3.8rem;
+    border: 2px dashed #8a83a3;
+    border-radius: 4px;
+  }
+  @media (min-width: 900px) {
+    .letter-slots span { width: 3.8rem; height: 4.6rem; }
+  }
+  .hero-slip-name {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .hero-slip-sub { font-size: 0.85rem; font-weight: 600; color: #55506a; }
+
+  .section-title { font-size: clamp(1.6rem, 5vw, 2.1rem); font-weight: 900; }
+  .section-lead { margin-top: 0.6rem; color: var(--color-ink-soft); max-width: 60ch; }
+
+  .steps {
+    counter-reset: step;
+    display: grid;
+    gap: 1.75rem;
+    margin-top: 1.75rem;
+  }
+  @media (min-width: 768px) { .steps { grid-template-columns: repeat(3, 1fr); gap: 2rem; } }
+  .steps li {
+    counter-increment: step;
+    position: relative;
+    padding-inline-start: 3.25rem;
+  }
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    inset-inline-start: 0;
+    top: -0.1rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--color-accent-soft);
+    color: var(--color-accent-strong);
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.25rem;
+  }
+  .steps h3 { font-size: 1.3rem; }
+  .steps p { margin-top: 0.4rem; color: var(--color-ink-soft); }
+
+  .topics-band { background: var(--color-sunken); }
+  .topic-list {
+    margin-top: 1.75rem;
+    display: grid;
+    border-top: 1px solid var(--color-line);
+  }
+  @media (min-width: 768px) {
+    .topic-list { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
+  }
+  .topic-list li { border-bottom: 1px solid var(--color-line); }
+  .topic-list a {
+    display: grid;
+    gap: 0.1rem;
+    padding: 1rem 0.25rem;
+    color: var(--color-ink);
+    text-decoration: none;
+  }
+  .topic-list a:hover .topic-name { color: var(--color-link); }
+  .topic-name { font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; }
+  .topic-q { color: var(--color-ink-soft); font-size: 0.98rem; }
+
+  .principles { margin-top: 1rem; display: grid; gap: 0.75rem; }
+  .principles li {
+    position: relative;
+    padding-inline-start: 1.4rem;
+  }
+  .principles li::before {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0.65em;
+    width: 0.55rem;
+    height: 0.7rem;
+    background: var(--color-slip);
+    border: 1.5px solid var(--color-ink-soft);
+  }
+  .inline-link { display: inline-block; margin-top: 1.25rem; font-weight: 600; }
+
+  .vote-card { padding: 1.5rem; }
+  .vote-facts { display: grid; gap: 0.9rem; margin-top: 1rem; }
+  .vote-facts dt { font-weight: 700; }
+  .vote-facts dd { color: var(--color-ink-soft); }
+</style>

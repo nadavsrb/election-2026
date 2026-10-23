@@ -1,0 +1,43 @@
+---
+import { ISSUES_URL, REPO_URL, SITE_NAME, url } from '../lib/site';
+import meta from '../data/meta.json';
+---
+<footer class="site-footer">
+  <div class="wrap py-12 grid gap-10 md:grid-cols-[1.4fr_1fr]">
+    <div class="max-w-[46ch]">
+      <p class="footer-title">{SITE_NAME}</p>
+      <p class="mt-3">
+        פרויקט אזרחי עצמאי. הוא לא קשור לאף מפלגה, מועמד או גוף פוליטי, לא ממומן על ידי אף אחד מהם
+        ולא ממליץ למי להצביע. ההחלטה שלכם.
+      </p>
+      <p class="mt-3 text-sm footer-soft">
+        המידע עודכן לאחרונה ב-{meta.lastUpdatedLabel}. מצאתם טעות או עמדה שלא מוצגת נכון?
+        <a href={ISSUES_URL} target="_blank" rel="noopener">דווחו לנו</a> ונתקן.
+      </p>
+    </div>
+    <nav aria-label="קישורים נוספים">
+      <ul class="grid gap-2">
+        <li><a href={url('about/')}>אודות ושיטת העבודה</a></li>
+        <li><a href={url('about/#privacy')}>פרטיות</a></li>
+        <li><a href={url('about/#accessibility')}>הצהרת נגישות</a></li>
+        <li><a href={url('how-to-vote/')}>איך מצביעים</a></li>
+        <li><a href={REPO_URL} target="_blank" rel="noopener">קוד ונתונים פתוחים</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--color-booth);
+    color: var(--color-on-booth);
+    margin-top: 5rem;
+  }
+  .site-footer a { color: var(--color-on-booth); }
+  .footer-title {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.6rem;
+  }
+  .footer-soft { color: var(--color-on-booth-soft); }
+</style>
