@@ -24,13 +24,16 @@ interface Props {
   onEdit: () => void;
 }
 
-const MIN_COVERAGE = 0.5;
+// A list is ranked only when its known positions cover enough of the visitor's answers.
+const MIN_SHARE = 0.4;
+const MIN_USED = 4;
+const ranks = (r: PartyResult) => r.score !== null && r.used >= Math.max(MIN_USED, Math.ceil(r.answered * MIN_SHARE));
 
 export default function Results({ data, answers, mode, baseUrl, onRestart, onContinueFull, onEdit }: Props) {
   const [seed] = useState(() => Math.random());
   const results = useMemo(() => scoreParties(data, answers, seed), [data, answers, seed]);
-  const ranked = results.filter((r) => r.score !== null && r.coverage >= MIN_COVERAGE);
-  const thin = results.filter((r) => r.score === null || r.coverage < MIN_COVERAGE);
+  const ranked = results.filter(ranks);
+  const thin = results.filter((r) => !ranks(r));
 
   const answered = Object.values(answers).filter((a) => a.value !== 'skip').length;
   const importantCount = Object.values(answers).filter((a) => a.value !== 'skip' && a.important).length;
@@ -88,11 +91,12 @@ export default function Results({ data, answers, mode, baseUrl, onRestart, onCon
           <div class="r-thin">
             <h3 class="r-h3">רשימות בלי מספיק מידע להשוואה</h3>
             <p class="r-note">
-              לרשימות האלה לא מצאנו עמדה ידועה ברוב הטענות שעניתם עליהן, ולכן לא חישבנו להן אחוז.
+              לרשימות האלה מצאנו עמדה ידועה רק בחלק קטן מהטענות שעניתם עליהן, ולכן לא דירגנו אותן. אפשר
+              לפתוח כל רשימה ולראות את מה שכן ידוע.
             </p>
             <ol class="r-list">
               {thin.map((r) => (
-                <PartyRow key={r.party.id} result={r} baseUrl={baseUrl} />
+                <PartyRow key={r.party.id} result={r} baseUrl={baseUrl} unranked />
               ))}
             </ol>
           </div>
@@ -129,7 +133,7 @@ export default function Results({ data, answers, mode, baseUrl, onRestart, onCon
         <p>
           לכל טענה השווינו את התשובה שלכם לעמדת הרשימה בסולם של חמש דרגות. תשובה זהה שווה 100%, תשובה הפוכה
           לגמרי שווה 0%, וכל דרגת הפרש מורידה 25%. טענות שסימנתם כחשובות נספרות פעמיים. טענות שדילגתם עליהן,
-          וטענות שבהן לא ידועה עמדת הרשימה, לא נכללות בחישוב.
+          וטענות שבהן לא ידועה עמדת הרשימה, לא נכללות בחישוב, וליד כל רשימה כתוב על כמה תשובות ההשוואה מבוססת.
         </p>
         <a href={`${baseUrl}about/#method`}>השיטה המלאה ומקורות העמדות</a>
       </section>
@@ -141,10 +145,10 @@ function pct(score: number | null) {
   return score === null ? 'אין נתונים' : `${Math.round(score * 100)}%`;
 }
 
-function PartyRow({ result, baseUrl }: { result: PartyResult; baseUrl: string }) {
+function PartyRow({ result, baseUrl, unranked = false }: { result: PartyResult; baseUrl: string; unranked?: boolean }) {
   const [open, setOpen] = useState(false);
   const { party, score, used, answered } = result;
-  const width = score === null ? 0 : Math.max(2, Math.round(score * 100));
+  const width = score === null || unranked ? 0 : Math.max(2, Math.round(score * 100));
   const panelId = `r-panel-${party.id}`;
   return (
     <li class="r-row" id={`party-${party.id}`}>
@@ -164,8 +168,11 @@ function PartyRow({ result, baseUrl }: { result: PartyResult; baseUrl: string })
           <span class="r-bar" aria-hidden="true">
             <span style={{ width: `${width}%` }} />
           </span>
+          <span class="r-row-cover">
+            לפי {used} מתוך {answered} התשובות שלכם
+          </span>
         </span>
-        <span class="r-row-score">{pct(score)}</span>
+        <span class={`r-row-score${unranked ? ' muted' : ''}`}>{unranked ? 'מעט מידע' : pct(score)}</span>
       </button>
       {open && (
         <div class="r-panel" id={panelId}>

@@ -237,6 +237,8 @@
   border-end-end-radius: 4px;
   transition: width 500ms ease;
 }
+.r-row-score.muted { font-size: 0.85rem; font-weight: 500; color: var(--color-ink-soft); }
+.r-row-cover { font-size: 0.78rem; color: var(--color-ink-soft); margin-top: 0.15rem; }
 .r-row-score { font-weight: 700; font-size: 1.15rem; font-variant-numeric: tabular-nums; min-width: 3.2rem; text-align: end; }
 
 .r-panel {
