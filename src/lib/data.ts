@@ -33,6 +33,7 @@ const statement = z.object({
   quick: z.boolean(),
   topic: z.string(),
   text: z.string(),
+  context: z.string().optional(),
   axis: z.object({
     dip: z.union([z.literal(1), z.literal(-1)]).optional(),
     rel: z.union([z.literal(1), z.literal(-1)]).optional(),
@@ -109,7 +110,7 @@ export function quizPayload(): QuizData {
   return {
     updated: meta.lastUpdated,
     topics: topics.map(({ id, title, question, summary }) => ({ id, title, question, summary })),
-    statements: statements.map(({ id, order, quick, topic, text, axis }) => ({ id, order, quick, topic, text, axis })),
+    statements: statements.map(({ id, order, quick, topic, text, context, axis }) => ({ id, order, quick, topic, text, context, axis })),
     parties: parties.map(({ id, name, short_name, letters, leader }) => ({ id, name, short_name, letters, leader })),
     positions: positions.map((p) => ({
       ...p,

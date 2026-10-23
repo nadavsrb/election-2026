@@ -344,13 +344,15 @@ function Question({ data, index, total, statementId, answers, baseUrl, onAnswer,
         {statement.text}
       </h2>
 
-      {topic?.summary && (
+      {(statement.context || topic?.summary) && (
         <details class="q-context">
-          <summary>רקע קצר</summary>
-          <p>{topic.summary}</p>
-          <a href={`${baseUrl}issues/${topic.id}/`} target="_blank" rel="noopener">
-            הרקע המלא והטיעונים של שני הצדדים
-          </a>
+          <summary>מה זה אומר?</summary>
+          <p>{statement.context ?? topic?.summary}</p>
+          {topic && (
+            <a href={`${baseUrl}issues/${topic.id}/`} target="_blank" rel="noopener">
+              הרקע המלא והטיעונים של שני הצדדים
+            </a>
+          )}
         </details>
       )}
 

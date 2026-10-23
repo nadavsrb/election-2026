@@ -17,6 +17,7 @@ export interface QuizStatement {
   quick: boolean;
   topic: string;
   text: string;
+  context?: string;
   axis: Partial<Record<AxisKey, 1 | -1>>;
 }
 
