@@ -1,0 +1,4074 @@
+[
+ {
+  "party": "yashar",
+  "statement": "draft_haredi_sanctions",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "מצע ישר! קובע חובת שירות צבאי או אזרחי-לאומי לכל האוכלוסיות, כולל חרדים, ולפי JNS מי שישתמט ללא פטור צפוי לסנקציות פליליות ולשלילת הטבות; תוכנית 100 הימים של המפלגה כוללת סנקציות על משתמטים, ואיזנקוט הציב שירות לכולם כתנאי לכניסה לקואליציה (2026).",
+  "sources": [
+   {
+    "title": "Israel’s political parties explained: Yashar",
+    "outlet": "JNS",
+    "date": "2026",
+    "url": "https://www.jns.org/feature/israels-political-parties-explained-yashar"
+   },
+   {
+    "title": "איך מתכוונת מפלגת אופוזיציה בולטת לשנות את יחס המדינה לחרדים? התוכנית נחשפת",
+    "outlet": "בחדרי חרדים",
+    "date": "2026",
+    "url": "https://www.bhol.co.il/news/1742563"
+   },
+   {
+    "title": "זו התוכנית של גדי איזנקוט: חוק גיוס לכולם, בלי מו\"מ עם יהדות התורה והערבים",
+    "outlet": "חרדים10",
+    "date": "2026",
+    "url": "https://ch10.co.il/news/1089295/"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "sec_gaza_control",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "ב-15.10.2026 התחייב גדי איזנקוט שבתוך 18 חודשים מכניסתו לתפקיד חמאס לא ישלוט ברצועה, באמצעות יישום מתווה טראמפ תוך שמירה על מעורבות כוחות הביטחון הישראליים ופירוז הרצועה, או בפעולה צבאית. לפי ניתוח ב-Jerusalem Post (ספטמבר 2026) הוא מבקש לשמור על אזור ביטחון משמעותי בעזה, בדומה לנתניהו ולבנט; לא נמצאה התחייבות מפורשת לנוכחות צבאית קבועה.",
+  "sources": [
+   {
+    "title": "איזנקוט מתחייב, 17 שנה אחרי הבטחת נתניהו: \"נמוטט את שלטון חמאס תוך 18 חודשים\"",
+    "outlet": "ynet",
+    "date": "2026-10-15",
+    "url": "https://www.ynet.co.il/news/elections2026/article/hymzpwrife"
+   },
+   {
+    "title": "איזנקוט מתחייב: \"תוך 18 חודשים - חמאס לא ישלוט יותר ברצועה\"",
+    "outlet": "ישראל היום",
+    "date": "2026-10-15",
+    "url": "https://www.israelhayom.co.il/news/politics/article/21631159"
+   },
+   {
+    "title": "How will Gadi Eisenkot differ from Benjamin Netanyahu on Iran, West Bank violence?",
+    "outlet": "The Jerusalem Post",
+    "date": "2026-09 (משוער)",
+    "url": "https://www.jpost.com/israel-election-2026/article-907531"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "rel_shabbat_transport",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "pal_state",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "באוגוסט 2026, בתגובה לקריאת מנסור עבאס להכיר במדינה פלסטינית, כתב איזנקוט: \"אין מדינה פלסטינית, ובממשלה שנקים לא תקום מדינה פלסטינית\". בראיון לישראל היום כינה את רעיון שתי המדינות אחרי 7 באוקטובר \"מחשבה הזויה\".",
+  "sources": [
+   {
+    "title": "איזנקוט מגיב למנסור עבאס: \"אין מדינה פלסטינית - ולא תהיה גם בממשלה שנקים\"",
+    "outlet": "ynet",
+    "date": "2026-08",
+    "url": "https://www.ynet.co.il/news/article/hysimldpgx"
+   },
+   {
+    "title": "עבאס קרא להכיר במדינה פלסטינית; איזנקוט: זה לא יקרה בממשלה שנקים",
+    "outlet": "הארץ",
+    "date": "2026-08-22",
+    "url": "https://www.haaretz.co.il/news/elections/2026-08-22/ty-article/000001a0-2a9c-d293-a1e7-3a9c98d30000"
+   },
+   {
+    "title": "איזנקוט חושף את החזון המדיני: \"שתי מדינות אחרי 7.10 - מחשבה הזויה\"",
+    "outlet": "ישראל היום",
+    "date": "2026",
+    "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21288643"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "inq_state_commission",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ישר! מסרה ל-ynet (אוקטובר 2026) שההחלטה הראשונה של ממשלה בראשותה תהיה הקמת ועדת חקירה ממלכתית לפי חוק ועדות חקירה, וגדי איזנקוט התחייב ב-15.10.2026 להקים אותה בתוך שבועיים מכניסתו לתפקיד.",
+  "sources": [
+   {
+    "title": "ממלכתית, \"לאומית\" או משהו אחר: איך המפלגות רוצות לחקור את 7/10?",
+    "outlet": "ynet / ידיעות אחרונות",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14915209"
+   },
+   {
+    "title": "איזנקוט מתחייב, 17 שנה אחרי הבטחת נתניהו: \"נמוטט את שלטון חמאס תוך 18 חודשים\"",
+    "outlet": "ynet",
+    "date": "2026-10-15",
+    "url": "https://www.ynet.co.il/news/elections2026/article/hymzpwrife"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "arab_coalition",
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "איזנקוט הצהיר בכנס במודיעין (2026) כי \"לא תהיה מפלגה ערבית בקואליציה הבאה\", ובספטמבר 2026 אמר שרע\"מ לא תהיה חלק מממשלה בראשותו. הוא הציב תנאים לשותפות (ובהם הכרה במדינה יהודית ודמוקרטית, חובת שירות והכרה בחמאס כארגון טרור) ואמר שאף מפלגה ערבית אינה עומדת בהם כיום, כך שזו אינה פסילה עקרונית.",
+  "sources": [
+   {
+    "title": "איזנקוט: \"לא תהיה מפלגה ערבית בקואליציה הבאה\"",
+    "outlet": "וואלה",
+    "date": "2026",
+    "url": "https://www.walla.co.il/news/breaking-news/383958401"
+   },
+   {
+    "title": "איזנקוט: רע\"מ לא תהיה חלק מממשלה בראשותי",
+    "outlet": "הארץ",
+    "date": "2026-09-26",
+    "url": "https://www.haaretz.co.il/news/elections/2026-09-26/ty-article/.premium/000001a0-de92-d9ab-abfd-ffb3ac700000"
+   },
+   {
+    "title": "האיתות של איזנקוט למערכת הפוליטית: \"ארבעה תנאים לשותפות בממשלה\"",
+    "outlet": "מעריב",
+    "date": "2026",
+    "url": "https://www.maariv.co.il/news/politics/article-1370825"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "rel_civil_marriage",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "לפי ראיון ב\"ג'רוזלם פוסט\" (2026) עם ראש תחום קליטת העלייה במפלגה, ישר! תפעל לאפשר נישואים אזרחיים בישראל במסגרת תוכנית לעולים; לא נמצאה התבטאות מפורשת של איזנקוט עצמו, שבשנת 2022 נמנע מלנקוט עמדה בנושא.",
+  "sources": [
+   {
+    "title": "ראיון עם ראש תחום קליטת העלייה במפלגת ישר! (כותרת המקור לא אומתה)",
+    "outlet": "The Jerusalem Post",
+    "date": "2026",
+    "url": "https://jpost.com/israel-news/politics-and-diplomacy/article-905241"
+   },
+   {
+    "title": "Eisenkot sur la solution à deux États, le mariage LGBT et les transports à Shabbat",
+    "outlet": "The Times of Israël",
+    "date": "2022",
+    "url": "https://fr.timesofisrael.com/eisenkot-sur-la-solution-a-deux-etats-le-mariage-lgbt-et-les-transports-a-shabbat/"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "pal_annexation",
+  "stance": -1,
+  "confidence": "high",
+  "basis": "בתשובה לשאלון ynet (ספטמבר 2026) מסרה ישר! שהיא תומכת בחיזוק גושי ההתיישבות אך מתנגדת למהלכי ריבונות שיסכנו את הרוב היהודי, ולפי דיווח על מסמך היסוד שלה אינה תומכת בריבונות מלאה ביהודה ושומרון / הגדה המערבית. בדיווח מ-23.10.2026 תואר איזנקוט כמי שמתנגד לסיפוח רשמי.",
+  "sources": [
+   {
+    "title": "פינוי או בינוי: מה התוכנית של כל מפלגה ליהודה ושומרון",
+    "outlet": "ynet",
+    "date": "2026-09",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14910407"
+   },
+   {
+    "title": "בלי מדינה פלסטינית, עם רפורמה משפטית - בהסכמה: זו תוכנית איזנקוט",
+    "outlet": "ישראל היום",
+    "date": "2026",
+    "url": "https://www.israelhayom.co.il/news/politics/article/20691817"
+   },
+   {
+    "title": "Eisenkot Offers Hawkish Alternative to Netanyahu for Israeli PM",
+    "outlet": "U.S. News & World Report",
+    "date": "2026-10-23",
+    "url": "https://www.usnews.com/news/world/articles/2026-10-23/eisenkot-offers-hawkish-alternative-to-netanyahu-for-israeli-pm"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "soc_death_penalty",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "sec_gaza_settle",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "draft_yeshiva_exemption",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "ישר! מציעה לבטל את הדחייה האוטומטית לבני ישיבות ולבטל את סמכות הרבנים להעניק דחיות, כך שהמנגנון היחיד לדחיית שירות יהיה מכסה של עד 3% מכל מחזור למצטיינים (2026). כלומר המפלגה מתנגדת להמשך הפטור הגורף, אך מאפשרת דחייה ללימוד תורה במכסה מוגבלת.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   },
+   {
+    "title": "Israel’s political parties explained: Yashar",
+    "outlet": "JNS",
+    "date": "2026",
+    "url": "https://www.jns.org/feature/israels-political-parties-explained-yashar"
+   },
+   {
+    "title": "פרסום ראשון: איזנקוט מציע פטור ל-420 לומדי תורה בכל מחזור גיוס",
+    "outlet": "זמן ישראל",
+    "date": null,
+    "url": "https://www.zman.co.il/731732/"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "rel_core_studies",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "לא נמצאה התייחסות מפורשת של ישר! ללימודי ליבה; ההערכה נשענת על עמדות קרובות: תוכנית 100 הימים של המפלגה כוללת שינוי בתקצוב מוסדות החינוך החרדיים, ולפי ynet אמר איזנקוט (2026) שמי שלא ישתף פעולה עם החובות לא יקבל מימון לבתי ספר.",
+  "sources": [
+   {
+    "title": "איך מתכוונת מפלגת אופוזיציה בולטת לשנות את יחס המדינה לחרדים? התוכנית נחשפת",
+    "outlet": "בחדרי חרדים",
+    "date": "2026",
+    "url": "https://www.bhol.co.il/news/1742563"
+   },
+   {
+    "title": "איזנקוט: ללא רוב ציוני, נקרא לחרדים להבין את גודל השעה. אם לא יבינו - עדיף בחירות נוספות",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/article/b1lbrtvrme"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "sec_pa_gaza",
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "מספר 2 ברשימה, ראש השב\"כ לשעבר יורם כהן, תמך באוקטובר 2026 בשילוב הרשות הפלסטינית בשלטון העתידי ברצועה ואמר שהיא עדיפה על פני קטאר וטורקיה. איזנקוט עצמו אמר בריאיון לערוץ 7 (11.10.2026) שהרשות היא \"רעה גדולה, אבל הרבה יותר טובה מחמאס\", ושהסכמים שהממשלה התחייבה להם מול ארה\"ב יחייבו גם אותו.",
+  "sources": [
+   {
+    "title": "מספר 2 במפלגת איזנקוט: \"הרשות הפלסטינית צריכה לשלוט בעזה\"",
+    "outlet": "כיפה",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1234119-0/"
+   },
+   {
+    "title": "\"אני לא שמאלני\": איזנקוט מבהיר את עמדותיו לימין",
+    "outlet": "ערוץ 7",
+    "date": "2026-10-11",
+    "url": "https://www.inn.co.il/news/708230"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "draft_arab_service",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "מצע ישר! מחייב שירות צבאי או אזרחי-לאומי לכל קבוצות האוכלוסייה, כולל אזרחים ערבים, שעבורם מדובר בשירות אזרחי-לאומי ולא בגיוס צבאי; איזנקוט הציב שירות לכל האזרחים כתנאי לשותפות קואליציונית (2025–2026).",
+  "sources": [
+   {
+    "title": "Israel’s political parties explained: Yashar",
+    "outlet": "JNS",
+    "date": "2026",
+    "url": "https://www.jns.org/feature/israels-political-parties-explained-yashar"
+   },
+   {
+    "title": "חרדים וערבים: מתווה הגיוס המלא של איזנקוט נחשף",
+    "outlet": "וואלה",
+    "date": null,
+    "url": "https://news.walla.co.il/item/3790711"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "arab_nation_law",
+  "stance": 1,
+  "confidence": "high",
+  "basis": "בכנס בעוספיה (אוקטובר 2026) התחייב איזנקוט לבצע בחוק הלאום \"תיקון שיעשה צדק\", ולפי הדיווח צוות שותפות יהודי-דרוזי יקדם תיקון הצהרתי וחקיקתי שיעגן שוויון ברוח מגילת העצמאות. ההתחייבות נוסחה בעיקר בהקשר הדרוזי, ובשאלון ynet מסרה המפלגה שאין להעדיף את היסוד הדמוקרטי על פני היהודי או להפך.",
+  "sources": [
+   {
+    "title": "קבלת פנים חמה, סיום מביך: הערב של איזנקוט בעוספיה",
+    "outlet": "ישראל היום",
+    "date": "2026-10",
+    "url": "https://www.israelhayom.co.il/news/politics/article/21647070"
+   },
+   {
+    "title": "מכריזים בזאת: התוכניות והיוזמות של המפלגות בנוגע לאופייה של המדינה",
+    "outlet": "ynet",
+    "date": "2026-10",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14920395"
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yashar",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "draft_haredi_sanctions",
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "הצעת חוק הגיוס של ח\"כ בועז ביסמוט (הליכוד) קובעת יעדי גיוס לחרדים ומכירה בשירות אזרחי-ביטחוני, ולפי הדיווחים אינה כוללת יעד ללוחמים ומקלה בסנקציות; לפי ynet, הליכוד לא השיב לשאלות העיתון על תוכניתו בנושא הגיוס (2026).",
+  "sources": [
+   {
+    "title": "בלי מכסות לוחמים ועם שירות בזק\"א ומד\"א: חוק הגיוס של ביסמוט נחשף",
+    "outlet": "מעריב",
+    "date": null,
+    "url": "https://www.maariv.co.il/news/politics/article-1246083"
+   },
+   {
+    "title": "חוק הגיוס של ביסמוט נחשף: ללא יעדי גיוס לתפקידי לחימה, הקלה בסנקציות..",
+    "outlet": "כיכר השבת",
+    "date": null,
+    "url": "https://www.kikar.co.il/haredim-news/t4un04"
+   },
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "sec_gaza_control",
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "ממשלת נתניהו מתנה כל נסיגה של צה\"ל מ\"הקו הצהוב\", שבו הוא מחזיק ביותר ממחצית הרצועה מאז אוקטובר 2025, בפירוק מלא של חמאס מנשקו ובפירוז הרצועה (קיץ 2026). לפי ניתוח ב-Jerusalem Post (ספטמבר 2026) נתניהו מבקש לשמור לאורך זמן על אזור ביטחון משמעותי בתוך הרצועה.",
+  "sources": [
+   {
+    "title": "Sources to 'Post': Israel rejects Hamas disarmament plan, no IDF pullout until Gaza demilitarized",
+    "outlet": "The Jerusalem Post",
+    "date": "2026-07 (משוער)",
+    "url": "https://www.jpost.com/middle-east/article-904113"
+   },
+   {
+    "title": "Board of Peace clarifies: IDF will not leave Yellow Line until Hamas fully disarms",
+    "outlet": "Israel National News (Arutz Sheva)",
+    "date": "2026-08 (משוער)",
+    "url": "https://www.israelnationalnews.com/news/431184"
+   },
+   {
+    "title": "How will Gadi Eisenkot differ from Benjamin Netanyahu on Iran, West Bank violence?",
+    "outlet": "The Jerusalem Post",
+    "date": "2026-09 (משוער)",
+    "url": "https://www.jpost.com/israel-election-2026/article-907531"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "rel_shabbat_transport",
+  "stance": -1,
+  "confidence": "high",
+  "basis": "בתשובה לפניית ynet (2026) מסר הליכוד שאינו מעוניין לשנות את הסטטוס קוו בשבת, וציין שחברות פרטיות רשאיות להסיע נוסעים בשבת כל עוד המדינה אינה מממנת זאת, תוך הפניה לעלות הסבסוד של התחבורה הציבורית; הממשלה הנוכחית הפילה בכנסת הצעת חוק לתחבורה ציבורית בשבת.",
+  "sources": [
+   {
+    "title": "Transports publics le Shabbat : que proposent les partis ?",
+    "outlet": "Israj (Media-J)",
+    "date": "2026",
+    "url": "https://israj.media-j.com/article/68250/transports-publics-le-shabbat-que-proposent-les-partis-"
+   },
+   {
+    "title": "\"מוקד פוליטי נפיץ\": עמדת המפלגות על תחבורה ציבורית בשבת - והסקר בקרב המצביעים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14883243"
+   },
+   {
+    "title": "למרות תמיכה של כמה מחברי הליכוד בעבר: הממשלה הפילה הצעת חוק לתחבורה ציבורית בשבת",
+    "outlet": "כלכליסט",
+    "date": null,
+    "url": "https://www.calcalist.co.il/local_news/article/b1yh1ijebg"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "pal_state",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "באוגוסט 2026 הגיב נתניהו לקריאת מנסור עבאס להכיר במדינה פלסטינית כי \"לא תקום מדינה פלסטינית\", וחברי הליכוד תמכו בהחלטת הכנסת מ-18.7.2024 המתנגדת להקמת מדינה פלסטינית ממערב לירדן (68 מול 9).",
+  "sources": [
+   {
+    "title": "איזנקוט ונתניהו עונים לעבאס: \"לא תקום מדינה פלסטינית\"",
+    "outlet": "כאן חדשות",
+    "date": "2026-08",
+    "url": "https://www.kan.org.il/content/kan-news/politic/live-1091623/"
+   },
+   {
+    "title": "הכנסת הצביעה - ברוב של 68 ח\"כים: מתנגדים למדינה פלסטינית",
+    "outlet": "וואלה",
+    "date": "2024-07-18",
+    "url": "https://news.walla.co.il/item/3678720"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "inq_state_commission",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "בנובמבר 2025 החליטה ממשלת נתניהו שלא להקים ועדת חקירה ממלכתית, והליכוד קידם את הצעת החוק של ח\"כ אריאל קלנר לוועדה שחבריה ימונו בהסכמת 80 ח\"כים או באופן שוויוני בין הקואליציה לאופוזיציה (אושרה בקריאה ראשונה ב-6.7.2026). נתניהו טוען שוועדה שימנה נשיא העליון יצחק עמית לא תזכה באמון הציבור, אף שבסמוך ל-7 באוקטובר הביעו שרים רבים מהליכוד תמיכה בוועדה ממלכתית.",
+  "sources": [
+   {
+    "title": "הממשלה החליטה: ועדת חקירה לא ממלכתית תוקם לאירועי 7 באוקטובר",
+    "outlet": "גלובס",
+    "date": "2025-11 (משוער)",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001526492"
+   },
+   {
+    "title": "Knesset advances controversial bill for politically appointed Oct. 7 probe in 1st reading",
+    "outlet": "The Times of Israel",
+    "date": "2026-07-06",
+    "url": "https://www.timesofisrael.com/knesset-passes-controversial-politically-appointed-oct-7-probe-in-1st-reading/"
+   },
+   {
+    "title": "ממלכתית, \"לאומית\" או משהו אחר: איך המפלגות רוצות לחקור את 7/10?",
+    "outlet": "ynet / ידיעות אחרונות",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14915209"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "arab_coalition",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "קמפיין הליכוד לבחירות 2026 מציג את האפשרות שיריביו, ובהם איזנקוט, יישענו על המפלגות הערביות כנקודת תורפה שלהם (2026), וממשלת נתניהו המכהנת מאז 2022 אינה כוללת מפלגה ערבית. לא נמצאה בסבב זה התחייבות מצע מפורשת.",
+  "sources": [
+   {
+    "title": "מול הקמפיין שנועד להביך: כך הפתיע איזנקוט את נתניהו",
+    "outlet": "mako / N12",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-n12_magazine/2026_q3/Article-7035128293d8f91027.htm"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "rel_civil_marriage",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "pal_annexation",
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "ח\"כ דן אילוז מהליכוד היה בין מגישי הצהרת הכנסת הלא-מחייבת בעד החלת ריבונות ביהודה, שומרון ובקעת הירדן, שאושרה ב-23.7.2025 ברוב של 71 מול 13 בתמיכת חברי הקואליציה. באוקטובר 2025, על רקע התנגדות ממשל טראמפ, ביקש נתניהו מחברי הקואליציה להיעדר מהצבעה טרומית על הצעות חוק ריבונות של האופוזיציה, והליכוד לא השיב לשאלון ynet בנושא ב-2026.",
+  "sources": [
+   {
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
+   },
+   {
+    "title": "Knesset passes Judea, Samaria sovereignty bills in preliminary reading",
+    "outlet": "JNS",
+    "date": "2025-10-22",
+    "url": "https://www.jns.org/israel-news/knesset-passes-judea-samaria-sovereignty-bills-in-preliminary-reading"
+   },
+   {
+    "title": "פינוי או בינוי: מה התוכנית של כל מפלגה ליהודה ושומרון",
+    "outlet": "ynet",
+    "date": "2026-09",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14910407"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "soc_death_penalty",
+  "stance": 1,
+  "confidence": "high",
+  "basis": "ראש הממשלה בנימין נתניהו הצביע בעד החוק בקריאה השנייה והשלישית ב-30.3.2026, לאחר שדרש לרכך את נוסחו ולאפשר שיקול דעת שיפוטי; סיעת הליכוד תמכה בחוק במסגרת הקואליציה.",
+  "sources": [
+   {
+    "title": "בתמיכת נתניהו: אושר חוק עונש מוות למחבלים",
+    "outlet": "ynet",
+    "date": "2026-03-30",
+    "url": "https://www.ynet.co.il/news/article/skkoik00o11e"
+   },
+   {
+    "title": "Knesset approves death penalty for terrorists bill, Benjamin Netanyahu in favor",
+    "outlet": "The Jerusalem Post",
+    "date": "2026-03-30",
+    "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-891688"
+   },
+   {
+    "title": "חוק עונש מוות למחבלים",
+    "outlet": "ויקיפדיה",
+    "date": null,
+    "url": "https://he.wikipedia.org/wiki/%D7%97%D7%95%D7%A7_%D7%A2%D7%95%D7%A0%D7%A9_%D7%9E%D7%95%D7%95%D7%AA_%D7%9C%D7%9E%D7%97%D7%91%D7%9C%D7%99%D7%9D"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "sec_gaza_settle",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "draft_yeshiva_exemption",
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "נתניהו חידש ב-2026 את קידום הצעת החוק של ח\"כ ביסמוט, שתומכיה מציגים אותה כמתווה גיוס עם יעדים ומבקריה טוענים שהיא מגינה על תלמידי הישיבות מפני גיוס; ביולי 2026 אישרה הקואליציה ברוב 58 מול 54 חוק להקפאת מעצרי בני ישיבות (נתניהו נעדר מההצבעה, ושני ח\"כים מהליכוד שהודיעו על פרישה הצביעו נגד).",
+  "sources": [
+   {
+    "title": "As coalition collapses around him, Netanyahu revives Haredi draft exemption bill",
+    "outlet": "The Times of Israel",
+    "date": "2026",
+    "url": "https://www.timesofisrael.com/as-coalition-collapses-around-him-netanyahu-revives-haredi-draft-exemption-bill/"
+   },
+   {
+    "title": "חוק הקומבינה של ביסמוט מיועד להגן על תלמידי הישיבות מפני גיוס",
+    "outlet": "כלכליסט",
+    "date": null,
+    "url": "https://www.calcalist.co.il/local_news/article/bjin6sdbzx"
+   },
+   {
+    "title": "Knesset passes law banning arrests of Haredi draft dodgers, legitimizing ongoing mass non-enlistment",
+    "outlet": "The Times of Israel",
+    "date": "2026-07",
+    "url": "https://www.timesofisrael.com/knesset-passes-law-banning-arrests-of-haredi-draft-dodgers-legitimizing-ongoing-non-enlistment/"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "arab_shin_bet",
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "ב-15.7.2026 החליטה ממשלת נתניהו לשלב את השב\"כ במאבק בארגוני הפשיעה בחברה הערבית (בעיקר בתחום הנשק וההברחות) ולהעביר לכך תקציבים, ונתניהו כינה את ההחלטה \"בשורה דרמטית\".",
+  "sources": [
+   {
+    "title": "הממשלה: שב\"כ יחל להיאבק בפשיעה בחברה הערבית, יותר מחצי מיליארד שקל יועברו מתקציב פיתוחה",
+    "outlet": "הארץ",
+    "date": "2026-07-15",
+    "url": "https://www.haaretz.co.il/news/politi/2026-07-15/ty-article/.premium/0000019f-674f-dc96-afdf-6fdff6dd0000"
+   },
+   {
+    "title": "השב\"כ יפעל לראשונה נגד ארגוני הפשיעה בחברה הערבית: המגבלה - ומקור התקציב",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/article/hklvfaimgg"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "sec_pa_gaza",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "נתניהו והליכוד מתנגדים להעברת השליטה ברצועה לאחר המלחמה לידי הרשות הפלסטינית, וכן להקמת מדינה פלסטינית (כפי שמסוכם בסקירות עמדות המועמדים לקראת הבחירות, אוקטובר 2026).",
+  "sources": [
+   {
+    "title": "Israel’s 2026 election: Who are the main leaders and where do they stand on the key issues?",
+    "outlet": "Middle East Eye",
+    "date": "2026 (משוער)",
+    "url": "https://www.middleeasteye.net/explainers/election-israel-gaza-netanyahu-eisenkot-policy-draft"
+   },
+   {
+    "title": "If Netanyahu goes, does anything really change for Palestinians?",
+    "outlet": "Al Jazeera",
+    "date": "2026-10-12",
+    "url": "https://www.aljazeera.com/news/2026/10/12/if-netanyahu-goes-does-anything-really-change-for-palestinians"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "draft_arab_service",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "likud",
+  "statement": "arab_nation_law",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "חוק הלאום נחקק ביולי 2018 בהובלת ממשלת נתניהו (62 בעד, 55 נגד) בלי סעיף שוויון, ונתניהו דחה אז את הדרישה להוסיף סעיף כזה והציע במקומה חקיקה ייעודית לדרוזים. בבחירות 2026 הליכוד לא השיב לשאלוני ynet.",
+  "sources": [
+   {
+    "title": "Basic Law: Israel as the Nation-State of the Jewish People",
+    "outlet": "Wikipedia",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Basic_Law:_Israel_as_the_Nation-State_of_the_Jewish_People"
+   },
+   {
+    "title": "נתניהו ובנט הגיעו להסכמה על חוק הלאום: התיישבות יהודית - ערך לאומי",
+    "outlet": "וואלה",
+    "date": "2018-07",
+    "url": "https://www.walla.co.il/news/politics/3173482"
+   },
+   {
+    "title": "פינוי או בינוי: מה התוכנית של כל מפלגה ליהודה ושומרון",
+    "outlet": "ynet",
+    "date": "2026-09",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14910407"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "gov_kan",
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "שר התקשורת שלמה קרעי וח\"כים מהליכוד קידמו הצעות להפרטת \"כאן\", לסגירתו ולהכפפת תקציבו לממשלה; הצעת ח\"כ טלי גוטליב אושרה בקריאה טרומית ב-27.11.2024 ברוב 49 מול 46. מנגד, יו\"ר ועדת הכלכלה ח\"כ דוד ביטן (הליכוד) הודיע שהצעת ההפרטה לא תקודם, בנימוק ש\"צריכים את השידור הציבורי\".",
+  "sources": [
+   {
+    "title": "49 בעד, 46 נגד: הכנסת אישרה בטרומית את הפרטת תאגיד השידור הציבורי",
+    "outlet": "דבר",
+    "date": "2024-11-27",
+    "url": "https://www.davar1.co.il/561902/"
+   },
+   {
+    "title": "השר קרעי הודה: חוק תקציב התאגיד נועד להביא לסגירתו או להשתלטות על התכנים",
+    "outlet": "העין השביעית",
+    "date": null,
+    "url": "https://www.the7eye.org.il/534245"
+   },
+   {
+    "title": "החוק להפרטת תאגיד השידור לא יקודם בכנסת: \"צריכים את השידור הציבורי\"",
+    "outlet": "ynet",
+    "date": null,
+    "url": "https://www.ynet.co.il/entertainment/article/sy0fpgsdke"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "draft_haredi_sanctions",
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "בתשובה לפניית ynet (2026) דרשה רשימת ביחד שכל אזרח יתגייס או ישרת בשירות לאומי-אזרחי, ללא פטורים, בלי מכסות ויעדים; בסבב זה לא נמצא פירוט מפורש של הסנקציות הכלכליות שהרשימה מציעה, ולכן רמת הביטחון בינונית.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "sec_gaza_control",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "לפי ניתוח ב-Jerusalem Post (ספטמבר 2026), נפתלי בנט – בדומה לנתניהו ולאיזנקוט – מבקש לשמור על אזור ביטחון משמעותי ברצועת עזה. לא נמצאה עמדה רשמית של רשימת ביחד בנושא, ועמדת יש עתיד לא נבדקה בנפרד.",
+  "sources": [
+   {
+    "title": "How will Gadi Eisenkot differ from Benjamin Netanyahu on Iran, West Bank violence?",
+    "outlet": "The Jerusalem Post",
+    "date": "2026-09 (משוער)",
+    "url": "https://www.jpost.com/israel-election-2026/article-907531"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "rel_shabbat_transport",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "באפריל 2026 אמר נפתלי בנט, העומד בראש הרשימה, שכל רשות מקומית צריכה להחליט אם תפעל בה תחבורה ציבורית בשבת (למשל בתל אביב כן ובבני ברק לא), אף שכראש ממשלה ב-2022 פעל נגד קידום הנושא; בתשובה לפניית ynet הציגה הרשימה עמדת ביניים, לפיה השבת צריכה להישאר חלק מהזהות היהודית והלאומית.",
+  "sources": [
+   {
+    "title": "בנט תמך בתחבורה ציבורית בשבת ונישואים גאים, גולן: \"הפתיע לטובה\"; ש\"ס במתקפה",
+    "outlet": "ynet",
+    "date": "2026-04",
+    "url": "https://www.ynet.co.il/news/article/bjqnmuxpwx"
+   },
+   {
+    "title": "Transports publics le Shabbat : que proposent les partis ?",
+    "outlet": "Israj (Media-J)",
+    "date": "2026",
+    "url": "https://israj.media-j.com/article/68250/transports-publics-le-shabbat-que-proposent-les-partis-"
+   },
+   {
+    "title": "מ\"מודל אמסטרדם\", עד שדרוג שכר הנהגים: ההבטחות של המפלגות בתחבורה הציבורית",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14917099"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "pal_state",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "בשאלון ynet (ספטמבר 2026) הצהירה ביחד: \"מתנגדים למדינה פלסטינית ומסירת שטחים\", ובאוקטובר 2026 הבטיח בנט שממשלה שיהיה שותף בה לא תקים מדינה פלסטינית. לפיד תמך בעבר בפתרון שתי מדינות (נאום באו\"ם, ספטמבר 2022), ולכן הוודאות לגבי הרשימה המאוחדת בינונית.",
+  "sources": [
+   {
+    "title": "פינוי או בינוי: מה התוכנית של כל מפלגה ליהודה ושומרון",
+    "outlet": "ynet",
+    "date": "2026-09",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14910407"
+   },
+   {
+    "title": "בנט בפנייה ישירה למצביעי הימין: \"לא נקים מדינה פלסטינית\"",
+    "outlet": "ישראל היום",
+    "date": "2026-10",
+    "url": "https://www.israelhayom.co.il/news/politics/article/21645934"
+   },
+   {
+    "title": "With call for Palestinian state at UN, Lapid has defined Israel's upcoming fifth election",
+    "outlet": "JNS",
+    "date": "2022-09",
+    "url": "https://www.jns.org/column/alex-traiman/with-call-for-palestinian-state-at-un-lapid-has-defined-israels-upcoming-fifth-election"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "inq_state_commission",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "לפי סקירת ynet (אוקטובר 2026) רשימת ביחד תומכת בהקמת ועדת חקירה ממלכתית; יאיר לפיד, מספר 2 ברשימה, הודיע ב-6.7.2026 שבחודש הראשון של הממשלה הבאה תוקם ועדה ממלכתית, ונפתלי בנט חתם עם ראשי מפלגות נוספות באופוזיציה על הצהרה משותפת הדורשת להקימה.",
+  "sources": [
+   {
+    "title": "ממלכתית, \"לאומית\" או משהו אחר: איך המפלגות רוצות לחקור את 7/10?",
+    "outlet": "ynet / ידיעות אחרונות",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14915209"
+   },
+   {
+    "title": "Knesset advances controversial bill for politically appointed Oct. 7 probe in 1st reading",
+    "outlet": "The Times of Israel",
+    "date": "2026-07-06",
+    "url": "https://www.timesofisrael.com/knesset-passes-controversial-politically-appointed-oct-7-probe-in-1st-reading/"
+   },
+   {
+    "title": "הצהרה משותפת נדירה לראשי \"מחנה השינוי\": \"הציבור זכאי לדעת מה ידע נתניהו\"",
+    "outlet": "ynet",
+    "date": "2026 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/b1podotoze"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "arab_coalition",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "ב-26.4.2026, בהכרזה על הריצה המשותפת, הודיעו בנט ולפיד שהממשלה שיקימו תישען רק על מפלגות ציוניות, ובנט אמר שלא יסתמך על המפלגות הערביות.",
+  "sources": [
+   {
+    "title": "בנט לצד לפיד: נסתמך רק על מפלגות ציוניות, המפלגות הערביות אינן ציוניות",
+    "outlet": "הארץ",
+    "date": "2026-04-26",
+    "url": "https://www.haaretz.co.il/news/elections/2026-04-26/ty-article/0000019d-cac7-d95a-afbd-ebcfca080000"
+   },
+   {
+    "title": "בנט: אני ימין, לא אסתמך על המפלגות הערביות. לפיד: המרכז הישראלי צריך להתייצב מאחוריו",
+    "outlet": "ynet",
+    "date": "2026-04",
+    "url": "https://www.ynet.co.il/news/article/bjev03jpwl"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "rel_civil_marriage",
+  "stance": 1,
+  "confidence": "high",
+  "basis": "באפריל 2026 הודיע נפתלי בנט, העומד בראש הרשימה, שיתמוך בנישואים אזרחיים ושיש לאפשר נישואים לכל מי שרוצה בכך בישראל, אף שבעבר הצביע נגד הצעות חוק בנושא; לא נמצא בסבב זה מצע משותף לרשימה בנושא.",
+  "sources": [
+   {
+    "title": "בנט תמך בתחבורה ציבורית בשבת ונישואים גאים, גולן: \"הפתיע לטובה\"; ש\"ס במתקפה",
+    "outlet": "ynet",
+    "date": "2026-04",
+    "url": "https://www.ynet.co.il/news/article/bjqnmuxpwx"
+   },
+   {
+    "title": "בנט הודיע: אתמוך בנישואים אזרחיים ובתחבורה ציבורית בשבת",
+    "outlet": "ערוץ 14",
+    "date": "2026-04",
+    "url": "https://www.c14.co.il/article/1530814"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "pal_annexation",
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "בנט אמר ביוני 2026 שלתפיסתו שטח C יהיה חלק ממדינת ישראל ושטחי A ו-B יהיו אוטונומיה פלסטינית, ואילו לפיד כינה ב-2025 החלת ריבונות חד-צדדית \"התגרות נוספת בעולם\" ואמר שיש עתיד תומכת בסיפוח מעלה אדומים ואריאל רק במסגרת הסכם. בשאלון ynet (ספטמבר 2026) הצהירה הרשימה על תמיכה בהתיישבות חוקית ועל התנגדות למסירת שטחים, בלי עמדה מפורשת על החלת ריבונות.",
+  "sources": [
+   {
+    "title": "Bennett calls to dismantle illegal settlement outposts, draws right-wing leaders' ire",
+    "outlet": "The Times of Israel",
+    "date": "2026-06",
+    "url": "https://www.timesofisrael.com/bennett-calls-to-dismantle-illegal-settlement-outposts-draws-right-wing-leaders-ire/"
+   },
+   {
+    "title": "לפיד על החלת ריבונות באיו\"ש: \"התגרות נוספת בעולם שגם ככה מפנה לנו עורף\"",
+    "outlet": "כאן חדשות",
+    "date": "2025",
+    "url": "https://www.kan.org.il/content/kan-news/politic/948946/"
+   },
+   {
+    "title": "פינוי או בינוי: מה התוכנית של כל מפלגה ליהודה ושומרון",
+    "outlet": "ynet",
+    "date": "2026-09",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14910407"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "soc_death_penalty",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "sec_gaza_settle",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "draft_yeshiva_exemption",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "רשימת ביחד דורשת חובת שירות צבאי או לאומי-אזרחי לכל אזרח, ללא פטורים, בלי מכסות ויעדים (ynet, 2026).",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "sec_pa_gaza",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "draft_arab_service",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "העמדה שמסרה רשימת ביחד ל-ynet (2026) מחייבת כל אזרח בשירות צבאי או לאומי-אזרחי, ניסוח שכולל לכאורה גם אזרחים ערבים; לא נמצאה בסבב זה התייחסות מפורשת של הרשימה לצעירים ערבים, ולכן העמדה מוסקת מהניסוח הכללי.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "arab_nation_law",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "לפי סיכום מצע ביחד באתר פולימטר, הרשימה מגדירה את ישראל כמדינת הלאום של העם היהודי לצד הבטחת שוויון, ולפי ynet (אוקטובר 2026) היא תומכת בכך שמגילת העצמאות תפתח חוקה עתידית; לא נמצאה התחייבות מפורשת לתקן את חוק הלאום עצמו. בנט היה שותף לניסוח החוק ב-2018, ויש עתיד הצביעה נגדו.",
+  "sources": [
+   {
+    "title": "מצע ביחד 2026, בנט ולפיד · עמדות ומנדטים בסקרים",
+    "outlet": "פולימטר (אתר השוואת מפלגות)",
+    "date": "2026",
+    "url": "https://polimeter.co.il/parties/beyahad"
+   },
+   {
+    "title": "מכריזים בזאת: התוכניות והיוזמות של המפלגות בנוגע לאופייה של המדינה",
+    "outlet": "ynet",
+    "date": "2026-10",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14920395"
+   },
+   {
+    "title": "נתניהו ובנט הגיעו להסכמה על חוק הלאום: התיישבות יהודית - ערך לאומי",
+    "outlet": "וואלה",
+    "date": "2018-07",
+    "url": "https://www.walla.co.il/news/politics/3173482"
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "together",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "draft_haredi_sanctions",
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "בתשובה לפניית ynet (2026) הציבה ישראל ביתנו חובת שירות לכל צעיר וצעירה בגיל 18; בסבב זה לא נמצא פירוט מפורש של סנקציות כלכליות בעמדה שנמסרה, ולכן רמת הביטחון בינונית.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   }
+  ]
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "sec_gaza_control",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "rel_shabbat_transport",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "בתוכנית שפרסמה ב-6 באוקטובר 2026 התחייבה ישראל ביתנו להפעלת תחבורה ציבורית בשבת בהתאם לאופייה של כל עיר, ולהעברת ההחלטה על פתיחת עסקים בשבת לרשויות המקומיות; ליברמן אמר שהמפלגה תפעל לכך בממשלה הבאה.",
+  "sources": [
+   {
+    "title": "Transports publics le Shabbat : que proposent les partis ?",
+    "outlet": "Israj (Media-J)",
+    "date": "2026",
+    "url": "https://israj.media-j.com/article/68250/transports-publics-le-shabbat-que-proposent-les-partis-"
+   },
+   {
+    "title": "ליברמן: \"נפעל להחלפת יו\"ר הכנסת אוחנה ונעביר את 'חוק הנאשם'\"",
+    "outlet": "mako (N12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-2ec9703f28a41a1026.htm"
+   },
+   {
+    "title": "מ\"מודל אמסטרדם\", עד שדרוג שכר הנהגים: ההבטחות של המפלגות בתחבורה הציבורית",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14917099"
+   }
+  ]
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "pal_state",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "חברי ישראל ביתנו תמכו בהחלטת הכנסת מ-18.7.2024 המתנגדת להקמת מדינה פלסטינית ממערב לירדן (68 מול 9). לא נמצאה בסבב זה התבטאות מעודכנת של ליברמן מ-2026 בנושא.",
+  "sources": [
+   {
+    "title": "בתמיכת המחנה הממלכתי, הכנסת הצהירה: מתנגדים להקמת מדינה פלסטינית",
+    "outlet": "הארץ",
+    "date": "2024-07-18",
+    "url": "https://www.haaretz.co.il/news/politics/2024-07-18/ty-article/00000190-c427-de8b-adfc-dd2712fc0000"
+   },
+   {
+    "title": "הכנסת הצביעה - ברוב של 68 ח\"כים: מתנגדים למדינה פלסטינית",
+    "outlet": "וואלה",
+    "date": "2024-07-18",
+    "url": "https://news.walla.co.il/item/3678720"
+   }
+  ]
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "inq_state_commission",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ישראל ביתנו מסרה ל-ynet (אוקטובר 2026) שתקים ועדת חקירה ממלכתית בדיוק לפי החוק הקיים, ואביגדור ליברמן חתם עם ראשי מפלגות נוספות באופוזיציה על הצהרה משותפת הדורשת להקימה בממשלה הבאה.",
+  "sources": [
+   {
+    "title": "ממלכתית, \"לאומית\" או משהו אחר: איך המפלגות רוצות לחקור את 7/10?",
+    "outlet": "ynet / ידיעות אחרונות",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14915209"
+   },
+   {
+    "title": "הצהרה משותפת נדירה לראשי \"מחנה השינוי\": \"הציבור זכאי לדעת מה ידע נתניהו\"",
+    "outlet": "ynet",
+    "date": "2026 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/b1podotoze"
+   }
+  ]
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "arab_coalition",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "rel_civil_marriage",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "pal_annexation",
+  "stance": 1,
+  "confidence": "high",
+  "basis": "ח\"כ עודד פורר מישראל ביתנו היה בין מגישי הצהרת הריבונות הלא-מחייבת שאושרה ב-23.7.2025, וב-22.10.2025 עברה בקריאה טרומית (32 מול 9) הצעת חוק של המפלגה להחלת ריבונות על מעלה אדומים. בשאלון ynet (ספטמבר 2026) תמכה המפלגה בחיזוק ההתיישבות ובבנייה ב-E1.",
+  "sources": [
+   {
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
+   },
+   {
+    "title": "Knesset passes Judea, Samaria sovereignty bills in preliminary reading",
+    "outlet": "JNS",
+    "date": "2025-10-22",
+    "url": "https://www.jns.org/israel-news/knesset-passes-judea-samaria-sovereignty-bills-in-preliminary-reading"
+   },
+   {
+    "title": "פינוי או בינוי: מה התוכנית של כל מפלגה ליהודה ושומרון",
+    "outlet": "ynet",
+    "date": "2026-09",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14910407"
+   }
+  ]
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "soc_death_penalty",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ישראל ביתנו, שהתנתה את תמיכתה בהשתתפות נתניהו ודרעי בהצבעה, הצביעה בעד החוק ב-30.3.2026 (למעט ח\"כ חמד עמאר). כבר ב-2018 קידמו ח\"כי המפלגה הצעת חוק דומה שאושרה בקריאה טרומית.",
+  "sources": [
+   {
+    "title": "אושר בקריאה שלישית בכנסת: חוק עונש מוות למחבלים ייכנס לספר החוקים",
+    "outlet": "וואלה",
+    "date": "2026-03-30",
+    "url": "https://www.walla.co.il/news/politics/3827358"
+   },
+   {
+    "title": "Will they vote in favor? Death penalty for terrorists: Yisrael Beytenu's condition",
+    "outlet": "Israel National News",
+    "date": null,
+    "url": "https://www.israelnationalnews.com/news/424556"
+   },
+   {
+    "title": "Israel's Death Penalty, Haredi Ideology and Yisrael Beytenu's Role",
+    "outlet": "Israel Democracy Institute",
+    "date": null,
+    "url": "https://en.idi.org.il/articles/48204"
+   }
+  ]
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "sec_gaza_settle",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "draft_yeshiva_exemption",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "ישראל ביתנו מציבה חובת שירות לכל צעיר וצעירה בגיל 18 (ynet, 2026), עמדה שאינה מותירה פטור על בסיס לימוד בישיבה.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   }
+  ]
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "sec_pa_gaza",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "draft_arab_service",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "העמדה שמסרה ישראל ביתנו ל-ynet (2026) מחילה חובת שירות על כל צעיר וצעירה בגיל 18; לא נמצא בסבב זה פירוט מפורש לגבי צעירים ערבים, ולכן העמדה מוסקת מהניסוח הכללי.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   }
+  ]
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "arab_nation_law",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "draft_haredi_sanctions",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "יו\"ר הדמוקרטים יאיר גולן אמר בראיון (2026) שלדעתו כולם צריכים לשרת, ושמי שלא משרת לא יקבל שום הטבה.",
+  "sources": [
+   {
+    "title": "\"מליברמן ועד מנסור עבאס\": החזון של יאיר גולן",
+    "outlet": "ישראל היום (מעריב לנוער)",
+    "date": "2026",
+    "url": "https://www.israelhayom.co.il/maariv-lanoar/teen-magazine/article/21595665"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "sec_gaza_control",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "rel_shabbat_transport",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "לפי סיכום המכון הישראלי לדמוקרטיה, הדמוקרטים תומכים בהפעלת תחבורה ציבורית בשבת במתכונת מצומצמת ביישובים חילוניים, וגולן דיבר על הפעלתה באזורים המעוניינים בכך; ח\"כ גלעד קריב מהמפלגה הגיש הצעת חוק להעברת הסמכות לרשויות המקומיות, שנדחתה ברוב 58 מול 43.",
+  "sources": [
+   {
+    "title": "הדמוקרטים",
+    "outlet": "המכון הישראלי לדמוקרטיה",
+    "date": null,
+    "url": "https://www.idi.org.il/policy/parties-and-elections/parties/democrats/"
+   },
+   {
+    "title": "למרות תמיכה של כמה מחברי הליכוד בעבר: הממשלה הפילה הצעת חוק לתחבורה ציבורית בשבת",
+    "outlet": "כלכליסט",
+    "date": null,
+    "url": "https://www.calcalist.co.il/local_news/article/b1yh1ijebg"
+   },
+   {
+    "title": "מ\"מודל אמסטרדם\", עד שדרוג שכר הנהגים: ההבטחות של המפלגות בתחבורה הציבורית",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14917099"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "pal_state",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "לא נמצאה בסבב זה התבטאות מפורשת מ-2026 של הדמוקרטים בעד מדינה פלסטינית מפורזת. העמדה מוסקת מהתנגדות המפלגה לסיפוח (ראיון גולן ל-Jerusalem Post, 2026) ומכך שהעבודה ומרצ, שהתאחדו בה, תמכו בעבר בפתרון שתי המדינות.",
+  "sources": [
+   {
+    "title": "Golan: Benjamin Netanyahu government has destroyed Israel-US ties, left Israel isolated",
+    "outlet": "The Jerusalem Post",
+    "date": "2026",
+    "url": "https://www.jpost.com/israel-election-2026/article-912335"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "inq_state_commission",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "לפי סקירת ynet (אוקטובר 2026) הדמוקרטים תומכים בהקמת ועדת חקירה ממלכתית, ויו\"ר המפלגה יאיר גולן חתם עם ראשי מפלגות נוספות באופוזיציה על הצהרה משותפת הדורשת להקימה בממשלה הבאה.",
+  "sources": [
+   {
+    "title": "ממלכתית, \"לאומית\" או משהו אחר: איך המפלגות רוצות לחקור את 7/10?",
+    "outlet": "ynet / ידיעות אחרונות",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14915209"
+   },
+   {
+    "title": "הצהרה משותפת נדירה לראשי \"מחנה השינוי\": \"הציבור זכאי לדעת מה ידע נתניהו\"",
+    "outlet": "ynet",
+    "date": "2026 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/b1podotoze"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "arab_coalition",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "יאיר גולן אמר שישיבה משותפת עם רע\"מ בממשלה היא \"טבעית, נכונה וראויה\", כפי שדווח בערוץ 14 בקמפיין 2026.",
+  "sources": [
+   {
+    "title": "חשיפה: ההקלטה שמסבכת את מפלגתו של גדי איזנקוט",
+    "outlet": "ערוץ 14",
+    "date": "2026",
+    "url": "https://www.c14.co.il/article/1748685"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "rel_civil_marriage",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "במסמך \"תוכנית הנקודות לסדר היום הרעיוני\" (אפריל 2026) התחייבו הדמוקרטים לפעול להקמת מערך נישואים אזרחיים לצד הרבנות; גולן כתב באפריל 2026 שנישואים אזרחיים במדינה דמוקרטית ליברלית הם דבר מתבקש.",
+  "sources": [
+   {
+    "title": "תוכנית הנקודות לסדר היום הרעיוני – הדמוקרטים (אפריל 2026)",
+    "outlet": "הדמוקרטים (מסמך המפלגה)",
+    "date": "2026-04",
+    "url": "https://democrats.org.il/wp-content/uploads/2026/04/vision0426.pdf"
+   },
+   {
+    "title": "בנט תמך בתחבורה ציבורית בשבת ונישואים גאים, גולן: \"הפתיע לטובה\"; ש\"ס במתקפה",
+    "outlet": "ynet",
+    "date": "2026-04",
+    "url": "https://www.ynet.co.il/news/article/bjqnmuxpwx"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "pal_annexation",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "חברי הדמוקרטים (העבודה) הצביעו ב-23.7.2025 נגד הצהרת הכנסת בעד החלת ריבונות (71 מול 13), ויאיר גולן מתנגד לסיפוח יהודה ושומרון / הגדה המערבית (ראיון ל-Jerusalem Post, 2026).",
+  "sources": [
+   {
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
+   },
+   {
+    "title": "Golan: Benjamin Netanyahu government has destroyed Israel-US ties, left Israel isolated",
+    "outlet": "The Jerusalem Post",
+    "date": "2026",
+    "url": "https://www.jpost.com/israel-election-2026/article-912335"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "soc_death_penalty",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "ח\"כ גלעד קריב מהדמוקרטים הודיע לאחר אישור החוק ב-30.3.2026 כי יעתור נגדו לבג\"ץ, וסיעת הדמוקרטים הצביעה נגד החוק.",
+  "sources": [
+   {
+    "title": "62 הצביעו בעד: הכנסת אישרה את חוק עונש מוות למחבלים",
+    "outlet": "כאן חדשות",
+    "date": "2026-03-30",
+    "url": "https://www.kan.org.il/content/kan-news/politic/1021038/"
+   },
+   {
+    "title": "Death Penalty for Terrorists Law",
+    "outlet": "Wikipedia (English)",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Death_Penalty_for_Terrorists_Law"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "sec_gaza_settle",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "draft_yeshiva_exemption",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "גולן קורא לחובת שירות לכולם ולשלילת הטבות ממי שאינו משרת (ראיון, 2026), עמדה השוללת המשך פטור לבני ישיבות.",
+  "sources": [
+   {
+    "title": "\"מליברמן ועד מנסור עבאס\": החזון של יאיר גולן",
+    "outlet": "ישראל היום (מעריב לנוער)",
+    "date": "2026",
+    "url": "https://www.israelhayom.co.il/maariv-lanoar/teen-magazine/article/21595665"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "sec_pa_gaza",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "draft_arab_service",
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "גולן אמר בראיון (2026) שלדעתו כולם צריכים לשרת, כולל ערבים, אך לא פירט מנגנון לשירות אזרחי של צעירים ערבים; לא נמצא בסבב זה סעיף מצע מפורש של הרשימה בנושא.",
+  "sources": [
+   {
+    "title": "\"מליברמן ועד מנסור עבאס\": החזון של יאיר גולן",
+    "outlet": "ישראל היום (מעריב לנוער)",
+    "date": "2026",
+    "url": "https://www.israelhayom.co.il/maariv-lanoar/teen-magazine/article/21595665"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "democrats",
+  "statement": "arab_nation_law",
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "בשאלון ynet (אוקטובר 2026) הצהירו הדמוקרטים שערכי מגילת העצמאות צריכים להפוך לבסיס חוקתי מחייב שמבטיח את זכויות היסוד, ובראשן עיקרון השוויון. העבודה ומרצ הצביעו נגד חוק הלאום ב-2018.",
+  "sources": [
+   {
+    "title": "מכריזים בזאת: התוכניות והיוזמות של המפלגות בנוגע לאופייה של המדינה",
+    "outlet": "ynet",
+    "date": "2026-10",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14920395"
+   },
+   {
+    "title": "Basic Law: Israel as the Nation-State of the Jewish People",
+    "outlet": "Wikipedia",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Basic_Law:_Israel_as_the_Nation-State_of_the_Jewish_People"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "gov_kan",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "לא נמצאה התייחסות ישירה של הדמוקרטים להצעות לסגור את \"כאן\" או להפריטו; יו\"ר המפלגה יאיר גולן הגיב לאישור חוק התקשורת של השר קרעי (יולי 2026), הכולל ניכוי מתקציב התאגיד, במילים \"נקרע אותו לגזרים\". העמדה מוסקת מהתנגדות זו.",
+  "sources": [
+   {
+    "title": "חוק התקשורת הסוער של קרעי אושר סופית במליאה| גולן: \"נקרע אותו לגזרים\"",
+    "outlet": "כיכר השבת",
+    "date": "2026-07",
+    "url": "https://www.kikar.co.il/political-news/communications-law-karhi-knesset"
+   }
+  ]
+ },
+ {
+  "party": "democrats",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "draft_haredi_sanctions",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "ש\"ס תומכת בהמשך הפטור לבני ישיבות (ynet, 2026), ויו\"ר המפלגה אריה דרעי הודיע שלא יצטרף לממשלה הבאה ולא יתמוך בה ללא חקיקה שתסדיר את מעמד תלמידי הישיבות (2026); לא נמצאה בסבב זה התייחסות מפורשת שלה לסנקציות כלכליות.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   },
+   {
+    "title": "Deri demands haredi draft law as condition for next government",
+    "outlet": "The Jerusalem Post",
+    "date": "2026",
+    "url": "http://www.jpost.com/israel-election-2026/article-911661"
+   }
+  ]
+ },
+ {
+  "party": "shas",
+  "statement": "sec_gaza_control",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "rel_shabbat_transport",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "באפריל 2026 תקפה ש\"ס את תמיכת נפתלי בנט בתחבורה ציבורית בשבת ובנישואים אזרחיים, וטענה כי מי שמוכן למכור את השבת ואת הנישואין הדתיים ימכור גם את ארץ ישראל.",
+  "sources": [
+   {
+    "title": "בנט תמך בתחבורה ציבורית בשבת ונישואים גאים, גולן: \"הפתיע לטובה\"; ש\"ס במתקפה",
+    "outlet": "ynet",
+    "date": "2026-04",
+    "url": "https://www.ynet.co.il/news/article/bjqnmuxpwx"
+   }
+  ]
+ },
+ {
+  "party": "shas",
+  "statement": "pal_state",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "חברי ש\"ס תמכו בהחלטת הכנסת מ-18.7.2024 המתנגדת להקמת מדינה פלסטינית ממערב לירדן (68 מול 9); יו\"ר המפלגה אריה דרעי נעדר מההצבעה.",
+  "sources": [
+   {
+    "title": "נתניהו לא נכח, גנץ דווקא תמך: הכנסת הצהירה - מתנגדים למדינה פלסטינית",
+    "outlet": "ynet",
+    "date": "2024-07-18",
+    "url": "https://www.ynet.co.il/news/article/skjasx8or"
+   },
+   {
+    "title": "בתמיכת המחנה הממלכתי, הכנסת הצהירה: מתנגדים להקמת מדינה פלסטינית",
+    "outlet": "הארץ",
+    "date": "2024-07-18",
+    "url": "https://www.haaretz.co.il/news/politics/2024-07-18/ty-article/00000190-c427-de8b-adfc-dd2712fc0000"
+   }
+  ]
+ },
+ {
+  "party": "shas",
+  "statement": "inq_state_commission",
+  "stance": -1,
+  "confidence": "low",
+  "basis": "לפי הדיווחים, ש\"ס ויהדות התורה תמכו – במסגרת הסכם עם נתניהו על חקיקה בנושא הגיוס – בהצעת החוק של הקואליציה לוועדת חקירה חלופית, שאושרה בקריאה ראשונה ב-6.7.2026. בשלב מוקדם יותר בקדנציה קראו ח\"כים מש\"ס להקים ועדה ממלכתית אך חזרו בהם חלקית והותירו את ההכרעה ליו\"ר אריה דרעי; העמדה כאן מוסקת מהתמיכה בחלופה.",
+  "sources": [
+   {
+    "title": "Oct. 7 political inquiry bill passes first reading as opposition boycotts, Netanyahu skips vote",
+    "outlet": "Ynetnews",
+    "date": "2026-07-06",
+    "url": "https://www.ynetnews.com/article/s1wo700kxgl"
+   },
+   {
+    "title": "Knesset advances controversial bill for politically appointed Oct. 7 probe in 1st reading",
+    "outlet": "The Times of Israel",
+    "date": "2026-07-06",
+    "url": "https://www.timesofisrael.com/knesset-passes-controversial-politically-appointed-oct-7-probe-in-1st-reading/"
+   },
+   {
+    "title": "ועדת חקירה ממלכתית? ההבהרה של דרעי אחרי הקריאה החריגה של הח\"כים מש\"ס",
+    "outlet": "ynet",
+    "date": "לא ידוע",
+    "url": "https://www.ynet.co.il/news/article/sktil2lw1l"
+   }
+  ]
+ },
+ {
+  "party": "shas",
+  "statement": "arab_coalition",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "rel_civil_marriage",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "באפריל 2026 תקפה ש\"ס את תמיכת נפתלי בנט בנישואים אזרחיים ובתחבורה ציבורית בשבת, וטענה כי מי שמוכן למכור את השבת ואת הנישואין הדתיים ימכור גם את ארץ ישראל.",
+  "sources": [
+   {
+    "title": "בנט תמך בתחבורה ציבורית בשבת ונישואים גאים, גולן: \"הפתיע לטובה\"; ש\"ס במתקפה",
+    "outlet": "ynet",
+    "date": "2026-04",
+    "url": "https://www.ynet.co.il/news/article/bjqnmuxpwx"
+   }
+  ]
+ },
+ {
+  "party": "shas",
+  "statement": "pal_annexation",
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "חברי כנסת מכל סיעות הקואליציה, ובהן ש\"ס, תמכו בהצהרה הלא-מחייבת בעד החלת ריבונות ביהודה, שומרון ובקעת הירדן שאושרה ב-23.7.2025 (71 מול 13). לא נמצאה בסבב זה עמדה מפורשת של ש\"ס בנושא בקמפיין 2026.",
+  "sources": [
+   {
+    "title": "Knesset approves declaration to apply Israeli sovereignty to West Bank",
+    "outlet": "Ynetnews",
+    "date": "2025-07-23",
+    "url": "https://www.ynetnews.com/article/bkxfw9algl"
+   },
+   {
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
+   }
+  ]
+ },
+ {
+  "party": "shas",
+  "statement": "soc_death_penalty",
+  "stance": 1,
+  "confidence": "high",
+  "basis": "ש\"ס הודיעה ערב ההצבעה כי תתמוך בחוק בהוראת מועצת חכמי התורה, ויו\"ר המפלגה אריה דרעי הצביע בעדו בקריאה השנייה והשלישית ב-30.3.2026.",
+  "sources": [
+   {
+    "title": "Haredi Shas Party backs death penalty for terrorists ahead of final votes",
+    "outlet": "JNS",
+    "date": "2026-03",
+    "url": "https://www.jns.org/news/israel-news/haredi-shas-party-backs-death-penalty-for-terrorists-ahead-of-final-votes"
+   },
+   {
+    "title": "אושר בקריאה שלישית בכנסת: חוק עונש מוות למחבלים ייכנס לספר החוקים",
+    "outlet": "וואלה",
+    "date": "2026-03-30",
+    "url": "https://www.walla.co.il/news/politics/3827358"
+   }
+  ]
+ },
+ {
+  "party": "shas",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "sec_gaza_settle",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "draft_yeshiva_exemption",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ש\"ס תומכת בפטור לבני ישיבות (ynet, 2026), ודרעי התנה את הצטרפותו לממשלה הבאה בחקיקה שתסדיר את מעמד תלמידי הישיבות (2026).",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   },
+   {
+    "title": "Deri demands haredi draft law as condition for next government",
+    "outlet": "The Jerusalem Post",
+    "date": "2026",
+    "url": "http://www.jpost.com/israel-election-2026/article-911661"
+   }
+  ]
+ },
+ {
+  "party": "shas",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "sec_pa_gaza",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "draft_arab_service",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "arab_nation_law",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "shas",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "draft_haredi_sanctions",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "יהדות התורה תומכת בפטור לבני ישיבות ומציגה בנושא עמדה משותפת לשני רכיביה (ynet, 2026), וביולי 2026 אמר ח\"כ מטעמה שמהלך של בג\"ץ לביטול חוק הקפאת המעצרים לא יהיה בעל תוקף; לא נמצאה בסבב זה התייחסות מפורשת לסנקציות כלכליות.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   },
+   {
+    "title": "Knesset passes law banning arrests of Haredi draft dodgers, legitimizing ongoing mass non-enlistment",
+    "outlet": "The Times of Israel",
+    "date": "2026-07",
+    "url": "https://www.timesofisrael.com/knesset-passes-law-banning-arrests-of-haredi-draft-dodgers-legitimizing-ongoing-non-enlistment/"
+   },
+   {
+    "title": "Israel Election 2026: Your Guide to Every Party in Israel's Election",
+    "outlet": "JFeed",
+    "date": "2026",
+    "url": "https://www.jfeed.com/news-israel/tmfetw"
+   }
+  ]
+ },
+ {
+  "party": "utj",
+  "statement": "sec_gaza_control",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "rel_shabbat_transport",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "pal_state",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "חברי יהדות התורה תמכו בהחלטת הכנסת מ-18.7.2024 המתנגדת להקמת מדינה פלסטינית ממערב לירדן (68 מול 9).",
+  "sources": [
+   {
+    "title": "בתמיכת המחנה הממלכתי, הכנסת הצהירה: מתנגדים להקמת מדינה פלסטינית",
+    "outlet": "הארץ",
+    "date": "2024-07-18",
+    "url": "https://www.haaretz.co.il/news/politics/2024-07-18/ty-article/00000190-c427-de8b-adfc-dd2712fc0000"
+   },
+   {
+    "title": "הכנסת הצביעה - ברוב של 68 ח\"כים: מתנגדים למדינה פלסטינית",
+    "outlet": "וואלה",
+    "date": "2024-07-18",
+    "url": "https://news.walla.co.il/item/3678720"
+   }
+  ]
+ },
+ {
+  "party": "utj",
+  "statement": "inq_state_commission",
+  "stance": -1,
+  "confidence": "low",
+  "basis": "לפי הדיווחים, תמיכת יהדות התורה בהצעת החוק לוועדת חקירה חלופית, שאושרה בקריאה ראשונה ב-6.7.2026, ניתנה במסגרת הסכם עם נתניהו על חקיקה בנושא הגיוס. בעבר שקלו ח\"כים מהמפלגה לתמוך בהצעת חוק לוועדה ממלכתית וח\"כ יעקב טסלר אף הצביע בעד בדיון בוועדה – מהלכים שדווחו כאיתות לקואליציה; לא נמצאה הצהרה עקרונית של המפלגה, והעמדה מוסקת מההצבעה.",
+  "sources": [
+   {
+    "title": "Oct. 7 political inquiry bill passes first reading as opposition boycotts, Netanyahu skips vote",
+    "outlet": "Ynetnews",
+    "date": "2026-07-06",
+    "url": "https://www.ynetnews.com/article/s1wo700kxgl"
+   },
+   {
+    "title": "מבוכה לקואליציה: הח\"כ החרדי שהצביע בעד ועדת חקירה ממלכתית",
+    "outlet": "ישראל היום",
+    "date": "לא ידוע",
+    "url": "https://www.israelhayom.co.il/news/politics/article/19707809"
+   },
+   {
+    "title": "פרסום ראשון: ביהדות התורה שוקלים להצביע היום בעד ועדת חקירה ממלכתית",
+    "outlet": "i24NEWS",
+    "date": "לא ידוע",
+    "url": "https://www.i24news.tv/he/news/news/politics/artc-ffbf52bb"
+   }
+  ]
+ },
+ {
+  "party": "utj",
+  "statement": "arab_coalition",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "rel_civil_marriage",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "pal_annexation",
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "נציגי יהדות התורה היו בין 71 התומכים בהצהרה הלא-מחייבת בעד החלת ריבונות ביהודה, שומרון ובקעת הירדן (23.7.2025). לא נמצאה עמדה מפורשת של המפלגה בנושא בקמפיין 2026.",
+  "sources": [
+   {
+    "title": "Knesset approves declaration to apply Israeli sovereignty to West Bank",
+    "outlet": "Ynetnews",
+    "date": "2025-07-23",
+    "url": "https://www.ynetnews.com/article/bkxfw9algl"
+   },
+   {
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
+   }
+  ]
+ },
+ {
+  "party": "utj",
+  "statement": "soc_death_penalty",
+  "stance": 0,
+  "confidence": "low",
+  "basis": "בנובמבר 2025 הורה הרב דב לנדו לח\"כי דגל התורה להתנגד לחוק. לגבי ההצבעה הסופית ב-30.3.2026 הדיווחים סותרים: לפי וואלה דגל התורה התנגדה, ולפי טיימס אוף ישראל דגל התורה תמכה ואגודת ישראל התנגדה; לכן הוגדרה עמדה מעורבת.",
+  "sources": [
+   {
+    "title": "דגל התורה תצביע נגד עונש מוות למחבלים. בן גביר: \"גפני בחר בטיבי\"",
+    "outlet": "ynet",
+    "date": "2025-11",
+    "url": "https://www.ynet.co.il/news/article/b1rj4byeze"
+   },
+   {
+    "title": "אושר בקריאה שלישית בכנסת: חוק עונש מוות למחבלים ייכנס לספר החוקים",
+    "outlet": "וואלה",
+    "date": "2026-03-30",
+    "url": "https://www.walla.co.il/news/politics/3827358"
+   },
+   {
+    "title": "Knesset passes death penalty law for Palestinians convicted of deadly acts of terror",
+    "outlet": "The Times of Israel",
+    "date": "2026-03-30",
+    "url": "https://www.timesofisrael.com/knesset-passes-death-penalty-law-for-palestinians-convicted-of-deadly-acts-of-terror/"
+   }
+  ]
+ },
+ {
+  "party": "utj",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "sec_gaza_settle",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "draft_yeshiva_exemption",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "יהדות התורה תומכת בפטור לבני ישיבות ומציגה בנושא עמדה משותפת לדגל התורה ולאגודת ישראל (ynet, 2026).",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   },
+   {
+    "title": "Israel Election 2026: Your Guide to Every Party in Israel's Election",
+    "outlet": "JFeed",
+    "date": "2026",
+    "url": "https://www.jfeed.com/news-israel/tmfetw"
+   }
+  ]
+ },
+ {
+  "party": "utj",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "sec_pa_gaza",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "draft_arab_service",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "arab_nation_law",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "utj",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "draft_haredi_sanctions",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "sec_gaza_control",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "rel_shabbat_transport",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "pal_state",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "חברי עוצמה יהודית תמכו בהחלטת הכנסת מ-18.7.2024 המתנגדת להקמת מדינה פלסטינית ממערב לירדן (68 מול 9).",
+  "sources": [
+   {
+    "title": "בתמיכת המחנה הממלכתי, הכנסת הצהירה: מתנגדים להקמת מדינה פלסטינית",
+    "outlet": "הארץ",
+    "date": "2024-07-18",
+    "url": "https://www.haaretz.co.il/news/politics/2024-07-18/ty-article/00000190-c427-de8b-adfc-dd2712fc0000"
+   },
+   {
+    "title": "הכנסת הצביעה - ברוב של 68 ח\"כים: מתנגדים למדינה פלסטינית",
+    "outlet": "וואלה",
+    "date": "2024-07-18",
+    "url": "https://news.walla.co.il/item/3678720"
+   }
+  ]
+ },
+ {
+  "party": "otzma",
+  "statement": "inq_state_commission",
+  "stance": -1,
+  "confidence": "low",
+  "basis": "לא נמצאה הצהרה מפורשת של עוצמה יהודית בנושא. לאחר החלטת הממשלה (נובמבר 2025) שלא להקים ועדה ממלכתית מונה היו\"ר איתמר בן גביר לוועדת השרים שתקבע את המנדט לוועדת בדיקה חלופית, ובסקר קודם של ynet בקרב השרים סירב להתייחס לשאלה; העמדה מוסקת מכך.",
+  "sources": [
+   {
+    "title": "הנחקרים ימנו חוקרים: השרים שיקבעו את המנדט לוועדת 7/10 - והתבטאויות העבר",
+    "outlet": "ynet",
+    "date": "2025-11 (משוער)",
+    "url": "https://www.ynet.co.il/news/article/s1yghxiewx"
+   },
+   {
+    "title": "\"תלוי, נראה, אחרי המלחמה, לא עונה\": בדקנו מי מהשרים תומך בוועדת חקירה",
+    "outlet": "ynet",
+    "date": "לא ידוע",
+    "url": "https://www.ynet.co.il/news/article/byqnxsfl0"
+   }
+  ]
+ },
+ {
+  "party": "otzma",
+  "statement": "arab_coalition",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "rel_civil_marriage",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "pal_annexation",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ח\"כ לימור סון הר-מלך מעוצמה יהודית הייתה בין מגישי הצהרת הריבונות הלא-מחייבת שאושרה ב-23.7.2025 (71 מול 13), והמפלגה קוראת להחלת ריבונות ישראלית מלאה ביהודה ושומרון / הגדה המערבית.",
+  "sources": [
+   {
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
+   },
+   {
+    "title": "Knesset approves resolution affirming Israel's right to sovereignty in Judea and Samaria",
+    "outlet": "Israel National News",
+    "date": "2025-07-23",
+    "url": "https://www.israelnationalnews.com/news/412139"
+   }
+  ]
+ },
+ {
+  "party": "otzma",
+  "statement": "soc_death_penalty",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "החוק הוא יוזמה של עוצמה יהודית שהוביל השר איתמר בן גביר, והמפלגה הצביעה בעדו בקריאה השנייה והשלישית ב-30.3.2026.",
+  "sources": [
+   {
+    "title": "חוק עונש מוות למחבלים",
+    "outlet": "ויקיפדיה",
+    "date": null,
+    "url": "https://he.wikipedia.org/wiki/%D7%97%D7%95%D7%A7_%D7%A2%D7%95%D7%A0%D7%A9_%D7%9E%D7%95%D7%95%D7%AA_%D7%9C%D7%9E%D7%97%D7%91%D7%9C%D7%99%D7%9D"
+   },
+   {
+    "title": "Death Penalty for Terrorists Law",
+    "outlet": "Wikipedia (English)",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Death_Penalty_for_Terrorists_Law"
+   },
+   {
+    "title": "דגל התורה תצביע נגד עונש מוות למחבלים. בן גביר: \"גפני בחר בטיבי\"",
+    "outlet": "ynet",
+    "date": "2025-11",
+    "url": "https://www.ynet.co.il/news/article/b1rj4byeze"
+   }
+  ]
+ },
+ {
+  "party": "otzma",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "sec_gaza_settle",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "draft_yeshiva_exemption",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "arab_shin_bet",
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "יו\"ר עוצמה יהודית איתמר בן גביר, שכיהן כשר לביטחון לאומי בממשלת נתניהו, קרא כבר ב-2023 לשלב את השב\"כ במאבק בפשיעה בחברה הערבית, והממשלה החליטה על כך ביולי 2026. לא נמצא בסבב זה ציטוט ישיר של המפלגה מ-2026.",
+  "sources": [
+   {
+    "title": "הממשלה: שב\"כ יחל להיאבק בפשיעה בחברה הערבית, יותר מחצי מיליארד שקל יועברו מתקציב פיתוחה",
+    "outlet": "הארץ",
+    "date": "2026-07-15",
+    "url": "https://www.haaretz.co.il/news/politi/2026-07-15/ty-article/.premium/0000019f-674f-dc96-afdf-6fdff6dd0000"
+   }
+  ]
+ },
+ {
+  "party": "otzma",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "sec_pa_gaza",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "draft_arab_service",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "arab_nation_law",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "otzma",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "draft_haredi_sanctions",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "sec_gaza_control",
+  "stance": 2,
+  "confidence": "low",
+  "basis": "לפי מדריך הבחירות של IMEU (2026), הציונות הדתית וזהות תומכות בהקמה מחדש של יישובים יהודיים ברצועת עזה; התמיכה בנוכחות צבאית ארוכת טווח מוסקת מכך, ולא נמצא במקורות שנבדקו ציטוט ישיר בנושא.",
+  "sources": [
+   {
+    "title": "Israel Election Guide 2026",
+    "outlet": "IMEU (Institute for Middle East Understanding)",
+    "date": "2026",
+    "url": "https://imeu.org/resources/important-events/israel-election-guide-2026/508"
+   }
+  ]
+ },
+ {
+  "party": "rzp",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "rel_shabbat_transport",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "pal_state",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "חברי הציונות הדתית תמכו בהחלטת הכנסת מ-18.7.2024 נגד הקמת מדינה פלסטינית, וביוני 2026 תקף סמוטריץ' את הצעת בנט לאוטונומיה פלסטינית בשטחי A ו-B כתמיכה ב\"מדינת טרור בלב הארץ\".",
+  "sources": [
+   {
+    "title": "הכנסת הצביעה - ברוב של 68 ח\"כים: מתנגדים למדינה פלסטינית",
+    "outlet": "וואלה",
+    "date": "2024-07-18",
+    "url": "https://news.walla.co.il/item/3678720"
+   },
+   {
+    "title": "Bennett calls to dismantle illegal settlement outposts, draws right-wing leaders' ire",
+    "outlet": "The Times of Israel",
+    "date": "2026-06",
+    "url": "https://www.timesofisrael.com/bennett-calls-to-dismantle-illegal-settlement-outposts-draws-right-wing-leaders-ire/"
+   }
+  ]
+ },
+ {
+  "party": "rzp",
+  "statement": "inq_state_commission",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "הציונות הדתית מסרה ל-ynet (אוקטובר 2026) שלא תתמוך בשום פנים ואופן בוועדת חקירה \"ממלכתית\", שלטענתה תהיה מוטה בשל מעורבות נשיא העליון יצחק עמית, ושהיא תומכת בוועדה לאומית ועצמאית.",
+  "sources": [
+   {
+    "title": "ממלכתית, \"לאומית\" או משהו אחר: איך המפלגות רוצות לחקור את 7/10?",
+    "outlet": "ynet / ידיעות אחרונות",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14915209"
+   }
+  ]
+ },
+ {
+  "party": "rzp",
+  "statement": "arab_coalition",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "rel_civil_marriage",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "pal_annexation",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ח\"כ שמחה רוטמן מהציונות הדתית היה בין מגישי הצהרת הריבונות הלא-מחייבת שאושרה ב-23.7.2025, והמפלגה בראשות סמוטריץ' קוראת להחיל ריבונות ביהודה, שומרון ובקעת הירדן כדי למנוע הקמת מדינה פלסטינית.",
+  "sources": [
+   {
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
+   },
+   {
+    "title": "Knesset approves resolution affirming Israel's right to sovereignty in Judea and Samaria",
+    "outlet": "Israel National News",
+    "date": "2025-07-23",
+    "url": "https://www.israelnationalnews.com/news/412139"
+   }
+  ]
+ },
+ {
+  "party": "rzp",
+  "statement": "soc_death_penalty",
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "לפי הדיווחים, מפלגות הקואליציה, ובהן הציונות הדתית, הצביעו בעד החוק בקריאה השנייה והשלישית ב-30.3.2026; לא נמצאה התבטאות נפרדת של בצלאל סמוטריץ' בנושא.",
+  "sources": [
+   {
+    "title": "Death Penalty for Terrorists Law",
+    "outlet": "Wikipedia (English)",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Death_Penalty_for_Terrorists_Law"
+   }
+  ]
+ },
+ {
+  "party": "rzp",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "sec_gaza_settle",
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "לפי מדריך הבחירות של IMEU (2026), הציונות הדתית וזהות, הרצות ברשימה משותפת, תומכות בתוקף בהרחבת ההתיישבות, כולל הקמה מחדש של יישובים ברצועת עזה; לא נמצא במקורות שנבדקו ציטוט ישיר עדכני של בצלאל סמוטריץ'.",
+  "sources": [
+   {
+    "title": "Israel Election Guide 2026",
+    "outlet": "IMEU (Institute for Middle East Understanding)",
+    "date": "2026",
+    "url": "https://imeu.org/resources/important-events/israel-election-guide-2026/508"
+   }
+  ]
+ },
+ {
+  "party": "rzp",
+  "statement": "draft_yeshiva_exemption",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "sec_pa_gaza",
+  "stance": -2,
+  "confidence": "low",
+  "basis": "העמדה מוסקת מתמיכת הרשימה בהקמה מחדש של יישובים יהודיים ברצועת עזה (לפי מדריך הבחירות של IMEU, 2026), שאינה מתיישבת עם שלטון של הרשות הפלסטינית ברצועה; לא נמצא במקורות שנבדקו ציטוט ישיר בנושא.",
+  "sources": [
+   {
+    "title": "Israel Election Guide 2026",
+    "outlet": "IMEU (Institute for Middle East Understanding)",
+    "date": "2026",
+    "url": "https://imeu.org/resources/important-events/israel-election-guide-2026/508"
+   }
+  ]
+ },
+ {
+  "party": "rzp",
+  "statement": "draft_arab_service",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "arab_nation_law",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "בשאלון ynet (אוקטובר 2026) התנגדה הציונות הדתית-זהות למתן תוקף משפטי למגילת העצמאות, שלדבריה היא מסמך היסטורי ולא משפטי, בטענה שהדבר יותיר את השופטים ללא גבולות. ההתנגדות לסעיף שוויון בחוק הלאום מוסקת מעמדה זו.",
+  "sources": [
+   {
+    "title": "מכריזים בזאת: התוכניות והיוזמות של המפלגות בנוגע לאופייה של המדינה",
+    "outlet": "ynet",
+    "date": "2026-10",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14920395"
+   }
+  ]
+ },
+ {
+  "party": "rzp",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "rzp",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "draft_haredi_sanctions",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "sec_gaza_control",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "rel_shabbat_transport",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "pal_state",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "באוגוסט 2026 קרא מנסור עבאס לסיים את הכיבוש בגדה המערבית / יהודה ושומרון ולהכיר במדינה פלסטינית, וביולי 2024 נדחתה בכנסת הצעת רע\"מ להכיר במדינה פלסטינית. לא נמצאה התייחסות של המפלגה לתנאי הפירוז.",
+  "sources": [
+   {
+    "title": "Netanyahu Rival Eisenkot Vows No Palestinian State: 'Not Now, Not in Next Government'",
+    "outlet": "Haaretz",
+    "date": "2026-08-22",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-08-22/ty-article/.premium/eisenkot-vows-no-palestinian-state-after-arab-party-leader-urges-recognition/000001a0-2ad2-d293-a1e7-3ad27a6a0000"
+   },
+   {
+    "title": "הכנסת הצביעה - ברוב של 68 ח\"כים: מתנגדים למדינה פלסטינית",
+    "outlet": "וואלה",
+    "date": "2024-07-18",
+    "url": "https://news.walla.co.il/item/3678720"
+   },
+   {
+    "title": "מנסור עבאס מסיר את המסכה: פועל לקידום מדינה פלסטינית",
+    "outlet": "ערוץ 7",
+    "date": "2026",
+    "url": "https://www.inn.co.il/news/704532"
+   }
+  ]
+ },
+ {
+  "party": "raam",
+  "statement": "inq_state_commission",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "arab_coalition",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ב-2021 הייתה רע\"מ המפלגה הערבית העצמאית הראשונה שהצטרפה לקואליציה, ולקראת בחירות 2026 היא מדברת על הצטרפות לממשלה או תמיכה בה תמורת טיפול בפשיעה ובתקציבים לחברה הערבית.",
+  "sources": [
+   {
+    "title": "Mansour Abbas",
+    "outlet": "Wikipedia",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Mansour_Abbas"
+   },
+   {
+    "title": "מספרי 2 להתפקד: אלה הסגנים של ראשי המפלגות - והתיקים שהם רוצים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/r1arrkcjfl"
+   }
+  ]
+ },
+ {
+  "party": "raam",
+  "statement": "rel_civil_marriage",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "pal_annexation",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "חברי רע\"מ הצביעו ב-23.7.2025 נגד הצהרת הכנסת בעד החלת ריבונות ביהודה, שומרון ובקעת הירדן (71 מול 13).",
+  "sources": [
+   {
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
+   },
+   {
+    "title": "Knesset approves declaration to apply Israeli sovereignty to West Bank",
+    "outlet": "Ynetnews",
+    "date": "2025-07-23",
+    "url": "https://www.ynetnews.com/article/bkxfw9algl"
+   }
+  ]
+ },
+ {
+  "party": "raam",
+  "statement": "soc_death_penalty",
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "לפי הדיווחים, רע\"ם הצביעה נגד החוק בקריאה השנייה והשלישית ב-30.3.2026, כמו רוב סיעות האופוזיציה.",
+  "sources": [
+   {
+    "title": "Death Penalty for Terrorists Law",
+    "outlet": "Wikipedia (English)",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Death_Penalty_for_Terrorists_Law"
+   }
+  ]
+ },
+ {
+  "party": "raam",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "sec_gaza_settle",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "draft_yeshiva_exemption",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "sec_pa_gaza",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "draft_arab_service",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "arab_nation_law",
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "בשאלון ynet (אוקטובר 2026) מסרה רע\"מ שזכות ההגדרה העצמית של העם היהודי אינה יכולה לבוא על חשבון אופייה הדמוקרטי של המדינה. המפלגות הערביות התנגדו לחוק הלאום מאז חקיקתו ב-2018.",
+  "sources": [
+   {
+    "title": "מכריזים בזאת: התוכניות והיוזמות של המפלגות בנוגע לאופייה של המדינה",
+    "outlet": "ynet",
+    "date": "2026-10",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14920395"
+   },
+   {
+    "title": "Basic Law: Israel as the Nation-State of the Jewish People",
+    "outlet": "Wikipedia",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Basic_Law:_Israel_as_the_Nation-State_of_the_Jewish_People"
+   }
+  ]
+ },
+ {
+  "party": "raam",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "raam",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "draft_haredi_sanctions",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "sec_gaza_control",
+  "stance": -2,
+  "confidence": "low",
+  "basis": "לפי סקירות בחירות בינלאומיות (אוקטובר 2026), מפלגות הרשימה (חד\"ש, תע\"ל ובל\"ד) מגנות את התנהלות ישראל בעזה ואת ההתנחלויות בגדה המערבית / ביהודה ושומרון ותומכות בפתרון שתי המדינות; ההתנגדות לנוכחות צבאית ישראלית ארוכת טווח ברצועה מוסקת מכך.",
+  "sources": [
+   {
+    "title": "Israelis are heading to the polls in their most seismic election in decades",
+    "outlet": "ABC News (Australia)",
+    "date": "2026-10-23",
+    "url": "https://www.abc.net.au/news/2026-10-23/israel-election-2026-explained/107287156"
+   },
+   {
+    "title": "Israel’s 2026 election: Who are the main leaders and where do they stand on the key issues?",
+    "outlet": "Middle East Eye",
+    "date": "2026 (משוער)",
+    "url": "https://www.middleeasteye.net/explainers/election-israel-gaza-netanyahu-eisenkot-policy-draft"
+   }
+  ]
+ },
+ {
+  "party": "joint",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "rel_shabbat_transport",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "pal_state",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "חברי חד\"ש-תע\"ל הצביעו ב-18.7.2024 נגד החלטת הכנסת המתנגדת למדינה פלסטינית, והצעתם להכיר במדינה פלסטינית נדחתה. מרכיבי הרשימה תומכים בנסיגה לקווי 1967 ובמדינה פלסטינית שבירתה ירושלים המזרחית; לא נמצאה התייחסות לתנאי הפירוז.",
+  "sources": [
+   {
+    "title": "הכנסת הצביעה - ברוב של 68 ח\"כים: מתנגדים למדינה פלסטינית",
+    "outlet": "וואלה",
+    "date": "2024-07-18",
+    "url": "https://news.walla.co.il/item/3678720"
+   },
+   {
+    "title": "נתניהו לא נכח, גנץ דווקא תמך: הכנסת הצהירה - מתנגדים למדינה פלסטינית",
+    "outlet": "ynet",
+    "date": "2024-07-18",
+    "url": "https://www.ynet.co.il/news/article/skjasx8or"
+   }
+  ]
+ },
+ {
+  "party": "joint",
+  "statement": "inq_state_commission",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "arab_coalition",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "rel_civil_marriage",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "pal_annexation",
+  "stance": -2,
+  "confidence": "high",
+  "basis": "חברי חד\"ש-תע\"ל הצביעו ב-23.7.2025 נגד הצהרת הכנסת בעד החלת ריבונות ביהודה, שומרון ובקעת הירדן (71 מול 13). בל\"ד לא כיהנה בכנסת ה-25.",
+  "sources": [
+   {
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
+   },
+   {
+    "title": "Knesset approves declaration to apply Israeli sovereignty to West Bank",
+    "outlet": "Ynetnews",
+    "date": "2025-07-23",
+    "url": "https://www.ynetnews.com/article/bkxfw9algl"
+   }
+  ]
+ },
+ {
+  "party": "joint",
+  "statement": "soc_death_penalty",
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "לפי הדיווחים, סיעת חד\"ש-תע\"ל הצביעה נגד החוק בקריאה השנייה והשלישית ב-30.3.2026; בל\"ד אינה מיוצגת בכנסת הנוכחית ולא נמצאה התייחסות נפרדת שלה.",
+  "sources": [
+   {
+    "title": "Death Penalty for Terrorists Law",
+    "outlet": "Wikipedia (English)",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Death_Penalty_for_Terrorists_Law"
+   }
+  ]
+ },
+ {
+  "party": "joint",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "sec_gaza_settle",
+  "stance": -2,
+  "confidence": "low",
+  "basis": "לפי סקירות בחירות בינלאומיות (אוקטובר 2026), מפלגות הרשימה מגנות את ההתנחלויות בגדה המערבית / ביהודה ושומרון ואת התנהלות ישראל בעזה ותומכות בפתרון שתי המדינות; ההתנגדות לחידוש ההתיישבות ברצועה מוסקת מכך.",
+  "sources": [
+   {
+    "title": "Israelis are heading to the polls in their most seismic election in decades",
+    "outlet": "ABC News (Australia)",
+    "date": "2026-10-23",
+    "url": "https://www.abc.net.au/news/2026-10-23/israel-election-2026-explained/107287156"
+   },
+   {
+    "title": "Israel’s 2026 election: Who are the main leaders and where do they stand on the key issues?",
+    "outlet": "Middle East Eye",
+    "date": "2026 (משוער)",
+    "url": "https://www.middleeasteye.net/explainers/election-israel-gaza-netanyahu-eisenkot-policy-draft"
+   }
+  ]
+ },
+ {
+  "party": "joint",
+  "statement": "draft_yeshiva_exemption",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "sec_pa_gaza",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "לפי סקירות בחירות בינלאומיות (אוקטובר 2026), מפלגות הרשימה תומכות בפתרון שתי המדינות; התמיכה בתפקיד לרשות הפלסטינית ברצועה מוסקת מכך, ולא נמצאה התייחסות ישירה של הרשימה או של מרכיביה לשאלה.",
+  "sources": [
+   {
+    "title": "Israelis are heading to the polls in their most seismic election in decades",
+    "outlet": "ABC News (Australia)",
+    "date": "2026-10-23",
+    "url": "https://www.abc.net.au/news/2026-10-23/israel-election-2026-explained/107287156"
+   },
+   {
+    "title": "Israel’s 2026 election: Who are the main leaders and where do they stand on the key issues?",
+    "outlet": "Middle East Eye",
+    "date": "2026 (משוער)",
+    "url": "https://www.middleeasteye.net/explainers/election-israel-gaza-netanyahu-eisenkot-policy-draft"
+   }
+  ]
+ },
+ {
+  "party": "joint",
+  "statement": "draft_arab_service",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "arab_nation_law",
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "מרכיבי הרשימה התנגדו לחוק הלאום מאז חקיקתו ב-2018 ודורשים לבטלו, כלומר עמדתם רחבה מתיקון. יוסף ג'בארין, יו\"ר חד\"ש והעומד בראש הרשימה מאוגוסט 2026, הגיש בעבר הצעת חוק שלפיה ישראל היא המדינה המשותפת של כלל אזרחיה, יהודים וערבים.",
+  "sources": [
+   {
+    "title": "ביקורת חריפה על חוק הלאום הפלשתינאי",
+    "outlet": "ישראל היום",
+    "date": null,
+    "url": "https://www.israelhayom.co.il/article/531995"
+   },
+   {
+    "title": "Basic Law: Israel as the Nation-State of the Jewish People",
+    "outlet": "Wikipedia",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Basic_Law:_Israel_as_the_Nation-State_of_the_Jewish_People"
+   },
+   {
+    "title": "הבחירות לכנסת העשרים ושש",
+    "outlet": "ויקיפדיה",
+    "date": null,
+    "url": "https://he.wikipedia.org/wiki/%D7%94%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%9B%D7%A0%D7%A1%D7%AA_%D7%94%D7%A2%D7%A9%D7%A8%D7%99%D7%9D_%D7%95%D7%A9%D7%A9"
+   }
+  ]
+ },
+ {
+  "party": "joint",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "joint",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "draft_haredi_sanctions",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "sec_gaza_control",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "rel_shabbat_transport",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "pal_state",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "inq_state_commission",
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "לפי סקירת ynet (אוקטובר 2026) המילואימניקים תומכים בוועדת חקירה ממלכתית ומעדיפים הרכב שייקבע בהסכמה רחבה. ב-2025 קראה המפלגה בראשות יועז הנדל לנשיא הרצוג לכנס את המפלגות ונציגי מערכת המשפט לגיבוש ועדה ממלכתית בהסכמה, והנדל אף הציע שמות לחבריה.",
+  "sources": [
+   {
+    "title": "ממלכתית, \"לאומית\" או משהו אחר: איך המפלגות רוצות לחקור את 7/10?",
+    "outlet": "ynet / ידיעות אחרונות",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14915209"
+   },
+   {
+    "title": "הנדל: כנסו שיחות לגיבוש ועדת חקירה ממלכתית בהסכמה",
+    "outlet": "וואלה",
+    "date": "2025 (משוער)",
+    "url": "https://news.walla.co.il/item/3787487"
+   },
+   {
+    "title": "יועז הנדל מפתיע: אלו השמות שהציע לוועדת חקירה ממלכתית",
+    "outlet": "אייס",
+    "date": "2025 (משוער)",
+    "url": "https://www.ice.co.il/local-news/news/article/1087045"
+   }
+  ]
+ },
+ {
+  "party": "reservists",
+  "statement": "arab_coalition",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "rel_civil_marriage",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "pal_annexation",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "soc_death_penalty",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "sec_gaza_settle",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "draft_yeshiva_exemption",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "sec_pa_gaza",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "draft_arab_service",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "arab_nation_law",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "reservists",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "draft_haredi_sanctions",
+  "stance": 1,
+  "confidence": "low",
+  "basis": "עופר וינטר הודיע (2026) שמפלגתו עמך ישראל תתמוך רק בממשלה שתגייס חרדים, ודחה את דרישת דרעי לחקיקה שתסדיר את מעמד בני הישיבות כתנאי להקמת ממשלה; בסבב זה לא נמצא פירוט מפורש של סנקציות כלכליות, ולכן רמת הביטחון בינונית.",
+  "sources": [
+   {
+    "title": "Israel Elections 2026: Winter rejects haredi draft ultimatum to Benjamin Netanyahu",
+    "outlet": "The Jerusalem Post",
+    "date": "2026",
+    "url": "https://www.jpost.com/israel-election-2026/article-912402"
+   }
+  ]
+ },
+ {
+  "party": "amcha",
+  "statement": "sec_gaza_control",
+  "stance": 2,
+  "confidence": "low",
+  "basis": "עופר וינטר תומך בחידוש ההתיישבות היהודית ברצועה (ריאיון ל-ynet, אוקטובר 2026) ואמר בהשקת מפלגתו שהפתרון היחיד בעזה הוא הגירה; התמיכה בנוכחות צבאית ארוכת טווח מוסקת מעמדות אלה.",
+  "sources": [
+   {
+    "title": "וינטר בעד התיישבות בעזה, ונגד ועדת חקירה ממלכתית: \"נמליץ על נתניהו\"",
+    "outlet": "ynet",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14914571"
+   },
+   {
+    "title": "Ex-IDF general Ofer Winter launches right-wing party: 'There is one solution in Gaza: migration'",
+    "outlet": "Ynetnews",
+    "date": "2026 (משוער)",
+    "url": "https://www.ynetnews.com/article/r1xkosjpzl"
+   }
+  ]
+ },
+ {
+  "party": "amcha",
+  "statement": "eco_welfare_taxes",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "jud_selection_politicians",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "rel_shabbat_transport",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "pal_state",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "inq_state_commission",
+  "stance": -1,
+  "confidence": "high",
+  "basis": "עופר וינטר מתנגד לוועדת חקירה ממלכתית (ריאיון ל-ynet, אוקטובר 2026) ומציע ועדה בת תשעה חברים בסמכויות של ועדה ממלכתית, שבראשה שופטים בדימוס שייבחרו בהצבעה חשאית בכנסת, בהשתתפות נציגי משפחות שכולות, משפחות חטופים ורשויות מקומיות, ושתחקור החל ממבצע צוק איתן (2014).",
+  "sources": [
+   {
+    "title": "וינטר בעד התיישבות בעזה, ונגד ועדת חקירה ממלכתית: \"נמליץ על נתניהו\"",
+    "outlet": "ynet",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14914571"
+   },
+   {
+    "title": "לא הממשלה ולא בג\"ץ: המתווה של וינטר לחקירת 7 באוקטובר",
+    "outlet": "כיפה",
+    "date": "2026 (משוער)",
+    "url": "https://www.kipa.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa/1232899-0/"
+   },
+   {
+    "title": "Israel’s parties explained: Amcha Yisrael",
+    "outlet": "JNS",
+    "date": "2026",
+    "url": "https://www.jns.org/feature/israels-parties-explained-amcha-yisrael"
+   }
+  ]
+ },
+ {
+  "party": "amcha",
+  "statement": "arab_coalition",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "rel_civil_marriage",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "pal_annexation",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "soc_death_penalty",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "gov_netanyahu",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "eco_imports",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "sec_gaza_settle",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "בריאיון ל-ynet (אוקטובר 2026) השיב עופר וינטר בחיוב לשאלה אם הוא תומך בחידוש ההתיישבות היהודית ברצועת עזה; בהשקת המפלגה אמר שהפתרון היחיד בעזה הוא הגירה.",
+  "sources": [
+   {
+    "title": "וינטר בעד התיישבות בעזה, ונגד ועדת חקירה ממלכתית: \"נמליץ על נתניהו\"",
+    "outlet": "ynet",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14914571"
+   },
+   {
+    "title": "Ofer Winter calls for Gaza resettlement, rejects Oct. 7 state commission: 'We'll back Netanyahu for PM'",
+    "outlet": "Ynetnews",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.ynetnews.com/article/skvxeuysml"
+   },
+   {
+    "title": "Ex-IDF general Ofer Winter launches right-wing party: 'There is one solution in Gaza: migration'",
+    "outlet": "Ynetnews",
+    "date": "2026 (משוער)",
+    "url": "https://www.ynetnews.com/article/r1xkosjpzl"
+   }
+  ]
+ },
+ {
+  "party": "amcha",
+  "statement": "draft_yeshiva_exemption",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "וינטר דחה (2026) את דרישת ש\"ס לחקיקה שתסדיר את מעמד בני הישיבות כתנאי לממשלה, והודיע שיתמוך רק בממשלה שתגייס חרדים.",
+  "sources": [
+   {
+    "title": "Israel Elections 2026: Winter rejects haredi draft ultimatum to Benjamin Netanyahu",
+    "outlet": "The Jerusalem Post",
+    "date": "2026",
+    "url": "https://www.jpost.com/israel-election-2026/article-912402"
+   }
+  ]
+ },
+ {
+  "party": "amcha",
+  "statement": "jud_override",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "arab_shin_bet",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "rel_core_studies",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "gov_term_limits",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "sec_pa_gaza",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "עופר וינטר אמר (אוקטובר 2026) שאין עם פלסטיני ושלא תקום מדינה פלסטינית; לפי JNS הציע לפרק את הרשות הפלסטינית מנשקה, והוא תומך בהגירה מעזה ובחידוש ההתיישבות בה. לא נמצאה התייחסות ישירה שלו לתפקיד הרשות ברצועה.",
+  "sources": [
+   {
+    "title": "'There is no Palestinian nation,' Ofer Winter says as party dips in polls",
+    "outlet": "Jewish Insider",
+    "date": "2026-10",
+    "url": "https://jewishinsider.com/2026/10/amcha-yisrael-leader-ofer-winter-israeli-elections/"
+   },
+   {
+    "title": "Israel’s parties explained: Amcha Yisrael",
+    "outlet": "JNS",
+    "date": "2026",
+    "url": "https://www.jns.org/feature/israels-parties-explained-amcha-yisrael"
+   }
+  ]
+ },
+ {
+  "party": "amcha",
+  "statement": "draft_arab_service",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "jud_ag_split",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "soc_same_sex",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "arab_nation_law",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "gov_kan",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ },
+ {
+  "party": "amcha",
+  "statement": "gov_indicted_pm",
+  "stance": null,
+  "confidence": "low",
+  "basis": "",
+  "sources": []
+ }
+]

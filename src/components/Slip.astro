@@ -1,0 +1,26 @@
+---
+interface Props {
+  letters: string;
+  name?: string;
+  leader?: string;
+  href?: string;
+  class?: string;
+  size?: 'sm' | 'md' | 'lg';
+}
+const { letters, name, leader, href, class: className, size = 'md' } = Astro.props;
+const Tag = href ? 'a' : 'div';
+---
+<Tag href={href} class:list={['slip', `slip-${size}`, className]}>
+  <span class="slip-letters">{letters}</span>
+  {name && <span class="slip-name">{name}</span>}
+  {leader && <span class="slip-leader">{leader}</span>}
+</Tag>
+
+<style>
+  .slip-sm { width: 3.1rem; height: 3.5rem; padding: 0.2rem; font-size: 0.75rem; }
+  .slip-sm .slip-letters { font-size: 1.15rem; }
+  .slip-md { aspect-ratio: 4 / 5; font-size: 1rem; }
+  .slip-md .slip-letters { font-size: clamp(1.9rem, 8vw, 2.6rem); }
+  .slip-lg { width: 11rem; aspect-ratio: 4 / 5; font-size: 1.15rem; transform: rotate(-2deg); }
+  .slip-lg .slip-letters { font-size: 3.6rem; }
+</style>

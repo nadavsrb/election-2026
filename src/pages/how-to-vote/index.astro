@@ -1,11 +1,251 @@
 ---
 import Base from '../../layouts/Base.astro';
+import SourceList from '../../components/SourceList.astro';
+import Countdown from '../../components/Countdown.astro';
 import { url } from '../../lib/site';
+
+const S = {
+  ynetGuide: { outlet: 'ynet', title: 'מדריך בחירות 2026: מה להביא לקלפי, מתי נפתחות הקלפיות ומתי התוצאות', url: 'https://www.ynet.co.il/news/elections2026/article/yokra14927061' },
+  makoGuide: { outlet: 'mako', title: 'הבחירות יוצאות לדרך: המדריך לבוחר בדרך לקלפי', url: 'https://www.mako.co.il/news-israel-elections/2026/Article-f3644a927fd41a1027.htm' },
+  jpostGuide: { outlet: 'The Jerusalem Post', title: 'Israel Election 2026: Guide for first-time voters', url: 'https://www.jpost.com/israel-election-2026/article-912162' },
+  loc: { outlet: 'Library of Congress', title: "FALQs: Israel's Upcoming Election on October 27, 2026", url: 'https://blogs.loc.gov/law/2026/10/falqs-israels-upcoming-election-on-october-27-2026/' },
+  maarivDates: { outlet: 'מעריב', title: 'בחירות 2026: כל התאריכים החשובים בדרך לבחירות לכנסת ה-26', url: 'https://www.maariv.co.il/news/politics/article-1357269' },
+  ihTrain: { outlet: 'ישראל היום', title: 'בלי רב-קו ובלי תשלום: כך תיסעו ברכבת ביום הבחירות', url: 'https://www.israelhayom.co.il/news/transportation/article/21685896' },
+  mrTransport: { outlet: 'מקור ראשון', title: 'תחבורה ציבורית חינם ביום הבחירות 2026: רכבות ואוטובוסים', url: 'https://www.makorrishon.co.il/news/local/article/372088' },
+  kzVote: { outlet: 'כל זכות', title: 'הזכות לבחור לכנסת', url: 'https://www.kolzchut.org.il/he/%D7%94%D7%96%D7%9B%D7%95%D7%AA_%D7%9C%D7%91%D7%97%D7%95%D7%A8_%D7%9C%D7%9B%D7%A0%D7%A1%D7%AA' },
+  mrNotice: { outlet: 'מקור ראשון', title: 'לא קיבלתם הודעה לבוחר? כך תדעו היכן ואיך להצביע', url: 'https://www.makorrishon.co.il/news/politcal/article/380968' },
+  maarivStation: { outlet: 'מעריב', title: 'איפה אני מצביע בבחירות 2026? איתור קלפי מהיר לפי תעודת זהות', url: 'https://www.maariv.co.il/news/politics/article-1336409' },
+  makoStation: { outlet: 'mako', title: 'איפה אני מצביע? איתור קלפי לקראת הבחירות 2026', url: 'https://www.mako.co.il/nexter-guide/Article-d57100c9ce261a1027.htm' },
+  ynetSlips: { outlet: 'ynet', title: 'ועדת הבחירות המרכזית פרסמה את הפתקים של כל המפלגות לכנסת ה-26', url: 'https://www.ynet.co.il/news/article/s1ibdii5fe' },
+  toiBlueWhite: { outlet: 'The Times of Israel', title: 'Blue and White ballot slips to be removed from polling stations', date: '2026-10-21', url: 'https://www.timesofisrael.com/liveblog_entry/blue-and-white-ballot-slips-to-be-removed-from-polling-stations-after-all-party-members-withdraw-from-election/' },
+  zmanBlueWhite: { outlet: 'זמן ישראל', title: 'ועדת הבחירות המרכזית: כחול לבן השלימה את פרישתה מההתמודדות לכנסת', url: 'https://www.zman.co.il/live/735242/' },
+  aisrael: { outlet: 'נגישות ישראל', title: 'המדריך המלא להצבעה נגישה לאנשים עם מוגבלות לכנסת ה-26', url: 'https://aisrael.org/%D7%94%D7%A6%D7%91%D7%A2%D7%94-%D7%A0%D7%92%D7%99%D7%A9%D7%94-%D7%91%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA-%D7%9C%D7%9B%D7%A0%D7%A1%D7%AA-%D7%9426/' },
+  shutfim: { outlet: 'shutfim.org', title: 'מצביעים עם מוגבלות בבחירות לכנסת ה-26', url: 'https://shutfim.org/2519/' },
+  haaretzNumbers: { outlet: 'Haaretz', title: "Israel's 2026 Election by the Numbers", date: '2026-10-18', url: 'https://www.haaretz.com/israel-news/elections/2026-10-18/ty-article/.premium/israels-26th-election-by-the-numbers-all-you-need-to-know/000001a1-4f14-da52-a3f1-4f5e09df0000' },
+  ynetSoldiers: { outlet: 'ynet', title: '850 קלפיות נפתחו: חיילי צה"ל החלו להצביע בבחירות לכנסת', date: '2026-10-21', url: 'https://www.ynet.co.il/news/elections2026/article/bktpnrs2zg' },
+  maarivDouble: { outlet: 'מעריב', title: 'המעטפות הכפולות שעשויות להכריע את בחירות 2026', url: 'https://www.maariv.co.il/news/elections-2026/article-1376723' },
+  ynetSurplus: { outlet: 'ynet', title: 'תם הדד-ליין לחתימה על הסכמי עודפים', date: '2026-10-16', url: 'https://www.ynet.co.il/news/elections2026/article/hjextlj2gl' },
+  ynetSurplusMap: { outlet: 'ynet', title: 'מפת העודפים: ההסכמים, ואיך הם ישפיעו על חישוב התוצאות', url: 'https://www.ynet.co.il/news/elections2026/article/skdhsmfsmx' },
+  ynetDouble: { outlet: 'ynet', title: 'כ-15 מנדטים יחכו למעטפות הכפולות: מתי באמת נדע מה התוצאות?', url: 'https://www.ynet.co.il/news/elections2026/article/rk9logunfx' },
+  ynetTurnout: { outlet: 'ynet', title: 'לא רק למי מצביעים, אלא כמה', url: 'https://www.ynet.co.il/news/elections2026/article/yokra14932317' },
+  ynetCourt: { outlet: 'ynet', title: 'העליון הפך את החלטת ועדת הבחירות: רע"מ, הרשימה המשותפת וכסיף יוכלו להתמודד', url: 'https://www.ynet.co.il/news/elections2026/article/hjw00hep9mx' },
+  zmanPolls: { outlet: 'זמן ישראל', title: 'ועדת הבחירות המרכזית מזכירה כי אסור לפרסם סקרים חדשים החל מיום שישי בחצות', url: 'https://www.zman.co.il/live/734914/' },
+};
+
+const surplus = [
+  ['הליכוד', 'הציונות הדתית'],
+  ['ש"ס', 'יהדות התורה'],
+  ['ישר!', 'הדמוקרטים'],
+  ['ביחד', 'ישראל ביתנו'],
+  ['רע"ם', 'הרשימה המשותפת'],
+];
 ---
-<Base title="איך מצביעים">
-  <section class="wrap-narrow py-20">
-    <h1 class="text-4xl font-black">איך מצביעים</h1>
-    <p class="mt-4 text-[var(--color-ink-soft)]">העמוד הזה בבנייה ויעלה בשעות הקרובות.</p>
-    <a class="btn btn-primary mt-8" href={url()}>לדף הבית</a>
+<Base
+  title="איך מצביעים"
+  description="המדריך המעשי לבחירות לכנסת ה-26: מתי, איפה, מה להביא, מה עושים מאחורי הפרגוד, ומה קורה אחרי שהקלפיות נסגרות."
+>
+  <section class="vote-hero">
+    <div class="wrap-narrow py-12">
+      <h1 class="page-title">איך מצביעים</h1>
+      <p class="lead">כל מה שצריך לדעת כדי להצביע ביום שלישי, בלי הפתעות.</p>
+      <div class="mt-6"><Countdown /></div>
+      <dl class="key">
+        <div><dt>מה להביא</dt><dd>תעודה מזהה מקורית עם תמונה</dd></div>
+        <div><dt>איפה</dt><dd>רק בקלפי שאליה אתם משויכים</dd></div>
+        <div><dt>איתור קלפי</dt><dd>הודעה ל-053-3801464 בוואטסאפ או SMS</dd></div>
+      </dl>
+    </div>
   </section>
+
+  <div class="wrap-narrow py-10 prose-he guide">
+    <section aria-labelledby="before">
+      <h2 id="before">לפני שיוצאים מהבית</h2>
+      <h3>מי יכול להצביע</h3>
+      <p>
+        כל אזרח ואזרחית של ישראל שמלאו להם 18 עד יום הבחירות, כלומר שנולדו עד 27 באוקטובר 2008, ושמופיעים בפנקס
+        הבוחרים. לא צריך להירשם: הפנקס נבנה אוטומטית ממרשם האוכלוסין. מצביעים פעם אחת בלבד.
+      </p>
+      <h3>איפה מצביעים</h3>
+      <p>
+        כל בוחר משויך לקלפי אחת לפי הכתובת שלו במרשם האוכלוסין, ואפשר להצביע רק בה. בישראל אין הצבעה בדואר ואין
+        הצבעה מוקדמת לאזרחים. מי שגר בחו"ל יכול להצביע רק אם הוא בארץ ביום הבחירות, בקלפי שלו.
+      </p>
+      <p>איך מוצאים את הקלפי:</p>
+      <ul>
+        <li>שולחים הודעת SMS או וואטסאפ למספר <a href="https://wa.me/972533801464" dir="ltr">053-3801464</a>. השירות אוטומטי ופועל 24 שעות ביממה.</li>
+        <li>בשירות איתור הקלפי של משרד הפנים באתר gov.il, עם מספר תעודת זהות ותאריך לידה.</li>
+        <li>במוקד הטלפוני: <a href="tel:1800101975" dir="ltr">1-800-101-975</a> או <a href="tel:0732458358" dir="ltr">073-2458358</a>.</li>
+      </ul>
+      <p>שימו לב גם למספר הקלפי: בבית ספר אחד יכולות להיות כמה קלפיות.</p>
+      <SourceList sources={[S.maarivStation, S.makoStation, S.jpostGuide, S.loc]} />
+
+      <h3>מה להביא</h3>
+      <p>חובה להציג אחת מהתעודות האלה, מקורית ועם תמונה:</p>
+      <ul>
+        <li>תעודת זהות ישראלית, כולל תעודה חכמה. הספח לבדו לא מספיק.</li>
+        <li>דרכון ישראלי בתוקף.</li>
+        <li>רישיון נהיגה ישראלי בתוקף, עם תמונה.</li>
+        <li>תעודת חוגר בתוקף.</li>
+      </ul>
+      <p>
+        לא יתקבלו צילום של תעודה בטלפון, תעודת סטודנט או רישיון לנשיאת נשק. את "ההודעה לבוחר" שנשלחת הביתה לא חייבים
+        להביא. אם איבדתם את כל התעודות, בררו מראש ברשות האוכלוסין (<a href="tel:*3450" dir="ltr">*3450</a>) איך מקבלים
+        תעודה זמנית.
+      </p>
+      <SourceList sources={[S.ynetGuide, S.jpostGuide, S.mrNotice]} />
+
+      <h3>מתי ואיך מגיעים</h3>
+      <p>
+        יום שלישי, 27 באוקטובר 2026. רוב הקלפיות פתוחות מ-07:00 עד 22:00. ביישובים קטנים הקלפי פתוחה בדרך כלל
+        מ-08:00 עד 20:00, ובקלפיות בבתי חולים ובבתי סוהר השעות קצרות יותר. יום הבחירות הוא יום שבתון.
+      </p>
+      <p>
+        הרכבת וחלק מקווי האוטובוס הבין-עירוניים חינם, מיום שני ב-20:00 ועד סוף הפעילות ביום הבחירות. ברכבת צריך להוציא
+        כרטיס חינם בתחנה. לא כל הקווים כלולים, אז כדאי לבדוק במוקד של משרד התחבורה (<a href="tel:*8787" dir="ltr">*8787</a>).
+      </p>
+      <SourceList sources={[S.ynetGuide, S.makoGuide, S.maarivDates, S.ihTrain, S.mrTransport]} />
+    </section>
+
+    <section aria-labelledby="inside">
+      <h2 id="inside">בקלפי, שלב אחר שלב</h2>
+      <ol class="steps">
+        <li>מציגים תעודה מזהה לחברי ועדת הקלפי.</li>
+        <li>הם מוצאים את השם שלכם ברשימת הבוחרים ומסמנים שהצבעתם.</li>
+        <li>מקבלים מעטפה ריקה.</li>
+        <li>הולכים לבד אל מאחורי הפרגוד, המחיצה שמסתירה אתכם.</li>
+        <li>בוחרים פתק אחד של הרשימה שאתם רוצים, מכניסים אותו למעטפה וסוגרים אותה.</li>
+        <li>יוצאים ומכניסים את המעטפה בעצמכם לתיבת הקלפי.</li>
+      </ol>
+      <p>ההצבעה חשאית: אף אחד לא יודע במי בחרתם.</p>
+
+      <h3>אין פתק של הרשימה שבחרתם?</h3>
+      <p>
+        אפשר לבקש מוועדת הקלפי להשלים פתקים, או להשתמש בפתק לבן שנמצא מאחורי הפרגוד. כותבים עליו בכתב יד ברור את
+        האותיות של הרשימה, בדיוק כמו בפתק המודפס, ורק אותן. את האותיות של כל רשימה אפשר למצוא ב<a href={url('parties/#all-title')}>רשימת כל הפתקים</a>.
+      </p>
+
+      <h3>מה עלול לפסול את הקול</h3>
+      <ul>
+        <li>שני פתקים של רשימות שונות באותה מעטפה.</li>
+        <li>כתיבה, סימון או קריעה של פתק מודפס.</li>
+        <li>פתק לבן שלא ברור מה כתוב בו.</li>
+        <li>פתק של "כחול לבן" (האותיות "כן"). הרשימה פרשה מהבחירות, הפתקים שלה הוצאו מהקלפיות, וקול עבורה ייפסל.</li>
+      </ul>
+      <p>הדרך הבטוחה: פתק אחד, נקי, של רשימה אחת.</p>
+      <SourceList sources={[S.kzVote, S.ynetSlips, S.toiBlueWhite, S.zmanBlueWhite]} />
+    </section>
+
+    <section aria-labelledby="access">
+      <h2 id="access">הצבעה נגישה ומי שמצביע מחוץ לקלפי שלו</h2>
+      <ul>
+        <li>בכל יישוב יש לפחות קלפי נגישה אחת, והיא מסומנת בסמל כיסא גלגלים. לפי "הארץ", 6,208 קלפיות נגישות.</li>
+        <li>מי שמתקשה בניידות יכול להצביע ב"קלפי נגישה מיוחדת" גם אם הוא לא רשום בה. לא כל קלפי נגישה היא מיוחדת, אז בדקו מראש.</li>
+        <li>מי שמתקשה בגלל מחלה או מגבלה רשאי להיכנס עם מלווה.</li>
+        <li>חיילים מצביעים בכ-850 קלפיות צבאיות, החל מ-20 עד 21 באוקטובר ועד סגירת הקלפיות. אפשר גם להצביע בקלפי האזרחית לפי הכתובת.</li>
+        <li>מאושפזים, אסירים, שליחי המדינה בחו"ל ומפונים מצביעים בקלפיות מיוחדות, ב"מעטפה כפולה".</li>
+      </ul>
+      <SourceList sources={[S.aisrael, S.shutfim, S.haaretzNumbers, S.ynetSoldiers, S.maarivDouble]} />
+    </section>
+
+    <section aria-labelledby="threshold">
+      <h2 id="threshold">אחוז החסימה והסכמי עודפים</h2>
+      <p>
+        כדי להיכנס לכנסת, רשימה צריכה לקבל לפחות 3.25% מהקולות הכשרים, ואז היא מקבלת בדרך כלל לפחות 4 מושבים. קולות
+        שניתנו לרשימה שלא עברה את אחוז החסימה לא עוברים לאף רשימה אחרת.
+      </p>
+      <p>
+        הסכם עודפים הוא הסכם טכני בין שתי רשימות על חלוקת הקולות שנשארו אחרי חלוקת המושבים. הוא לא איחוד ולא מחייב
+        לשבת יחד בממשלה, והוא פועל רק אם שתי הרשימות עברו את אחוז החסימה. אלה ההסכמים שנחתמו עד 16 באוקטובר:
+      </p>
+      <ul class="pairs">
+        {surplus.map(([a, b]) => <li><span>{a}</span><span class="amp">ו</span><span>{b}</span></li>)}
+      </ul>
+      <SourceList sources={[S.ynetSurplus, S.ynetSurplusMap]} />
+    </section>
+
+    <section aria-labelledby="after">
+      <h2 id="after">אחרי שהקלפיות נסגרות</h2>
+      <p>
+        ב-22:00 ערוצי הטלוויזיה מפרסמים מדגמים, שהם הערכות ולא תוצאות. הספירה מתחילה מיד, ותוצאות חלקיות מתפרסמות במהלך
+        הלילה. המעטפות הכפולות של חיילים, מאושפזים ואחרים נספרות מאוחר יותר. לפי הערכות הן שוות כ-15 מושבים, ולכן התמונה
+        יכולה להשתנות בימים שאחרי. ועדת הבחירות המרכזית תפרסם את התוצאות הרשמיות עד 4 בנובמבר 2026.
+      </p>
+      <p>איך מרכיבים ממשלה, לפי חוק-יסוד: הממשלה:</p>
+      <ol class="steps">
+        <li>נשיא המדינה נפגש עם נציגי כל הסיעות שנבחרו ושומע את ההמלצות שלהן.</li>
+        <li>הנשיא מטיל על חבר כנסת אחד להרכיב ממשלה, בדרך כלל על מי שנראה לו בעל הסיכוי הטוב ביותר.</li>
+        <li>יש לו 28 ימים, והנשיא יכול להאריך אותם ב-14 ימים לכל היותר.</li>
+        <li>הממשלה מתחילה לכהן כשהכנסת מצביעה לה אמון. בפועל צריך קואליציה של לפחות 61 מתוך 120 חברי הכנסת.</li>
+        <li>אם זה לא מצליח, המשימה יכולה לעבור לחבר כנסת אחר. אם אף אחד לא מצליח, הולכים לבחירות חדשות.</li>
+      </ol>
+      <SourceList sources={[S.ynetDouble, S.ynetGuide]} />
+    </section>
+
+    <section aria-labelledby="numbers">
+      <h2 id="numbers">הבחירות במספרים</h2>
+      <dl class="numbers">
+        <div><dt>בעלי זכות בחירה</dt><dd>7,331,981</dd></div>
+        <div><dt>קלפיות</dt><dd>12,018</dd></div>
+        <div><dt>קלפיות צבאיות</dt><dd>כ-850</dd></div>
+        <div><dt>רשימות במרוץ</dt><dd>37</dd></div>
+      </dl>
+      <p class="small">
+        ועדת הבחירות אישרה 38 רשימות. רע"ם והרשימה המשותפת נפסלו בוועדה, ובית המשפט העליון ביטל את הפסילה. אחרי
+        שכחול לבן פרשה, נשארו 37 רשימות במרוץ. מיום שישי, 23 באוקטובר, ב-23:59 ועד סגירת הקלפיות, אסור לפרסם סקרי
+        בחירות חדשים, ולכן אין באתר הזה סקרים.
+      </p>
+      <SourceList sources={[S.ynetTurnout, S.haaretzNumbers, S.ynetCourt, S.zmanPolls]} />
+    </section>
+  </div>
 </Base>
+
+<style>
+  .vote-hero { background: var(--color-booth); color: var(--color-on-booth); }
+  .page-title { font-size: clamp(2.2rem, 8vw, 3.2rem); font-weight: 900; }
+  .lead { margin-top: 0.6rem; font-size: 1.15rem; color: var(--color-on-booth-soft); }
+  .key { display: grid; gap: 0.9rem; margin-top: 1.75rem; }
+  @media (min-width: 640px) { .key { grid-template-columns: repeat(3, 1fr); } }
+  .key div { padding-top: 0.8rem; border-top: 1px solid rgb(255 255 255 / 0.2); }
+  .key dt { font-size: 0.85rem; color: var(--color-on-booth-soft); }
+  .key dd { font-weight: 600; }
+
+  .guide section { margin-top: 2.75rem; }
+  .guide section:first-child { margin-top: 0; }
+  .guide h2 { font-size: clamp(1.6rem, 5vw, 2rem); font-weight: 900; margin-top: 0; }
+  .guide h3 { font-size: 1.25rem; margin-top: 1.6rem; }
+  .guide ul, .guide ol { margin-top: 0.6rem; }
+  .guide p + ul, .guide ul + p { margin-top: 0.6rem; }
+  .steps { list-style: none !important; padding: 0 !important; counter-reset: s; display: grid; gap: 0.7rem; }
+  .steps li { counter-increment: s; position: relative; padding-inline-start: 2.6rem; min-height: 2rem; }
+  .steps li::before {
+    content: counter(s);
+    position: absolute;
+    inset-inline-start: 0;
+    top: -0.1rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--color-accent-soft);
+    color: var(--color-ink);
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+  .pairs { list-style: none !important; padding: 0 !important; display: grid; gap: 0.5rem; }
+  .pairs li {
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+    padding: 0.6rem 0.9rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .amp { color: var(--color-ink-soft); font-weight: 400; }
+  .numbers { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+  .numbers dt { font-size: 0.88rem; color: var(--color-ink-soft); }
+  .numbers dd { font-size: 1.6rem; font-weight: 700; }
+  .small { font-size: 0.95rem; color: var(--color-ink-soft); }
+</style>

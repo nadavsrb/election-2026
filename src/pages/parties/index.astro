@@ -1,11 +1,115 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Slip from '../../components/Slip.astro';
+import { parties, lists } from '../../lib/data';
 import { url } from '../../lib/site';
+
+const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name, 'he');
+const main = [...parties].sort((a, b) => a.short_name.localeCompare(b.short_name, 'he'));
+const all = [...lists].sort(byName);
+const STATUS: Record<string, string> = {
+  running: '',
+  withdrew: 'הודיעה על פרישה, אבל הפתק עדיין בקלפי',
+  conditional: 'אושרה בתנאי',
+  disqualified: 'נפסלה',
+};
 ---
-<Base title="המפלגות">
-  <section class="wrap-narrow py-20">
-    <h1 class="text-4xl font-black">המפלגות</h1>
-    <p class="mt-4 text-[var(--color-ink-soft)]">העמוד הזה בבנייה ויעלה בשעות הקרובות.</p>
-    <a class="btn btn-primary mt-8" href={url()}>לדף הבית</a>
+<Base
+  title="המפלגות"
+  description="פרופיל אחיד לכל אחת מהרשימות המרכזיות בבחירות לכנסת ה-26: מי בראש, מי ברשימה, ממה היא מורכבת ומה עמדותיה, עם מקורות. וגם כל הפתקים בקלפי."
+>
+  <section class="wrap pt-10 pb-6">
+    <h1 class="page-title">המפלגות</h1>
+    <p class="page-lead">
+      {all.length > 0 ? `${all.length} רשימות מתמודדות בבחירות. ` : ''}לכל אחת מ-{main.length} הרשימות המרכזיות יש כאן
+      פרופיל באותה תבנית: מי עומד בראשה, מי ברשימה, ממה היא מורכבת ומה עמדותיה בנושאים שעל הפרק.
+    </p>
+    <p class="page-note">
+      הרשימות מסודרות לפי האלף-בית. רשימה מרכזית היא רשימה שעברה את אחוז החסימה בסקר אחד לפחות שפורסם
+      באוקטובר 2026. <a href={url('about/#inclusion')}>למה דווקא הכלל הזה</a>
+    </p>
   </section>
+
+  <section class="wrap pb-12" aria-label="הרשימות המרכזיות">
+    <ul class="slip-grid">
+      {main.map((p) => (
+        <li>
+          <Slip href={url(`parties/${p.id}/`)} letters={p.letters} name={p.short_name} leader={p.leader} />
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  {all.length > 0 && (
+    <section class="wrap py-12" aria-labelledby="all-title">
+      <h2 id="all-title" class="section-h2">כל הפתקים בקלפי</h2>
+      <p class="page-note">
+        כל הרשימות שאישרה ועדת הבחירות המרכזית, עם האותיות שיופיעו על הפתק. כך תדעו איזה פתק לחפש מאחורי
+        הפרגוד.
+      </p>
+      <div class="table-wrap">
+        <table class="lists-table">
+          <thead>
+            <tr>
+              <th scope="col">אותיות</th>
+              <th scope="col">רשימה</th>
+              <th scope="col">בראשה</th>
+            </tr>
+          </thead>
+          <tbody>
+            {all.map((l) => (
+              <tr>
+                <td class="letters-cell">{l.letters ?? '?'}</td>
+                <th scope="row">
+                  {l.main_id ? <a href={url(`parties/${l.main_id}/`)}>{l.name}</a> : l.name}
+                  {(STATUS[l.status] || l.note) && (
+                    <span class="row-note">{[STATUS[l.status], l.note].filter(Boolean).join('. ')}</span>
+                  )}
+                </th>
+                <td>{l.leader ?? 'לא ידוע'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )}
 </Base>
+
+<style>
+  .page-title { font-size: clamp(2.2rem, 8vw, 3.2rem); font-weight: 900; }
+  .page-lead { margin-top: 0.8rem; font-size: 1.12rem; color: var(--color-ink-soft); max-width: 62ch; }
+  .page-note { margin-top: 0.8rem; font-size: 0.95rem; color: var(--color-ink-soft); max-width: 62ch; }
+  .section-h2 { font-size: clamp(1.6rem, 5vw, 2rem); font-weight: 900; }
+
+  .slip-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.1rem;
+  }
+  @media (min-width: 560px) { .slip-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (min-width: 900px) { .slip-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1.4rem; } }
+  .slip-grid :global(.slip-md) { aspect-ratio: 1 / 1; }
+  @media (min-width: 560px) { .slip-grid :global(.slip-md) { aspect-ratio: 4 / 5; } }
+  .slip-grid li:nth-child(3n + 1) :global(.slip) { transform: rotate(-1deg); }
+  .slip-grid li:nth-child(3n + 2) :global(.slip) { transform: rotate(0.8deg); }
+  .slip-grid li :global(.slip:hover) { transform: translateY(-3px) rotate(0deg); }
+
+  .table-wrap { margin-top: 1.25rem; overflow-x: auto; }
+  .lists-table { width: 100%; border-collapse: collapse; font-size: 0.98rem; }
+  .lists-table th, .lists-table td {
+    padding: 0.7rem 0.5rem;
+    border-bottom: 1px solid var(--color-line);
+    text-align: start;
+    vertical-align: top;
+  }
+  .lists-table thead th { color: var(--color-ink-soft); font-weight: 600; font-size: 0.88rem; }
+  .lists-table tbody th { font-weight: 600; }
+  .letters-cell {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.3rem;
+    white-space: nowrap;
+  }
+  .row-note { display: block; font-weight: 400; font-size: 0.85rem; color: var(--color-ink-soft); }
+</style>

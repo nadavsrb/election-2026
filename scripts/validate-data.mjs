@@ -54,6 +54,7 @@ const checkSources = (where, sources, required) => {
   }
   for (const src of sources) {
     if (!isUrl(src.url)) err(`${where}: bad source url ${JSON.stringify(src.url)}`);
+    else if (/\/\/([^/]*\.)?example\.(com|org|net|invalid)\b/.test(src.url)) err(`${where}: placeholder source ${src.url}`);
     if (!src.title?.trim()) warn(`${where}: source without title (${src.url})`);
   }
 };

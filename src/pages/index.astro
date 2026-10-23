@@ -1,8 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 import Countdown from '../components/Countdown.astro';
+import Slip from '../components/Slip.astro';
 import topics from '../data/topics.json';
 import statements from '../data/statements.json';
+import { parties } from '../lib/data';
 import { url } from '../lib/site';
 
 const quickCount = statements.filter((s) => s.quick).length;
@@ -64,6 +66,24 @@ const fullCount = statements.length;
     </ol>
   </section>
 
+
+  <section class="tray-band" aria-labelledby="tray-title">
+    <div class="wrap py-14">
+      <h2 id="tray-title" class="section-title">הרשימות המרכזיות</h2>
+      <p class="section-lead">
+        {parties.length} רשימות, כל אחת עם פרופיל אחיד ועמדות בכל הנושאים. הסדר משתנה באקראי בכל כניסה.
+      </p>
+      <ul class="tray" data-shuffle>
+        {parties.map((p) => (
+          <li>
+            <Slip href={url(`parties/${p.id}/`)} letters={p.letters} name={p.short_name} leader={p.leader} />
+          </li>
+        ))}
+      </ul>
+      <a class="inline-link" href={url('parties/')}>לכל המפלגות</a>
+    </div>
+  </section>
+
   <section class="topics-band" aria-labelledby="topics-title">
     <div class="wrap py-14">
       <h2 id="topics-title" class="section-title">הנושאים שעל הפרק</h2>
@@ -107,6 +127,18 @@ const fullCount = statements.length;
     </div>
   </section>
 </Base>
+
+<script>
+  // Random order on every visit, so no list is always first.
+  for (const list of document.querySelectorAll<HTMLElement>('[data-shuffle]')) {
+    const items = [...list.children];
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+    list.replaceChildren(...items);
+  }
+</script>
 
 <style>
   .hero {
@@ -228,6 +260,25 @@ const fullCount = statements.length;
   .steps h3 { font-size: 1.3rem; }
   .steps p { margin-top: 0.4rem; color: var(--color-ink-soft); }
 
+
+  .tray-band { border-bottom: 1px solid var(--color-line); }
+  .tray {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 8.5rem;
+    gap: 1rem;
+    margin-top: 1.75rem;
+    padding: 0.5rem 0.25rem 1.25rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+  }
+  .tray li { scroll-snap-align: start; }
+  .tray li:nth-child(odd) :global(.slip) { transform: rotate(-1.2deg); }
+  .tray li:nth-child(even) :global(.slip) { transform: rotate(0.9deg); }
+  @media (min-width: 1100px) {
+    .tray { grid-auto-flow: row; grid-template-columns: repeat(7, minmax(0, 1fr)); overflow: visible; }
+  }
   .topics-band { background: var(--color-sunken); }
   .topic-list {
     margin-top: 1.75rem;

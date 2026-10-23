@@ -1,11 +1,40 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { statementsOfTopic, topics } from '../../lib/data';
 import { url } from '../../lib/site';
 ---
-<Base title="הנושאים">
-  <section class="wrap-narrow py-20">
-    <h1 class="text-4xl font-black">הנושאים</h1>
-    <p class="mt-4 text-[var(--color-ink-soft)]">העמוד הזה בבנייה ויעלה בשעות הקרובות.</p>
-    <a class="btn btn-primary mt-8" href={url()}>לדף הבית</a>
+<Base
+  title="הנושאים"
+  description="הנושאים שעומדים במרכז הבחירות לכנסת ה-26: רקע ניטרלי, הטיעונים של שני הצדדים ואיפה עומדת כל רשימה."
+>
+  <section class="wrap-narrow pt-10 pb-14">
+    <h1 class="page-title">הנושאים שעל הפרק</h1>
+    <p class="page-lead">
+      לכל נושא: מה בדיוק עומד להכרעה, מה הטיעונים המרכזיים של התומכים ושל המתנגדים, ואיפה עומדת כל אחת מהרשימות
+      המרכזיות בכל טענה מהשאלון.
+    </p>
+    <ul class="issue-list">
+      {topics.map((t) => (
+        <li>
+          <a href={url(`issues/${t.id}/`)}>
+            <span class="issue-name">{t.title}</span>
+            <span class="issue-q">{t.question}</span>
+            <span class="issue-count">{statementsOfTopic(t.id).length} טענות בשאלון</span>
+          </a>
+        </li>
+      ))}
+    </ul>
   </section>
 </Base>
+
+<style>
+  .page-title { font-size: clamp(2.2rem, 8vw, 3.2rem); font-weight: 900; }
+  .page-lead { margin-top: 0.8rem; font-size: 1.12rem; color: var(--color-ink-soft); }
+  .issue-list { margin-top: 2rem; border-top: 1px solid var(--color-line); }
+  .issue-list li { border-bottom: 1px solid var(--color-line); }
+  .issue-list a { display: grid; gap: 0.15rem; padding: 1.1rem 0.25rem; color: var(--color-ink); text-decoration: none; }
+  .issue-list a:hover .issue-name { color: var(--color-link); }
+  .issue-name { font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; }
+  .issue-q { color: var(--color-ink-soft); }
+  .issue-count { font-size: 0.85rem; color: var(--color-ink-soft); }
+</style>

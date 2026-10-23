@@ -1,0 +1,33 @@
+---
+interface Source {
+  title: string;
+  outlet?: string | null;
+  date?: string | null;
+  url: string;
+}
+interface Props {
+  sources: Source[];
+  label?: string;
+}
+const { sources, label = 'מקורות' } = Astro.props;
+---
+{sources.length > 0 && (
+  <div class="sources">
+    <span class="sources-label">{label}:</span>
+    <ul>
+      {sources.map((s) => (
+        <li>
+          <a class="source-link" href={s.url} target="_blank" rel="noopener noreferrer">
+            {[s.outlet, s.title, s.date].filter(Boolean).join(', ')}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+
+<style>
+  .sources { margin-top: 0.5rem; font-size: 0.85rem; color: var(--color-ink-soft); }
+  .sources-label { font-weight: 600; }
+  .sources ul { display: grid; gap: 0.2rem; margin-top: 0.15rem; }
+</style>

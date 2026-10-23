@@ -1,0 +1,145 @@
+---
+import Base from '../../layouts/Base.astro';
+import Slip from '../../components/Slip.astro';
+import SourceList from '../../components/SourceList.astro';
+import { parties, positionOf, statementsOfTopic, topics, type Topic } from '../../lib/data';
+import { CONFIDENCE_LABELS, STANCE_LABELS, type Stance } from '../../lib/scoring';
+import { url } from '../../lib/site';
+
+export function getStaticPaths() {
+  return topics.map((topic) => ({ params: { id: topic.id }, props: { topic } }));
+}
+
+const { topic } = Astro.props as { topic: Topic };
+const statements = statementsOfTopic(topic.id);
+const byName = [...parties].sort((a, b) => a.name.localeCompare(b.name, 'he'));
+const GROUPS: (Stance | null)[] = [2, 1, 0, -1, -2, null];
+const groupLabel = (g: Stance | null) => (g === null ? 'אין עמדה ידועה' : STANCE_LABELS[g]);
+const others = topics.filter((t) => t.id !== topic.id);
+---
+<Base title={topic.title} description={`${topic.title}: רקע, הטיעונים של שני הצדדים ועמדות הרשימות בבחירות לכנסת ה-26.`}>
+  <article class="wrap-narrow pt-10 pb-6">
+    <p class="crumb"><a href={url('issues/')}>הנושאים</a></p>
+    <h1 class="page-title">{topic.title}</h1>
+    <p class="page-lead">{topic.question}</p>
+
+    {topic.background && (
+      <section class="mt-8 prose-he" aria-labelledby="bg-title">
+        <h2 id="bg-title" class="h2">רקע</h2>
+        {topic.background.split(/\n\s*\n/).map((para) => <p>{para}</p>)}
+      </section>
+    )}
+
+    {(topic.for?.length || topic.against?.length) && (
+      <section class="args" aria-label="הטיעונים המרכזיים">
+        <div class="arg panel">
+          <h2 class="h3">מה אומרים התומכים</h2>
+          <ul>{topic.for?.map((a) => <li>{a}</li>)}</ul>
+        </div>
+        <div class="arg panel">
+          <h2 class="h3">מה אומרים המתנגדים</h2>
+          <ul>{topic.against?.map((a) => <li>{a}</li>)}</ul>
+        </div>
+      </section>
+    )}
+    {topic.sources && <SourceList sources={topic.sources} label="מקורות לרקע" />}
+  </article>
+
+  <section class="wrap-narrow pb-10" aria-labelledby="where-title">
+    <h2 id="where-title" class="h2 mt-6">איפה עומדות הרשימות</h2>
+    <p class="note">בתוך כל קבוצה, הרשימות מסודרות לפי האלף-בית. לחצו על "פירוט" כדי לראות על מה מבוססת כל עמדה.</p>
+    {statements.map((s) => (
+      <div class="st">
+        <h3 class="st-text">{s.text}</h3>
+        <div class="groups">
+          {GROUPS.map((g) => {
+            const members = byName.filter((p) => (positionOf(p.id, s.id)?.stance ?? null) === g);
+            return members.length === 0 ? null : (
+              <div class="group">
+                <p class="group-label">{groupLabel(g)}</p>
+                <ul class="chips">
+                  {members.map((p) => (
+                    <li>
+                      <a href={url(`parties/${p.id}/`)} class="chip">
+                        <Slip letters={p.letters} size="sm" />
+                        <span>{p.short_name}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+        <details class="detail">
+          <summary>פירוט ומקורות</summary>
+          <ul>
+            {byName.map((p) => {
+              const pos = positionOf(p.id, s.id);
+              return (
+                <li>
+                  <p>
+                    <strong>{p.short_name}:</strong>{' '}
+                    {pos && pos.stance !== null
+                      ? `${STANCE_LABELS[pos.stance]} (${CONFIDENCE_LABELS[pos.confidence]}). ${pos.basis}`
+                      : 'אין עמדה ידועה.'}
+                  </p>
+                  {pos && pos.stance !== null && <SourceList sources={pos.sources} />}
+                </li>
+              );
+            })}
+          </ul>
+        </details>
+      </div>
+    ))}
+  </section>
+
+  <nav class="wrap-narrow pb-6" aria-label="נושאים נוספים">
+    <h2 class="h3">נושאים נוספים</h2>
+    <ul class="more">
+      {others.map((t) => <li><a href={url(`issues/${t.id}/`)}>{t.title}</a></li>)}
+    </ul>
+  </nav>
+</Base>
+
+<style>
+  .crumb a { color: var(--color-ink-soft); font-size: 0.95rem; }
+  .page-title { font-size: clamp(2.1rem, 8vw, 3rem); font-weight: 900; margin-top: 0.3rem; }
+  .page-lead { margin-top: 0.6rem; font-size: 1.15rem; color: var(--color-ink-soft); }
+  .h2 { font-size: clamp(1.5rem, 5vw, 1.9rem); font-weight: 900; }
+  .h3 { font-size: 1.2rem; font-weight: 700; }
+  .note { margin-top: 0.5rem; color: var(--color-ink-soft); font-size: 0.95rem; }
+
+  .args { display: grid; gap: 1rem; margin-top: 2rem; }
+  @media (min-width: 640px) { .args { grid-template-columns: 1fr 1fr; } }
+  .arg { padding: 1.1rem 1.25rem; }
+  .arg ul { margin-top: 0.6rem; display: grid; gap: 0.5rem; list-style: disc; padding-inline-start: 1.2rem; }
+
+  .st { margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--color-line); }
+  .st-text { font-size: 1.3rem; line-height: 1.35; }
+  .groups { display: grid; gap: 1rem; margin-top: 1rem; }
+  .group-label { font-weight: 700; font-size: 0.95rem; }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.45rem; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.3rem 0.8rem 0.3rem 0.3rem;
+    padding-inline-start: 0.3rem;
+    padding-inline-end: 0.85rem;
+    border-radius: 12px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    color: var(--color-ink);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  .chip:hover { border-color: var(--color-ink-soft); }
+  .chip :global(.slip-sm) { width: 2.2rem; height: 2.5rem; box-shadow: none; }
+  .chip :global(.slip-sm .slip-letters) { font-size: 0.85rem; }
+  .detail { margin-top: 1rem; }
+  .detail summary { cursor: pointer; color: var(--color-link); font-weight: 600; min-height: 2.5rem; display: flex; align-items: center; width: fit-content; }
+  .detail ul { display: grid; gap: 0.8rem; margin-top: 0.5rem; font-size: 0.95rem; }
+  .more { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin-top: 0.6rem; }
+</style>

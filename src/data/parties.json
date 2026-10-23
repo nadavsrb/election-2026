@@ -1,0 +1,648 @@
+[
+  {
+    "id": "yashar",
+    "name": "ישר! בראשות גדי איזנקוט",
+    "short_name": "ישר!",
+    "letters": "דרך",
+    "leader": "גדי איזנקוט",
+    "top10": [
+      "גדי איזנקוט",
+      "יורם כהן",
+      "אורית פרקש-הכהן",
+      "עדי אלטשולר"
+    ],
+    "components": [],
+    "results_2022": "רשימה חדשה, לא התמודדה ב-2022.",
+    "bloc_status": "new",
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": 2025,
+    "description": "מפלגה חדשה שהקים ב-2025 הרמטכ\"ל לשעבר גדי איזנקוט, לאחר שעזב את המחנה הממלכתי. במקום השני ברשימה ראש השב\"כ לשעבר יורם כהן ובמקום השלישי השרה לשעבר אורית פרקש-הכהן. בין הנושאים שהמפלגה מדגישה: ביטחון לאומי, תוכנית לשוויון בנטל השירות והקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר.",
+    "sources": [
+      {
+        "title": "Eisenkot's Yashar submits Knesset slate, with ex-Shin Bet chief Yoram Cohen at No. 2",
+        "outlet": "Times of Israel",
+        "date": "2026-09",
+        "url": "https://www.timesofisrael.com/liveblog_entry/eisenkots-yashar-submits-knesset-slate-with-ex-shin-bet-chief-yoram-cohen-at-no-2/"
+      },
+      {
+        "title": "Former Shin Bet chief named number two as Yashar's Gadi Eisenkot submits party list",
+        "outlet": "Jerusalem Post",
+        "date": "2026-09",
+        "url": "https://www.jpost.com/israel-election-2026/article-907834"
+      },
+      {
+        "title": "Israel election: Yashar party explainer",
+        "outlet": "The JC",
+        "date": null,
+        "url": "https://www.thejc.com/news/israel/israel-election-yashar-party-eisenkoft-chance-winning-netanyahu-likud-f0jv6m9n"
+      },
+      {
+        "title": "Israel's political parties explained: Yashar",
+        "outlet": "JNS",
+        "date": null,
+        "url": "https://www.jns.org/feature/israels-political-parties-explained-yashar"
+      },
+      {
+        "title": "איזנקוט סגר הסכם עודפים עם הדמוקרטים, ישראל ביתנו תחתום עם ביחד",
+        "outlet": "הארץ",
+        "date": "2026-09-10",
+        "url": "https://www.haaretz.co.il/news/elections/2026-09-10/ty-article/.premium/000001a0-8b93-d9dc-a9a9-8bd719110000"
+      },
+      {
+        "title": "היום המועד האחרון: תמונת הסכמי העודפים לכנסת ה-26",
+        "outlet": "אמס",
+        "date": "2026-10-16",
+        "url": "https://www.emess.co.il/radio/1945293"
+      },
+      {
+        "title": "פורסמו האותיות שיופיעו על הפתקים בקלפי - זו הרשימה המלאה",
+        "outlet": "ערוץ כנסת",
+        "date": "2026-09-27",
+        "url": "https://www.knesset.tv/main-articles/61384/94770/"
+      }
+    ]
+  },
+  {
+    "id": "likud",
+    "name": "הליכוד בהנהגת בנימין נתניהו",
+    "short_name": "הליכוד",
+    "letters": "מחל",
+    "leader": "בנימין נתניהו",
+    "top10": [
+      "בנימין נתניהו"
+    ],
+    "components": [],
+    "results_2022": "32 מושבים.",
+    "bloc_status": "coalition",
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": 1973,
+    "description": "מפלגת ימין שעמדה בראש הממשלה היוצאת, בראשות ראש הממשלה בנימין נתניהו. לפי סקירות העמדות בקמפיין, המפלגה תומכת בהמשך השינויים במערכת המשפט שקידמה בקדנציה היוצאת ומציגה מתווה משלה לגיוס חרדים.",
+    "sources": [
+      {
+        "title": "פורסמו האותיות שיופיעו על הפתקים בקלפי - זו הרשימה המלאה",
+        "outlet": "ערוץ כנסת",
+        "date": "2026-09-27",
+        "url": "https://www.knesset.tv/main-articles/61384/94770/"
+      },
+      {
+        "title": "הליכוד והציונות הדתית חתמו על הסכם עודפים; עוצמה יהודית: נתניהו לא רוצה אותנו בממשלה",
+        "outlet": "הארץ",
+        "date": "2026-10-06",
+        "url": "https://www.haaretz.co.il/news/elections/2026-10-06/ty-article/000001a1-104d-d4b5-afff-b6cfa31b0000"
+      },
+      {
+        "title": "Benjamin Netanyahu signs surplus vote deal with Bezalel Smotrich ahead of Knesset election",
+        "outlet": "Jerusalem Post",
+        "date": "2026-10-06",
+        "url": "https://www.jpost.com/israel-election-2026/article-910758"
+      },
+      {
+        "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+        "outlet": "mako",
+        "date": "2026-10",
+        "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+      },
+      {
+        "title": "השוואת עמדות המפלגות בחירות 2026",
+        "outlet": "פולימטר",
+        "date": null,
+        "url": "https://polimeter.co.il/compare"
+      }
+    ]
+  },
+  {
+    "id": "together",
+    "name": "ביחד בראשות נפתלי בנט",
+    "short_name": "ביחד",
+    "letters": "רק",
+    "leader": "נפתלי בנט",
+    "top10": [
+      "נפתלי בנט",
+      "יאיר לפיד"
+    ],
+    "components": [
+      "בנט 2026",
+      "יש עתיד"
+    ],
+    "results_2022": "יש עתיד זכתה ב-24 מושבים. בנט לא התמודד.",
+    "bloc_status": "opposition",
+    "website": null,
+    "platform_url": null,
+    "self_description": {
+      "quote": "רק ביחד",
+      "source": {
+        "title": "הקרב על הפתק: בן גביר שמר על ה-ב', בנט יסתפק באותיות \"רק\"",
+        "outlet": "ישראל היום",
+        "date": "2026-09",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21496558"
+      }
+    },
+    "founded": 2026,
+    "description": "רשימה משותפת של 'בנט 2026' בראשות ראש הממשלה לשעבר נפתלי בנט ושל 'יש עתיד' בראשות יאיר לפיד, שהוכרזה באפריל 2026. בנט עומד בראש הרשימה ולפיד במקום השני. הרשימה מציעה חובת גיוס או שירות לאומי-אזרחי לכל אזרח ללא פטורים, וראשיה הודיעו שיקימו ממשלה בהסתמך על מפלגות ציוניות בלבד.",
+    "sources": [
+      {
+        "title": "Seismic shift in Israeli politics as opposition leaders Lapid and Bennett form joint party",
+        "outlet": "JTA",
+        "date": "2026-04-26",
+        "url": "https://www.jta.org/2026/04/26/israel/seismic-shift-in-israeli-politics-as-opposition-leaders-lapid-and-bennett-form-joint-party"
+      },
+      {
+        "title": "מצע ביחד 2026, בנט ולפיד",
+        "outlet": "פולימטר",
+        "date": null,
+        "url": "https://polimeter.co.il/parties/beyahad"
+      },
+      {
+        "title": "בנט ביקש - אבל בן גביר קיבל את האות המיתולוגית: אלה הפתקים של כל המפלגות",
+        "outlet": "ynet",
+        "date": "2026-09-27",
+        "url": "https://www.ynet.co.il/news/elections2026/article/sjmed8uqgx"
+      },
+      {
+        "title": "תם הדד-ליין לחתימה על הסכמי עודפים: המפלגות שמצאו חיבור - ואלו שנותרו לבד",
+        "outlet": "ynet",
+        "date": "2026-10-16",
+        "url": "https://www.ynet.co.il/news/elections2026/article/hjextlj2gl"
+      },
+      {
+        "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+        "outlet": "ynet",
+        "date": "2026-10",
+        "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+      }
+    ]
+  },
+  {
+    "id": "yisrael_beiteinu",
+    "name": "ישראל ביתנו בראשות אביגדור ליברמן",
+    "short_name": "ישראל ביתנו",
+    "letters": "ל",
+    "leader": "אביגדור ליברמן",
+    "top10": [
+      "אביגדור ליברמן"
+    ],
+    "components": [],
+    "results_2022": "6 מושבים.",
+    "bloc_status": "opposition",
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": 1999,
+    "description": "מפלגה בראשות אביגדור ליברמן, שהייתה באופוזיציה בכנסת היוצאת. המפלגה מציעה חובת שירות לכל צעיר וצעירה בגיל 18, וליברמן הודיע שיקדם חוק שימנע מנאשם בפלילים לכהן כראש ממשלה.",
+    "sources": [
+      {
+        "title": "Lieberman eyes new elections without Netanyahu, vows to pass law barring indicted PMs",
+        "outlet": "ynetnews",
+        "date": null,
+        "url": "https://www.ynetnews.com/article/h1jtvqw3fl"
+      },
+      {
+        "title": "\"מחל\" ו\"שס\" הוותיקות, \"אמת\" ו\"די\" החדשות: הרשימות לבחירות",
+        "outlet": "וואלה",
+        "date": "2026-09-27",
+        "url": "https://www.walla.co.il/news/politics/383955473"
+      },
+      {
+        "title": "היום המועד האחרון: תמונת הסכמי העודפים לכנסת ה-26",
+        "outlet": "אמס",
+        "date": "2026-10-16",
+        "url": "https://www.emess.co.il/radio/1945293"
+      },
+      {
+        "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+        "outlet": "ynet",
+        "date": "2026-10",
+        "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+      }
+    ]
+  },
+  {
+    "id": "democrats",
+    "name": "הדמוקרטים בראשות יאיר גולן",
+    "short_name": "הדמוקרטים",
+    "letters": "אמת",
+    "leader": "יאיר גולן",
+    "top10": [
+      "יאיר גולן"
+    ],
+    "components": [
+      "העבודה",
+      "מרצ"
+    ],
+    "results_2022": "העבודה זכתה ב-4 מושבים. מרצ לא עברה את אחוז החסימה.",
+    "bloc_status": "opposition",
+    "website": null,
+    "platform_url": "https://democrats.org.il/wp-content/uploads/2026/04/vision0426.pdf",
+    "self_description": null,
+    "founded": 2024,
+    "description": "מפלגה שהוקמה ב-2024 מאיחוד מפלגת העבודה ומרצ, בראשות יאיר גולן. המפלגה מציגה כמטרה מרכזית חיזוק הדמוקרטיה ושלטון החוק, מתנגדת לסיפוח בגדה המערבית / ביהודה ושומרון, וקוראת לשלב מפלגות ערביות בקואליציה.",
+    "sources": [
+      {
+        "title": "Israel's political parties explained: The Democrats",
+        "outlet": "JNS",
+        "date": null,
+        "url": "https://www.jns.org/feature/israels-political-parties-explained-the-democrats"
+      },
+      {
+        "title": "הדמוקרטים – המכון הישראלי לדמוקרטיה",
+        "outlet": "המכון הישראלי לדמוקרטיה",
+        "date": null,
+        "url": "https://www.idi.org.il/policy/parties-and-elections/parties/democrats/"
+      },
+      {
+        "title": "איזנקוט סגר הסכם עודפים עם הדמוקרטים, ישראל ביתנו תחתום עם ביחד",
+        "outlet": "הארץ",
+        "date": "2026-09-10",
+        "url": "https://www.haaretz.co.il/news/elections/2026-09-10/ty-article/.premium/000001a0-8b93-d9dc-a9a9-8bd719110000"
+      },
+      {
+        "title": "נדחו הבקשות לפסול את עוצמה יהודית, הציונות הדתית-זהות והדמוקרטים",
+        "outlet": "ynet",
+        "date": "2026-09",
+        "url": "https://www.ynet.co.il/news/elections2026/article/hj3llhz9zx"
+      }
+    ]
+  },
+  {
+    "id": "shas",
+    "name": "ש\"ס",
+    "short_name": "ש\"ס",
+    "letters": "שס",
+    "leader": "אריה דרעי",
+    "top10": [],
+    "components": [],
+    "results_2022": "11 מושבים.",
+    "bloc_status": null,
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": 1984,
+    "description": "מפלגה חרדית-ספרדית בראשות אריה דרעי. ש\"ס תומכת בפטור משירות צבאי לתלמידי ישיבות, ודרעי הודיע שהמפלגה לא תצטרף לממשלה הבאה ולא תתמוך בה אם לא יחוקק חוק שיסדיר את מעמדם בעניין השירות.",
+    "sources": [
+      {
+        "title": "ש\"ס ויהדות התורה חתמו על הסכם עודפים",
+        "outlet": "הארץ",
+        "date": "2026-10-11",
+        "url": "https://www.haaretz.co.il/news/elections/2026-10-11/ty-article/000001a1-2ab0-d4fa-a5b9-efb40ed20000"
+      },
+      {
+        "title": "Shas, UTJ sign surplus-vote agreement ahead of election",
+        "outlet": "Times of Israel",
+        "date": "2026-10-11",
+        "url": "https://www.timesofisrael.com/liveblog_entry/shas-utj-sign-surplus-vote-agreement-ahead-of-election/"
+      },
+      {
+        "title": "Israel's political parties explained: Shas and United Torah Judaism",
+        "outlet": "JNS",
+        "date": null,
+        "url": "https://www.jns.org/feature/israels-political-parties-explained-shas-and-united-torah-judaism"
+      },
+      {
+        "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+        "outlet": "ynet",
+        "date": "2026-10",
+        "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+      }
+    ]
+  },
+  {
+    "id": "utj",
+    "name": "יהדות התורה",
+    "short_name": "יהדות התורה",
+    "letters": "ג",
+    "leader": "טרם אומת",
+    "top10": [],
+    "components": [
+      "דגל התורה",
+      "אגודת ישראל"
+    ],
+    "results_2022": "7 מושבים.",
+    "bloc_status": null,
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": 1992,
+    "description": "רשימה חרדית-אשכנזית של דגל התורה ואגודת ישראל. הרשימה תומכת בפטור משירות צבאי לתלמידי ישיבות ובשמירה על האוטונומיה של הציבור החרדי.",
+    "sources": [
+      {
+        "title": "ש\"ס ויהדות התורה חתמו על הסכם עודפים",
+        "outlet": "הארץ",
+        "date": "2026-10-11",
+        "url": "https://www.haaretz.co.il/news/elections/2026-10-11/ty-article/000001a1-2ab0-d4fa-a5b9-efb40ed20000"
+      },
+      {
+        "title": "Shas, UTJ sign surplus-vote agreement ahead of election",
+        "outlet": "Times of Israel",
+        "date": "2026-10-11",
+        "url": "https://www.timesofisrael.com/liveblog_entry/shas-utj-sign-surplus-vote-agreement-ahead-of-election/"
+      },
+      {
+        "title": "Israel's political parties explained: Shas and United Torah Judaism",
+        "outlet": "JNS",
+        "date": null,
+        "url": "https://www.jns.org/feature/israels-political-parties-explained-shas-and-united-torah-judaism"
+      },
+      {
+        "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+        "outlet": "ynet",
+        "date": "2026-10",
+        "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+      }
+    ]
+  },
+  {
+    "id": "otzma",
+    "name": "עוצמה יהודית בראשות איתמר בן גביר",
+    "short_name": "עוצמה יהודית",
+    "letters": "ב",
+    "leader": "איתמר בן גביר",
+    "top10": [
+      "איתמר בן גביר"
+    ],
+    "components": [],
+    "results_2022": "רצה ברשימה משותפת עם הציונות הדתית ונעם, שזכתה ב-14 מושבים.",
+    "bloc_status": "coalition",
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": 2012,
+    "description": "מפלגת ימין בראשות איתמר בן גביר, שכיהן כשר בממשלה היוצאת. המפלגה קידמה את החוק להטלת עונש מוות על מחבלים שאושר בכנסת במרץ 2026. בבחירות 2026 היא רצה בנפרד מהציונות הדתית ולא חתמה על הסכם עודפים.",
+    "sources": [
+      {
+        "title": "בנט ביקש - אבל בן גביר קיבל את האות המיתולוגית: אלה הפתקים של כל המפלגות",
+        "outlet": "ynet",
+        "date": "2026-09-27",
+        "url": "https://www.ynet.co.il/news/elections2026/article/sjmed8uqgx"
+      },
+      {
+        "title": "עוצמה יהודית – המכון הישראלי לדמוקרטיה",
+        "outlet": "המכון הישראלי לדמוקרטיה",
+        "date": null,
+        "url": "https://www.idi.org.il/policy/parties-and-elections/parties/otzma-yehudit/"
+      },
+      {
+        "title": "הליכוד והציונות הדתית חתמו על הסכם עודפים; עוצמה יהודית: נתניהו לא רוצה אותנו בממשלה",
+        "outlet": "הארץ",
+        "date": "2026-10-06",
+        "url": "https://www.haaretz.co.il/news/elections/2026-10-06/ty-article/000001a1-104d-d4b5-afff-b6cfa31b0000"
+      },
+      {
+        "title": "היום המועד האחרון: תמונת הסכמי העודפים לכנסת ה-26",
+        "outlet": "אמס",
+        "date": "2026-10-16",
+        "url": "https://www.emess.co.il/radio/1945293"
+      },
+      {
+        "title": "Death Penalty for Terrorists Law",
+        "outlet": "Wikipedia",
+        "date": null,
+        "url": "https://en.wikipedia.org/wiki/Death_Penalty_for_Terrorists_Law"
+      }
+    ]
+  },
+  {
+    "id": "rzp",
+    "name": "הציונות הדתית וזהות בראשות בצלאל סמוטריץ' ומשה פייגלין",
+    "short_name": "הציונות הדתית",
+    "letters": "ט",
+    "leader": "בצלאל סמוטריץ'",
+    "top10": [
+      "בצלאל סמוטריץ'"
+    ],
+    "components": [
+      "זהות"
+    ],
+    "results_2022": "רצה ברשימה משותפת עם עוצמה יהודית ונעם, שזכתה ב-14 מושבים.",
+    "bloc_status": "coalition",
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": null,
+    "description": "רשימה משותפת של מפלגת הציונות הדתית בראשות בצלאל סמוטריץ' ושל מפלגת זהות בראשות משה פייגלין. הציונות הדתית הייתה חלק מהקואליציה היוצאת ותמכה בהחלת ריבונות ישראלית ביהודה ושומרון, וזהות מציגה ביקורת על היקף סמכויותיה של מערכת המשפט.",
+    "sources": [
+      {
+        "title": "פורסמו האותיות שיופיעו על הפתקים בקלפי - זו הרשימה המלאה",
+        "outlet": "ערוץ כנסת",
+        "date": "2026-09-27",
+        "url": "https://www.knesset.tv/main-articles/61384/94770/"
+      },
+      {
+        "title": "הליכוד חתם הסכם עודפים עם הציונות הדתית וזהות - עוצמה יהודית תוקפת",
+        "outlet": "כיכר השבת",
+        "date": "2026-10-06",
+        "url": "https://www.kikar.co.il/political-news/likud-surplus-agreement-religious-zionism-identity"
+      },
+      {
+        "title": "Benjamin Netanyahu signs surplus vote deal with Bezalel Smotrich ahead of Knesset election",
+        "outlet": "Jerusalem Post",
+        "date": "2026-10-06",
+        "url": "https://www.jpost.com/israel-election-2026/article-910758"
+      }
+    ]
+  },
+  {
+    "id": "raam",
+    "name": "רע\"ם",
+    "short_name": "רע\"ם",
+    "letters": "עם",
+    "leader": "מנסור עבאס",
+    "top10": [
+      "מנסור עבאס"
+    ],
+    "components": [],
+    "results_2022": "5 מושבים.",
+    "bloc_status": "opposition",
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": 1996,
+    "description": "מפלגה ערבית בראשות מנסור עבאס, שב-2021 הייתה המפלגה הערבית הראשונה שהצטרפה לקואליציה. בקמפיין 2026 היא מציגה השתתפות בקואליציה כדרך להשיג תקציבים ולטפל בפשיעה בחברה הערבית, ותומכת בפתרון שתי מדינות.",
+    "sources": [
+      {
+        "title": "העליון הפך את החלטת ועדת הבחירות: רע\"מ, הרשימה המשותפת וכסיף יוכלו להתמודד",
+        "outlet": "ynet",
+        "date": "2026-10-02",
+        "url": "https://www.ynet.co.il/news/elections2026/article/hjw00hep9mx"
+      },
+      {
+        "title": "ועדת הבחירות פסלה את סאמי אבו שחאדה, עופר כסיף, רע\"מ והרשימה המשותפת מהתמודדות לכנסת",
+        "outlet": "הארץ",
+        "date": "2026-09-23",
+        "url": "https://www.haaretz.co.il/news/elections/2026-09-23/ty-article/000001a0-cc88-d52e-a7f4-fe8d624b0000"
+      },
+      {
+        "title": "Joint List and Ra'am sign surplus-vote deal ahead of Oct. 27 elections",
+        "outlet": "Times of Israel",
+        "date": "2026-09-12",
+        "url": "https://www.timesofisrael.com/liveblog_entry/joint-list-and-raam-sign-surplus-vote-deal-ahead-of-oct-27-elections/"
+      }
+    ]
+  },
+  {
+    "id": "joint",
+    "name": "הרשימה המשותפת",
+    "short_name": "הרשימה המשותפת",
+    "letters": "ודם",
+    "leader": "יוסף ג'בארין",
+    "top10": [
+      "יוסף ג'בארין",
+      "אחמד טיבי"
+    ],
+    "components": [
+      "חד\"ש",
+      "תע\"ל",
+      "בל\"ד"
+    ],
+    "results_2022": "חד\"ש-תע\"ל זכתה ב-5 מושבים. בל\"ד רצה לבדה ולא עברה את אחוז החסימה.",
+    "bloc_status": "opposition",
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": 2026,
+    "description": "רשימה משותפת של חד\"ש, תע\"ל ובל\"ד שסוכמה באוגוסט 2026, ובראשה יו\"ר חד\"ש יוסף ג'בארין ובמקום השני יו\"ר תע\"ל אחמד טיבי. הרשימה תומכת בפתרון שתי מדינות ומתנגדת להתנחלויות בגדה המערבית. ועדת הבחירות פסלה את הרשימה ובית המשפט העליון ביטל את הפסילה פה אחד ב-2 באוקטובר 2026.",
+    "sources": [
+      {
+        "title": "3 of 4 Arab-majority parties say they'll run together in election, invite Ra'am to join",
+        "outlet": "Times of Israel",
+        "date": "2026-08",
+        "url": "https://www.timesofisrael.com/liveblog_entry/3-of-4-arab-majority-parties-say-theyll-run-together-in-election-invite-raam-to-join/"
+      },
+      {
+        "title": "העליון הפך את החלטת ועדת הבחירות: רע\"מ, הרשימה המשותפת וכסיף יוכלו להתמודד",
+        "outlet": "ynet",
+        "date": "2026-10-02",
+        "url": "https://www.ynet.co.il/news/elections2026/article/hjw00hep9mx"
+      },
+      {
+        "title": "הסכם עודפים בין רע\"מ והמשותפת: \"הוסכם על קמפיין נקי בלי השמצות\"",
+        "outlet": "ynet",
+        "date": "2026-09",
+        "url": "https://www.ynet.co.il/news/elections2026/article/sku7exmfzx"
+      },
+      {
+        "title": "הרשימה המשותפת – רשימת מועמדים",
+        "outlet": "המכון הישראלי לדמוקרטיה",
+        "date": null,
+        "url": "https://www.idi.org.il/media/32320/הרשימה-המשותפת.pdf"
+      },
+      {
+        "title": "הבחירות לכנסת העשרים ושש",
+        "outlet": "ויקיפדיה",
+        "date": null,
+        "url": "https://he.wikipedia.org/wiki/%D7%94%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%9B%D7%A0%D7%A1%D7%AA_%D7%94%D7%A2%D7%A9%D7%A8%D7%99%D7%9D_%D7%95%D7%A9%D7%A9"
+      }
+    ]
+  },
+  {
+    "id": "reservists",
+    "name": "המילואימניקים והכלכלית בראשות יועז הנדל וירון זליכה",
+    "short_name": "המילואימניקים",
+    "letters": "די",
+    "leader": "יועז הנדל",
+    "top10": [
+      "יועז הנדל"
+    ],
+    "components": [
+      "המפלגה הכלכלית החדשה"
+    ],
+    "results_2022": "רשימה חדשה, לא התמודדה ב-2022.",
+    "bloc_status": "new",
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": null,
+    "description": "רשימה משותפת של מפלגת המילואימניקים בראשות יועז הנדל ושל המפלגה הכלכלית החדשה בראשות ירון זליכה. המפלגה קראה להקים ועדת חקירה ממלכתית לאירועי 7 באוקטובר בהסכמה רחבה, ומצהירה שהיא תומכת בשינויים במערכת המשפט ובחקיקת חוק יסוד: החקיקה.",
+    "sources": [
+      {
+        "title": "\"מחל\" ו\"שס\" הוותיקות, \"אמת\" ו\"די\" החדשות: הרשימות לבחירות",
+        "outlet": "וואלה",
+        "date": "2026-09-27",
+        "url": "https://www.walla.co.il/news/politics/383955473"
+      },
+      {
+        "title": "המילואימניקים והכלכלית – רשימת מועמדים",
+        "outlet": "המכון הישראלי לדמוקרטיה",
+        "date": null,
+        "url": "https://www.idi.org.il/media/32315/המילואימניקים-והכלכלית.pdf"
+      },
+      {
+        "title": "הנדל: וינטר סירב להסכם עודפים תמורת תמיכה בקואליציה ציוניות",
+        "outlet": "mako",
+        "date": "2026-10",
+        "url": "https://www.mako.co.il/news-israel-elections/2026/Article-21fc14d1d9341a1027.htm"
+      },
+      {
+        "title": "איזנקוט נחלש, גוש נתניהו חוזר להוביל; הנדל מתחת לאחוז החסימה",
+        "outlet": "חדשות 13",
+        "date": null,
+        "url": "https://13tv.co.il/item/news/politics/politics/survey-905376242/"
+      },
+      {
+        "title": "הנדל: כנסו שיחות לגיבוש ועדת חקירה ממלכתית בהסכמה",
+        "outlet": "וואלה",
+        "date": null,
+        "url": "https://news.walla.co.il/item/3787487"
+      },
+      {
+        "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+        "outlet": "ynet",
+        "date": "2026-10",
+        "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+      }
+    ]
+  },
+  {
+    "id": "amcha",
+    "name": "עמך ישראל בראשות עופר וינטר",
+    "short_name": "עמך ישראל",
+    "letters": "ך",
+    "leader": "עופר וינטר",
+    "top10": [
+      "עופר וינטר"
+    ],
+    "components": [],
+    "results_2022": "רשימה חדשה, לא התמודדה ב-2022.",
+    "bloc_status": "new",
+    "website": null,
+    "platform_url": null,
+    "self_description": null,
+    "founded": 2026,
+    "description": "מפלגת ימין חדשה שהקים באוגוסט 2026 תא\"ל (מיל') עופר וינטר, ובה אנשי מילואים ובני משפחות שכולות. וינטר הודיע שהמפלגה תמליץ על נתניהו לראשות הממשלה; המפלגה מתנגדת להקמת מדינה פלסטינית ומציעה ועדה לחקירת אירועי 7 באוקטובר שבראשה שופטים בדימוס שייבחרו בכנסת.",
+    "sources": [
+      {
+        "title": "Israel's parties explained: Amcha Yisrael",
+        "outlet": "JNS",
+        "date": null,
+        "url": "https://www.jns.org/feature/israels-parties-explained-amcha-yisrael"
+      },
+      {
+        "title": "'There is no Palestinian nation,' Ofer Winter says as party dips in polls",
+        "outlet": "Jewish Insider",
+        "date": "2026-10",
+        "url": "https://jewishinsider.com/2026/10/amcha-yisrael-leader-ofer-winter-israeli-elections/"
+      },
+      {
+        "title": "Ofer Winter calls for Gaza resettlement, rejects Oct. 7 state commission: 'We'll back Netanyahu for PM'",
+        "outlet": "ynetnews",
+        "date": null,
+        "url": "https://www.ynetnews.com/article/skvxeuysml"
+      },
+      {
+        "title": "עמך ישראל – המכון הישראלי לדמוקרטיה",
+        "outlet": "המכון הישראלי לדמוקרטיה",
+        "date": null,
+        "url": "https://www.idi.org.il/policy/parties-and-elections/parties/amcha-yisrael/"
+      },
+      {
+        "title": "הסכמי העודפים בימין: מכה קשה לעופר וינטר",
+        "outlet": "סרוגים",
+        "date": "2026-10",
+        "url": "https://www.srugim.co.il/101010739-%D7%94%D7%A1%D7%9B%D7%9E%D7%99-%D7%94%D7%A2%D7%95%D7%93%D7%A4%D7%99%D7%9D-%D7%91%D7%99%D7%9E%D7%99%D7%9F-%D7%9E%D7%9B%D7%94-%D7%A7%D7%A9%D7%94-%D7%9C%D7%A2%D7%95%D7%A4%D7%A8-%D7%95%D7%99%D7%A0%D7%98%D7%A8"
+      }
+    ]
+  }
+]

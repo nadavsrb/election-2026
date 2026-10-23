@@ -1,0 +1,41 @@
+---
+import { STANCE_LABELS, CONFIDENCE_LABELS, type Stance, type Confidence } from '../lib/scoring';
+
+interface Props {
+  stance: Stance | null | undefined;
+  confidence?: Confidence;
+  compact?: boolean;
+}
+const { stance, confidence, compact = false } = Astro.props;
+// Cells run from "strongly for" (start side) to "strongly against".
+const cells: Stance[] = [2, 1, 0, -1, -2];
+const label = stance === null || stance === undefined ? 'אין עמדה ידועה' : STANCE_LABELS[stance];
+---
+<span class:list={['stance', { compact }]}>
+  <span class="stance-cells" aria-hidden="true">
+    {cells.map((c) => <span class:list={['cell', { on: c === stance }]} />)}
+  </span>
+  <span class="stance-label">
+    {label}
+    {stance !== null && stance !== undefined && confidence && !compact && (
+      <span class="stance-conf">{CONFIDENCE_LABELS[confidence]}</span>
+    )}
+  </span>
+</span>
+
+<style>
+  .stance { display: inline-flex; align-items: center; gap: 0.6rem; }
+  .stance-cells { display: inline-flex; gap: 3px; }
+  .cell {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 2px;
+    background: var(--color-sunken);
+    box-shadow: inset 0 0 0 1px var(--color-line);
+  }
+  .cell.on { background: var(--color-accent); box-shadow: none; }
+  .stance-label { font-weight: 600; font-size: 0.95rem; display: inline-flex; flex-wrap: wrap; gap: 0 0.5rem; align-items: baseline; }
+  .stance-conf { font-weight: 400; font-size: 0.82rem; color: var(--color-ink-soft); }
+  .compact .cell { width: 0.65rem; height: 0.65rem; }
+  .compact .stance-label { font-size: 0.88rem; }
+</style>

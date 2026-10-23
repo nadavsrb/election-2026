@@ -1,0 +1,158 @@
+---
+import Base from '../../layouts/Base.astro';
+import Slip from '../../components/Slip.astro';
+import StanceScale from '../../components/StanceScale.astro';
+import SourceList from '../../components/SourceList.astro';
+import { parties, positionOf, statementsOfTopic, topics, type Party } from '../../lib/data';
+import { ISSUES_URL, url } from '../../lib/site';
+
+export function getStaticPaths() {
+  return parties.map((party) => ({ params: { id: party.id }, props: { party } }));
+}
+
+const { party } = Astro.props as { party: Party };
+const BLOC: Record<string, string> = {
+  coalition: 'בקואליציה היוצאת',
+  opposition: 'באופוזיציה היוצאת',
+  new: 'רשימה חדשה',
+};
+const facts = [
+  { label: 'בראש הרשימה', value: party.leader },
+  party.components.length ? { label: 'מרכיבי הרשימה', value: party.components.join(', ') } : null,
+  party.results_2022 ? { label: 'בבחירות 2022', value: party.results_2022 } : null,
+  party.bloc_status && BLOC[party.bloc_status] ? { label: 'מעמד בכנסת היוצאת', value: BLOC[party.bloc_status] } : null,
+  party.founded ? { label: 'שנת הקמה', value: String(party.founded) } : null,
+].filter(Boolean) as { label: string; value: string }[];
+
+const reportUrl = `${ISSUES_URL}?title=${encodeURIComponent(`תיקון: ${party.name}`)}`;
+---
+<Base title={party.name} description={`${party.name} בבחירות לכנסת ה-26: מי בראש, מי ברשימה ומה העמדות בנושאים שעל הפרק, עם מקורות.`}>
+  <section class="profile-head">
+    <div class="wrap profile-grid">
+      <Slip letters={party.letters} name={party.short_name} leader={party.leader} size="lg" class="profile-slip" />
+      <div>
+        <p class="crumb"><a href={url('parties/')}>המפלגות</a></p>
+        <h1 class="profile-title">{party.short_name}</h1>
+        {party.name !== party.short_name && <p class="ballot-name">בפתק: {party.name}</p>}
+        <p class="profile-desc">{party.description}</p>
+        <dl class="facts">
+          {facts.map((f) => (
+            <div>
+              <dt>{f.label}</dt>
+              <dd>{f.value}</dd>
+            </div>
+          ))}
+        </dl>
+        <div class="profile-links">
+          {party.website && <a class="btn btn-quiet" href={party.website} target="_blank" rel="noopener">האתר של הרשימה</a>}
+          {party.platform_url && <a class="btn btn-quiet" href={party.platform_url} target="_blank" rel="noopener">המצע</a>}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap-narrow py-10">
+    {party.self_description?.quote && (
+      <section class="self" aria-labelledby="self-title">
+        <h2 id="self-title" class="h2">במילים שלהם</h2>
+        <blockquote>
+          <p>{party.self_description.quote}</p>
+        </blockquote>
+        {party.self_description.source && <SourceList sources={[party.self_description.source]} label="מקור" />}
+      </section>
+    )}
+
+    {party.top10.length >= 3 && (
+      <section class="mt-10" aria-labelledby="top-title">
+        <h2 id="top-title" class="h2">המועמדים הראשונים ברשימה</h2>
+        <ol class="top10">
+          {party.top10.map((name) => <li>{name}</li>)}
+        </ol>
+      </section>
+    )}
+
+    <section class="mt-12" aria-labelledby="pos-title">
+      <h2 id="pos-title" class="h2">העמדות לפי נושא</h2>
+      <p class="note">
+        לכל טענה מהשאלון: מה עמדת הרשימה, על מה היא מבוססת ומאיפה המידע. "הערכה" פירושה שלא מצאנו עמדה מפורשת,
+        והעמדה נגזרה מהצבעות ומהצהרות קרובות.
+      </p>
+      {topics.map((t) => (
+        <div class="topic-block">
+          <h3 class="h3"><a href={url(`issues/${t.id}/`)}>{t.title}</a></h3>
+          <ul class="pos-list">
+            {statementsOfTopic(t.id).map((s) => {
+              const pos = positionOf(party.id, s.id);
+              return (
+                <li class="pos">
+                  <p class="pos-text">{s.text}</p>
+                  <StanceScale stance={pos?.stance} confidence={pos?.confidence} />
+                  {pos && pos.stance !== null && <p class="pos-basis">{pos.basis}</p>}
+                  {pos && pos.stance !== null && <SourceList sources={pos.sources} />}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ))}
+    </section>
+
+    {party.sources.length > 0 && (
+      <section class="mt-10">
+        <SourceList sources={party.sources} label="מקורות לפרופיל" />
+      </section>
+    )}
+
+    <p class="report">
+      משהו כאן לא מדויק? <a href={reportUrl} target="_blank" rel="noopener">דווחו לנו</a> ונבדוק.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .profile-head { background: var(--color-sunken); border-bottom: 1px solid var(--color-line); }
+  .profile-grid {
+    display: grid;
+    gap: 2rem;
+    padding-block: 2.5rem;
+    align-items: center;
+  }
+  @media (min-width: 760px) {
+    .profile-grid { grid-template-columns: auto 1fr; gap: 3rem; padding-block: 3.5rem; }
+  }
+  .profile-grid :global(.profile-slip) { margin-inline: auto; }
+  .crumb { font-size: 0.95rem; }
+  .crumb a { color: var(--color-ink-soft); }
+  .profile-title { font-size: clamp(2rem, 7vw, 3rem); font-weight: 900; margin-top: 0.3rem; }
+  .ballot-name { margin-top: 0.3rem; color: var(--color-ink-soft); font-weight: 500; }
+  .profile-desc { margin-top: 0.8rem; font-size: 1.1rem; max-width: 60ch; }
+  .facts { display: grid; gap: 0.6rem 2rem; margin-top: 1.5rem; }
+  @media (min-width: 560px) { .facts { grid-template-columns: 1fr 1fr; } }
+  .facts dt { font-size: 0.85rem; color: var(--color-ink-soft); }
+  .facts dd { font-weight: 600; }
+  .profile-links { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.5rem; }
+
+  .h2 { font-size: clamp(1.5rem, 5vw, 1.9rem); font-weight: 900; }
+  .h3 { font-size: 1.3rem; margin-top: 2rem; }
+  .h3 a { color: var(--color-ink); text-decoration-color: var(--color-line); }
+  .note { margin-top: 0.5rem; color: var(--color-ink-soft); font-size: 0.95rem; }
+
+  .self blockquote {
+    margin-top: 0.8rem;
+    padding: 1rem 1.25rem;
+    border-inline-start: 4px solid var(--color-accent);
+    background: var(--color-surface);
+    border-radius: 0 var(--radius-panel) var(--radius-panel) 0;
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .top10 { list-style: decimal; padding-inline-start: 1.6rem; margin-top: 0.8rem; columns: 2; column-gap: 2rem; }
+  .top10 li { padding-block: 0.2rem; break-inside: avoid; }
+
+  .pos-list { margin-top: 0.5rem; }
+  .pos { padding-block: 1rem; border-top: 1px solid var(--color-line); }
+  .pos-text { font-weight: 600; margin-bottom: 0.5rem; }
+  .pos-basis { margin-top: 0.5rem; font-size: 0.95rem; color: var(--color-ink-soft); }
+  .report { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--color-line); color: var(--color-ink-soft); }
+</style>

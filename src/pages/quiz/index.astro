@@ -1,11 +1,18 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Quiz from '../../components/quiz/Quiz';
+import '../../styles/quiz.css';
 import { url } from '../../lib/site';
 ---
-<Base title="השאלון">
-  <section class="wrap-narrow py-20">
-    <h1 class="text-4xl font-black">השאלון</h1>
-    <p class="mt-4 text-[var(--color-ink-soft)]">העמוד הזה בבנייה ויעלה בשעות הקרובות.</p>
-    <a class="btn btn-primary mt-8" href={url()}>לדף הבית</a>
-  </section>
+<Base
+  title="השאלון"
+  description="שאלון קצר על הנושאים שעל סדר היום, שמראה אילו רשימות קרובות לעמדות שלכם, עם מקור לכל עמדה. בלי הרשמה ובלי מעקב."
+  bare
+>
+  <Quiz client:load dataUrl={url('data/quiz.json')} baseUrl={url()} />
+  <noscript>
+    <div class="wrap-narrow py-10">
+      <p>השאלון דורש JavaScript. אפשר לקרוא את עמדות הרשימות גם בלעדיו, בעמוד <a href={url('parties/')}>המפלגות</a>.</p>
+    </div>
+  </noscript>
 </Base>

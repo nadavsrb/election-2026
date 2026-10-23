@@ -1,11 +1,19 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Compare from '../../components/compare/Compare';
+import '../../styles/compare.css';
 import { url } from '../../lib/site';
 ---
-<Base title="השוואה">
-  <section class="wrap-narrow py-20">
-    <h1 class="text-4xl font-black">השוואה</h1>
-    <p class="mt-4 text-[var(--color-ink-soft)]">העמוד הזה בבנייה ויעלה בשעות הקרובות.</p>
-    <a class="btn btn-primary mt-8" href={url()}>לדף הבית</a>
+<Base
+  title="השוואה בין רשימות"
+  description="השוואה של עד שלוש רשימות זו לצד זו, בכל הטענות שבשאלון, עם מקור לכל עמדה."
+>
+  <section class="wrap-narrow pt-10 pb-14">
+    <h1 class="text-[clamp(2.2rem,8vw,3.2rem)] font-black">השוואה בין רשימות</h1>
+    <p class="mt-3 text-lg text-[var(--color-ink-soft)]">
+      בחרו עד שלוש רשימות וראו את העמדות שלהן בכל הטענות שבשאלון, זו לצד זו. לחצו על "על מה זה מבוסס" כדי לראות את
+      המקור.
+    </p>
+    <Compare client:load dataUrl={url('data/quiz.json')} baseUrl={url()} />
   </section>
 </Base>

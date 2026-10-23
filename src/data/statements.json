@@ -1,28 +1,248 @@
 [
-  { "id": "draft_haredi_sanctions", "order": 1, "quick": true, "topic": "draft", "text": "יש לחייב צעירים חרדים בשירות צבאי או אזרחי, ולהטיל סנקציות כלכליות על מי שלא משרת.", "axis": { "rel": -1 } },
-  { "id": "sec_gaza_control", "order": 2, "quick": true, "topic": "security", "text": "ישראל צריכה להשאיר כוחות צבא ברצועת עזה לטווח ארוך, גם אחרי פירוק חמאס מנשקו.", "axis": { "dip": 1 } },
-  { "id": "eco_welfare_taxes", "order": 3, "quick": true, "topic": "economy", "text": "המדינה צריכה להגדיל את ההשקעה בבריאות, חינוך ורווחה, גם אם זה יחייב העלאת מסים.", "axis": {} },
-  { "id": "jud_selection_politicians", "order": 4, "quick": true, "topic": "judiciary", "text": "לנציגי הממשלה והכנסת צריך להיות רוב בוועדה לבחירת שופטים.", "axis": { "gov": 1 } },
-  { "id": "rel_shabbat_transport", "order": 5, "quick": true, "topic": "religion", "text": "יש להפעיל תחבורה ציבורית בשבת.", "axis": { "rel": -1 } },
-  { "id": "pal_state", "order": 6, "quick": true, "topic": "palestinians", "text": "ישראל צריכה להסכים להקמת מדינה פלסטינית מפורזת במסגרת הסכם.", "axis": { "dip": -1 } },
-  { "id": "inq_state_commission", "order": 7, "quick": true, "topic": "inquiry", "text": "יש להקים ועדת חקירה ממלכתית לאירועי 7 באוקטובר, שחבריה ימונו על ידי נשיא בית המשפט העליון, כקבוע בחוק.", "axis": { "gov": -1 } },
-  { "id": "arab_coalition", "order": 8, "quick": true, "topic": "arab_society", "text": "מפלגה ערבית יכולה להיות שותפה בקואליציה הבאה.", "axis": {} },
-  { "id": "rel_civil_marriage", "order": 9, "quick": true, "topic": "religion", "text": "יש לאפשר בישראל נישואים אזרחיים, לצד נישואים דתיים.", "axis": { "rel": -1 } },
-  { "id": "pal_annexation", "order": 10, "quick": true, "topic": "palestinians", "text": "ישראל צריכה להחיל ריבונות (סיפוח) על שטחים ביהודה ושומרון.", "axis": { "dip": 1 } },
-  { "id": "soc_death_penalty", "order": 11, "quick": true, "topic": "society", "text": "יש להשאיר בתוקף את חוק עונש המוות למחבלים שאושר בכנסת במרץ 2026.", "axis": { "dip": 1 } },
-  { "id": "gov_netanyahu", "order": 12, "quick": true, "topic": "governance", "text": "בנימין נתניהו צריך להמשיך לכהן כראש הממשלה אחרי הבחירות.", "axis": {} },
-  { "id": "eco_imports", "order": 13, "quick": false, "topic": "economy", "text": "יש להסיר חסמי יבוא ומכסים כדי להוריד מחירים, גם אם זה יפגע ביצרנים ובחקלאים מקומיים.", "axis": {} },
-  { "id": "sec_gaza_settle", "order": 14, "quick": false, "topic": "security", "text": "יש לחדש את ההתיישבות היהודית ברצועת עזה.", "axis": { "dip": 1 } },
-  { "id": "draft_yeshiva_exemption", "order": 15, "quick": false, "topic": "draft", "text": "צעירים שלומדים תורה בישיבה במשרה מלאה צריכים להמשיך לקבל פטור משירות צבאי.", "axis": { "rel": 1 } },
-  { "id": "jud_override", "order": 16, "quick": false, "topic": "judiciary", "text": "יש להגביל את סמכות בית המשפט העליון לפסול חוקים שחוקקה הכנסת.", "axis": { "gov": 1 } },
-  { "id": "arab_shin_bet", "order": 17, "quick": false, "topic": "arab_society", "text": "יש להפעיל את השב\"כ במאבק בפשיעה בחברה הערבית.", "axis": {} },
-  { "id": "rel_core_studies", "order": 18, "quick": false, "topic": "religion", "text": "מוסדות חינוך שלא מלמדים לימודי ליבה (כמו מתמטיקה ואנגלית) לא צריכים לקבל מימון מהמדינה.", "axis": { "rel": -1 } },
-  { "id": "gov_term_limits", "order": 19, "quick": false, "topic": "governance", "text": "יש להגביל את כהונת ראש הממשלה לשתי קדנציות.", "axis": { "gov": -1 } },
-  { "id": "sec_pa_gaza", "order": 20, "quick": false, "topic": "security", "text": "לרשות הפלסטינית צריך להיות תפקיד בניהול רצועת עזה.", "axis": { "dip": -1 } },
-  { "id": "draft_arab_service", "order": 21, "quick": false, "topic": "draft", "text": "יש לחייב גם צעירים ערבים בשירות אזרחי.", "axis": {} },
-  { "id": "jud_ag_split", "order": 22, "quick": false, "topic": "judiciary", "text": "יש לפצל את תפקיד היועץ המשפטי לממשלה ולאפשר לשרים למנות יועצים משפטיים מטעמם.", "axis": { "gov": 1 } },
-  { "id": "soc_same_sex", "order": 23, "quick": false, "topic": "society", "text": "המדינה צריכה להכיר בנישואים או בברית זוגיות של בני זוג מאותו המין.", "axis": { "rel": -1 } },
-  { "id": "arab_nation_law", "order": 24, "quick": false, "topic": "arab_society", "text": "יש לתקן את חוק הלאום כך שיכלול את עקרון השוויון לכל האזרחים.", "axis": {} },
-  { "id": "gov_kan", "order": 25, "quick": false, "topic": "society", "text": "יש לסגור או להפריט את תאגיד השידור הציבורי 'כאן'.", "axis": { "gov": 1 } },
-  { "id": "gov_indicted_pm", "order": 26, "quick": false, "topic": "governance", "text": "מי שמואשם בפלילים לא צריך להיות רשאי לכהן כראש ממשלה.", "axis": { "gov": -1 } }
+  {
+    "id": "draft_haredi_sanctions",
+    "order": 1,
+    "quick": true,
+    "topic": "draft",
+    "text": "יש להטיל סנקציות כלכליות, כמו שלילת הטבות והנחות, על צעירים חרדים שלא משרתים בצבא או בשירות אזרחי.",
+    "axis": {
+      "rel": -1
+    }
+  },
+  {
+    "id": "sec_gaza_control",
+    "order": 2,
+    "quick": true,
+    "topic": "security",
+    "text": "גם אחרי פירוק חמאס מנשקו, צה\"ל צריך להמשיך להחזיק בשטחים נרחבים ברצועת עזה, ולא להסתפק ברצועת ביטחון לאורך הגבול.",
+    "axis": {
+      "dip": 1
+    }
+  },
+  {
+    "id": "eco_welfare_taxes",
+    "order": 3,
+    "quick": true,
+    "topic": "economy",
+    "text": "המדינה צריכה להגדיל את ההשקעה בבריאות, חינוך ורווחה, גם במחיר העלאת מסים על בעלי הכנסות גבוהות ועל חברות גדולות.",
+    "axis": {}
+  },
+  {
+    "id": "jud_selection_politicians",
+    "order": 4,
+    "quick": true,
+    "topic": "judiciary",
+    "text": "לנציגי הממשלה והכנסת צריך להיות רוב בוועדה לבחירת שופטים.",
+    "axis": {
+      "gov": 1
+    }
+  },
+  {
+    "id": "rel_shabbat_transport",
+    "order": 5,
+    "quick": true,
+    "topic": "religion",
+    "text": "יש להפעיל תחבורה ציבורית בשבת בערים וביישובים שמבקשים זאת.",
+    "axis": {
+      "rel": -1
+    }
+  },
+  {
+    "id": "pal_state",
+    "order": 6,
+    "quick": true,
+    "topic": "palestinians",
+    "text": "ישראל צריכה להסכים להקמת מדינה פלסטינית מפורזת במסגרת הסכם.",
+    "axis": {
+      "dip": -1
+    }
+  },
+  {
+    "id": "inq_state_commission",
+    "order": 7,
+    "quick": true,
+    "topic": "inquiry",
+    "text": "יש להקים ועדת חקירה ממלכתית לאירועי 7 באוקטובר, שחבריה ימונו על ידי נשיא בית המשפט העליון, כקבוע בחוק.",
+    "axis": {
+      "gov": -1
+    }
+  },
+  {
+    "id": "arab_coalition",
+    "order": 8,
+    "quick": true,
+    "topic": "arab_society",
+    "text": "הממשלה הבאה יכולה לכלול מפלגה ערבית, או להישען על תמיכתה מבחוץ.",
+    "axis": {}
+  },
+  {
+    "id": "rel_civil_marriage",
+    "order": 9,
+    "quick": true,
+    "topic": "religion",
+    "text": "יש לאפשר בישראל נישואים וגירושים אזרחיים, לצד נישואים דתיים.",
+    "axis": {
+      "rel": -1
+    }
+  },
+  {
+    "id": "pal_annexation",
+    "order": 10,
+    "quick": true,
+    "topic": "palestinians",
+    "text": "ישראל צריכה להחיל ריבונות (סיפוח) על שטחים ביהודה ושומרון / בגדה המערבית כבר בקדנציה הבאה, גם בלי הסכם.",
+    "axis": {
+      "dip": 1
+    }
+  },
+  {
+    "id": "soc_death_penalty",
+    "order": 11,
+    "quick": true,
+    "topic": "society",
+    "text": "יש להשאיר בתוקף את חוק עונש המוות למחבלים שאושר בכנסת במרץ 2026.",
+    "axis": {
+      "dip": 1
+    }
+  },
+  {
+    "id": "gov_netanyahu",
+    "order": 12,
+    "quick": true,
+    "topic": "governance",
+    "text": "בנימין נתניהו צריך להמשיך לכהן כראש הממשלה אחרי הבחירות.",
+    "axis": {}
+  },
+  {
+    "id": "eco_imports",
+    "order": 13,
+    "quick": false,
+    "topic": "economy",
+    "text": "יש לבטל מכסים ומכסות על יבוא מזון ותוצרת חקלאית כדי להוריד מחירים, גם אם זה יפגע בחקלאים מקומיים.",
+    "axis": {}
+  },
+  {
+    "id": "sec_gaza_settle",
+    "order": 14,
+    "quick": false,
+    "topic": "security",
+    "text": "יש לחדש את ההתיישבות היהודית ברצועת עזה.",
+    "axis": {
+      "dip": 1
+    }
+  },
+  {
+    "id": "draft_yeshiva_exemption",
+    "order": 15,
+    "quick": false,
+    "topic": "draft",
+    "text": "צעירים שלומדים תורה בישיבה במשרה מלאה צריכים לקבל פטור משירות צבאי, בלי הגבלה על מספרם.",
+    "axis": {
+      "rel": 1
+    }
+  },
+  {
+    "id": "jud_override",
+    "order": 16,
+    "quick": false,
+    "topic": "judiciary",
+    "text": "יש להגביל את סמכות בית המשפט העליון לפסול חוקים שחוקקה הכנסת.",
+    "axis": {
+      "gov": 1
+    }
+  },
+  {
+    "id": "arab_shin_bet",
+    "order": 17,
+    "quick": false,
+    "topic": "arab_society",
+    "text": "יש להרחיב את סמכויות השב\"כ כך שיפעל באופן קבוע נגד ארגוני הפשיעה בחברה הערבית.",
+    "axis": {}
+  },
+  {
+    "id": "rel_core_studies",
+    "order": 18,
+    "quick": false,
+    "topic": "religion",
+    "text": "יש להתנות את מימון המדינה למוסדות חינוך בכך שילמדו לימודי ליבה, כמו מתמטיקה ואנגלית.",
+    "axis": {
+      "rel": -1
+    }
+  },
+  {
+    "id": "gov_term_limits",
+    "order": 19,
+    "quick": false,
+    "topic": "governance",
+    "text": "יש להגביל את כהונת ראש הממשלה לשתי קדנציות.",
+    "axis": {
+      "gov": -1
+    }
+  },
+  {
+    "id": "sec_pa_gaza",
+    "order": 20,
+    "quick": false,
+    "topic": "security",
+    "text": "אחרי שתעבור רפורמות, לרשות הפלסטינית צריך להיות תפקיד בניהול האזרחי של רצועת עזה.",
+    "axis": {
+      "dip": -1
+    }
+  },
+  {
+    "id": "draft_arab_service",
+    "order": 21,
+    "quick": false,
+    "topic": "draft",
+    "text": "יש לחייב צעירים ערבים בשירות אזרחי (לא צבאי), למשל בבריאות, בחינוך או בקהילה.",
+    "axis": {}
+  },
+  {
+    "id": "jud_ag_split",
+    "order": 22,
+    "quick": false,
+    "topic": "judiciary",
+    "text": "יש לפצל את תפקיד היועץ המשפטי לממשלה ולאפשר לשרים למנות יועצים משפטיים מטעמם.",
+    "axis": {
+      "gov": 1
+    }
+  },
+  {
+    "id": "soc_same_sex",
+    "order": 23,
+    "quick": false,
+    "topic": "society",
+    "text": "יש לאפשר בישראל נישואים אזרחיים או ברית זוגיות גם לבני זוג מאותו המין.",
+    "axis": {
+      "rel": -1
+    }
+  },
+  {
+    "id": "arab_nation_law",
+    "order": 24,
+    "quick": false,
+    "topic": "arab_society",
+    "text": "יש לעגן בחוק יסוד את עקרון השוויון לכל האזרחים, בתיקון לחוק הלאום או בחוק יסוד נפרד.",
+    "axis": {}
+  },
+  {
+    "id": "gov_kan",
+    "order": 25,
+    "quick": false,
+    "topic": "society",
+    "text": "יש להמשיך לממן את תאגיד השידור הציבורי 'כאן' ולשמור על עצמאותו.",
+    "axis": {
+      "gov": -1
+    }
+  },
+  {
+    "id": "gov_indicted_pm",
+    "order": 26,
+    "quick": false,
+    "topic": "governance",
+    "text": "מי שמואשם בפלילים לא צריך להיות רשאי לכהן כראש ממשלה.",
+    "axis": {
+      "gov": -1
+    }
+  }
 ]
