@@ -4,6 +4,7 @@ import {
   CONFIDENCE_LABELS,
   STANCE_LABELS,
   encodeAnswers,
+  sourceLabel,
   scoreParties,
   statementsFor,
   type Answers,
@@ -25,7 +26,7 @@ interface Props {
 }
 
 // A list is ranked only when its known positions cover enough of the visitor's answers.
-const MIN_SHARE = 1 / 3;
+const MIN_SHARE = 0.3;
 const MIN_USED = 4;
 const ranks = (r: PartyResult) => r.score !== null && r.used >= Math.max(MIN_USED, Math.ceil(r.answered * MIN_SHARE));
 
@@ -63,28 +64,14 @@ export default function Results({ data, answers, mode, baseUrl, onRestart, onCon
         </p>
       </header>
 
-      {top.length > 0 && (
-        <ol class="r-podium wrap-narrow" aria-label="שלוש הרשימות הקרובות ביותר">
-          {top.map((r, i) => (
-            <li style={`--i:${i}`}>
-              <a class="slip r-podium-slip" href={`#party-${r.party.id}`}>
-                <span class="slip-letters">{r.party.letters}</span>
-                <span class="slip-name">{r.party.short_name}</span>
-              </a>
-              <span class="r-podium-score">{pct(r.score)}</span>
-            </li>
-          ))}
-        </ol>
-      )}
-
       <section class="wrap-narrow r-section" aria-labelledby="r-all">
-        <h2 id="r-all" class="r-h2">כל הרשימות</h2>
+        <h2 id="r-all" class="sr-only">כל הרשימות לפי אחוז ההתאמה</h2>
         <p class="r-note">
           לחצו על רשימה כדי לראות, טענה אחר טענה, מה עניתם ומה עמדתה. כשהאחוזים שווים, הסדר אקראי.
         </p>
-        <ol class="r-list">
-          {ranked.map((r) => (
-            <PartyRow key={r.party.id} result={r} baseUrl={baseUrl} />
+        <ol class="r-list r-reveal">
+          {ranked.map((r, i) => (
+            <PartyRow key={r.party.id} result={r} baseUrl={baseUrl} index={i} />
           ))}
         </ol>
         {thin.length > 0 && (
@@ -145,13 +132,23 @@ function pct(score: number | null) {
   return score === null ? 'אין נתונים' : `${Math.round(score * 100)}%`;
 }
 
-function PartyRow({ result, baseUrl, unranked = false }: { result: PartyResult; baseUrl: string; unranked?: boolean }) {
+function PartyRow({
+  result,
+  baseUrl,
+  unranked = false,
+  index = 0,
+}: {
+  result: PartyResult;
+  baseUrl: string;
+  unranked?: boolean;
+  index?: number;
+}) {
   const [open, setOpen] = useState(false);
   const { party, score, used, answered } = result;
   const width = score === null || unranked ? 0 : Math.max(2, Math.round(score * 100));
   const panelId = `r-panel-${party.id}`;
   return (
-    <li class="r-row" id={`party-${party.id}`}>
+    <li class="r-row" id={`party-${party.id}`} style={`--i:${Math.min(index, 12)}`}>
       <button
         type="button"
         class="r-row-head"
@@ -234,7 +231,7 @@ function BreakdownItem({ row }: { row: StatementRow }) {
             {position.sources.map((s) => (
               <li key={s.url}>
                 <a class="source-link" href={s.url} target="_blank" rel="noopener noreferrer">
-                  {[s.outlet, s.title, s.date].filter(Boolean).join(', ')}
+                  {sourceLabel(s)}
                 </a>
               </li>
             ))}

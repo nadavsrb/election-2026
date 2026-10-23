@@ -3,6 +3,7 @@ import {
   CONFIDENCE_LABELS,
   STANCE_LABELS,
   indexPositions,
+  sourceLabel,
   type QuizData,
   type QuizPosition,
   type Stance,
@@ -62,7 +63,7 @@ export default function Compare({ dataUrl, baseUrl }: Props) {
   return (
     <div class="c-wrap">
       <fieldset class="c-picker">
-        <legend>בחרו עד {MAX} רשימות ({selected.length} נבחרו)</legend>
+        <legend>בחרו עד {MAX} רשימות. נבחרו: {selected.length}</legend>
         <div class="c-chips">
           {parties.map((p) => {
             const on = selected.includes(p.id);
@@ -150,7 +151,7 @@ function Cell({ name, pos }: { name: string; pos: QuizPosition | undefined }) {
                 {pos!.sources.map((src) => (
                   <li key={src.url}>
                     <a class="source-link" href={src.url} target="_blank" rel="noopener noreferrer">
-                      {[src.outlet, src.title, src.date].filter(Boolean).join(', ')}
+                      {sourceLabel(src)}
                     </a>
                   </li>
                 ))}

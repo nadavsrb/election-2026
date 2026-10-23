@@ -48,7 +48,7 @@ export default function AxesMap({ data, answers }: Props) {
     y: userAxisValue(data.statements, answers, ay),
   };
 
-  const parties = data.parties.map((p) => ({
+  const parties = [...data.parties].sort((a, b) => a.short_name.localeCompare(b.short_name, 'he')).map((p) => ({
     party: p,
     x: partyAxisValue(data, index, p.id, ax),
     y: partyAxisValue(data, index, p.id, ay),

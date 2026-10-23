@@ -1,4 +1,6 @@
 ---
+import { sourceLabel } from '../lib/scoring';
+
 interface Source {
   title: string;
   outlet?: string | null;
@@ -18,7 +20,7 @@ const { sources, label = 'מקורות' } = Astro.props;
       {sources.map((s) => (
         <li>
           <a class="source-link" href={s.url} target="_blank" rel="noopener noreferrer">
-            {[s.outlet, s.title, s.date].filter(Boolean).join(', ')}
+            {sourceLabel(s)}
           </a>
         </li>
       ))}

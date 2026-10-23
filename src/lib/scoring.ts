@@ -64,7 +64,7 @@ export type Mode = 'quick' | 'full';
 export const ANSWER_LABELS: Record<Stance, string> = {
   2: 'בעד מאוד',
   1: 'בעד',
-  0: 'ניטרלי',
+  0: 'באמצע',
   [-1]: 'נגד',
   [-2]: 'נגד מאוד',
 } as Record<Stance, string>;
@@ -88,7 +88,7 @@ export const AXES: Record<AxisKey, { title: string; low: string; high: string }>
   rel: { title: 'דת ומדינה', low: 'פחות מקום לדת במרחב הציבורי', high: 'יותר מקום לדת במרחב הציבורי' },
   gov: {
     title: 'משפט וממשל',
-    low: 'חיזוק הבלמים ומערכת המשפט',
+    low: 'חיזוק מערכת המשפט והייעוץ המשפטי',
     high: 'חיזוק הממשלה והכנסת מול מערכת המשפט',
   },
 };
@@ -261,4 +261,22 @@ export function seededShuffle<T>(items: T[], seed: number): T[] {
     [out[i], out[j]] = [out[j], out[i]];
   }
   return out;
+}
+
+const HEB_MONTHS = ['ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני', 'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'];
+
+/** "2026-10-22" → "22.10.2026", "2026-10" → "אוקטובר 2026", "2026" → "2026". */
+export function formatSourceDate(date?: string | null): string {
+  if (!date) return '';
+  const m = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/.exec(date);
+  if (!m) return '';
+  const [, y, mo, d] = m;
+  if (d) return `${Number(d)}.${Number(mo)}.${y}`;
+  if (mo) return `${HEB_MONTHS[Number(mo) - 1] ?? ''} ${y}`.trim();
+  return y;
+}
+
+/** "outlet, title, date" with empty parts left out. */
+export function sourceLabel(src: { outlet?: string | null; title: string; date?: string | null }): string {
+  return [src.outlet, src.title, formatSourceDate(src.date)].filter(Boolean).join(', ');
 }

@@ -18,7 +18,7 @@ interface Props {
 }
 
 const { title, description = SITE_DESCRIPTION, bare = false } = Astro.props;
-const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | בחירות 2026: למי להצביע?`;
+const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | בחירות 2026: אילו רשימות קרובות לעמדות שלכם?`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(url('og.png'), Astro.site);
 ---
