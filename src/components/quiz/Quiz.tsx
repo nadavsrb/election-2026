@@ -179,7 +179,7 @@ export default function Quiz({ dataUrl, baseUrl }: Props) {
     const fullCount = statementsFor(data, 'full').length;
     return (
       <div class="q-shell q-intro">
-        <h1 class="q-title">השאלון</h1>
+        <h2 class="q-title">השאלון</h2>
         <p class="q-lead">
           לכל טענה בחרו עד כמה אתם בעד או נגד. אפשר לדלג על טענה, ולסמן טענות שחשובות לכם במיוחד: הן ייספרו
           פעמיים. בסוף תראו את אחוז ההתאמה לכל רשימה ואת הפירוט, טענה אחר טענה.

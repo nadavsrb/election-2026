@@ -9,6 +9,7 @@ import { url } from '../../lib/site';
   description="שאלון קצר על הנושאים שעל סדר היום, שמראה אילו רשימות קרובות לעמדות שלכם, עם מקור לכל עמדה. בלי הרשמה ובלי מעקב."
   bare
 >
+  <h1 class="sr-only">השאלון</h1>
   <Quiz client:load dataUrl={url('data/quiz.json')} baseUrl={url()} />
   <noscript>
     <div class="wrap-narrow py-10">

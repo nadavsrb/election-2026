@@ -164,11 +164,13 @@ export default function AxesMap({ data, answers }: Props) {
         </figcaption>
       </figure>
 
-      {active && (
-        <p class="map-active" role="status">
-          {data.parties.find((p) => p.id === active)?.name}
-        </p>
-      )}
+      <p class={`map-active${active ? ' on' : ''}`} role="status">
+        {active
+          ? data.parties.find((p) => p.id === active)?.name
+          : labels.length < placed.length + (userPoint ? 1 : 0)
+            ? 'כשנקודות קרובות מדי, חלק מהשמות מוסתרים. לחצו על נקודה כדי לראות את שם הרשימה.'
+            : ''}
+      </p>
 
       <details class="map-table">
         <summary>להציג כטבלה</summary>
@@ -184,15 +186,15 @@ export default function AxesMap({ data, answers }: Props) {
             {userPoint && (
               <tr class="you">
                 <th scope="row">אתם</th>
-                <td class="num">{fmt(user.x)}</td>
-                <td class="num">{fmt(user.y)}</td>
+                <td class="num"><span dir="ltr">{fmt(user.x)}</span></td>
+                <td class="num"><span dir="ltr">{fmt(user.y)}</span></td>
               </tr>
             )}
             {parties.map((p) => (
               <tr key={p.party.id}>
                 <th scope="row">{p.party.name}</th>
-                <td class="num">{fmt(p.x)}</td>
-                <td class="num">{fmt(p.y)}</td>
+                <td class="num"><span dir="ltr">{fmt(p.x)}</span></td>
+                <td class="num"><span dir="ltr">{fmt(p.y)}</span></td>
               </tr>
             ))}
           </tbody>
@@ -241,35 +243,41 @@ interface Label extends Point {
   ly: number;
 }
 
-/** Greedy label placement: try above, below, then sideways; skip positions that collide. */
+/**
+ * Greedy label placement around each dot. A label that cannot be placed without
+ * overlapping is left out; that dot stays reachable by tap and in the table view.
+ */
 function placeLabels(points: Point[]): Label[] {
-  const boxes: { x1: number; x2: number; y1: number; y2: number }[] = [];
+  const boxes: { x1: number; x2: number; y1: number; y2: number }[] = points.map((p) => ({
+    x1: p.x - 6,
+    x2: p.x + 6,
+    y1: p.y - 6,
+    y2: p.y + 6,
+  }));
   const out: Label[] = [];
   const width = (s: string) => s.length * FONT * 0.56 + 4;
   for (const p of points) {
     const w = width(p.label);
-    const candidates = [
+    const candidates: [number, number][] = [
       [p.x, p.y - 10],
-      [p.x, p.y + 18],
-      [p.x + w / 2 + 8, p.y + 4],
-      [p.x - w / 2 - 8, p.y + 4],
-      [p.x, p.y - 22],
-      [p.x, p.y + 30],
+      [p.x, p.y + 19],
+      [p.x + w / 2 + 9, p.y + 4],
+      [p.x - w / 2 - 9, p.y + 4],
+      [p.x + w / 2 + 5, p.y - 9],
+      [p.x - w / 2 - 5, p.y - 9],
+      [p.x + w / 2 + 5, p.y + 17],
+      [p.x - w / 2 - 5, p.y + 17],
     ];
-    let chosen = candidates[0];
     for (const [cx, cy] of candidates) {
       const box = { x1: cx - w / 2, x2: cx + w / 2, y1: cy - FONT, y2: cy + 2 };
       const inside = box.x1 >= 2 && box.x2 <= W - 2 && box.y1 >= PAD.top - 4 && box.y2 <= H - 30;
       const hit = boxes.some((b) => box.x1 < b.x2 && box.x2 > b.x1 && box.y1 < b.y2 && box.y2 > b.y1);
       if (inside && !hit) {
-        chosen = [cx, cy];
+        boxes.push(box);
+        out.push({ ...p, lx: cx, ly: cy });
         break;
       }
     }
-    const [lx, ly] = chosen;
-    const clampedX = clamp(lx, w / 2 + 2, W - w / 2 - 2);
-    boxes.push({ x1: clampedX - w / 2, x2: clampedX + w / 2, y1: ly - FONT, y2: ly + 2 });
-    out.push({ ...p, lx: clampedX, ly });
   }
   return out;
 }

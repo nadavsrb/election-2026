@@ -88,7 +88,7 @@ export default function Compare({ dataUrl, baseUrl }: Props) {
         <p class="c-msg">בחרו רשימות כדי לראות את העמדות שלהן זו לצד זו.</p>
       ) : (
         <div class="c-table" style={`--cols:${chosen.length}`}>
-          <div class="c-head" aria-hidden="true">
+          <div class="c-head">
             {chosen.map((p) => (
               <a class="c-head-cell" href={`${baseUrl}parties/${p.id}/`}>
                 <span class="slip c-head-slip">

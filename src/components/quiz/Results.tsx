@@ -40,7 +40,7 @@ export default function Results({ data, answers, mode, baseUrl, onRestart, onCon
   if (answered === 0) {
     return (
       <div class="q-shell">
-        <h1 class="q-title">לא נבחרה אף תשובה</h1>
+        <h2 class="q-title">לא נבחרה אף תשובה</h2>
         <p class="q-lead">דילגתם על כל הטענות, ולכן אין על מה לחשב התאמה.</p>
         <button type="button" class="btn btn-primary" onClick={onRestart}>
           להתחיל מחדש
@@ -52,7 +52,7 @@ export default function Results({ data, answers, mode, baseUrl, onRestart, onCon
   return (
     <div class="r-shell">
       <header class="r-head wrap-narrow">
-        <h1 class="q-title">הרשימות הקרובות לעמדות שלכם</h1>
+        <h2 class="q-title">הרשימות הקרובות לעמדות שלכם</h2>
         <p class="q-lead">
           לפי {answered} תשובות
           {importantCount > 0 ? `, מתוכן ${importantCount} שסימנתם כחשובות במיוחד` : ''}. זו לא המלצה: ההתאמה
