@@ -29,10 +29,23 @@
  {
   "party": "yashar",
   "statement": "sec_gaza_control",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "ב-15.10.2026 התחייב גדי איזנקוט שבתוך 18 חודשים חמאס לא ישלוט ברצועה, ואמר שממשלתו תיישם את מתווה טראמפ, הקובע נסיגה של צה\"ל בשלבים לפי פירוק חמאס מנשקו, תוך שמירה על מעורבות כוחות הביטחון הישראליים ופירוז הרצועה. לא מצאנו התייחסות ישירה שלו להיקף השטח שצה\"ל יחזיק אחרי הפירוק, והעמדה נגזרת מתמיכתו במתווה.",
+  "sources": [
+   {
+    "title": "איזנקוט מתחייב, 17 שנה אחרי הבטחת נתניהו: \"נמוטט את שלטון חמאס תוך 18 חודשים\"",
+    "outlet": "ynet",
+    "date": "2026-10-15",
+    "url": "https://www.ynet.co.il/news/elections2026/article/hymzpwrife"
+   },
+   {
+    "title": "איזנקוט מתחייב: \"תוך 18 חודשים - חמאס לא ישלוט יותר ברצועה\"",
+    "outlet": "ישראל היום",
+    "date": "2026-10-15",
+    "url": "https://www.israelhayom.co.il/news/politics/article/21631159"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -254,10 +267,17 @@
  {
   "party": "yashar",
   "statement": "sec_gaza_settle",
-  "stance": null,
+  "stance": -1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "בינואר 2024, כשכיהן כשר מטעם המחנה הממלכתי, מתח גדי איזנקוט ביקורת על השרים וחברי הכנסת שהשתתפו בכנס בירושלים שקרא לחדש את ההתיישבות ברצועה, ואמר שהמשתתפים לא למדו דבר מאירועי השנה ושהכנס מעמיק את הפילוג בזמן מלחמה. לא מצאנו התייחסות שלו לנושא מאז, והעמדה נגזרת מביקורת זו.",
+  "sources": [
+   {
+    "title": "Israeli ministers join gathering calling for resettlement of Gaza",
+    "outlet": "Al Jazeera",
+    "date": "2024-01-29",
+    "url": "https://www.aljazeera.com/news/2024/1/29/israeli-ministers-join-gathering-calling-for-rebuilding-settlements-in-gaza"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -324,10 +344,17 @@
  {
   "party": "yashar",
   "statement": "rel_core_studies",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "ענבר הרוש גיטי ממפלגת ישר! אמרה בראיון ל-JNS (2026) שהמפלגה מציעה להפחית ל-25% מהעלות את המימון הממשלתי לבתי ספר חרדיים עצמאיים, ולממן במלואם בתי ספר חרדיים שמלמדים את מקצועות הליבה, כמו אנגלית, מתמטיקה ועברית.",
+  "sources": [
+   {
+    "title": "Yashar party’s Harush Gity identifies the issue of Haredi military service as a top priority",
+    "outlet": "The American Israelite (JNS)",
+    "date": "2026",
+    "url": "https://americanisraelite.com/yashar-partys-harush-gity-identifies-the-issue-of-haredi-military-service-as-a-top-priority/"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -529,10 +556,29 @@
  {
   "party": "likud",
   "statement": "eco_welfare_taxes",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "בישיבת הממשלה שאישרה את תקציב 2026 (סוף 2025) אמר נתניהו שהממשלה מורידה את מס ההכנסה, ובמצע הכלכלי של הליכוד לבחירות 2022 הובטחה הפחתת שיעורי מס ההכנסה. לא מצאנו התייחסות של הליכוד למיסוי בעלי הכנסות גבוהות או חברות גדולות.",
+  "sources": [
+   {
+    "title": "זה סופי: הממשלה אישרה את תקציב המדינה לשנת 2026",
+    "outlet": "מעריב",
+    "date": "2025",
+    "url": "https://www.maariv.co.il/economy/israel/article-1259168"
+   },
+   {
+    "title": "הממשלה אישרה את תקציב המדינה לשנת 2026",
+    "outlet": "ישראל היום",
+    "date": "2025",
+    "url": "https://www.israelhayom.co.il/business/article/19394189"
+   },
+   {
+    "title": "Netanyahu presents Likud economic platform",
+    "outlet": "Globes",
+    "date": "2022",
+    "url": "https://en.globes.co.il/en/article-netanyahu-presents-likud-economic-platform-1001420337"
+   }
+  ]
  },
  {
   "party": "likud",
@@ -639,15 +685,21 @@
  {
   "party": "likud",
   "statement": "arab_coalition",
-  "stance": -1,
-  "confidence": "low",
-  "basis": "קמפיין הליכוד לבחירות 2026 מציג את האפשרות שיריביו, ובהם איזנקוט, יישענו על המפלגות הערביות כנקודת תורפה שלהם (2026), וממשלת נתניהו המכהנת מאז 2022 אינה כוללת מפלגה ערבית. לא מצאנו התחייבות מצע מפורשת.",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "לפי סוכנות הידיעות AP (16.10.2026), מחנה נתניהו שלל קואליציה עם כל מפלגה בהובלה ערבית, גם אם המשמעות תהיה קיפאון פוליטי ובחירות נוספות. קמפיין הליכוד מציג את האפשרות שיריביו יישענו על המפלגות הערביות כנקודת תורפה שלהם.",
   "sources": [
    {
     "title": "מול הקמפיין שנועד להביך: כך הפתיע איזנקוט את נתניהו",
     "outlet": "mako / N12",
     "date": "2026",
     "url": "https://www.mako.co.il/news-n12_magazine/2026_q3/Article-7035128293d8f91027.htm"
+   },
+   {
+    "title": "Arab-led parties could decide the Israeli election if anyone would partner with them",
+    "outlet": "PBS News (AP)",
+    "date": "2026-10-16",
+    "url": "https://www.pbs.org/newshour/world/arab-led-parties-could-decide-the-israeli-election-if-anyone-would-partner-with-them"
    }
   ]
  },
@@ -737,18 +789,50 @@
  {
   "party": "likud",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "במצע הכלכלי של הליכוד לבחירות 2022 הובטחו הורדת מכסים ופתיחת המשק ליבוא, ובדיון הממשלה על תקציב 2026 (סוף 2025) הביע נתניהו תמיכה ברפורמת החלב של שר האוצר, שכללה פתיחת השוק ליבוא. מנגד, לאחר מחאת הרפתנים הורה נתניהו להוציא את הרפורמה מחוק ההסדרים.",
+  "sources": [
+   {
+    "title": "מהפכת החלב של סמוטריץ' ונתניהו: \"זה בדיוק מה שקורה עם תנובה ושטראוס\"",
+    "outlet": "מעריב",
+    "date": "2025",
+    "url": "https://www.maariv.co.il/economy/israel/article-1255177"
+   },
+   {
+    "title": "ניצחון לרפתנים על סמוטריץ': רפורמת החלב תוצא מחוק ההסדרים",
+    "outlet": "ynet",
+    "date": null,
+    "url": "https://www.ynet.co.il/economy/article/skxgok6fzl"
+   },
+   {
+    "title": "Netanyahu presents Likud economic platform",
+    "outlet": "Globes",
+    "date": "2022",
+    "url": "https://en.globes.co.il/en/article-netanyahu-presents-likud-economic-platform-1001420337"
+   }
+  ]
  },
  {
   "party": "likud",
   "statement": "sec_gaza_settle",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "בנימין נתניהו אמר במאי 2024 ל-CNN שהתיישבות מחדש ברצועה מעולם לא עמדה על הפרק, ולפי אל-ג'זירה (יולי 2026) הוא ממשיך לעמוד על כך שהרצועה לא תיושב מחדש. מנגד, ביולי 2026 השתתפו שרים, ובהם שר התקשורת שלמה קרעי מהליכוד, בצעדה לגבול הרצועה בדרישה לחדש בה את ההתיישבות, ולפי אותו דיווח הליכוד נמנה עם נותני החסות לצעדה.",
+  "sources": [
+   {
+    "title": "Netanyahu says he has no plans for Israeli settlements in Gaza",
+    "outlet": "IANS",
+    "date": "2024-05-22",
+    "url": "https://ianslive.in/netanyahu-says-he-has-no-plans-for-israeli-settlements-in-gaza--20240522060821"
+   },
+   {
+    "title": "Israeli ministers join march to Gaza to demand return of settlements",
+    "outlet": "Al Jazeera",
+    "date": "2026-07-19",
+    "url": "https://www.aljazeera.com/news/2026/7/19/israeli-ministers-join-march-to-gaza-to-demand-return-of-settlements"
+   }
+  ]
  },
  {
   "party": "likud",
@@ -822,10 +906,17 @@
  {
   "party": "likud",
   "statement": "rel_core_studies",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "בספטמבר 2022, לקראת הבחירות לכנסת ה-25, תיווך נתניהו בהסכם בין סיעות יהדות התורה שלפיו ממשלה בראשותו תממן מוסדות חינוך חרדיים גם אם אינם מלמדים את לימודי הליבה. לא מצאנו התייחסות של הליכוד לנושא מ-2026.",
+  "sources": [
+   {
+    "title": "Netanyahu-brokered deal would fund Haredi schools that shun secular subjects",
+    "outlet": "The Times of Israel",
+    "date": "2022-09",
+    "url": "https://www.timesofisrael.com/netanyahu-brokered-deal-would-fund-haredi-schools-that-shun-secular-subjects/"
+   }
+  ]
  },
  {
   "party": "likud",
@@ -1199,10 +1290,23 @@
  {
   "party": "together",
   "statement": "soc_death_penalty",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "high",
+  "basis": "סיעת יש עתיד, השותפה ברשימה, הצביעה נגד החוק בקריאה השנייה והשלישית ב-30.3.2026, ויאיר לפיד (מס' 2 ברשימה) הודיע במליאה על התנגדותו. לא מצאנו התייחסות של נפתלי בנט, העומד בראש הרשימה, לחוק.",
+  "sources": [
+   {
+    "title": "Knesset passes death penalty law for Palestinians convicted of deadly acts of terror",
+    "outlet": "The Times of Israel",
+    "date": "2026-03-30",
+    "url": "https://www.timesofisrael.com/knesset-passes-death-penalty-law-for-palestinians-convicted-of-deadly-acts-of-terror/"
+   },
+   {
+    "title": "Death Penalty for Terrorists Law",
+    "outlet": "Wikipedia (English)",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Death_Penalty_for_Terrorists_Law"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1266,10 +1370,23 @@
  {
   "party": "together",
   "statement": "jud_override",
-  "stance": null,
+  "stance": 0,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "ב-2018 קידם נפתלי בנט, העומד היום בראש \"ביחד\", הצעת חוק לפסקת התגברות שתאפשר לכנסת לחוקק מחדש ברוב של 61 חברי כנסת חוק שבג\"ץ פסל. מנגד, באוקטובר 2026 התחייב בנט לבטל את חוקי השינויים במערכת המשפט שחוקקו בכנסת היוצאת. לא מצאנו התייחסות עדכנית של הרשימה לפסקת התגברות.",
+  "sources": [
+   {
+    "title": "Bennett to bring override power bill to a vote in Ministerial Committee",
+    "outlet": "Ynetnews",
+    "date": "2018-04",
+    "url": "https://www.ynetnews.com/article/5237496"
+   },
+   {
+    "title": "Bennett Vows to Repeal All Judicial Overhaul Laws Following Haaretz Report",
+    "outlet": "Haaretz",
+    "date": "2026-10-21",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-10-21/ty-article/.premium/bennett-vows-to-repeal-all-judicial-overhaul-laws-following-haaretz-report/000001a1-5f61-d05a-abe9-7f7935bf0000"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1337,10 +1454,23 @@
  {
   "party": "together",
   "statement": "sec_pa_gaza",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "יאיר לפיד, יו\"ר יש עתיד המתמודדת ברשימה, הציע בפברואר 2025 שמצרים תנהל את הרצועה עד 15 שנה, ושבתקופה זו הרשות הפלסטינית תעבור רפורמות כדי שתוכל לקבל לידיה את השליטה בעזה. לא מצאנו התייחסות של נפתלי בנט, העומד בראש הרשימה, לתפקיד הרשות ברצועה, והעמדה נגזרת מתוכנית לפיד.",
+  "sources": [
+   {
+    "title": "Lapid presents Gaza ‘day after’ plan in DC, urges extended Egyptian takeover",
+    "outlet": "The Times of Israel",
+    "date": "2025-02",
+    "url": "https://www.timesofisrael.com/lapid-presents-gaza-day-after-plan-in-dc-urges-extended-egyptian-takeover/"
+   },
+   {
+    "title": "Lapid's post-war plan leaves Egypt in charge of Gaza for 15 years",
+    "outlet": "The Jerusalem Post",
+    "date": "2025-02",
+    "url": "https://jpost.com/israel-news/article-843712"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1450,10 +1580,23 @@
  {
   "party": "together",
   "statement": "gov_indicted_pm",
-  "stance": null,
+  "stance": 0,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "יאיר לפיד, יו\"ר יש עתיד ומס' 2 ברשימה, יזם ב-2020 הצעת חוק שתמנע מחבר כנסת שהוגש נגדו כתב אישום להרכיב ממשלה, והיא נדחתה בקריאה טרומית. מנגד, לפי חדשות 13 (2026) נפתלי בנט, העומד בראש הרשימה, מסתייג מהתוכנית לחוקק את \"חוק הנאשם\" מיד עם השבעת הכנסת.",
+  "sources": [
+   {
+    "title": "Bill to prevent indicted MK from forming government fails in Knesset",
+    "outlet": "Ynetnews",
+    "date": "2020-11",
+    "url": "https://www.ynetnews.com/article/Sk3EHrZGD"
+   },
+   {
+    "title": "ברקע מחלוקת על מועמד: התוכנית של גוש השינוי לתפקיד יו\"ר הכנסת",
+    "outlet": "חדשות 13",
+    "date": "2026",
+    "url": "https://13tv.co.il/item/news/politics/politics/elections-905414478/"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1473,10 +1616,23 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "sec_gaza_control",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "בתוכנית רשמית שפרסם ב-2026 קבע אביגדור ליברמן שצה\"ל יחסל את חמאס לחלוטין, ושלאחר מכן השליטה ברצועה תועבר לגורם חיצוני שיישא באחריות לניהולה. לא מצאנו התייחסות ישירה להיקף השטח שצה\"ל יחזיק ברצועה, והעמדה נגזרת מתוכנית זו.",
+  "sources": [
+   {
+    "title": "ליברמן הציג תוכנית רשמית: ירדן תנהל את חיי הפלסטינים ביו\"ש",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/r1ni0tjofx"
+   },
+   {
+    "title": "אחרי הביקורת: ליברמן מפרסם תוכנית לעתיד יהודה ושומרון",
+    "outlet": "מעריב",
+    "date": "2026",
+    "url": "https://www.maariv.co.il/news/politics/article-1373385"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1496,10 +1652,23 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "jud_selection_politicians",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "לאחר אישור החוק ב-27.3.2025, בהצבעה שממנה יצאו חברי האופוזיציה, הודיע יו\"ר ישראל ביתנו אביגדור ליברמן בהצהרה משותפת עם ראשי מפלגות אופוזיציה נוספות שהחוק יבוטל בממשלה הבאה.",
+  "sources": [
+   {
+    "title": "Knesset passes controversial judicial reform, alters selection committee",
+    "outlet": "i24NEWS",
+    "date": "2025-03-27",
+    "url": "https://i24news.tv/en/news/israel/politics/artc-knesset-passes-controversial-judicial-reform-alters-selection-committee"
+   },
+   {
+    "title": "Knesset votes to reform Judicial Selection Committee",
+    "outlet": "JNS",
+    "date": "2025-03-27",
+    "url": "https://www.jns.org/knesset-votes-to-reform-judicial-selection-committee/"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1711,10 +1880,17 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "sec_gaza_settle",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "בינואר 2024, אחרי כנס בירושלים שקרא לחדש את ההתיישבות ברצועה, אמר אביגדור ליברמן בישיבת סיעת ישראל ביתנו שהוא מתנגד להתיישבות יהודית בעזה, ושיש להתמקד בשיקום העוטף והגליל.",
+  "sources": [
+   {
+    "title": "כתבה",
+    "outlet": "וואלה",
+    "date": "2024-01",
+    "url": "https://news.walla.co.il/item/3639828"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1784,9 +1960,9 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "gov_term_limits",
-  "stance": 1,
-  "confidence": "low",
-  "basis": "לא מצאנו הצהרה מפורשת של ישראל ביתנו בנושא בקמפיין 2026; העמדה נגזרת מכך שבכנסת ה-24 (בין 2021 ל-2022) הייתה המפלגה, בראשות ליברמן, חלק מהקואליציה שהעבירה בקריאה ראשונה את הצעת החוק להגבלת כהונת ראש הממשלה לשמונה שנים (66 תומכים מול 48).",
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "בנובמבר 2021 הייתה ישראל ביתנו, בראשות אביגדור ליברמן, חלק מהקואליציה שהעבירה בקריאה ראשונה, ברוב של 66 מול 48, את הצעת החוק להגבלת כהונת ראש הממשלה לשמונה שנים. הדיווחים אינם מפרטים את הצבעת חברי הכנסת של המפלגה, ולא מצאנו התייחסות שלה לנושא בקמפיין 2026.",
   "sources": [
    {
     "title": "66 תומכים, 48 מתנגדים: חוק הגבלת כהונה עבר בקריאה ראשונה",
@@ -1799,10 +1975,23 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "sec_pa_gaza",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "בתוכנית רשמית שפרסם ב-2026 קבע אביגדור ליברמן שהיעד של ישראל ביהודה ושומרון / הגדה המערבית ובעזה הוא פירוק הרשות הפלסטינית וביטול הסכמי אוסלו, ושאחרי חיסול חמאס השליטה ברצועה תועבר לגורם חיצוני.",
+  "sources": [
+   {
+    "title": "אחרי הביקורת: ליברמן מפרסם תוכנית לעתיד יהודה ושומרון",
+    "outlet": "מעריב",
+    "date": "2026",
+    "url": "https://www.maariv.co.il/news/politics/article-1373385"
+   },
+   {
+    "title": "ליברמן הציג תוכנית רשמית: ירדן תנהל את חיי הפלסטינים ביו\"ש",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/r1ni0tjofx"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1857,10 +2046,23 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "arab_nation_law",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "high",
+  "basis": "ב-2020 הצביעו חברי הכנסת של ישראל ביתנו בעד הצעת החוק של כחול לבן לעגן את הזכות לשוויון בחוק יסוד: כבוד האדם וחירותו. בכנסת היוצאת יזם ח\"כ חמד עמאר מהמפלגה הצעה לתיקון חוק הלאום שתוסיף לו את עקרון השוויון לכל האזרחים, ולא מצאנו תיעוד של הצבעה עליה.",
+  "sources": [
+   {
+    "title": "פרסום ראשון: הצעת תיקון לחוק הלאום תוגש בכנסת",
+    "outlet": "מעריב",
+    "date": null,
+    "url": "https://www.maariv.co.il/news/politics/article-1147326"
+   },
+   {
+    "title": "\"חוק השוויון\" של כחול לבן עבר בהצבעה טרומית; סער לא הצביע - והותקף",
+    "outlet": "מעריב",
+    "date": "2020",
+    "url": "https://www.maariv.co.il/news/politics/Article-807433"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1903,10 +2105,17 @@
  {
   "party": "democrats",
   "statement": "sec_gaza_control",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "במרץ 2025 אמר יאיר גולן בריאיון ל-Chatham House שישראל לא צריכה לספח מיליוני פלסטינים, ומתח ביקורת על כך שממשלת נתניהו החלישה את הרשות הפלסטינית. לא מצאנו התייחסות ישירה שלו להחזקת שטחים ברצועה אחרי פירוק חמאס, והעמדה נגזרת מדבריו אלה.",
+  "sources": [
+   {
+    "title": "Yair Golan: ‘Israel must not annex millions of Palestinians’",
+    "outlet": "Chatham House",
+    "date": "2025-03",
+    "url": "https://www.chathamhouse.org/publications/the-world-today/2025-03/yair-golan-israel-must-not-annex-millions-palestinians"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -2127,18 +2336,38 @@
  {
   "party": "democrats",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון גלובס (אוקטובר 2026) התחייבו הדמוקרטים להסיר חסמים בפני יבוא מתחרה ולבטל הסכמי בלעדיות של יבואנים גדולים. לגבי מוצרים חקלאיים הבטיחו \"יבוא אחראי\" לצד תמיכה בחקלאים המקומיים ושמירה על ביטחון המזון.",
+  "sources": [
+   {
+    "title": "הדמוקרטים: בנוגע ליוקר המחיה, גולן מוכן ללכת נגד הגוש",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560541"
+   },
+   {
+    "title": "אנחנו שאלנו, המפלגות ענו: מה תעשו כדי להקל על יוקר המחיה?",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560369"
+   }
+  ]
  },
  {
   "party": "democrats",
   "statement": "sec_gaza_settle",
-  "stance": null,
+  "stance": -1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "במרץ 2025 אמר יאיר גולן בריאיון ל-Chatham House שישראל לא צריכה לספח מיליוני פלסטינים. לא מצאנו התייחסות ישירה שלו להתיישבות ברצועת עזה, והעמדה נגזרת מדבריו אלה.",
+  "sources": [
+   {
+    "title": "Yair Golan: ‘Israel must not annex millions of Palestinians’",
+    "outlet": "Chatham House",
+    "date": "2025-03",
+    "url": "https://www.chathamhouse.org/publications/the-world-today/2025-03/yair-golan-israel-must-not-annex-millions-palestinians"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -2179,10 +2408,17 @@
  {
   "party": "democrats",
   "statement": "arab_shin_bet",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "תוכנית החירום נגד הפשיעה בחברה הערבית שהציג יאיר גולן ב-2026 כוללת כוח משימה לאומי שיגייס אנשי מקצוע מהמשטרה, מהשב\"כ, מצה\"ל ומשירות בתי הסוהר. העמדה נגזרת מהתוכנית, שאינה עוסקת בהרחבת סמכויות השב\"כ בחוק.",
+  "sources": [
+   {
+    "title": "יאיר גולן משיק תוכנית של מיליארד שקל - ומסמן את התיק שידרוש בממשלה הבאה",
+    "outlet": "מעריב",
+    "date": "2026",
+    "url": "https://www.maariv.co.il/news/politics/article-1354527"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -2217,10 +2453,17 @@
  {
   "party": "democrats",
   "statement": "sec_pa_gaza",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "במרץ 2025 אמר יאיר גולן בריאיון ל-Chatham House שממשלת נתניהו החלישה את הרשות הפלסטינית משנה לשנה וחיזקה את חמאס, ושישראל לא צריכה לספח מיליוני פלסטינים. לא מצאנו התייחסות ישירה לתפקיד הרשות בניהול האזרחי של עזה, והעמדה נגזרת מכך.",
+  "sources": [
+   {
+    "title": "Yair Golan: ‘Israel must not annex millions of Palestinians’",
+    "outlet": "Chatham House",
+    "date": "2025-03",
+    "url": "https://www.chathamhouse.org/publications/the-world-today/2025-03/yair-golan-israel-must-not-annex-millions-palestinians"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -2699,10 +2942,23 @@
  {
   "party": "shas",
   "statement": "arab_nation_law",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "high",
+  "basis": "ב-2020 הצביעו חברי הכנסת של ש\"ס נגד הצעת החוק של כחול לבן לעגן את הזכות לשוויון בחוק יסוד: כבוד האדם וחירותו, שאושרה בקריאה טרומית. בכנסת היוצאת דחתה הקואליציה, שש\"ס הייתה חלק ממנה, הצעה לתקן את חוק הלאום כך שיעגן שוויון זכויות לכל האזרחים.",
+  "sources": [
+   {
+    "title": "\"חוק השוויון\" של כחול לבן עבר בהצבעה טרומית; סער לא הצביע - והותקף",
+    "outlet": "מעריב",
+    "date": "2020",
+    "url": "https://www.maariv.co.il/news/politics/Article-807433"
+   },
+   {
+    "title": "זועמים ומאוכזבים: בשל ההתפתחות האחרונה - הדרוזים מסמנים את הצעד הבא",
+    "outlet": "מעריב",
+    "date": null,
+    "url": "https://www.maariv.co.il/news/politics/article-1160876"
+   }
+  ]
  },
  {
   "party": "shas",
@@ -2936,18 +3192,32 @@
  {
   "party": "utj",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "בסוף 2025 הודיעו ביהדות התורה, בהובלת ח\"כ משה גפני, שהם תומכים ברפתנים ומתנגדים לרפורמה בענף החלב שכללה פתיחת השוק ליבוא, ודרשו להוציא אותה מחוק ההסדרים בטענה שתחליש את הייצור המקומי ותיצור תלות בחלב מחו\"ל.",
+  "sources": [
+   {
+    "title": "\"מס גפני\": בציונות הדתית זועמים על סערת רפורמת החלב",
+    "outlet": "מעריב",
+    "date": "2025",
+    "url": "https://www.maariv.co.il/news/politics/article-1255362"
+   }
+  ]
  },
  {
   "party": "utj",
   "statement": "sec_gaza_settle",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "ב-28.1.2024 השתתף יצחק גולדקנופף, אז שר הבינוי והשיכון וכיום מספר 2 ברשימה, בכנס \"התיישבות מביאה ביטחון\" בירושלים, שקרא לחדש את ההתיישבות ברצועת עזה. לא מצאנו התייחסות של יעקב אשר, העומד בראש הרשימה, והעמדה נגזרת מהשתתפות זו.",
+  "sources": [
+   {
+    "title": "כנס לניצחון ישראל - התיישבות מביאה ביטחון | בנייני האומה",
+    "outlet": "ערוץ 7",
+    "date": "2024-01",
+    "url": "https://www.inn.co.il/news/627573"
+   }
+  ]
  },
  {
   "party": "utj",
@@ -3077,10 +3347,23 @@
  {
   "party": "utj",
   "statement": "arab_nation_law",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "high",
+  "basis": "ב-2020 הצביעו חברי הכנסת של יהדות התורה נגד הצעת החוק של כחול לבן לעגן את הזכות לשוויון בחוק יסוד: כבוד האדם וחירותו, שאושרה בקריאה טרומית. בכנסת היוצאת דחתה הקואליציה, שיהדות התורה הייתה חלק ממנה, הצעה לתקן את חוק הלאום כך שיעגן שוויון זכויות לכל האזרחים.",
+  "sources": [
+   {
+    "title": "\"חוק השוויון\" של כחול לבן עבר בהצבעה טרומית; סער לא הצביע - והותקף",
+    "outlet": "מעריב",
+    "date": "2020",
+    "url": "https://www.maariv.co.il/news/politics/Article-807433"
+   },
+   {
+    "title": "זועמים ומאוכזבים: בשל ההתפתחות האחרונה - הדרוזים מסמנים את הצעד הבא",
+    "outlet": "מעריב",
+    "date": null,
+    "url": "https://www.maariv.co.il/news/politics/article-1160876"
+   }
+  ]
  },
  {
   "party": "utj",
@@ -3101,10 +3384,23 @@
  {
   "party": "otzma",
   "statement": "draft_haredi_sanctions",
-  "stance": null,
+  "stance": -1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "באוקטובר 2024 אמר איתמר בן גביר בישיבת סיעתו שהוא מתנגד לכפייה על החרדים ותומך בהטבות למי שמשרת, וב-2025 אמר בראיון ל-103FM שצריך להגיע להסכמות עם החרדים. לא מצאנו התייחסות מפורשת שלו לשלילת הטבות ממי שאינו משרת, והעמדה נגזרת מדבריו אלה.",
+  "sources": [
+   {
+    "title": "בן גביר מתחמק: \"נגד כפייה לחרדים, בעד הטבות למשרתים\"",
+    "outlet": "סרוגים",
+    "date": "2024-10",
+    "url": "https://www.srugim.co.il/1053819"
+   },
+   {
+    "title": "איתמר בן גביר כמו שלא שמעתם: \"הראיון הכי גדול בתולדות 103\"",
+    "outlet": "מעריב",
+    "date": "2025",
+    "url": "https://www.maariv.co.il/news/politics/article-1194172"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -3222,10 +3518,17 @@
  {
   "party": "otzma",
   "statement": "arab_coalition",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "ב-2021 אמר איתמר בן גביר בראיון לכיפה שהוצע לו תפקיד שר תמורת תמיכה בממשלה שנסמכת על רע\"מ, ושללכת עם מנסור עבאס פירושו ללכת עם מי שרוצה לפגוע בחיילים ובמדינה. לא מצאנו התייחסות שלו לנושא מ-2026.",
+  "sources": [
+   {
+    "title": "בן גביר: \"הוצע לי תפקיד שר בעד תמיכה בממשלה שנסמכת על רע\"מ\"",
+    "outlet": "כיפה",
+    "date": "2021",
+    "url": "https://www.kipa.co.il/חדשות/פוליטי/1109863-%D7%91%D7%9F-%D7%92%D7%91%D7%99%D7%A8-%D7%94%D7%95%D7%A6%D7%A2-%D7%9C%D7%99-%D7%AA%D7%A4%D7%A7%D7%99%D7%93-%D7%A9%D7%A8-%D7%91%D7%A2%D7%93-%D7%AA%D7%9E%D7%99%D7%9B%D7%94-%D7%91%D7%9E%D7%9E%D7%A9%D7%9C%D7%94-%D7%A9%D7%A0%D7%A1%D7%9E%D7%9B%D7%AA-%D7%A2%D7%9C-%D7%A8%D7%A2%D7%9E"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -3320,10 +3623,23 @@
  {
   "party": "otzma",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון גלובס (אוקטובר 2026) הציעה עוצמה יהודית להוריד מכסים ומכסות ולאמץ תקנים אמריקאיים או אירופיים כדי להוזיל מוצרי יבוא, לצד סבסוד לחקלאים כדי שלא ייפגעו.",
+  "sources": [
+   {
+    "title": "עוצמה יהודית: שוק חופשי גרסת בן גביר - פיקוח מוגבר על מוצרים",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560560"
+   },
+   {
+    "title": "אנחנו שאלנו, המפלגות ענו: מה תעשו כדי להקל על יוקר המחיה?",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560369"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -3482,10 +3798,23 @@
  {
   "party": "otzma",
   "statement": "gov_kan",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "הצעת החוק של ח\"כ טלי גוטליב (הליכוד) להפרטת \"כאן\", ולסגירתו אם לא יימצא לו קונה, אושרה בקריאה טרומית ב-27.11.2024 ברוב של 49 מול 46 בתמיכת הקואליציה, שעוצמה יהודית הייתה אז חלק ממנה. לא מצאנו פירוט של הצבעת חברי הכנסת של המפלגה או הצהרה שלה בנושא.",
+  "sources": [
+   {
+    "title": "Bill to privatize Israel’s public broadcaster passes preliminary vote",
+    "outlet": "The Jerusalem Post",
+    "date": "2024-11-27",
+    "url": "https://m.jpost.com/israel-news/article-831011"
+   },
+   {
+    "title": "49 בעד, 46 נגד: הכנסת אישרה בטרומית את הפרטת תאגיד השידור הציבורי",
+    "outlet": "דבר",
+    "date": "2024-11-27",
+    "url": "https://www.davar1.co.il/561902/"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -3498,10 +3827,17 @@
  {
   "party": "rzp",
   "statement": "draft_haredi_sanctions",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "ב-2025 אמר בצלאל סמוטריץ', כשנשאל אם יתמוך בסנקציות אישיות על משתמטים, שהוא תומך בחוק גיוס עם כלי אכיפה משמעותיים, ודיבר על יעד של גיוס כמחצית מהמחזור החרדי בתוך שבע שנים בליווי סנקציות ואכיפה. לא מצאנו עמדה של זהות, השותפה לרשימה.",
+  "sources": [
+   {
+    "title": "Smotrich indicates support for targeted sanctions against Haredi draft dodgers",
+    "outlet": "The Times of Israel",
+    "date": "2025",
+    "url": "https://www.timesofisrael.com/liveblog_entry/smotrich-indicates-support-for-targeted-sanctions-against-haredi-draft-dodgers/"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -3527,10 +3863,29 @@
  {
   "party": "rzp",
   "statement": "eco_welfare_taxes",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "משרד האוצר בראשות בצלאל סמוטריץ' יזם מס מיוחד על רווחי היתר של הבנקים, שאושר במסגרת תקציב 2026. מנגד, סמוטריץ' טען שהוא שר האוצר היחיד בעשרים השנים האחרונות שהוריד מסים, ולא מצאנו התייחסות של הרשימה להעלאת מסים כדי להגדיל את ההוצאה על בריאות, חינוך ורווחה.",
+  "sources": [
+   {
+    "title": "תקציב 2026: \"יהיה מס על בנקים. הוא יהיה קבוע וגדול\"",
+    "outlet": "גלובס",
+    "date": "2025",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001528308"
+   },
+   {
+    "title": "המס על הבנקים עבר - וזה הסכום שכל אחד ישלם על רווחיו",
+    "outlet": "מעריב",
+    "date": "2026",
+    "url": "https://www.maariv.co.il/economy/israel/article-1303130"
+   },
+   {
+    "title": "האם רק סמוטריץ' הוריד מסים בשני העשורים האחרונים?",
+    "outlet": "גלובס",
+    "date": "2026",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001557831"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -3730,10 +4085,29 @@
  {
   "party": "rzp",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "בסוף 2025 קידם שר האוצר בצלאל סמוטריץ' רפורמה בענף החלב שכללה פתיחת השוק ליבוא והגדלת מכסת היבוא של גבינות קשות בפטור ממכס, למרות מחאת הרפתנים ועתירת מועצת החלב לבג\"ץ. בפברואר 2026 איים לבטל את המכסים על חלב לשתייה.",
+  "sources": [
+   {
+    "title": "המאבק על הגבינה: סמוטריץ' נגד הרפתנים והמונופולים",
+    "outlet": "mako (N12)",
+    "date": "2025",
+    "url": "https://www.mako.co.il/news-money/2025_q4/Article-897ee8835a0aa91026.htm"
+   },
+   {
+    "title": "הרפתנים הפסיקו את ההשבתה; סמוטריץ' איים לבטל מכסים על חלב לשתייה",
+    "outlet": "TheMarker",
+    "date": "2026-02-03",
+    "url": "https://www.themarker.com/consumer/2026-02-03/ty-article/0000019c-2496-d050-a7df-bebeaf0b0000"
+   },
+   {
+    "title": "מועצת החלב עתרה נגד סמוטריץ': \"מכה אחרי מכה בדרך לדיכוי הייצור המקומי\"",
+    "outlet": "כלכליסט",
+    "date": null,
+    "url": "https://www.calcalist.co.il/shopping/article/ry9dnvbibg"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -3765,10 +4139,17 @@
  {
   "party": "rzp",
   "statement": "draft_yeshiva_exemption",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "ב-2025 תמך בצלאל סמוטריץ' בחוק גיוס שיעדו גיוס של כמחצית מהמחזור החרדי בתוך שבע שנים, בליווי סנקציות ואכיפה, כלומר בהגבלת הפטור לבני ישיבות ולא בפטור ללא הגבלה. לא מצאנו עמדה של זהות, השותפה לרשימה.",
+  "sources": [
+   {
+    "title": "Smotrich indicates support for targeted sanctions against Haredi draft dodgers",
+    "outlet": "The Times of Israel",
+    "date": "2025",
+    "url": "https://www.timesofisrael.com/liveblog_entry/smotrich-indicates-support-for-targeted-sanctions-against-haredi-draft-dodgers/"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -3904,10 +4285,23 @@
  {
   "party": "rzp",
   "statement": "gov_kan",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "הצעת החוק של ח\"כ טלי גוטליב (הליכוד) להפרטת \"כאן\", ולסגירתו אם לא יימצא לו קונה, אושרה בקריאה טרומית ב-27.11.2024 ברוב של 49 מול 46 בתמיכת הקואליציה, שהציונות הדתית הייתה אז חלק ממנה. לא מצאנו פירוט של הצבעת חברי הכנסת של המפלגה או הצהרה שלה בנושא.",
+  "sources": [
+   {
+    "title": "Bill to privatize Israel’s public broadcaster passes preliminary vote",
+    "outlet": "The Jerusalem Post",
+    "date": "2024-11-27",
+    "url": "https://m.jpost.com/israel-news/article-831011"
+   },
+   {
+    "title": "49 בעד, 46 נגד: הכנסת אישרה בטרומית את הפרטת תאגיד השידור הציבורי",
+    "outlet": "דבר",
+    "date": "2024-11-27",
+    "url": "https://www.davar1.co.il/561902/"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -4168,10 +4562,23 @@
  {
   "party": "raam",
   "statement": "gov_term_limits",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "בנובמבר 2021 הייתה רע\"ם חלק מהקואליציה שהעבירה בקריאה ראשונה, ברוב של 66 מול 48, את הצעת החוק להגבלת כהונת ראש הממשלה לשמונה שנים. הדיווחים אינם מפרטים את הצבעת חברי הכנסת של רע\"ם, ולא מצאנו התייחסות עדכנית של המפלגה לנושא.",
+  "sources": [
+   {
+    "title": "בתמיכת הרשימה המשותפת: הכנסת אישרה את חוק הגבלת הכהונה",
+    "outlet": "כיפה",
+    "date": "2021-11",
+    "url": "https://www.kipa.co.il/חדשות/1121080-%D7%91%D7%AA%D7%9E%D7%99%D7%9B%D7%AA-%D7%94%D7%A8%D7%A9%D7%99%D7%9E%D7%94-%D7%94%D7%9E%D7%A9%D7%95%D7%AA%D7%A4%D7%AA-%D7%94%D7%9B%D7%A0%D7%A1%D7%AA-%D7%90%D7%99%D7%A9%D7%A8%D7%94-%D7%90%D7%AA-%D7%97%D7%95%D7%A7-%D7%94%D7%92%D7%91%D7%9C%D7%AA-%D7%94%D7%9B%D7%94%D7%95%D7%A0%D7%94"
+   },
+   {
+    "title": "66 תומכים, 48 מתנגדים: חוק הגבלת כהונה עבר בקריאה ראשונה",
+    "outlet": "גלובס",
+    "date": "2021-11",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001391718"
+   }
+  ]
  },
  {
   "party": "raam",
@@ -4497,10 +4904,17 @@
  {
   "party": "joint",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון גלובס (אוקטובר 2026) מסרה הרשימה המשותפת שפתיחה ליבוא יכולה להיעשות רק בהדרגה ובאחריות, כחלק ממהלך כולל לאחר הסדר שלום והקמת מדינה פלסטינית לצד ישראל.",
+  "sources": [
+   {
+    "title": "הרשימה המשותפת: היחידה שמצהירה - צריך להגדיל את החוב",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560539"
+   }
+  ]
  },
  {
   "party": "joint",
@@ -4526,10 +4940,17 @@
  {
   "party": "joint",
   "statement": "draft_yeshiva_exemption",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "בתשובה לשאלון ynet על הגיוס לקראת הבחירות (2026) מסרה הרשימה שהיא מתנגדת לגיוס חרדים ולכל גיוס חובה. היא לא התייחסה במפורש לפטור לתלמידי ישיבות, והעמדה נגזרת מהתנגדותה לגיוס חובה בכלל.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   }
+  ]
  },
  {
   "party": "joint",
@@ -4578,10 +4999,23 @@
  {
   "party": "joint",
   "statement": "gov_term_limits",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "high",
+  "basis": "בנובמבר 2021 הצביעו ששת חברי הכנסת של הרשימה המשותפת, שכללה אז את חד\"ש, תע\"ל ובל\"ד, בעד הצעת החוק להגבלת כהונת ראש הממשלה לשמונה שנים, ואפשרו את אישורה בקריאה ראשונה ברוב של 66 מול 48. לא מצאנו התייחסות עדכנית של הרשימה לנושא.",
+  "sources": [
+   {
+    "title": "בתמיכת הרשימה המשותפת: הכנסת אישרה את חוק הגבלת הכהונה",
+    "outlet": "כיפה",
+    "date": "2021-11",
+    "url": "https://www.kipa.co.il/חדשות/1121080-%D7%91%D7%AA%D7%9E%D7%99%D7%9B%D7%AA-%D7%94%D7%A8%D7%A9%D7%99%D7%9E%D7%94-%D7%94%D7%9E%D7%A9%D7%95%D7%AA%D7%A4%D7%AA-%D7%94%D7%9B%D7%A0%D7%A1%D7%AA-%D7%90%D7%99%D7%A9%D7%A8%D7%94-%D7%90%D7%AA-%D7%97%D7%95%D7%A7-%D7%94%D7%92%D7%91%D7%9C%D7%AA-%D7%94%D7%9B%D7%94%D7%95%D7%A0%D7%94"
+   },
+   {
+    "title": "66 תומכים, 48 מתנגדים: חוק הגבלת כהונה עבר בקריאה ראשונה",
+    "outlet": "גלובס",
+    "date": "2021-11",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001391718"
+   }
+  ]
  },
  {
   "party": "joint",
@@ -5026,10 +5460,23 @@
  {
   "party": "reservists",
   "statement": "draft_arab_service",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "מטרות המילואימניקים, כפי שנרשמו אצל רשם המפלגות, כוללות \"קידום שירות צבאי או לאומי לכל אזרח\", ובקמפיין 2026 הציגה הרשימה תוכנית לחובת שירות לכל אזרח ללא פטורים. לא מצאנו התייחסות מפורשת לצעירים ערבים, ולכן העמדה נגזרת מהניסוח הכללי.",
+  "sources": [
+   {
+    "title": "המילואימניקים: מטרות המפלגה לפי רשם המפלגות",
+    "outlet": "המכון הישראלי לדמוקרטיה",
+    "date": null,
+    "url": "https://www.idi.org.il/policy/parties-and-elections/parties/miluimniks/"
+   },
+   {
+    "title": "2,000 שקל לחייל וסנקציות למשתמטים: תוכנית הנדל וזליכה",
+    "outlet": "וואלה",
+    "date": "2026",
+    "url": "https://www.walla.co.il/news/politics/383958182"
+   }
+  ]
  },
  {
   "party": "reservists",
@@ -5157,7 +5604,7 @@
   "basis": "ב-14 באוקטובר 2026 אמר מועמד המפלגה ערן בן ארי בראיון לגלי צה\"ל כי עמך ישראל תומכת בהעברת ההכרעה על תחבורה ציבורית בשבת לרשויות המקומיות, כך שרשות שתרצה בכך תוכל להפעילה ורשות אחרת תוכל לשמור על המצב הקיים. מסמך העקרונות של המפלגה אינו מתייחס לנושא.",
   "sources": [
    {
-    "title": "News1 – דיווח על עמדת עמך ישראל בנושא תחבורה ציבורית בשבת",
+    "title": "דיווח על עמדות עמך ישראל בנושאי דת ומדינה",
     "outlet": "News1 מחלקה ראשונה",
     "date": "2026-10",
     "url": "https://www.news1.co.il/Archive/001-D-525080-00.html"
@@ -5229,10 +5676,17 @@
  {
   "party": "amcha",
   "statement": "rel_civil_marriage",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "באוקטובר 2026 התחייב מועמד עמך ישראל ערן בן ארי, בשם המפלגה, לשמור על המצב הקיים בנושא נישואים אזרחיים, שבו נישואים וגירושים של יהודים נערכים רק דרך הרבנות. לפי News1, הניסוח אינו כולל התנגדות מפורשת לנישואים אזרחיים, ומסמך העקרונות של המפלגה כמעט אינו עוסק בדת ומדינה.",
+  "sources": [
+   {
+    "title": "דיווח על עמדות עמך ישראל בנושאי דת ומדינה",
+    "outlet": "News1 מחלקה ראשונה",
+    "date": "2026-10",
+    "url": "https://www.news1.co.il/Archive/001-D-525080-00.html"
+   }
+  ]
  },
  {
   "party": "amcha",
