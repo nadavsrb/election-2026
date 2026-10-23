@@ -64,10 +64,23 @@
  {
   "party": "yashar",
   "statement": "jud_selection_politicians",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "ישר! הודיעה כי תבטל את \"החוק לפוליטיזציה של הוועדה לבחירת שופטים\" ותעגן בחוק יסוד מנגנון בחירה שיגן על עצמאות השפיטה ויאזן בין שיקולים מקצועיים לציבוריים (קמפיין 2026); תוכנית \"100 הימים\" של איזנקוט כוללת ביטול מיידי של חוקי השינויים במערכת המשפט, ובהם חוקי הוועדה לבחירת שופטים.",
+  "sources": [
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   },
+   {
+    "title": "ועדת חקירה ממלכתית בראש: תוכנית \"100 הימים\" של איזנקוט לאחר הבחירות",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14935642"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -211,10 +224,23 @@
  {
   "party": "yashar",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "איזנקוט מתמודד לראשות הממשלה מול נתניהו והצהיר שיעמיד את ממשלתו לאישור הכנסת גם בלי 61 מנדטים; לפי Israel Policy Forum (אוקטובר 2026) ישר!, ביחד וישראל ביתנו מאוחדות בהתנגדות לממשלה נוספת בראשות נתניהו.",
+  "sources": [
+   {
+    "title": "Election Blocs Explainer",
+    "outlet": "Israel Policy Forum",
+    "date": "2026-10",
+    "url": "https://israelpolicyforum.org/wp-content/uploads/2026/10/Election-Blocs-Explainer.pdf"
+   },
+   {
+    "title": "איזנקוט: \"גם אם לא יהיו לנו 61 מנדטים, אעמיד את הממשלה שלי לאישור הכנסת\"",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14920134"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -262,10 +288,29 @@
  {
   "party": "yashar",
   "statement": "jud_override",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "לפי סקירת mako (2026), מפלגתו של איזנקוט מתנגדת לפסקת ההתגברות ולפוליטיזציה של הוועדה לבחירת שופטים; ישר! מבקשת לעגן את כללי המשחק החוקתיים, ובהם איזונים ובלמים, בחוק יסוד: החקיקה (ynet, אוקטובר 2026).",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   },
+   {
+    "title": "מכריזים בזאת: התוכניות והיוזמות של המפלגות בנוגע לאופייה של המדינה",
+    "outlet": "ynet",
+    "date": "2026-10",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14920395"
+   },
+   {
+    "title": "ועדת חקירה ממלכתית בראש: תוכנית \"100 הימים\" של איזנקוט לאחר הבחירות",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14935642"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -278,7 +323,7 @@
  {
   "party": "yashar",
   "statement": "rel_core_studies",
-  "stance": 1,
+  "stance": -1,
   "confidence": "low",
   "basis": "לא נמצאה התייחסות מפורשת של ישר! ללימודי ליבה; ההערכה נשענת על עמדות קרובות: תוכנית 100 הימים של המפלגה כוללת שינוי בתקצוב מוסדות החינוך החרדיים, ולפי ynet אמר איזנקוט (2026) שמי שלא ישתף פעולה עם החובות לא יקבל מימון לבתי ספר.",
   "sources": [
@@ -299,10 +344,17 @@
  {
   "party": "yashar",
   "statement": "gov_term_limits",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לפי ynet (2026), גוש האופוזיציה מתכוון לקדם הגבלת כהונה לראש הממשלה, לצד ועדת חקירה ממלכתית וביטול חוקי השינויים במערכת המשפט; לא אותרה בבדיקה זו התחייבות פרטנית של ישר! ופירוט של משך ההגבלה, ולכן הביטחון נמוך.",
+  "sources": [
+   {
+    "title": "המטרה: להחליף את נתניהו. על הדרך יש מחלוקת",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/byehp18nme"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -349,10 +401,23 @@
  {
   "party": "yashar",
   "statement": "jud_ag_split",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "תוכנית \"100 הימים\" של איזנקוט כוללת ביטול מיידי של כל החוקים שעברו במסגרת השינויים במערכת המשפט (ynet, 2026), ולפי \"הארץ\" (21.10.2026) ישראל ביתנו היא המפלגה היחידה בגוש של איזנקוט שלא התחייבה לבטל את החקיקה בעניין היועמ\"ש.",
+  "sources": [
+   {
+    "title": "ועדת חקירה ממלכתית בראש: תוכנית \"100 הימים\" של איזנקוט לאחר הבחירות",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14935642"
+   },
+   {
+    "title": "Bennett Vows to Repeal All Judicial Overhaul Laws Following Haaretz Report",
+    "outlet": "Haaretz",
+    "date": "2026-10-21",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-10-21/ty-article/.premium/bennett-vows-to-repeal-all-judicial-overhaul-laws-following-haaretz-report/000001a1-5f61-d05a-abe9-7f7935bf0000"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -464,10 +529,29 @@
  {
   "party": "likud",
   "statement": "jud_selection_politicians",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "הליכוד, בהובלת שר המשפטים יריב לוין, קידם את החוק לשינוי הרכב הוועדה לבחירת שופטים, שאושר ב-27.3.2025 ברוב של 67 מול 1 כשהאופוזיציה החרימה את ההצבעה. לפי סקירת mako (2026) הליכוד תומך בהמשך השינויים כפי שקודמו בקדנציה האחרונה, אף שסירב לפרט את תוכניותיו לכלי התקשורת.",
+  "sources": [
+   {
+    "title": "Knesset votes to reform Judicial Selection Committee",
+    "outlet": "JNS",
+    "date": "2025-03-27",
+    "url": "https://www.jns.org/knesset-votes-to-reform-judicial-selection-committee/"
+   },
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   },
+   {
+    "title": "A voter's guide to judicial reform: The moves parties are planning after the election",
+    "outlet": "The Times of Israel",
+    "date": "2026-10",
+    "url": "https://www.timesofisrael.com/a-voters-guide-to-judicial-reform-the-moves-parties-are-planning-after-the-election/amp/"
+   }
+  ]
  },
  {
   "party": "likud",
@@ -624,10 +708,23 @@
  {
   "party": "likud",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "נתניהו עומד בראש הליכוד ומתמודד לראשות הממשלה; בקמפיין (אוקטובר 2026) הציג את הבחירה במילים \"אני וטראמפ, או איזנקוט ועבאס\".",
+  "sources": [
+   {
+    "title": "Netanyahu's election pitch: It's me and Trump, or Eisenkot and Abbas",
+    "outlet": "The Times of Israel",
+    "date": "2026-10",
+    "url": "https://www.timesofisrael.com/liveblog_entry/netanyahus-election-pitch-its-me-and-trump-or-eisenkot-and-abbas/"
+   },
+   {
+    "title": "120 Project: Israel Elections 2026",
+    "outlet": "Israel Policy Forum",
+    "date": "2026-10",
+    "url": "https://israelpolicyforum.org/onetwenty/"
+   }
+  ]
  },
  {
   "party": "likud",
@@ -675,10 +772,23 @@
  {
   "party": "likud",
   "statement": "jud_override",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "העקרונות שהציג שר המשפטים לוין (ליכוד) ב-2023 כללו צמצום סמכות בג\"ץ לפסול חוקים ופסקת התגברות ברוב של 61, ולפי mako (2026) הליכוד תומך בהמשך השינויים; לפי טיימס אוף ישראל (אוקטובר 2026) מצע הליכוד מדבר על שינויים בהסכמה רחבה, והמפלגה לא פירטה את עמדתה.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   },
+   {
+    "title": "A voter's guide to judicial reform: The moves parties are planning after the election",
+    "outlet": "The Times of Israel",
+    "date": "2026-10",
+    "url": "https://www.timesofisrael.com/a-voters-guide-to-judicial-reform-the-moves-parties-are-planning-after-the-election/amp/"
+   }
+  ]
  },
  {
   "party": "likud",
@@ -749,10 +859,29 @@
  {
   "party": "likud",
   "statement": "jud_ag_split",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "הקואליציה בהובלת הליכוד העבירה ב-15.7.2026 חוק שלפיו חוות דעת היועמ\"ש אינן מחייבות את הממשלה, לאחר שבקריאה הראשונה (2.6.2026) כלל החוק גם פיצול של התפקיד, שהוסר מהנוסח הסופי; לפי mako (2026) הליכוד מתנגד לכך שחוות דעת היועמ\"שית יחייבו את הממשלה.",
+  "sources": [
+   {
+    "title": "Knesset passes sweeping law allowing government to override attorney general",
+    "outlet": "Ynetnews",
+    "date": "2026-07-15",
+    "url": "https://www.ynetnews.com/article/rk00rjbbefg"
+   },
+   {
+    "title": "הכנסת אישרה בקריאה ראשונה את החוק לפיצול תפקיד היועמ\"ש",
+    "outlet": "הארץ",
+    "date": "2026-06-02",
+    "url": "https://www.haaretz.co.il/news/elections/2026-06-02/ty-article/0000019e-833c-d0a9-a7df-b3bea0b70000"
+   },
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   }
+  ]
  },
  {
   "party": "likud",
@@ -792,7 +921,7 @@
  {
   "party": "likud",
   "statement": "gov_kan",
-  "stance": -1,
+  "stance": 1,
   "confidence": "medium",
   "basis": "שר התקשורת שלמה קרעי וח\"כים מהליכוד קידמו הצעות להפרטת \"כאן\", לסגירתו ולהכפפת תקציבו לממשלה; הצעת ח\"כ טלי גוטליב אושרה בקריאה טרומית ב-27.11.2024 ברוב 49 מול 46. מנגד, יו\"ר ועדת הכלכלה ח\"כ דוד ביטן (הליכוד) הודיע שהצעת ההפרטה לא תקודם, בנימוק ש\"צריכים את השידור הציבורי\".",
   "sources": [
@@ -865,10 +994,23 @@
  {
   "party": "together",
   "statement": "jud_selection_politicians",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "ב-21.10.2026 הודיע בנט כי \"ביחד\" תבטל בכנסת הבאה את חוקי השינויים במערכת המשפט, ובהם החוק לשינוי הרכב הוועדה לבחירת שופטים; ההודעה פורסמה לאחר דיווח ב\"הארץ\" כי הרשימה לא התחייבה לבטל את החוק בעניין סמכויות היועמ\"ש.",
+  "sources": [
+   {
+    "title": "Bennett Vows to Repeal All Judicial Overhaul Laws Following Haaretz Report",
+    "outlet": "Haaretz",
+    "date": "2026-10-21",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-10-21/ty-article/.premium/bennett-vows-to-repeal-all-judicial-overhaul-laws-following-haaretz-report/000001a1-5f61-d05a-abe9-7f7935bf0000"
+   },
+   {
+    "title": "Bennett pledges to repeal judicial selection, police… (JFeed Breaking)",
+    "outlet": "JFeed",
+    "date": "2026-10",
+    "url": "https://www.jfeed.com/latest-news/bennett-pledges-to-repeal-judicial-selection-police-investigations-attorney-gene-56171"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1031,10 +1173,23 @@
  {
   "party": "together",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "לפי Israel Policy Forum (אוקטובר 2026), \"ביחד\" מתנגדת לממשלה נוספת בראשות נתניהו, ובנט מתמודד בראשה לראשות הממשלה; לפיד הזהיר את הנשיא הרצוג מפני \"ממשלת אחדות מזויפת\" עם נתניהו (2026).",
+  "sources": [
+   {
+    "title": "Election Blocs Explainer",
+    "outlet": "Israel Policy Forum",
+    "date": "2026-10",
+    "url": "https://israelpolicyforum.org/wp-content/uploads/2026/10/Election-Blocs-Explainer.pdf"
+   },
+   {
+    "title": "לפיד עונה להרצוג: מקווה שלא תנסה לדחוף לעוד ממשלת 'אחדות' מזויפת עם נתניהו",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/sjkxknvx5jzx"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1070,10 +1225,29 @@
  {
   "party": "together",
   "statement": "jud_override",
-  "stance": null,
+  "stance": 0,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לא נמצאה עמדה מפורשת של \"ביחד\" על הגבלת סמכות הפסילה: לפיד הגדיר את סירוב הממשלה לכבד צו של בג\"ץ (יולי 2026) \"המשבר החוקתי החמור\" והרשימה התחייבה (21.10.2026) לבטל את חוקי השינויים, ומנגד בנט תמך בעבר בשינויים במערכת המשפט והרשימה מציעה חוקה לצד חוק יסוד: החקיקה. לכן העמדה סומנה כמעורבת.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   },
+   {
+    "title": "Bennett Vows to Repeal All Judicial Overhaul Laws Following Haaretz Report",
+    "outlet": "Haaretz",
+    "date": "2026-10-21",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-10-21/ty-article/.premium/bennett-vows-to-repeal-all-judicial-overhaul-laws-following-haaretz-report/000001a1-5f61-d05a-abe9-7f7935bf0000"
+   },
+   {
+    "title": "“HYPOCRITICAL OPPORTUNIST”: Bennett Sparks Backlash After Vowing to Repeal Israel’s Judicial Reform Laws",
+    "outlet": "Matzav",
+    "date": "2026-10",
+    "url": "https://matzav.com/hypocritical-opportunist-bennett-sparks-backlash-after-vowing-to-repeal-israels-judicial-reform-laws/"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1094,10 +1268,17 @@
  {
   "party": "together",
   "statement": "gov_term_limits",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לפי ynet (2026), גוש האופוזיציה מתכוון לקדם הגבלת כהונה לראש הממשלה, לצד ועדת חקירה ממלכתית וביטול חוקי השינויים במערכת המשפט; לא אותרה בבדיקה זו התחייבות פרטנית של \"ביחד\" ופירוט של משך ההגבלה, ולכן הביטחון נמוך.",
+  "sources": [
+   {
+    "title": "המטרה: להחליף את נתניהו. על הדרך יש מחלוקת",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/byehp18nme"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1125,10 +1306,23 @@
  {
   "party": "together",
   "statement": "jud_ag_split",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "ב-21.10.2026 התחייב בנט לבטל את החוק בעניין סמכויות היועמ\"ש לצד חוקים נוספים, לאחר ש\"הארץ\" דיווח כי \"ביחד\" לא התחייבה לכך קודם לכן; הקידוד \"מתנגד\" (ולא \"מתנגד בתוקף\") משקף את ההתחייבות המאוחרת ואת היעדר עמדה מפורשת על פיצול התפקיד עצמו.",
+  "sources": [
+   {
+    "title": "Bennett Vows to Repeal All Judicial Overhaul Laws Following Haaretz Report",
+    "outlet": "Haaretz",
+    "date": "2026-10-21",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-10-21/ty-article/.premium/bennett-vows-to-repeal-all-judicial-overhaul-laws-following-haaretz-report/000001a1-5f61-d05a-abe9-7f7935bf0000"
+   },
+   {
+    "title": "Bennett pledges to repeal judicial selection, police… (JFeed Breaking)",
+    "outlet": "JFeed",
+    "date": "2026-10",
+    "url": "https://www.jfeed.com/latest-news/bennett-pledges-to-repeal-judicial-selection-police-investigations-attorney-gene-56171"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1215,10 +1409,23 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "jud_selection_politicians",
-  "stance": null,
+  "stance": 0,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לפי \"הארץ\" (21.10.2026), ישראל ביתנו היא המפלגה היחידה בגוש של איזנקוט שלא התחייבה לבטל את חקיקת השינויים במערכת המשפט; המפלגה מתחייבת להוביל כינון חוקה שתובא למשאל עם (ynet, 2026). לא נמצאה עמדה מפורשת שלה על הרכב הוועדה, ולכן הקידוד הוא היסק.",
+  "sources": [
+   {
+    "title": "Bennett Vows to Repeal All Judicial Overhaul Laws Following Haaretz Report",
+    "outlet": "Haaretz",
+    "date": "2026-10-21",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-10-21/ty-article/.premium/bennett-vows-to-repeal-all-judicial-overhaul-laws-following-haaretz-report/000001a1-5f61-d05a-abe9-7f7935bf0000"
+   },
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1362,10 +1569,23 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "ליברמן שלל הצטרפות לממשלה בראשות נתניהו, ולפי Israel Policy Forum (אוקטובר 2026) ישראל ביתנו מתנגדת לממשלה נוספת בראשותו; באוקטובר 2026 הודיע שיפעל להחלפת יו\"ר הכנסת ולהעברת \"חוק הנאשם\".",
+  "sources": [
+   {
+    "title": "Election Blocs Explainer",
+    "outlet": "Israel Policy Forum",
+    "date": "2026-10",
+    "url": "https://israelpolicyforum.org/wp-content/uploads/2026/10/Election-Blocs-Explainer.pdf"
+   },
+   {
+    "title": "ליברמן: \"נפעל להחלפת יו\"ר הכנסת אוחנה ונעביר את 'חוק הנאשם'\"",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026-10",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-2ec9703f28a41a1026.htm"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1401,10 +1621,23 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "jud_override",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "לפי סקירת mako (2026), ישראל ביתנו מתנגדת לפסקת ההתגברות; ב-2023 אמר ליברמן שהיא \"תהרוס את צה\"ל ותחלק את העם לשניים\". המפלגה מבקשת להסדיר את היחסים בין הרשויות בחוקה שתובא למשאל עם.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   },
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1425,10 +1658,23 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "gov_term_limits",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לפי ynet (2026), גוש האופוזיציה מתכוון לקדם הגבלת כהונה לראש הממשלה, לצד ועדת חקירה ממלכתית וביטול חוקי השינויים במערכת המשפט; לא אותרה התחייבות פרטנית של ישראל ביתנו, ויש לזכור שהמפלגה לא הצטרפה להתחייבות הגוש לבטל את חוקי השינויים, כך שעמדות הגוש אינן חלות בהכרח על כל מרכיביו.",
+  "sources": [
+   {
+    "title": "המטרה: להחליף את נתניהו. על הדרך יש מחלוקת",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/byehp18nme"
+   },
+   {
+    "title": "Bennett Vows to Repeal All Judicial Overhaul Laws Following Haaretz Report",
+    "outlet": "Haaretz",
+    "date": "2026-10-21",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-10-21/ty-article/.premium/bennett-vows-to-repeal-all-judicial-overhaul-laws-following-haaretz-report/000001a1-5f61-d05a-abe9-7f7935bf0000"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1456,10 +1702,17 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "jud_ag_split",
-  "stance": null,
+  "stance": 0,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לפי \"הארץ\" (21.10.2026), ישראל ביתנו היא המפלגה היחידה בגוש של איזנקוט שלא התחייבה לבטל את החקיקה שצמצמה את סמכויות היועמ\"ש; לא נמצאה עמדה מפורשת שלה על פיצול התפקיד, ולכן הקידוד הוא היסק.",
+  "sources": [
+   {
+    "title": "Bennett Vows to Repeal All Judicial Overhaul Laws Following Haaretz Report",
+    "outlet": "Haaretz",
+    "date": "2026-10-21",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-10-21/ty-article/.premium/bennett-vows-to-repeal-all-judicial-overhaul-laws-following-haaretz-report/000001a1-5f61-d05a-abe9-7f7935bf0000"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1488,10 +1741,17 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "gov_indicted_pm",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ליברמן הודיע באוקטובר 2026 שישראל ביתנו תפעל להעביר בכנסת הבאה את \"חוק הנאשם\", שנועד למנוע מנאשם בפלילים להרכיב ממשלה, ולהחליף את יו\"ר הכנסת אמיר אוחנה.",
+  "sources": [
+   {
+    "title": "ליברמן: \"נפעל להחלפת יו\"ר הכנסת אוחנה ונעביר את 'חוק הנאשם'\"",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026-10",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-2ec9703f28a41a1026.htm"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -1527,10 +1787,29 @@
  {
   "party": "democrats",
   "statement": "jud_selection_politicians",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "הדמוקרטים מתחייבים להגן על עצמאות מערכת המשפט, לעגן את זכויות היסוד ולחוקק חוק יסוד: החקיקה (ynet, 2026); לפי טיימס אוף ישראל (אוקטובר 2026) מפלגות האופוזיציה התחייבו לבטל את השינויים השנויים במחלוקת ולשמור על עצמאות מערכת המשפט.",
+  "sources": [
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   },
+   {
+    "title": "A voter's guide to judicial reform: The moves parties are planning after the election",
+    "outlet": "The Times of Israel",
+    "date": "2026-10",
+    "url": "https://www.timesofisrael.com/a-voters-guide-to-judicial-reform-the-moves-parties-are-planning-after-the-election/amp/"
+   },
+   {
+    "title": "Knesset votes to reform Judicial Selection Committee",
+    "outlet": "JNS",
+    "date": "2025-03-27",
+    "url": "https://www.jns.org/knesset-votes-to-reform-judicial-selection-committee/"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -1676,10 +1955,29 @@
  {
   "party": "democrats",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "גולן היה שותף, עם בנט, איזנקוט וליברמן, להצהרה משותפת של ראשי \"מחנה השינוי\" שדרשה ועדת חקירה ממלכתית (\"הציבור זכאי לדעת מה ידע נתניהו\"); לפי Israel Policy Forum (אוקטובר 2026) הדמוקרטים הם מהשותפות המרכזיות של ישר! בגוש המבקש להחליף את נתניהו.",
+  "sources": [
+   {
+    "title": "הצהרה משותפת נדירה לראשי \"מחנה השינוי\": \"הציבור זכאי לדעת מה ידע נתניהו\"",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/b1podotoze"
+   },
+   {
+    "title": "Election Blocs Explainer",
+    "outlet": "Israel Policy Forum",
+    "date": "2026-10",
+    "url": "https://israelpolicyforum.org/wp-content/uploads/2026/10/Election-Blocs-Explainer.pdf"
+   },
+   {
+    "title": "המטרה: להחליף את נתניהו. על הדרך יש מחלוקת",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/byehp18nme"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -1715,10 +2013,23 @@
  {
   "party": "democrats",
   "statement": "jud_override",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "לפי סקירת mako (2026), הדמוקרטים תומכים בביצור הביקורת השיפוטית על חוקים הפוגעים בזכויות היסוד ומתנגדים למנגנון התגברות שיאפשר לעקוף פסיקות בג\"ץ; במצעם הם מתחייבים לעגן את זכויות היסוד בחוק יסוד: החקיקה.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   },
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -1739,10 +2050,17 @@
  {
   "party": "democrats",
   "statement": "gov_term_limits",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לפי ynet (2026), גוש האופוזיציה מתכוון לקדם הגבלת כהונה לראש הממשלה, לצד ועדת חקירה ממלכתית וביטול חוקי השינויים במערכת המשפט; לא אותרה בבדיקה זו התחייבות פרטנית של הדמוקרטים ופירוט של משך ההגבלה, ולכן הביטחון נמוך.",
+  "sources": [
+   {
+    "title": "המטרה: להחליף את נתניהו. על הדרך יש מחלוקת",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/byehp18nme"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -1770,10 +2088,23 @@
  {
   "party": "democrats",
   "statement": "jud_ag_split",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "הדמוקרטים מתחייבים להגן על עצמאות מערכת המשפט (ynet, 2026), ולפי \"הארץ\" (21.10.2026) כל מפלגות הגוש של איזנקוט מלבד ישראל ביתנו התחייבו לבטל את החקיקה שצמצמה את סמכויות היועמ\"ש.",
+  "sources": [
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   },
+   {
+    "title": "Bennett Vows to Repeal All Judicial Overhaul Laws Following Haaretz Report",
+    "outlet": "Haaretz",
+    "date": "2026-10-21",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-10-21/ty-article/.premium/bennett-vows-to-repeal-all-judicial-overhaul-laws-following-haaretz-report/000001a1-5f61-d05a-abe9-7f7935bf0000"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -1807,7 +2138,7 @@
  {
   "party": "democrats",
   "statement": "gov_kan",
-  "stance": 1,
+  "stance": -1,
   "confidence": "low",
   "basis": "לא נמצאה התייחסות ישירה של הדמוקרטים להצעות לסגור את \"כאן\" או להפריטו; יו\"ר המפלגה יאיר גולן הגיב לאישור חוק התקשורת של השר קרעי (יולי 2026), הכולל ניכוי מתקציב התאגיד, במילים \"נקרע אותו לגזרים\". העמדה מוסקת מהתנגדות זו.",
   "sources": [
@@ -1867,10 +2198,23 @@
  {
   "party": "shas",
   "statement": "jud_selection_politicians",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "ש\"ס הייתה חלק מהקואליציה שהעבירה ב-27.3.2025 את החוק לשינוי הרכב הוועדה לבחירת שופטים (67 בעד, 1 נגד, האופוזיציה החרימה). לא נמצאה הצהרה עדכנית של המפלגה על הרכב הוועדה.",
+  "sources": [
+   {
+    "title": "Knesset votes to reform Judicial Selection Committee",
+    "outlet": "JNS",
+    "date": "2025-03-27",
+    "url": "https://www.jns.org/knesset-votes-to-reform-judicial-selection-committee/"
+   },
+   {
+    "title": "Knesset gives government greater control over judicial appointments",
+    "outlet": "TPS",
+    "date": "2025-03-27",
+    "url": "https://tps.co.il/articles/knesset-gives-government-greater-control-over-judicial-appointments/"
+   }
+  ]
  },
  {
   "party": "shas",
@@ -2003,10 +2347,29 @@
  {
   "party": "shas",
   "statement": "gov_netanyahu",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לא נמצאה התחייבות מפורשת של ש\"ס להמליץ על נתניהו: דרעי הודיע (אוקטובר 2026) שש\"ס לא תצטרף ולא תתמוך בממשלה הבאה ללא חוק המסדיר את מעמד תלמידי הישיבות. Israel Policy Forum מסווגת את ש\"ס בגוש הקואליציה, וביולי 2026 תמכו החרדים בחוק היועמ\"ש לאחר הסכם עם נתניהו; הקידוד הוא היסק.",
+  "sources": [
+   {
+    "title": "Deri demands haredi draft law as condition for next government",
+    "outlet": "The Jerusalem Post",
+    "date": "2026-10",
+    "url": "http://www.jpost.com/israel-election-2026/article-911661"
+   },
+   {
+    "title": "120 Project: Israel Elections 2026",
+    "outlet": "Israel Policy Forum",
+    "date": "2026-10",
+    "url": "https://israelpolicyforum.org/onetwenty/"
+   },
+   {
+    "title": "נתניהו שוב נעדר: אושר סופית החוק שיחליש דרמטית את תפקיד היועמ\"ש",
+    "outlet": "ynet",
+    "date": "2026-07-15",
+    "url": "https://www.ynet.co.il/news/article/hyrbcfheze"
+   }
+  ]
  },
  {
   "party": "shas",
@@ -2048,10 +2411,23 @@
  {
   "party": "shas",
   "statement": "jud_override",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "יו\"ר ש\"ס אריה דרעי כינה את צו הביניים של בג\"ץ נגד החוק שהקפיא מעצרים של תלמידי ישיבות שלא התייצבו לגיוס (יולי 2026) \"ביטוי נוסף לשיכרון הכוח של האקטיביזם השיפוטי\"; לא נמצאה עמדה רשמית של ש\"ס על הגבלת סמכות הפסילה.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   },
+   {
+    "title": "High Court freezes implementation of law banning arrest of Haredi draft-dodgers",
+    "outlet": "The Times of Israel",
+    "date": "2026-07",
+    "url": "https://www.timesofisrael.com/high-court-freezes-implementation-of-law-banning-arrest-of-haredi-draft-dodgers/"
+   }
+  ]
  },
  {
   "party": "shas",
@@ -2096,10 +2472,23 @@
  {
   "party": "shas",
   "statement": "jud_ag_split",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "לפי ynet, סיעות החרדים הצביעו ב-15.7.2026 בעד החוק שלפיו חוות דעת היועמ\"ש אינן מחייבות את הממשלה, לאחר שסוכמה עם נתניהו חבילת חוקים; סעיף פיצול התפקיד הוסר מהנוסח הסופי, ולא נמצאה עמדה עקרונית של ש\"ס על הפיצול.",
+  "sources": [
+   {
+    "title": "נתניהו שוב נעדר: אושר סופית החוק שיחליש דרמטית את תפקיד היועמ\"ש",
+    "outlet": "ynet",
+    "date": "2026-07-15",
+    "url": "https://www.ynet.co.il/news/article/hyrbcfheze"
+   },
+   {
+    "title": "Knesset passes sweeping law allowing government to override attorney general",
+    "outlet": "Ynetnews",
+    "date": "2026-07-15",
+    "url": "https://www.ynetnews.com/article/rk00rjbbefg"
+   }
+  ]
  },
  {
   "party": "shas",
@@ -2179,10 +2568,23 @@
  {
   "party": "utj",
   "statement": "jud_selection_politicians",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "יהדות התורה הייתה חלק מהקואליציה שהעבירה ב-27.3.2025 את החוק לשינוי הרכב הוועדה לבחירת שופטים (67 בעד, 1 נגד, האופוזיציה החרימה). לא נמצאה הצהרה עדכנית של הרשימה על הרכב הוועדה.",
+  "sources": [
+   {
+    "title": "Knesset votes to reform Judicial Selection Committee",
+    "outlet": "JNS",
+    "date": "2025-03-27",
+    "url": "https://www.jns.org/knesset-votes-to-reform-judicial-selection-committee/"
+   },
+   {
+    "title": "Knesset gives government greater control over judicial appointments",
+    "outlet": "TPS",
+    "date": "2025-03-27",
+    "url": "https://tps.co.il/articles/knesset-gives-government-greater-control-over-judicial-appointments/"
+   }
+  ]
  },
  {
   "party": "utj",
@@ -2307,10 +2709,29 @@
  {
   "party": "utj",
   "statement": "gov_netanyahu",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לא נמצאה התחייבות מפורשת של יהדות התורה להמליץ על נתניהו. Israel Policy Forum (אוקטובר 2026) מסווגת אותה בגוש הקואליציה, רבנים חרדים קראו להצביע לש\"ס ולג' כדי למנוע את עליית \"השמאל\", וביולי 2026 הצביעו החרדים עם הקואליציה לאחר הסכם עם נתניהו; הקידוד הוא היסק.",
+  "sources": [
+   {
+    "title": "120 Project: Israel Elections 2026",
+    "outlet": "Israel Policy Forum",
+    "date": "2026-10",
+    "url": "https://israelpolicyforum.org/onetwenty/"
+   },
+   {
+    "title": "הרבנים החרדים מתגייסים, וקוראים להצביע ש\"ס וג': \"אם השמאל יעלה - אוי ואבוי\"",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/h1pouub3zl"
+   },
+   {
+    "title": "נתניהו שוב נעדר: אושר סופית החוק שיחליש דרמטית את תפקיד היועמ\"ש",
+    "outlet": "ynet",
+    "date": "2026-07-15",
+    "url": "https://www.ynet.co.il/news/article/hyrbcfheze"
+   }
+  ]
  },
  {
   "party": "utj",
@@ -2352,10 +2773,17 @@
  {
   "party": "utj",
   "statement": "jud_override",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "עם אישור החוק שהקפיא מעצרים של תלמידי ישיבות שלא התייצבו לגיוס (14.7.2026) אמר ח\"כ מיהדות התורה כי מהלך של בית המשפט לפסול את החוק \"לא יהיה בעל תוקף\"; לא נמצאה עמדה רשמית עדכנית של הרשימה, ולכן הביטחון נמוך.",
+  "sources": [
+   {
+    "title": "Knesset passes law banning arrests of Haredi draft dodgers, legitimizing ongoing mass non-enlistment",
+    "outlet": "The Times of Israel",
+    "date": "2026-07-14",
+    "url": "https://www.timesofisrael.com/knesset-passes-law-banning-arrests-of-haredi-draft-dodgers-legitimizing-ongoing-non-enlistment/"
+   }
+  ]
  },
  {
   "party": "utj",
@@ -2400,10 +2828,23 @@
  {
   "party": "utj",
   "statement": "jud_ag_split",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "לפי ynet, סיעות החרדים הצביעו ב-15.7.2026 בעד החוק בעניין סמכויות היועמ\"ש לאחר שסוכמה עם נתניהו חבילת חוקים, וזאת אחרי שח\"כ משה גפני איים שדגל התורה תצביע נגד; לא נמצאה עמדה עקרונית של הרשימה על פיצול התפקיד.",
+  "sources": [
+   {
+    "title": "נתניהו שוב נעדר: אושר סופית החוק שיחליש דרמטית את תפקיד היועמ\"ש",
+    "outlet": "ynet",
+    "date": "2026-07-15",
+    "url": "https://www.ynet.co.il/news/article/hyrbcfheze"
+   },
+   {
+    "title": "Knesset passes sweeping law allowing government to override attorney general",
+    "outlet": "Ynetnews",
+    "date": "2026-07-15",
+    "url": "https://www.ynetnews.com/article/rk00rjbbefg"
+   }
+  ]
  },
  {
   "party": "utj",
@@ -2464,10 +2905,23 @@
  {
   "party": "otzma",
   "statement": "jud_selection_politicians",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "עוצמה יהודית הייתה חלק מהקואליציה שהעבירה ב-27.3.2025 את החוק לשינוי הרכב הוועדה לבחירת שופטים, ולפי mako (2026) היא תומכת בצמצום כוחו של בג\"ץ; לא נמצאה התייחסות מפורשת שלה להרכב הוועדה.",
+  "sources": [
+   {
+    "title": "Knesset votes to reform Judicial Selection Committee",
+    "outlet": "JNS",
+    "date": "2025-03-27",
+    "url": "https://www.jns.org/knesset-votes-to-reform-judicial-selection-committee/"
+   },
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -2586,10 +3040,29 @@
  {
   "party": "otzma",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "עוצמה יהודית מסווגת בגוש הקואליציה ומבקשת לכהן בממשלה הבאה: לאחר שהליכוד סירב לחתום עמה על הסכם עודפים טענה ש\"נתניהו לא רוצה אותנו בממשלה\" (6.10.2026). בן גביר אמר בראיון ל-Time שנתניהו \"עשה טעויות ואינו נקי מאשמה, אבל יש אנשים רבים שאשמים יותר ממנו\".",
+  "sources": [
+   {
+    "title": "הליכוד והציונות הדתית חתמו על הסכם עודפים; עוצמה יהודית: נתניהו לא רוצה אותנו בממשלה",
+    "outlet": "הארץ",
+    "date": "2026-10-06",
+    "url": "https://www.haaretz.co.il/news/elections/2026-10-06/ty-article/000001a1-104d-d4b5-afff-b6cfa31b0000"
+   },
+   {
+    "title": "\"באנגלית רצוצה\": הריאיון הראשון של בן גביר לתקשורת הזרה - והבטחות הגירוש",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://ynet.co.il/news/elections2026/article/hks2zjwnzx"
+   },
+   {
+    "title": "120 Project: Israel Elections 2026",
+    "outlet": "Israel Policy Forum",
+    "date": "2026-10",
+    "url": "https://israelpolicyforum.org/onetwenty/"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -2618,10 +3091,17 @@
  {
   "party": "otzma",
   "statement": "jud_override",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "לפי סקירת mako (2026), עוצמה יהודית תומכת בצמצום כוחו של בג\"ץ ובפיטורים מיידיים של היועמ\"שית כצעד ראשון בממשלה הבאה.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -2673,10 +3153,23 @@
  {
   "party": "otzma",
   "statement": "jud_ag_split",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "לפי סקירת mako (2026), עוצמה יהודית תומכת בפיטורים מיידיים של היועמ\"שית כצעד ראשון בממשלה הבאה; המפלגה הייתה חלק מהקואליציה שהעבירה ב-15.7.2026 את החוק שלפיו חוות דעת היועמ\"ש אינן מחייבות את הממשלה.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   },
+   {
+    "title": "Knesset passes sweeping law allowing government to override attorney general",
+    "outlet": "Ynetnews",
+    "date": "2026-07-15",
+    "url": "https://www.ynetnews.com/article/rk00rjbbefg"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -2744,10 +3237,29 @@
  {
   "party": "rzp",
   "statement": "jud_selection_politicians",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "הציונות הדתית תמכה, כחלק מהקואליציה, בחוק לשינוי הרכב הוועדה לבחירת שופטים (27.3.2025), ובקמפיין 2026 הציגו סמוטריץ' וח\"כ שמחה רוטמן תוכנית להמשך השינויים במערכת המשפט ולהרחבתם.",
+  "sources": [
+   {
+    "title": "Knesset votes to reform Judicial Selection Committee",
+    "outlet": "JNS",
+    "date": "2025-03-27",
+    "url": "https://www.jns.org/knesset-votes-to-reform-judicial-selection-committee/"
+   },
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   },
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -2848,10 +3360,29 @@
  {
   "party": "rzp",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "הציונות הדתית-זהות חתמה על הסכם עודפים עם הליכוד (אוקטובר 2026) ומסווגת בגוש הקואליציה; לא נמצאה הצהרה מפורשת שלה על המלצה לראשות הממשלה.",
+  "sources": [
+   {
+    "title": "הליכוד והציונות הדתית חתמו על הסכם עודפים",
+    "outlet": "ynet",
+    "date": "2026-10",
+    "url": "https://www.ynet.co.il/news/article/HyzkkEGjGe"
+   },
+   {
+    "title": "הליכוד והציונות הדתית חתמו על הסכם עודפים; עוצמה יהודית: נתניהו לא רוצה אותנו בממשלה",
+    "outlet": "הארץ",
+    "date": "2026-10-06",
+    "url": "https://www.haaretz.co.il/news/elections/2026-10-06/ty-article/000001a1-104d-d4b5-afff-b6cfa31b0000"
+   },
+   {
+    "title": "120 Project: Israel Elections 2026",
+    "outlet": "Israel Policy Forum",
+    "date": "2026-10",
+    "url": "https://israelpolicyforum.org/onetwenty/"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -2887,10 +3418,23 @@
  {
   "party": "rzp",
   "statement": "jud_override",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "לפי סקירת mako (2026), הציונות הדתית מתנגדת לסמכות בג\"ץ לפסול חוקים; בקמפיין 2026 הציגו סמוטריץ' וח\"כ רוטמן תוכנית להמשך השינויים במערכת המשפט.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   },
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -2942,10 +3486,23 @@
  {
   "party": "rzp",
   "statement": "jud_ag_split",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "לפי סקירת mako (2026), הציונות הדתית מתנגדת לכך שחוות דעת היועמ\"ש יחייבו את הממשלה, והיא הייתה חלק מהקואליציה שהעבירה ב-15.7.2026 את החוק בעניין סמכויות היועמ\"ש.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   },
+   {
+    "title": "Knesset passes sweeping law allowing government to override attorney general",
+    "outlet": "Ynetnews",
+    "date": "2026-07-15",
+    "url": "https://www.ynetnews.com/article/rk00rjbbefg"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -3161,10 +3718,17 @@
  {
   "party": "raam",
   "statement": "jud_override",
-  "stance": null,
+  "stance": -1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "רע\"מ תומכת במתן מעמד משפטי מחייב למגילת העצמאות (ynet, 2026), עמדה שמשמעותה עיגון מגבלות חוקתיות על החקיקה; לא נמצאה עמדה מפורשת על סמכות הפסילה, והקידוד הוא היסק.",
+  "sources": [
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   }
+  ]
  },
  {
   "party": "raam",
@@ -3299,10 +3863,17 @@
  {
   "party": "joint",
   "statement": "jud_selection_politicians",
-  "stance": null,
+  "stance": -1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לפי סקירת mako (2026), הרשימה המשותפת תומכת באיזונים ובלמים בין הרשויות ובהגנה על זכויות האזרחים; הקידוד הוא היסק מעמדה כללית זו ולא מעמדה מפורשת על הרכב הוועדה.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   }
+  ]
  },
  {
   "party": "joint",
@@ -3441,10 +4012,17 @@
  {
   "party": "joint",
   "statement": "jud_override",
-  "stance": null,
+  "stance": -1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לפי סקירת mako (2026), הרשימה המשותפת תומכת באיזונים ובלמים בין הרשויות ובהגנה על זכויות האזרחים; הקידוד הוא היסק מעמדה כללית זו.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   }
+  ]
  },
  {
   "party": "joint",
@@ -3502,10 +4080,17 @@
  {
   "party": "joint",
   "statement": "jud_ag_split",
-  "stance": null,
+  "stance": -1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לפי סקירת mako (2026), הרשימה המשותפת תומכת באיזונים ובלמים בין הרשויות ובהגנה על זכויות האזרחים; הקידוד הוא היסק מעמדה כללית זו ולא מעמדה מפורשת על תפקיד היועמ\"ש.",
+  "sources": [
+   {
+    "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"
+   }
+  ]
  },
  {
   "party": "joint",
@@ -3700,10 +4285,17 @@
  {
   "party": "reservists",
   "statement": "jud_override",
-  "stance": null,
+  "stance": 0,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "המילואימניקים-הכלכלית אמרו ל-ynet (2026): \"אנחנו בעד שינויים במערכת המשפט\", וכי הצעד הראשון צריך להיות חוק יסוד: החקיקה; לא פורט אם הכוונה להגבלת סמכות הפסילה, ולכן העמדה סומנה כמעורבת.",
+  "sources": [
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   }
+  ]
  },
  {
   "party": "reservists",
@@ -3832,10 +4424,23 @@
  {
   "party": "amcha",
   "statement": "jud_selection_politicians",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "עמך ישראל מציעה להוציא את נציגי לשכת עורכי הדין מהוועדה לבחירת שופטים (כפי שקובע החוק ממרץ 2025) ולהוסיף ערכאה שבה ימונו שופטים \"באופן מאוזן\" (ynet, 2026), ולפי טיימס אוף ישראל (אוקטובר 2026) התחייבה לשינוי מקיף במערכת המשפט; לא נמצאה התייחסות מפורשת לשאלת הרוב בוועדה.",
+  "sources": [
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   },
+   {
+    "title": "A voter's guide to judicial reform: The moves parties are planning after the election",
+    "outlet": "The Times of Israel",
+    "date": "2026-10",
+    "url": "https://www.timesofisrael.com/a-voters-guide-to-judicial-reform-the-moves-parties-are-planning-after-the-election/amp/"
+   }
+  ]
  },
  {
   "party": "amcha",
@@ -3915,10 +4520,29 @@
  {
   "party": "amcha",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "high",
+  "basis": "וינטר הודיע: \"אנחנו בימין וראש מחנה הימין זה בנימין נתניהו, לכן אנחנו נמליץ על נתניהו\", והתחייב לכך גם לאחר הבחירות (2026); עם זאת הודיע שיתמוך רק בממשלה שתגייס חרדים, ובעבר אמר שכשלי 7 באוקטובר מחייבים הנהגה חדשה.",
+  "sources": [
+   {
+    "title": "וינטר בעד התיישבות בעזה, ונגד ועדת חקירה ממלכתית: \"נמליץ על נתניהו\"",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14914571"
+   },
+   {
+    "title": "Israel Elections 2026: Winter rejects haredi draft ultimatum to Benjamin Netanyahu",
+    "outlet": "The Jerusalem Post",
+    "date": "2026-10",
+    "url": "https://www.jpost.com/israel-election-2026/article-912402"
+   },
+   {
+    "title": "In apparent jab at Netanyahu, Winter says October 7 failures demand new leadership",
+    "outlet": "Ynetnews",
+    "date": "2026",
+    "url": "https://www.ynetnews.com/article/hyylz1iugl"
+   }
+  ]
  },
  {
   "party": "amcha",
@@ -3973,10 +4597,23 @@
  {
   "party": "amcha",
   "statement": "jud_override",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לפי טיימס אוף ישראל (אוקטובר 2026), עמך ישראל התחייבה לשינוי מקיף במערכת המשפט, והיא מציעה להוסיף ערכאה שבה ימונו שופטים \"באופן מאוזן\" (ynet, 2026); לא נמצאה התייחסות מפורשת לסמכות הפסילה, ולכן הקידוד הוא היסק.",
+  "sources": [
+   {
+    "title": "A voter's guide to judicial reform: The moves parties are planning after the election",
+    "outlet": "The Times of Israel",
+    "date": "2026-10",
+    "url": "https://www.timesofisrael.com/a-voters-guide-to-judicial-reform-the-moves-parties-are-planning-after-the-election/amp/"
+   },
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   }
+  ]
  },
  {
   "party": "amcha",
