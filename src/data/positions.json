@@ -338,15 +338,15 @@
  {
   "party": "yashar",
   "statement": "gov_term_limits",
-  "stance": 1,
-  "confidence": "low",
-  "basis": "לפי ynet (2026), גוש האופוזיציה מתכוון לקדם הגבלת כהונה לראש הממשלה, לצד ועדת חקירה ממלכתית וביטול חוקי השינויים במערכת המשפט; לא אותרה בבדיקה זו התחייבות פרטנית של ישר! ופירוט של משך ההגבלה, ולכן הביטחון נמוך.",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "גדי איזנקוט אמר (מעריב, אוקטובר 2026 בקירוב): \"נעביר את החוק שמגביל כהונה של ראש ממשלה ל-8 שנים\", כחלק מהצעדים הראשונים של ממשלה בראשותו.",
   "sources": [
    {
-    "title": "המטרה: להחליף את נתניהו. על הדרך יש מחלוקת",
-    "outlet": "ynet",
-    "date": "2026",
-    "url": "https://www.ynet.co.il/news/elections2026/article/byehp18nme"
+    "title": "\"יש גבול לחוצפה\": גדי איזנקוט יוצא למתקפה חריפה נגד בנימין נתניהו",
+    "outlet": "מעריב",
+    "date": "אוקטובר 2026 (משוער)",
+    "url": "https://www.maariv.co.il/news/politics/article-1377060"
    }
   ]
  },
@@ -453,10 +453,23 @@
  {
   "party": "yashar",
   "statement": "gov_indicted_pm",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "גדי איזנקוט אמר (מעריב, אוקטובר 2026 בקירוב): \"נתקן את חוק הנאשם - לבטל אפליה בין שר לראש ממשלה\", כלומר להשוות את דינו של ראש ממשלה נאשם לדינו של שר נאשם. עם זאת, לפי חדשות 13 (ספטמבר–אוקטובר 2026) איזנקוט מסתייג מתוכנית גוש השינוי לקדם את \"חוק הנאשם\" מיד עם השבעת הכנסת, ולכן התמיכה מסומנת כמסויגת.",
+  "sources": [
+   {
+    "title": "\"יש גבול לחוצפה\": גדי איזנקוט יוצא למתקפה חריפה נגד בנימין נתניהו",
+    "outlet": "מעריב",
+    "date": "אוקטובר 2026 (משוער)",
+    "url": "https://www.maariv.co.il/news/politics/article-1377060"
+   },
+   {
+    "title": "ברקע מחלוקת על מועמד: התוכנית של גוש השינוי לתפקיד יו\"ר הכנסת",
+    "outlet": "חדשות 13",
+    "date": "ספטמבר–אוקטובר 2026 (משוער)",
+    "url": "https://13tv.co.il/item/news/politics/politics/elections-905414478/"
+   }
+  ]
  },
  {
   "party": "likud",
@@ -816,10 +829,23 @@
  {
   "party": "likud",
   "statement": "gov_term_limits",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "כשממשלת בנט-לפיד אישרה ב-2021–2022 הצעת חוק להגבלת כהונת ראש הממשלה, כינה אותה הליכוד \"חוק איראני\" שאינו מקובל בשום דמוקרטיה פרלמנטרית, ובינואר 2018 הפילה הקואליציה בראשות נתניהו הצעה דומה. לא נמצאה התייחסות מפורשת של הליכוד לנושא בקמפיין 2026.",
+  "sources": [
+   {
+    "title": "הממשלה אישרה את חוק הגבלת כהונת ראש ממשלה. הליכוד: חוק איראני",
+    "outlet": "ערוץ 7",
+    "date": "2021–2022 (משוער)",
+    "url": "https://www.inn.co.il/news/532337"
+   },
+   {
+    "title": "האם צריך להגביל את כהונתו של ראש ממשלה?",
+    "outlet": "mako",
+    "date": "2019",
+    "url": "https://www.mako.co.il/news-israel-elections/elections_2019-platforms/Article-a533e783174e961006.htm"
+   }
+  ]
  },
  {
   "party": "likud",
@@ -942,10 +968,23 @@
  {
   "party": "likud",
   "statement": "gov_indicted_pm",
-  "stance": null,
+  "stance": -2,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לא נמצאה הצהרה מפורשת של הליכוד על \"חוק הנאשם\" בקמפיין 2026; העמדה מוסקת מכך שמטרתו המוצהרת של החוק, כפי שהציג אותה אביגדור ליברמן באוקטובר 2026, היא למנוע מיו\"ר הליכוד בנימין נתניהו לכהן כראש ממשלה (הסקה, ביטחון נמוך).",
+  "sources": [
+   {
+    "title": "'We must oust Bibi': Bennett, Liberman lay out plans to pass laws against Netanyahu immediately after election",
+    "outlet": "The Times of Israel",
+    "date": "17.10.2026 (משוער)",
+    "url": "https://www.timesofisrael.com/bennett-liberman-lay-out-plans-to-pass-laws-against-netanyahu-immediately-after-election/"
+   },
+   {
+    "title": "\"חוק בעייתי וחסר משמעות\": המכשול של \"חוק הנאשם\"",
+    "outlet": "mako / חדשות 12",
+    "date": "אוקטובר 2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-5f594e564f551a1026.htm"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1246,10 +1285,17 @@
  {
   "party": "together",
   "statement": "arab_shin_bet",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "ממשלת בנט החליטה ב-2021 לשלב את השב\"כ במאבק בפשיעה ובנשק הבלתי חוקי בחברה הערבית, בלי לשנות את חוק השב\"כ. לא נמצאה עמדה של \"ביחד\" על החלטת הממשלה מיולי 2026, ולכן זו הסקה ממעשיו של בנט כראש ממשלה.",
+  "sources": [
+   {
+    "title": "בנט: \"האלימות בחברה הערבית הגיעה לקו האדום\"",
+    "outlet": "ynet",
+    "date": "2021",
+    "url": "https://www.ynet.co.il/news/article/bkqesf00ny"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1275,15 +1321,27 @@
  {
   "party": "together",
   "statement": "gov_term_limits",
-  "stance": 1,
-  "confidence": "low",
-  "basis": "לפי ynet (2026), גוש האופוזיציה מתכוון לקדם הגבלת כהונה לראש הממשלה, לצד ועדת חקירה ממלכתית וביטול חוקי השינויים במערכת המשפט; לא אותרה בבדיקה זו התחייבות פרטנית של \"ביחד\" ופירוט של משך ההגבלה, ולכן הביטחון נמוך.",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "נפתלי בנט, העומד בראש \"ביחד\", התחייב: \"נקצוב כהונת ראש ממשלה לשמונה שנים, וזה יחול קודם כל עליי\" (2026), ובאוקטובר 2026 אמר שהממשלה החדשה תקדם מיד חוק להגבלת הכהונה לשמונה שנים. כבר בספטמבר 2025 הודיע שיציג הצעת חוק יסוד כזו בישיבה הראשונה של הממשלה הבאה ושתהיה תנאי להצטרפות לקואליציה.",
   "sources": [
    {
-    "title": "המטרה: להחליף את נתניהו. על הדרך יש מחלוקת",
-    "outlet": "ynet",
-    "date": "2026",
-    "url": "https://www.ynet.co.il/news/elections2026/article/byehp18nme"
+    "title": "הבטחות בנט, פרטי ההסכם - והעקיצה של איזנקוט",
+    "outlet": "mako / חדשות 12",
+    "date": "אפריל 2026 (משוער)",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-36775f2c58dcd91027.htm"
+   },
+   {
+    "title": "'We must oust Bibi': Bennett, Liberman lay out plans to pass laws against Netanyahu immediately after election",
+    "outlet": "The Times of Israel",
+    "date": "17.10.2026 (משוער)",
+    "url": "https://www.timesofisrael.com/bennett-liberman-lay-out-plans-to-pass-laws-against-netanyahu-immediately-after-election/"
+   },
+   {
+    "title": "בנט מתכנן: חוק להגבלת כהונת ראש הממשלה ל-8 שנים בממשלה הבאה",
+    "outlet": "ישראל היום",
+    "date": "ספטמבר 2025 (משוער)",
+    "url": "https://www.israelhayom.co.il/news/politics/article/18916278"
    }
   ]
  },
@@ -1369,10 +1427,17 @@
  {
   "party": "together",
   "statement": "gov_kan",
-  "stance": null,
+  "stance": -1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "יאיר לפיד, מס' 2 ברשימת \"ביחד\", כינה את אישור הצעת החוק לסגירת תאגיד השידור ולהפרטתו בקריאה טרומית (27.11.2024) \"התקפה על הדמוקרטיה\". עמדתו של נפתלי בנט בנושא לא נמצאה, ולכן זו הסקה מעמדת השותף לרשימה.",
+  "sources": [
+   {
+    "title": "החוק שיוביל לסגירת שידורי התאגיד אושר בטרומית, לפיד: \"התקפה על הדמוקרטיה\"",
+    "outlet": "ישראל היום",
+    "date": "27.11.2024",
+    "url": "https://www.israelhayom.co.il/news/politics/article/16858701"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1704,21 +1769,15 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "gov_term_limits",
-  "stance": 1,
+  "stance": 2,
   "confidence": "low",
-  "basis": "לפי ynet (2026), גוש האופוזיציה מתכוון לקדם הגבלת כהונה לראש הממשלה, לצד ועדת חקירה ממלכתית וביטול חוקי השינויים במערכת המשפט; לא אותרה התחייבות פרטנית של ישראל ביתנו, ויש לזכור שהמפלגה לא הצטרפה להתחייבות הגוש לבטל את חוקי השינויים, כך שעמדות הגוש אינן חלות בהכרח על כל מרכיביו.",
+  "basis": "לא נמצאה הצהרה מפורשת של ישראל ביתנו בנושא בקמפיין 2026; העמדה מוסקת מכך שבכנסת ה-24 (2021–2022) הייתה המפלגה, בראשות ליברמן, חלק מהקואליציה שהעבירה בקריאה ראשונה את הצעת החוק להגבלת כהונת ראש הממשלה לשמונה שנים (66 תומכים מול 48).",
   "sources": [
    {
-    "title": "המטרה: להחליף את נתניהו. על הדרך יש מחלוקת",
-    "outlet": "ynet",
-    "date": "2026",
-    "url": "https://www.ynet.co.il/news/elections2026/article/byehp18nme"
-   },
-   {
-    "title": "Bennett Vows to Repeal All Judicial Overhaul Laws Following Haaretz Report",
-    "outlet": "Haaretz",
-    "date": "2026-10-21",
-    "url": "https://www.haaretz.com/israel-news/elections/2026-10-21/ty-article/.premium/bennett-vows-to-repeal-all-judicial-overhaul-laws-following-haaretz-report/000001a1-5f61-d05a-abe9-7f7935bf0000"
+    "title": "66 תומכים, 48 מתנגדים: חוק הגבלת כהונה עבר בקריאה ראשונה",
+    "outlet": "גלובס",
+    "date": "2021–2022 (הכנסת ה-24)",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001391718"
    }
   ]
  },
@@ -2103,15 +2162,15 @@
  {
   "party": "democrats",
   "statement": "gov_term_limits",
-  "stance": 1,
-  "confidence": "low",
-  "basis": "לפי ynet (2026), גוש האופוזיציה מתכוון לקדם הגבלת כהונה לראש הממשלה, לצד ועדת חקירה ממלכתית וביטול חוקי השינויים במערכת המשפט; לא אותרה בבדיקה זו התחייבות פרטנית של הדמוקרטים ופירוט של משך ההגבלה, ולכן הביטחון נמוך.",
+  "stance": 2,
+  "confidence": "high",
+  "basis": "לפי סקירת ICE (אוקטובר 2026), חוק להגבלת כהונת ראש הממשלה הוא אחד מקווי היסוד המשפטיים שמפלגת הדמוקרטים תניח בכל משא ומתן קואליציוני ותתעקש לחוקק.",
   "sources": [
    {
-    "title": "המטרה: להחליף את נתניהו. על הדרך יש מחלוקת",
-    "outlet": "ynet",
-    "date": "2026",
-    "url": "https://www.ynet.co.il/news/elections2026/article/byehp18nme"
+    "title": "מי מחרים את מי: יצאנו לבדוק את כל המפלגות",
+    "outlet": "ICE (אייס)",
+    "date": "אוקטובר 2026",
+    "url": "https://www.ice.co.il/research/news/article/1134027"
    }
   ]
  },
@@ -2206,10 +2265,29 @@
  {
   "party": "democrats",
   "statement": "gov_indicted_pm",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "תוכנית מפלגת הדמוקרטים כוללת איסור על כהונה כראש ממשלה למי שהוגש נגדו כתב אישום, ולפי סקירת ICE (אוקטובר 2026) זהו אחד מקווי היסוד המשפטיים שהמפלגה תתעקש לחוקק בכל משא ומתן קואליציוני. לפי חדשות 13 (ספטמבר–אוקטובר 2026) יאיר גולן תומך ב\"חוק הנאשם\".",
+  "sources": [
+   {
+    "title": "תוכנית הדמוקרטים: ביטול המהפכה המשפטית, איסור כהונה כרה\"מ עם כתב אישום",
+    "outlet": "ynet",
+    "date": "לא אותר (2025–2026)",
+    "url": "https://www.ynet.co.il/news/article/h1dh5gq7ge"
+   },
+   {
+    "title": "מי מחרים את מי: יצאנו לבדוק את כל המפלגות",
+    "outlet": "ICE (אייס)",
+    "date": "אוקטובר 2026",
+    "url": "https://www.ice.co.il/research/news/article/1134027"
+   },
+   {
+    "title": "ברקע מחלוקת על מועמד: התוכנית של גוש השינוי לתפקיד יו\"ר הכנסת",
+    "outlet": "חדשות 13",
+    "date": "ספטמבר–אוקטובר 2026 (משוער)",
+    "url": "https://13tv.co.il/item/news/politics/politics/elections-905414478/"
+   }
+  ]
  },
  {
   "party": "shas",
@@ -2402,25 +2480,25 @@
   "statement": "gov_netanyahu",
   "stance": 1,
   "confidence": "low",
-  "basis": "לא נמצאה התחייבות מפורשת של ש\"ס להמליץ על נתניהו: דרעי הודיע (אוקטובר 2026) שש\"ס לא תצטרף ולא תתמוך בממשלה הבאה ללא חוק המסדיר את מעמד תלמידי הישיבות. Israel Policy Forum מסווגת את ש\"ס בגוש הקואליציה, וביולי 2026 תמכו החרדים בחוק היועמ\"ש לאחר הסכם עם נתניהו; הקידוד הוא היסק.",
+  "basis": "לא נמצאה הצהרה מפורשת של ש\"ס על המלצה על נתניהו בבחירות 2026. במאי 2026, על רקע ביקורת על נתניהו, התנה אריה דרעי את כניסת ש\"ס לכל ממשלה בהסדרת מעמד לומדי התורה; ההערכה לתמיכה מבוססת על השתייכותה של ש\"ס לגוש נתניהו ועל דיווחים שדרעי נותר לצדו (ביטחון נמוך).",
   "sources": [
    {
-    "title": "Deri demands haredi draft law as condition for next government",
-    "outlet": "The Jerusalem Post",
-    "date": "2026-10",
-    "url": "http://www.jpost.com/israel-election-2026/article-911661"
-   },
-   {
-    "title": "120 Project: Israel Elections 2026",
-    "outlet": "Israel Policy Forum",
-    "date": "2026-10",
-    "url": "https://israelpolicyforum.org/onetwenty/"
-   },
-   {
-    "title": "נתניהו שוב נעדר: אושר סופית החוק שיחליש דרמטית את תפקיד היועמ\"ש",
+    "title": "ש\"ס בביקורת על נתניהו, דרעי: \"ממשלה? רק אם יוסדר מעמד לומדי התורה\"",
     "outlet": "ynet",
-    "date": "2026-07-15",
-    "url": "https://www.ynet.co.il/news/article/hyrbcfheze"
+    "date": "מאי 2026 (משוער)",
+    "url": "https://www.ynet.co.il/news/article/hjs6jug1ze"
+   },
+   {
+    "title": "סוף הברית? הזעם בש\"ס על נתניהו - ותנאי הברזל של דרעי לקואליציה הבאה",
+    "outlet": "mako",
+    "date": "2026 (רבעון שני)",
+    "url": "https://www.mako.co.il/news-politics/2026_q2/Article-07e3c00e4152e91026.htm"
+   },
+   {
+    "title": "התגובה הראשונה של דרעי והטור שמזהיר מ\"נקמת השמאל\": ש\"ס לצד נתניהו",
+    "outlet": "ישראל היום",
+    "date": "לא אותר",
+    "url": "https://www.israelhayom.co.il/news/politics/article/20536228"
    }
   ]
  },
@@ -2789,27 +2867,15 @@
  {
   "party": "utj",
   "statement": "gov_netanyahu",
-  "stance": 1,
-  "confidence": "low",
-  "basis": "לא נמצאה התחייבות מפורשת של יהדות התורה להמליץ על נתניהו. Israel Policy Forum (אוקטובר 2026) מסווגת אותה בגוש הקואליציה, רבנים חרדים קראו להצביע לש\"ס ולג' כדי למנוע את עליית \"השמאל\", וביולי 2026 הצביעו החרדים עם הקואליציה לאחר הסכם עם נתניהו; הקידוד הוא היסק.",
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "משה גפני (דגל התורה) אמר (מאי 2026 בקירוב) שאחרי הבחירות תבחן יהדות התורה את המשך הדרך עם נתניהו וכי אינה שוללת חבירה ללפיד; לא נמצאה המלצה מפורשת של הרשימה על מועמד לראשות הממשלה.",
   "sources": [
    {
-    "title": "120 Project: Israel Elections 2026",
-    "outlet": "Israel Policy Forum",
-    "date": "2026-10",
-    "url": "https://israelpolicyforum.org/onetwenty/"
-   },
-   {
-    "title": "הרבנים החרדים מתגייסים, וקוראים להצביע ש\"ס וג': \"אם השמאל יעלה - אוי ואבוי\"",
+    "title": "גפני: אחרי הבחירות נבחן את המשך הדרך עם נתניהו, לא שוללים חבירה ללפיד",
     "outlet": "ynet",
-    "date": "2026",
-    "url": "https://www.ynet.co.il/news/elections2026/article/h1pouub3zl"
-   },
-   {
-    "title": "נתניהו שוב נעדר: אושר סופית החוק שיחליש דרמטית את תפקיד היועמ\"ש",
-    "outlet": "ynet",
-    "date": "2026-07-15",
-    "url": "https://www.ynet.co.il/news/article/hyrbcfheze"
+    "date": "מאי 2026 (משוער)",
+    "url": "https://www.ynet.co.il/news/article/hjapkbmgge"
    }
   ]
  },
@@ -3926,10 +3992,29 @@
  {
   "party": "raam",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "מנסור עבאס אמר לסוכנות רויטרס (אוקטובר 2026) שאפשר \"להבטיח\" הקמת ממשלת שינוי שתחליף את ממשלת הימין, ובאוגוסט 2026 הגדיר את יעדי רע\"מ כהחלפת הממשלה והשתלבות בממשלה עתידית.",
+  "sources": [
+   {
+    "title": "מנסור עבאס מסמן יעד: הולכים להבטיח ממשלת שינוי חדשה",
+    "outlet": "כל רגע",
+    "date": "19.10.2026",
+    "url": "https://www.kore.co.il/viewArticle/223503"
+   },
+   {
+    "title": "\"אנחנו נבטיח הקמת ממשלת שינוי\": המסר של עבאס לציבור הערבי - דרך התקשורת הבינלאומית",
+    "outlet": "ישראל היום",
+    "date": "אוקטובר 2026",
+    "url": "https://www.israelhayom.co.il/news/politics/article/21656659"
+   },
+   {
+    "title": "מנסור עבאס",
+    "outlet": "ויקיפדיה",
+    "date": "נצפה אוקטובר 2026",
+    "url": "https://he.wikipedia.org/wiki/%D7%9E%D7%A0%D7%A1%D7%95%D7%A8_%D7%A2%D7%91%D7%90%D7%A1"
+   }
+  ]
  },
  {
   "party": "raam",
@@ -3986,10 +4071,17 @@
  {
   "party": "raam",
   "statement": "arab_shin_bet",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "בראיון ל-mako (מועד הראיון לא אומת) נשאל מנסור עבאס אם הוא תומך במעורבות השב\"כ במאבק בפשיעה בחברה הערבית והשיב שיש לשתף כל גוף שיכול לסייע. לא נמצאה תגובה מפורשת של רע\"מ להחלטת הממשלה מיולי 2026.",
+  "sources": [
+   {
+    "title": "מנסור עבאס: \"מלחמת אזרחים בין הערבים זו אפשרות\"",
+    "outlet": "mako",
+    "date": "לא אותר",
+    "url": "https://www.mako.co.il/weekend-articles/Article-265a6667c56e781026.htm"
+   }
+  ]
  },
  {
   "party": "raam",
@@ -4297,10 +4389,29 @@
  {
   "party": "joint",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "יו\"ר הרשימה המשותפת יוסף ג'בארין הודיע (אוקטובר 2026) שהרשימה תעניק רשת ביטחון לכל ממשלה שתחליף את נתניהו, אם כי לדבריו בלי תמיכה אוטומטית; ח\"כ אחמד טיבי אמר שהרשימה לא תאפשר לנתניהו לכהן אפילו כראש ממשלת מעבר.",
+  "sources": [
+   {
+    "title": "יו\"ר הרשימה המשותפת: נעניק רשת ביטחון לכל ממשלה שתחליף את נתניהו",
+    "outlet": "ynet",
+    "date": "אוקטובר 2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/sykomzuomx"
+   },
+   {
+    "title": "טיבי: נתמוך בהדחת אוחנה, לא נאפשר לנתניהו להיות ראש ממשלת מעבר",
+    "outlet": "ynet",
+    "date": "אוקטובר 2026 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/rjw7uuzngx"
+   },
+   {
+    "title": "יו\"ר הרשימה המשותפת: \"נעניק רשת ביטחון לכל ממשלה שתחליף את נתניהו\"",
+    "outlet": "ישראל היום",
+    "date": "אוקטובר 2026",
+    "url": "https://www.israelhayom.co.il/news/politics/article/21593525"
+   }
+  ]
  },
  {
   "party": "joint",
@@ -4513,10 +4624,23 @@
  {
   "party": "joint",
   "statement": "gov_indicted_pm",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "יו\"ר הרשימה המשותפת יוסף ג'בארין אמר (הארץ, 5.10.2026) שבתמיכת הרשימה אפשר יהיה להעביר חוק שימנע מנאשם בפלילים להרכיב ממשלה; גם ח\"כ אחמד טיבי אמר באוקטובר 2026 שיפעל להעברת \"חוק הנאשם\" בכנסת ה-26.",
+  "sources": [
+   {
+    "title": "יו\"ר הרשימה המשותפת: אפשר יהיה להעביר בתמיכתנו חוק שימנע מנאשם בפלילים להרכיב ממשלה",
+    "outlet": "הארץ",
+    "date": "05.10.2026",
+    "url": "https://www.haaretz.co.il/news/elections/2026-10-05/ty-article/.premium/000001a1-0d1b-da81-abf3-dddb88d60000"
+   },
+   {
+    "title": "\"חוק בעייתי וחסר משמעות\": המכשול של \"חוק הנאשם\"",
+    "outlet": "mako / חדשות 12",
+    "date": "אוקטובר 2026",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-5f594e564f551a1026.htm"
+   }
+  ]
  },
  {
   "party": "reservists",
@@ -4667,27 +4791,21 @@
  {
   "party": "reservists",
   "statement": "gov_netanyahu",
-  "stance": 0,
+  "stance": -2,
   "confidence": "medium",
-  "basis": "הנדל וזליכה הצהירו ב-2026 שלא ישלימו לנתניהו רוב של 61 בממשלה עם המפלגות החרדיות ('גם אם זה אומר עוד בחירות'), אך בהמשך הקמפיין אמר הנדל שאינו מחויב לאף גוש, שילך עם מי שיביא יותר מנדטים ציוניים – נתניהו או איזנקוט – ושאם נתניהו, איזנקוט ובנט ישבו יחד יהיה חלק מכך. העמדה מותנית ואינה תמיכה או שלילה של נתניהו עצמו.",
+  "basis": "יועז הנדל וירון זליכה, העומדים בראש הרשימה, הודיעו (2026) שלא ישלימו לנתניהו ולמפלגות החרדיות רוב להקמת ממשלה ושלא ישבו בקואליציה עם המפלגות החרדיות. לא נמצאה הצהרה מפורשת על המלצה לנשיא.",
   "sources": [
    {
-    "title": "יועז הנדל: \"לעולם לא אשלים לנתניהו ל-61 מנדטים. גם אם זה אומר עוד בחירות\"",
-    "outlet": "ynet",
+    "title": "ירון זליכה, שלא עובר ברוב הסקרים: 'לא נשלים לנתניהו והמפלגות החרדיות ממשלה'",
+    "outlet": "חרדים10",
     "date": "2026",
-    "url": "https://www.ynet.co.il/news/article/yokra14827947"
+    "url": "https://ch10.co.il/news/1108800/"
    },
    {
-    "title": "יועז הנדל: נתניהו או גדי איזנקוט? נלך עם מי שיביא יותר מנדטים ציוניים",
-    "outlet": "ynet",
+    "title": "מתרחקים מגוש הימין > הנדל וזליכה הודיעו: נחרים כל ממשלה עם החרדים",
+    "outlet": "hm-news.co.il",
     "date": "2026",
-    "url": "https://www.ynet.co.il/news/elections2026/article/sywy11bjize"
-   },
-   {
-    "title": "הערפל מתפזר: יועז הנדל החליט עם מי הוא ישב בממשלה",
-    "outlet": "מעריב",
-    "date": "2026",
-    "url": "https://www.maariv.co.il/news/politics/article-1374903"
+    "url": "https://hm-news.co.il/663174/"
    }
   ]
  },
