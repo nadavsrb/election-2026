@@ -325,19 +325,13 @@
   "statement": "rel_core_studies",
   "stance": -1,
   "confidence": "low",
-  "basis": "לא נמצאה התייחסות מפורשת של ישר! ללימודי ליבה; ההערכה נשענת על עמדות קרובות: תוכנית 100 הימים של המפלגה כוללת שינוי בתקצוב מוסדות החינוך החרדיים, ולפי ynet אמר איזנקוט (2026) שמי שלא ישתף פעולה עם החובות לא יקבל מימון לבתי ספר.",
+  "basis": "לפי סקירת ynet של תוכניות החינוך (2026), מפלגתו של איזנקוט מבקשת להחזיר את הממלכתיות למערכת החינוך באמצעות תיעדוף תקציבי למוסדות שמלמדים מקצועות ליבה ושמירה על 'ליבה לאומית'. לא נמצאה התחייבות מפורשת לשלילת מימון ממוסדות שאינם מלמדים ליבה, ותקצירי החיפוש לא היו חד-משמעיים בייחוס הסעיף – ולכן הביטחון נמוך.",
   "sources": [
    {
-    "title": "איך מתכוונת מפלגת אופוזיציה בולטת לשנות את יחס המדינה לחרדים? התוכנית נחשפת",
-    "outlet": "בחדרי חרדים",
-    "date": "2026",
-    "url": "https://www.bhol.co.il/news/1742563"
-   },
-   {
-    "title": "איזנקוט: ללא רוב ציוני, נקרא לחרדים להבין את גודל השעה. אם לא יבינו - עדיף בחירות נוספות",
+    "title": "ההבטחות שלהם לילדים שלנו: מה מתכננת כל מפלגה במערכת החינוך",
     "outlet": "ynet",
     "date": "2026",
-    "url": "https://www.ynet.co.il/news/article/b1lbrtvrme"
+    "url": "https://www.ynet.co.il/news/elections2026/article/h1ajygm00ml"
    }
   ]
  },
@@ -1260,10 +1254,23 @@
  {
   "party": "together",
   "statement": "rel_core_studies",
-  "stance": null,
+  "stance": -1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "תוכנית החינוך של ביחד (2026) קובעת שמועצה לאומית מקצועית תקבע בסיס לימודים משותף של 60% לכל הזרמים, ויש עתיד עתרה ב-2026 נגד העברת כ-1.1 מיליארד ש\"ח לחינוך החרדי בטענה שהיא עוקפת את מנגנוני הפיקוח. לא נמצאה התייחסות מפורשת למימון מוסדות שאינם מלמדים ליבה, והקידוד מוסק מכך.",
+  "sources": [
+   {
+    "title": "ההבטחות שלהם לילדים שלנו: מה מתכננת כל מפלגה במערכת החינוך",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/h1ajygm00ml"
+   },
+   {
+    "title": "למה באמת נבלמה העברת 1.1 מיליארד שקל לחינוך החרדי?",
+    "outlet": "mako N12",
+    "date": "2026 (רבעון ראשון)",
+    "url": "https://www.mako.co.il/news-money/2026_q1/Article-6f76775853a7b91027.htm"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1499,18 +1506,44 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "arab_coalition",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "ליברמן התחייב ב-2026 להקים 'ממשלה ציונית וממלכתית – בלי המפלגות החרדיות ובלי המפלגות הערביות', ושלל גם ממשלה שתישען על הימנעות המפלגות הערביות ('לא אלך לממשלה שנתמכת בהימנעות המפלגות הערביות').",
+  "sources": [
+   {
+    "title": "61 אצבעות או כלום: אביגדור ליברמן בסיכול ממוקד שטורף את הקלפים באופוזיציה",
+    "outlet": "מעריב",
+    "date": "2026",
+    "url": "https://www.maariv.co.il/news/politics/article-1377523"
+   },
+   {
+    "title": "ליברמן מבטיח נקים ממשלה בלי החרדים וב…",
+    "outlet": "סרוגים",
+    "date": "2026",
+    "url": "https://www.srugim.co.il/1276848-ליברמן-מבטיח-נקים-ממשלה-בלי-החרדים-וב"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
   "statement": "rel_civil_marriage",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ישראל ביתנו התחייבה להכיר בנישואים ובגירושים אזרחיים (סקירת ynet לקראת בחירות 2022), ובאוקטובר 2020 קידמה הצעת חוק לנישואים אזרחיים שנפלה במליאה. לא נמצא מקור מ-2026, אך זו עמדה עקבית ומרכזית של המפלגה.",
+  "sources": [
+   {
+    "title": "תחב\"צ בשבת, גיוס חרדים, הר הבית ותיקון חוק השבות: מה מבטיחות המפלגות בנושאי הדת והמדינה",
+    "outlet": "ynet",
+    "date": "2022-10",
+    "url": "https://www.ynet.co.il/judaism/article/bysw00aons"
+   },
+   {
+    "title": "ישראל ביתנו on X: \"הצעת החוק המאפשרת נישואים אזרחיים בישראל נפלה בגלל שיתוף הפעולה בין הליכוד והרשימה המשותפת. גם כחול לבן וימינה הצביעו נגד..\"",
+    "outlet": "X – החשבון הרשמי של ישראל ביתנו",
+    "date": "2020-10-14",
+    "url": "https://twitter.com/Beytenu/status/1316331295648239616?lang=en"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1650,10 +1683,23 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "rel_core_studies",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "מצע ישראל ביתנו לבחירות 2026 מציע לחוקק חוק לימודי ליבה לכל תלמידי ישראל, שלפיו מוסדות שלא ילמדו את תוכנית הליבה במלואה לא יהיו זכאים לתקצוב ממלכתי.",
+  "sources": [
+   {
+    "title": "מלחמה על הליב\"ה או ביטול כיתה י\"ב: הבטחות המפלגות בקרב על החינוך",
+    "outlet": "וואלה",
+    "date": "2026",
+    "url": "https://www.walla.co.il/news/politics/383958214"
+   },
+   {
+    "title": "ההבטחות שלהם לילדים שלנו: מה מתכננת כל מפלגה במערכת החינוך",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/h1ajygm00ml"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -2042,10 +2088,17 @@
  {
   "party": "democrats",
   "statement": "rel_core_studies",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "מצע הדמוקרטים לבחירות 2026 מציע לבטל את המעמד המיוחד של רשתות החינוך החרדיות המפלגתיות ולהפסיק את תקצובן אם אינן מלמדות לימודי ליבה.",
+  "sources": [
+   {
+    "title": "מלחמה על הליב\"ה או ביטול כיתה י\"ב: הבטחות המפלגות בקרב על החינוך",
+    "outlet": "וואלה",
+    "date": "2026",
+    "url": "https://www.walla.co.il/news/politics/383958214"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -2440,10 +2493,23 @@
  {
   "party": "shas",
   "statement": "rel_core_studies",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "בתשובותיה ל-ynet לקראת בחירות 2022 כתבה ש\"ס שברשת החינוך שלה מתקיימים לימודי ליבה, אך אסור לכפות אותם על תלמיד או אזרח; ב-2026 תמכה ש\"ס בתקציב שכלל תוספות לרשתות החינוך החרדיות.",
+  "sources": [
+   {
+    "title": "ש\"ס: התשובות המלאות",
+    "outlet": "ynet",
+    "date": "2022-10",
+    "url": "https://www.ynet.co.il/judaism/article/skjsylheo"
+   },
+   {
+    "title": "הסיבה שהחרדים תומכים בתקציב 2026: המספרים",
+    "outlet": "mako N12",
+    "date": "2026 (רבעון ראשון)",
+    "url": "https://www.mako.co.il/news-money/2026_q1/Article-dd30a018b463d91027.htm"
+   }
+  ]
  },
  {
   "party": "shas",
@@ -2589,10 +2655,17 @@
  {
   "party": "utj",
   "statement": "rel_shabbat_transport",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "בתשובותיה המלאות ל-ynet לקראת בחירות 2022 הצהירה יהדות התורה שהיא דבקה בסטטוס-קוו בנושא השבת ותיאבק ליישומו בכל דרך, ושהשבת חייבת להישאר יום המנוחה הרשמי. לא נמצאה התייחסות מפורשת מ-2026, והקידוד נשען על עמדה זו.",
+  "sources": [
+   {
+    "title": "יהדות התורה: התשובות המלאות",
+    "outlet": "ynet",
+    "date": "2022-10",
+    "url": "https://www.ynet.co.il/judaism/article/hyruplhvs"
+   }
+  ]
  },
  {
   "party": "utj",
@@ -2653,10 +2726,17 @@
  {
   "party": "utj",
   "statement": "rel_civil_marriage",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "בתשובותיה המלאות ל-ynet (אוקטובר 2022) קבעה יהדות התורה בשאלת הנישואים האזרחיים כי 'הסטטוס-קוו הלאומי חייב להישמר גם בנושא זה', כלומר התנגדות לנישואים ולגירושים אזרחיים.",
+  "sources": [
+   {
+    "title": "יהדות התורה: התשובות המלאות",
+    "outlet": "ynet",
+    "date": "2022-10",
+    "url": "https://www.ynet.co.il/judaism/article/hyruplhvs"
+   }
+  ]
  },
  {
   "party": "utj",
@@ -2796,10 +2876,23 @@
  {
   "party": "utj",
   "statement": "rel_core_studies",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "המפלגות החרדיות דרשו בהסכמים הקואליציוניים (2022–2023) להגדיל את התקציבים לרשתות החינוך החרדיות, ותמכו בתקציב 2026 שכלל תוספות לרשתות אלה, ובהן החינוך העצמאי של יהדות התורה, בזמן שהיועמ\"שית ובג\"ץ פעלו להתנות את התקצוב בלימודי ליבה (2026). הקידוד מבוסס על פעולות ולא על הצהרה מפורשת בנוסח ההיגד.",
+  "sources": [
+   {
+    "title": "סערת בג\"ץ המיליארד, תקציב הרשתות וועדת הכספים",
+    "outlet": "המכון הישראלי לדמוקרטיה",
+    "date": "2026",
+    "url": "https://www.idi.org.il/articles/63028"
+   },
+   {
+    "title": "הסיבה שהחרדים תומכים בתקציב 2026: המספרים",
+    "outlet": "mako N12",
+    "date": "2026 (רבעון ראשון)",
+    "url": "https://www.mako.co.il/news-money/2026_q1/Article-dd30a018b463d91027.htm"
+   }
+  ]
  },
  {
   "party": "utj",
@@ -2889,10 +2982,23 @@
  {
   "party": "otzma",
   "statement": "sec_gaza_control",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "איתמר בן גביר קורא ב-2026 להקים מחדש התנחלויות ברצועת עזה ולעודד את הגירת תושביה (צעדה לגבול הרצועה ביולי 2026, ראיון ל-TIME באוקטובר 2026). עמדה זו מניחה המשך שליטה ישראלית בשטחים נרחבים ברצועה, אך לא נמצאה התייחסות ישירה שלו לחלופה של רצועת ביטחון בלבד.",
+  "sources": [
+   {
+    "title": "Israel’s far-right openly boasts of resettling Gaza as election looms",
+    "outlet": "CNN",
+    "date": "2026-07-20",
+    "url": "https://www.cnn.com/2026/07/20/middleeast/israel-far-right-settlements-gaza-intl"
+   },
+   {
+    "title": "Exclusive: Ben-Gvir’s Plan to Push Netanyahu Further Right",
+    "outlet": "TIME",
+    "date": "2026-10-22",
+    "url": "https://time.com/article/2026/10/22/ben-gvir-interview/"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -2926,10 +3032,23 @@
  {
   "party": "otzma",
   "statement": "rel_shabbat_transport",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "בתשובות לשאלון ynet לקראת בחירות 2022, כשרצו ברשימה משותפת, הציונות הדתית ועוצמה יהודית תמכו בשמירת הסטטוס קוו והתנגדו להפעלת תחבורה ציבורית בשבת. לפניית ynet בנושא לקראת בחירות 2026 (ספטמבר 2026) עוצמה יהודית לא השיבה, ולא נמצאה עמדה מעודכנת.",
+  "sources": [
+   {
+    "title": "הציונות הדתית ועוצמה יהודית: התשובות המלאות",
+    "outlet": "ynet",
+    "date": "2022-10 (משוער)",
+    "url": "https://www.ynet.co.il/judaism/article/h1yc5lh4i"
+   },
+   {
+    "title": "\"מוקד פוליטי נפיץ\": עמדת המפלגות על תחבורה ציבורית בשבת - והסקר בקרב המצביעים",
+    "outlet": "ynet",
+    "date": "2026-09 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14883243"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -2984,10 +3103,17 @@
  {
   "party": "otzma",
   "statement": "rel_civil_marriage",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "בתשובות לשאלון ynet לקראת בחירות 2022 (רשימה משותפת של הציונות הדתית ועוצמה יהודית) נכתב שהמדינה צריכה להכיר רק בנישואים ובגירושים לפי ההלכה. לא נמצאה התייחסות עדכנית של עוצמה יהודית מ-2026.",
+  "sources": [
+   {
+    "title": "הציונות הדתית ועוצמה יהודית: התשובות המלאות",
+    "outlet": "ynet",
+    "date": "2022-10 (משוער)",
+    "url": "https://www.ynet.co.il/judaism/article/h1yc5lh4i"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -3075,10 +3201,29 @@
  {
   "party": "otzma",
   "statement": "sec_gaza_settle",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ביולי 2026 השתתף בן גביר בצעדה לגבול רצועת עזה בדרישה להקים מחדש את היישובים ניסנית, דוגית ואלי סיני בצפון הרצועה. באוקטובר 2026 הציג בראיון ל-TIME תוכנית שלפיה תושבי עזה יעזבו למדינות שיסכימו לקלוט אותם, וישראלים יקימו יישובים ברצועה.",
+  "sources": [
+   {
+    "title": "Ministers join settler activists on march through closed military zone to Gaza border",
+    "outlet": "The Times of Israel",
+    "date": "2026-07 (משוער)",
+    "url": "https://www.timesofisrael.com/ministers-join-settler-activists-on-march-through-closed-military-zone-to-gaza-border/"
+   },
+   {
+    "title": "Israel’s far-right openly boasts of resettling Gaza as election looms",
+    "outlet": "CNN",
+    "date": "2026-07-20",
+    "url": "https://www.cnn.com/2026/07/20/middleeast/israel-far-right-settlements-gaza-intl"
+   },
+   {
+    "title": "Exclusive: Ben-Gvir’s Plan to Push Netanyahu Further Right",
+    "outlet": "TIME",
+    "date": "2026-10-22",
+    "url": "https://time.com/article/2026/10/22/ben-gvir-interview/"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -3137,10 +3282,23 @@
  {
   "party": "otzma",
   "statement": "sec_pa_gaza",
-  "stance": null,
+  "stance": -2,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "לא נמצאה התבטאות ישירה של עוצמה יהודית על תפקיד לרשות הפלסטינית בעזה, והקידוד מוסק: בן גביר מקדם ב-2026 תוכנית להגירת תושבי הרצועה ולהתיישבות ישראלית בה, והיה השר היחיד בקבינט שהצביע נגד כניסת 'מועצת השלום' לרצועה (בנימוק שחמאס לא פורק מנשקו).",
+  "sources": [
+   {
+    "title": "Cabinet approves Board of Peace entry into Gaza, starting in Rafah",
+    "outlet": "Ynetnews",
+    "date": "2026 (משוער)",
+    "url": "https://www.ynetnews.com/article/sjxtc5xbgl"
+   },
+   {
+    "title": "Exclusive: Ben-Gvir’s Plan to Push Netanyahu Further Right",
+    "outlet": "TIME",
+    "date": "2026-10-22",
+    "url": "https://time.com/article/2026/10/22/ben-gvir-interview/"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -3215,14 +3373,20 @@
   "party": "rzp",
   "statement": "sec_gaza_control",
   "stance": 2,
-  "confidence": "low",
-  "basis": "לפי מדריך הבחירות של IMEU (2026), הציונות הדתית וזהות תומכות בהקמה מחדש של יישובים יהודיים ברצועת עזה; התמיכה בנוכחות צבאית ארוכת טווח מוסקת מכך, ולא נמצא במקורות שנבדקו ציטוט ישיר בנושא.",
+  "confidence": "medium",
+  "basis": "באפריל 2026 קרא בצלאל סמוטריץ' לנתניהו לכבוש את רצועת עזה וליישב אותה, וביולי 2026 הוביל עם בן גביר צעדה לגבול הרצועה בדרישה להקים יישובים בצפונה. עמדה זו תומכת בשליטה ישראלית נרחבת ברצועה ולא רק ברצועת ביטחון.",
   "sources": [
    {
-    "title": "Israel Election Guide 2026",
-    "outlet": "IMEU (Institute for Middle East Understanding)",
-    "date": "2026",
-    "url": "https://imeu.org/resources/important-events/israel-election-guide-2026/508"
+    "title": "Smotrich reiterates call to establish settlements inside Gaza",
+    "outlet": "The Times of Israel (liveblog)",
+    "date": "2026-04 (משוער)",
+    "url": "https://www.timesofisrael.com/liveblog_entry/smotrich-reiterates-call-to-establish-settlements-inside-gaza/"
+   },
+   {
+    "title": "Israel’s far-right openly boasts of resettling Gaza as election looms",
+    "outlet": "CNN",
+    "date": "2026-07-20",
+    "url": "https://www.cnn.com/2026/07/20/middleeast/israel-far-right-settlements-gaza-intl"
    }
   ]
  },
@@ -3264,10 +3428,23 @@
  {
   "party": "rzp",
   "statement": "rel_shabbat_transport",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "בתשובות לשאלון ynet לקראת בחירות 2022 (אז ברשימה משותפת עם עוצמה יהודית) תמכה הציונות הדתית בשמירת הסטטוס קוו והתנגדה להפעלת תחבורה ציבורית בשבת. לא נמצאה עמדה מעודכנת מ-2026, ועמדת זהות של משה פייגלין, שחברה לרשימה בספטמבר 2026 ב'חיבור טכני', לא נבדקה.",
+  "sources": [
+   {
+    "title": "הציונות הדתית ועוצמה יהודית: התשובות המלאות",
+    "outlet": "ynet",
+    "date": "2022-10 (משוער)",
+    "url": "https://www.ynet.co.il/judaism/article/h1yc5lh4i"
+   },
+   {
+    "title": "פייגלין וסמוטריץ' ירוצו יחד בבחירות: \"חיבור טכני\"",
+    "outlet": "ynet",
+    "date": "2026-09 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/rjuhrwvdfl"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -3308,18 +3485,50 @@
  {
   "party": "rzp",
   "statement": "arab_coalition",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "ב-2021 סיכל בצלאל סמוטריץ' הקמת ממשלת ימין שנשענת על תמיכת רע\"ם מבחוץ והגדיר זאת 'קו אדום'. במערכת הבחירות 2026 חזר על כך ותקף את נתניהו ואת בן גביר על שהסכימו אז להסדר עם רע\"ם.",
+  "sources": [
+   {
+    "title": "Israel Election 2026: Benjamin Netanyahu, Itamar Ben-Gvir backed Ra'am in 2021, Bezalel Smotrich says",
+    "outlet": "The Jerusalem Post",
+    "date": "2026 (משוער)",
+    "url": "http://www.jpost.com/israel-election-2026/article-912494"
+   },
+   {
+    "title": "בן גביר הסכים לשבת עם מנסור עבאס? סמוטריץ' לא היסס: \"חד משמעית\"",
+    "outlet": "מעריב",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.maariv.co.il/news/elections-2026/article-1379920"
+   },
+   {
+    "title": "ברוך מרזל חושף: בן גביר רצה לשבת עם רע\"ם - דבר אחד עצר אותו",
+    "outlet": "כיפה",
+    "date": "2025-11 (משוער)",
+    "url": "https://www.kipa.co.il/חדשות/1214460-0/"
+   }
+  ]
  },
  {
   "party": "rzp",
   "statement": "rel_civil_marriage",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "בתשובות לשאלון ynet לקראת בחירות 2022 נכתב בשם הציונות הדתית שהמדינה צריכה להכיר רק בנישואים ובגירושים לפי ההלכה. לא נמצאה עמדה מעודכנת מ-2026, ועמדת זהות של פייגלין (שותפה לרשימה ב'חיבור טכני' שבו כל מפלגה שומרת על זהותה) לא אומתה.",
+  "sources": [
+   {
+    "title": "הציונות הדתית ועוצמה יהודית: התשובות המלאות",
+    "outlet": "ynet",
+    "date": "2022-10 (משוער)",
+    "url": "https://www.ynet.co.il/judaism/article/h1yc5lh4i"
+   },
+   {
+    "title": "פייגלין וסמוטריץ' ירוצו יחד בבחירות: \"חיבור טכני\"",
+    "outlet": "ynet",
+    "date": "2026-09 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/rjuhrwvdfl"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -3396,14 +3605,26 @@
   "party": "rzp",
   "statement": "sec_gaza_settle",
   "stance": 2,
-  "confidence": "medium",
-  "basis": "לפי מדריך הבחירות של IMEU (2026), הציונות הדתית וזהות, הרצות ברשימה משותפת, תומכות בתוקף בהרחבת ההתיישבות, כולל הקמה מחדש של יישובים ברצועת עזה; לא נמצא במקורות שנבדקו ציטוט ישיר עדכני של בצלאל סמוטריץ'.",
+  "confidence": "high",
+  "basis": "סמוטריץ' קרא באפריל 2026 להקים יישובים בתוך רצועת עזה. ביוני 2026 אמר שהתוכניות להקמת שלושה יישובים בצפון הרצועה הושלמו וממתינות לאישור ראש הממשלה, וביולי 2026 הוביל עם בן גביר צעדה לגבול הרצועה בדרישה להקמתם.",
   "sources": [
    {
-    "title": "Israel Election Guide 2026",
-    "outlet": "IMEU (Institute for Middle East Understanding)",
-    "date": "2026",
-    "url": "https://imeu.org/resources/important-events/israel-election-guide-2026/508"
+    "title": "Smotrich reiterates call to establish settlements inside Gaza",
+    "outlet": "The Times of Israel (liveblog)",
+    "date": "2026-04 (משוער)",
+    "url": "https://www.timesofisrael.com/liveblog_entry/smotrich-reiterates-call-to-establish-settlements-inside-gaza/"
+   },
+   {
+    "title": "Bezalel Smotrich says Gaza settlement plans await Netanyahu's approval",
+    "outlet": "The Jerusalem Post",
+    "date": "2026-06 (משוער)",
+    "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901000"
+   },
+   {
+    "title": "Ministers join settler activists on march through closed military zone to Gaza border",
+    "outlet": "The Times of Israel",
+    "date": "2026-07 (משוער)",
+    "url": "https://www.timesofisrael.com/ministers-join-settler-activists-on-march-through-closed-military-zone-to-gaza-border/"
    }
   ]
  },
@@ -3464,14 +3685,20 @@
   "party": "rzp",
   "statement": "sec_pa_gaza",
   "stance": -2,
-  "confidence": "low",
-  "basis": "העמדה מוסקת מתמיכת הרשימה בהקמה מחדש של יישובים יהודיים ברצועת עזה (לפי מדריך הבחירות של IMEU, 2026), שאינה מתיישבת עם שלטון של הרשות הפלסטינית ברצועה; לא נמצא במקורות שנבדקו ציטוט ישיר בנושא.",
+  "confidence": "medium",
+  "basis": "ב-2026 דרשו סמוטריץ' והשרה אורית סטרוק במכתב לנתניהו לדחות את תוכנית 'מועצת השלום' לעזה, ובמכתב תיארו את הרשות הפלסטינית כ'אנטישמית' בהקשר של השלטון העתידי ברצועה. זאת לצד קריאתו של סמוטריץ' (אפריל 2026) לכבוש וליישב את הרצועה.",
   "sources": [
    {
-    "title": "Israel Election Guide 2026",
-    "outlet": "IMEU (Institute for Middle East Understanding)",
-    "date": "2026",
-    "url": "https://imeu.org/resources/important-events/israel-election-guide-2026/508"
+    "title": "Bezalel Smotrich, Strock demand Benjamin Netanyahu reject new Gaza Board of Peace plan",
+    "outlet": "The Jerusalem Post",
+    "date": "2026 (משוער)",
+    "url": "https://www.jpost.com/israel-news/article-909898"
+   },
+   {
+    "title": "Smotrich reiterates call to establish settlements inside Gaza",
+    "outlet": "The Times of Israel (liveblog)",
+    "date": "2026-04 (משוער)",
+    "url": "https://www.timesofisrael.com/liveblog_entry/smotrich-reiterates-call-to-establish-settlements-inside-gaza/"
    }
   ]
  },
@@ -4146,10 +4373,23 @@
  {
   "party": "reservists",
   "statement": "draft_haredi_sanctions",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "תוכנית הגיוס של המילואימניקים-הכלכלית (הנדל וזליכה), שהוצגה בקמפיין 2026, כוללת סנקציות על משתמטים לצד תגמול כלכלי למשרתים וחובת שירות לכל אזרח; הנדל הציב 'גיוס לכולם' כתנאי לכניסה לממשלה.",
+  "sources": [
+   {
+    "title": "2,000 שקל לחייל וסנקציות למשתמטים: תוכנית הנדל וזליכה",
+    "outlet": "וואלה",
+    "date": "2026",
+    "url": "https://www.walla.co.il/news/politics/383958182"
+   },
+   {
+    "title": "הנדל מציב גיוס לכולם כתנאי לכניסה לממשלה ותוקף את נתניהו ואת האופוזיציה",
+    "outlet": "זמן ישראל",
+    "date": "2026",
+    "url": "https://www.zman.co.il/live/734907/"
+   }
+  ]
  },
  {
   "party": "reservists",
@@ -4186,10 +4426,17 @@
  {
   "party": "reservists",
   "statement": "pal_state",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "בראיון לערוץ 7 (1 באוקטובר 2026) מנה יועז הנדל את ההתנגדות למדינה פלסטינית, לצד תמיכה בהתיישבות ביהודה ושומרון, בין התנאים שלו לכניסה לממשלה.",
+  "sources": [
+   {
+    "title": "הנדל משרטט ימין שלא תלוי בנתניהו",
+    "outlet": "ערוץ 7 (INN)",
+    "date": "2026-10-01",
+    "url": "https://www.inn.co.il/news/707482"
+   }
+  ]
  },
  {
   "party": "reservists",
@@ -4221,10 +4468,29 @@
  {
   "party": "reservists",
   "statement": "arab_coalition",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "באוקטובר 2026 קרא הנדל ליו\"ר עמך ישראל עופר וינטר להתחייב לשבת רק בממשלה ציונית, בלי המפלגות החרדיות ובלי המפלגות הערביות, ולהקים 'גוש חוסם לממשלות לא-ציוניות'; לדבריו הבוחר נאלץ לבחור בין ממשלה עם החרדים לממשלה הנשענת על המפלגות הערביות, והוא שולל את שתיהן.",
+  "sources": [
+   {
+    "title": "יועז הנדל לעופר וינטר: \"חזור בך מהתמיכה בנתניהו. נקים גוש חוסם לממשלות לא-ציוניות\"",
+    "outlet": "ynet",
+    "date": "2026-10",
+    "url": "https://www.ynet.co.il/news/elections2026/article/hk00uzebszx"
+   },
+   {
+    "title": "יועז הנדל קורא לוינטר לחזור בעצמו: \"נהיה גוש חוסם\"",
+    "outlet": "כיפה",
+    "date": "2026-10",
+    "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1233168-0/"
+   },
+   {
+    "title": "חרם השותפים על בן גביר; הנדל קרא לווינטר לחתום על הסכם",
+    "outlet": "mako N12",
+    "date": "2026-10",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-f313134815a11a1027.htm"
+   }
+  ]
  },
  {
   "party": "reservists",
@@ -4253,10 +4519,29 @@
  {
   "party": "reservists",
   "statement": "gov_netanyahu",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "הנדל וזליכה הצהירו ב-2026 שלא ישלימו לנתניהו רוב של 61 בממשלה עם המפלגות החרדיות ('גם אם זה אומר עוד בחירות'), אך בהמשך הקמפיין אמר הנדל שאינו מחויב לאף גוש, שילך עם מי שיביא יותר מנדטים ציוניים – נתניהו או איזנקוט – ושאם נתניהו, איזנקוט ובנט ישבו יחד יהיה חלק מכך. העמדה מותנית ואינה תמיכה או שלילה של נתניהו עצמו.",
+  "sources": [
+   {
+    "title": "יועז הנדל: \"לעולם לא אשלים לנתניהו ל-61 מנדטים. גם אם זה אומר עוד בחירות\"",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/article/yokra14827947"
+   },
+   {
+    "title": "יועז הנדל: נתניהו או גדי איזנקוט? נלך עם מי שיביא יותר מנדטים ציוניים",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/elections2026/article/sywy11bjize"
+   },
+   {
+    "title": "הערפל מתפזר: יועז הנדל החליט עם מי הוא ישב בממשלה",
+    "outlet": "מעריב",
+    "date": "2026",
+    "url": "https://www.maariv.co.il/news/politics/article-1374903"
+   }
+  ]
  },
  {
   "party": "reservists",
@@ -4277,10 +4562,29 @@
  {
   "party": "reservists",
   "statement": "draft_yeshiva_exemption",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "המילואימניקים-הכלכלית דורשת בקמפיין 2026 חובת שירות לכל אזרח ללא פטורים והחלת חוק הגיוס על כלל תושבי המדינה, ומציבה גיוס לכולם כתנאי לכניסה לקואליציה; הנדל וזליכה הודיעו שלא ישבו בממשלה עם המפלגות החרדיות בגלל סוגיית ההשתמטות.",
+  "sources": [
+   {
+    "title": "2,000 שקל לחייל וסנקציות למשתמטים: תוכנית הנדל וזליכה",
+    "outlet": "וואלה",
+    "date": "2026",
+    "url": "https://www.walla.co.il/news/politics/383958182"
+   },
+   {
+    "title": "הנדל מציב גיוס לכולם כתנאי לכניסה לממשלה ותוקף את נתניהו ואת האופוזיציה",
+    "outlet": "זמן ישראל",
+    "date": "2026",
+    "url": "https://www.zman.co.il/live/734907/"
+   },
+   {
+    "title": "מתרחקים מגוש הימין > הנדל וזליכה הודיעו: נחרים כל ממשלה עם החרדים",
+    "outlet": "hm-news.co.il",
+    "date": "2026",
+    "url": "https://hm-news.co.il/663174/"
+   }
+  ]
  },
  {
   "party": "reservists",
@@ -4397,19 +4701,25 @@
   "statement": "sec_gaza_control",
   "stance": 2,
   "confidence": "low",
-  "basis": "עופר וינטר תומך בחידוש ההתיישבות היהודית ברצועה (ריאיון ל-ynet, אוקטובר 2026) ואמר בהשקת מפלגתו שהפתרון היחיד בעזה הוא הגירה; התמיכה בנוכחות צבאית ארוכת טווח מוסקת מעמדות אלה.",
+  "basis": "בהשקת המפלגה ב-25 באוגוסט 2026 אמר עופר וינטר שהפתרון בעזה הוא הגירה, ובריאיון ל-ynet (אוקטובר 2026) הביע תמיכה בהתיישבות בעזה. הקידוד מוסק מעמדות אלה, ולא נמצאה התייחסות ישירה שלו לשאלה אם להסתפק ברצועת ביטחון.",
   "sources": [
+   {
+    "title": "וינטר באירוע הקמת מפלגתו: הפתרון בעזה הוא אחד",
+    "outlet": "הארץ",
+    "date": "2026-08-25",
+    "url": "https://www.haaretz.co.il/news/elections/2026-08-25/ty-article/.premium/000001a0-39b2-d274-a7f4-bdb39a580000"
+   },
+   {
+    "title": "Ofer Winter launches right-wing 'People of Israel' party, pledges to push emigration of Gazans, draft ultra-Orthodox into IDF",
+    "outlet": "The Times of Israel (liveblog)",
+    "date": "2026-08-25",
+    "url": "https://www.timesofisrael.com/liveblog_entry/ofer-winter-launches-right-wing-people-of-israel-party-pledges-to-push-gaza-emigration-expand-idf-draft/"
+   },
    {
     "title": "וינטר בעד התיישבות בעזה, ונגד ועדת חקירה ממלכתית: \"נמליץ על נתניהו\"",
     "outlet": "ynet",
     "date": "2026-10 (משוער)",
     "url": "https://www.ynet.co.il/news/elections2026/article/yokra14914571"
-   },
-   {
-    "title": "Ex-IDF general Ofer Winter launches right-wing party: 'There is one solution in Gaza: migration'",
-    "outlet": "Ynetnews",
-    "date": "2026 (משוער)",
-    "url": "https://www.ynetnews.com/article/r1xkosjpzl"
    }
   ]
  },
@@ -4445,18 +4755,44 @@
  {
   "party": "amcha",
   "statement": "rel_shabbat_transport",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "ב-14 באוקטובר 2026 אמר מועמד המפלגה ערן בן ארי בראיון לגלי צה\"ל כי עמך ישראל תומכת בהעברת ההכרעה על תחבורה ציבורית בשבת לרשויות המקומיות, כך שרשות שתרצה בכך תוכל להפעילה ורשות אחרת תוכל לשמור על המצב הקיים. מסמך העקרונות של המפלגה אינו מתייחס לנושא.",
+  "sources": [
+   {
+    "title": "News1 – דיווח על עמדת עמך ישראל בנושא תחבורה ציבורית בשבת (כותרת תיאורית; תוצאת החיפוש הציגה רק 'News1')",
+    "outlet": "News1 מחלקה ראשונה",
+    "date": "2026-10 (משוער)",
+    "url": "https://www.news1.co.il/Archive/001-D-525080-00.html"
+   }
+  ]
  },
  {
   "party": "amcha",
   "statement": "pal_state",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "בנאום השקת המפלגה ב-25 באוגוסט 2026 אמר עופר וינטר כי 'לעולם לא תהיה פה מדינה פלסטינית', והמכון הישראלי לדמוקרטיה מתאר את המפלגה כמתנגדת להקמת מדינה פלסטינית. מספר 2 ברשימה, יוסף חדאד, תמך בעבר במדינה פלסטינית אך הצהיר שעמדתו השתנתה אחרי מבצע 'שומר החומות'.",
+  "sources": [
+   {
+    "title": "וינטר חשף את הרשימה לבחירות: \"רוצים ממשלת ימין רחבה. הפתרון בעזה - הגירה\"",
+    "outlet": "ynet",
+    "date": "2026-08-25",
+    "url": "https://www.ynet.co.il/news/elections2026/article/s13ku7jdzg"
+   },
+   {
+    "title": "עמך ישראל - המכון הישראלי לדמוקרטיה",
+    "outlet": "המכון הישראלי לדמוקרטיה",
+    "date": "2026 (משוער)",
+    "url": "https://www.idi.org.il/policy/parties-and-elections/parties/amcha-yisrael/"
+   },
+   {
+    "title": "יוסף חדאד בריאיון בעבר: \"הפתרון הסופי הוא מדינה פלסטינית\"",
+    "outlet": "mako / חדשות 12",
+    "date": "2026 (משוער)",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-3ff5b7c5a9301a1027.htm"
+   }
+  ]
  },
  {
   "party": "amcha",
@@ -4504,10 +4840,29 @@
  {
   "party": "amcha",
   "statement": "pal_annexation",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "במהלך מערכת הבחירות 2026 (אחרי השקת המפלגה ב-25 באוגוסט) מסרה עמך ישראל לערוץ 7 שהיא תומכת בהחלת ריבונות ביהודה ושומרון, ווינטר כתב להורים שכולים שהסכמי אוסלו בטלים וקרא לחדול מחלוקת השטח לשטחי A, B ו-C. לא נמצאה התחייבות ללוח זמנים בקדנציה הבאה, ומועמד המפלגה ערן בן ארי קרא להגיע להבנות עם המחנה המרכזי בנושא.",
+  "sources": [
+   {
+    "title": "ערוץ 7 שאל פעמיים: מפלגתו של וינטר נמנעה מתשובה ברורה על ביטול הסכמי אוסלו",
+    "outlet": "ערוץ 7",
+    "date": "2026 (משוער)",
+    "url": "https://www.inn.co.il/news/707838"
+   },
+   {
+    "title": "אחרי פניית ההורים השכולים: וינטר בהצהרה נחרצת על יהודה ושומרון",
+    "outlet": "סרוגים",
+    "date": "2026 (משוער)",
+    "url": "http://www.srugim.co.il/101014086-%D7%90%D7%97%D7%A8%D7%99-%D7%A4%D7%A0%D7%99%D7%99%D7%AA-%D7%94%D7%94%D7%95%D7%A8%D7%99%D7%9D-%D7%94%D7%A9%D7%9B%D7%95%D7%9C%D7%99%D7%9D-%D7%95%D7%99%D7%A0%D7%98%D7%A8-%D7%91%D7%94%D7%A6%D7%94%D7%A8%D7%94"
+   },
+   {
+    "title": "המועמד של וינטר נגד הממשלה: \"בית המשפט לא מנע את החלת הריבונות\"",
+    "outlet": "מקור ראשון",
+    "date": "2026 (משוער)",
+    "url": "https://www.makorrishon.co.il/news/politcal/article/379453"
+   }
+  ]
  },
  {
   "party": "amcha",
