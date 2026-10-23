@@ -25,7 +25,7 @@ interface Props {
 }
 
 // A list is ranked only when its known positions cover enough of the visitor's answers.
-const MIN_SHARE = 0.4;
+const MIN_SHARE = 1 / 3;
 const MIN_USED = 4;
 const ranks = (r: PartyResult) => r.score !== null && r.used >= Math.max(MIN_USED, Math.ceil(r.answered * MIN_SHARE));
 

@@ -56,10 +56,17 @@
  {
   "party": "yashar",
   "statement": "eco_welfare_taxes",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון גלובס (אוקטובר 2026) התנגדה ישר! להעלאת מסים כללית, והציעה במקום זאת להטיל מסים על מוצרים \"מזיקים\". לא נמצאה התייחסות מפורשת שלה למיסוי בעלי הכנסות גבוהות או חברות גדולות.",
+  "sources": [
+   {
+    "title": "ישר: רמטכ\"ל העבר שיפחית את תקציב הביטחון",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560553"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -245,10 +252,23 @@
  {
   "party": "yashar",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "ישר! מציעה (אוקטובר 2026) מעבר הדרגתי מהגנה באמצעות מכסים לתמיכה בחקלאות המבוססת על השקעות. בתשובתה לשאלון גלובס צירפה להפחתת המכסים ולפתיחת יבוא המזון תמיכה רחבה בחקלאות הישראלית.",
+  "sources": [
+   {
+    "title": "בדקנו מה שוות התוכניות של המפלגות למלחמה ביוקר המחיה",
+    "outlet": "mako (N12)",
+    "date": "2026-10",
+    "url": "https://www.mako.co.il/news-money/2026_q4/Article-e8604f692cf51a1026.htm"
+   },
+   {
+    "title": "אנחנו שאלנו, המפלגות ענו: מה תעשו כדי להקל על יוקר המחיה?",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560369"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -416,10 +436,17 @@
  {
   "party": "yashar",
   "statement": "soc_same_sex",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "לפי טיימס אוף ישראל (22 באוקטובר 2026), ישר! היא אחת משלוש מפלגות שמצען מתייחס במפורש לזכויות להט\"ב, והיא מתחייבת לעגן שוויון בחוק ולקדם הכרה משפטית בזוגות בני אותו המין. נוסח המצע עצמו לא נבדק, ולכן לא סומנה תמיכה נחרצת.",
+  "sources": [
+   {
+    "title": "Democrats party vows to enshrine LGBTQ equality, marriage rights in law amid wave of violence",
+    "outlet": "The Times of Israel",
+    "date": "2026-10-22",
+    "url": "https://www.timesofisrael.com/liveblog_entry/democrats-party-vows-to-enshrine-lgbtq-equality-marriage-rights-in-law-amid-wave-of-violence"
+   }
+  ]
  },
  {
   "party": "yashar",
@@ -1019,10 +1046,17 @@
  {
   "party": "together",
   "statement": "eco_welfare_taxes",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 0,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון גלובס (אוקטובר 2026) מסרה \"ביחד\" שאין לה החלטה על העלאת מסים, ושהיא מעדיפה לשנות סדרי עדיפויות בהוצאות ובהכנסות ולהרחיב תעסוקה, פריון וצמיחה בלי להגדיל את הגירעון.",
+  "sources": [
+   {
+    "title": "ביחד: כל המילים הנכונות, בלי מקור תקציבי",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560547"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1227,10 +1261,17 @@
  {
   "party": "together",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "בתוכנית הכלכלית שהציג בנט ב-30 ביוני 2026 נכללו פתיחת שוק הפירות והירקות ליבוא וביטול מכסים, כשבמקום ההגנה המכסית תינתן תמיכה ישירה לחקלאים.",
+  "sources": [
+   {
+    "title": "בנט הציג תוכנית כלכלית: \"נפרק את המונופול של תנובה\"",
+    "outlet": "mako (N12)",
+    "date": "2026-06-30",
+    "url": "https://www.mako.co.il/news-money/2026_q2/Article-54fd6f938c81f91026.htm"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1392,10 +1433,29 @@
  {
   "party": "together",
   "statement": "soc_same_sex",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "תוכנית העבודה של \"ביחד\" (2026) כוללת מרשם לברית זוגיות אזרחית במשרד הפנים, פתוח לכל זוג ללא הבדל דת, מגדר או נטייה, עם מלוא הזכויות והחובות של זוגות נשואים. ביוני 2026 הודיע בנט שחזר בו מהתנגדותו בעבר להכרה בזוגיות חד-מינית, אף שהתוכנית נמנעת מהמונח \"נישואים אזרחיים\".",
+  "sources": [
+   {
+    "title": "\"ברית זוגית אזרחית\": המהפך של נפתלי בנט - והתוכנית לשוויון לקהילה הגאה",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/article/yokra14897147"
+   },
+   {
+    "title": "Naftali Bennett Comes Out in Favor of LGBTQ Rights, Walking Back Opposition to Same-sex Partnerships",
+    "outlet": "Haaretz",
+    "date": "2026-06-01",
+    "url": "https://www.haaretz.com/israel-news/2026-06-01/ty-article/.premium/naftali-bennett-comes-out-in-favor-of-equal-rights-for-same-sex-couples/0000019e-83fb-d126-a99e-e3ffda160000"
+   },
+   {
+    "title": "'Civil partnership': Naftali Bennett’s reversal and plan for LGBTQ equality",
+    "outlet": "Ynetnews",
+    "date": "2026",
+    "url": "https://www.ynetnews.com/article/bjvkbbsfmx"
+   }
+  ]
  },
  {
   "party": "together",
@@ -1473,10 +1533,17 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "eco_welfare_taxes",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון גלובס (אוקטובר 2026) התנגדה ישראל ביתנו להעלאת מסים, בנימוק שהיא פוגעת בציבור היצרני, וכן למיסוי נוסף על נדל\"ן.",
+  "sources": [
+   {
+    "title": "ישראל ביתנו: הפרסה של ליברמן - מתנגד למיסוי על נדל\"ן",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560543"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1688,10 +1755,23 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ישראל ביתנו מציעה (אוקטובר 2026) הרחבת יבוא לפי תקינה בין-לאומית, ביטול מעמד היבואן הבלעדי והפחתת מכסים. ב-2022, כשר האוצר, הוביל ליברמן רפורמה שהפחיתה מכסים על פירות וירקות וביטלה חלק מהם מיד, למרות מחאת החקלאים.",
+  "sources": [
+   {
+    "title": "בדקנו מה שוות התוכניות של המפלגות למלחמה ביוקר המחיה",
+    "outlet": "mako (N12)",
+    "date": "2026-10",
+    "url": "https://www.mako.co.il/news-money/2026_q4/Article-e8604f692cf51a1026.htm"
+   },
+   {
+    "title": "ליברמן מכריז על פתיחת שוק הפירות והירקות לתחרות",
+    "outlet": "mako (N12)",
+    "date": "2022",
+    "url": "https://www.mako.co.il/news-money/2022_q1/Article-039bf3870bc8f71026.htm"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1822,10 +1902,29 @@
  {
   "party": "yisrael_beiteinu",
   "statement": "soc_same_sex",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "מצע ישראל ביתנו לבחירות 2026 כולל נישואים וגירושים אזרחיים. ליברמן הצהיר ב-2019 שהמפלגה תומכת בנישואים אזרחיים לכלל האוכלוסייה, וב-2021 שהיא תומכת בזכויות מלאות לקהילה הגאה, כולל חוק נישואים אזרחיים, אך המצע אינו מזכיר במפורש בני זוג מאותו המין.",
+  "sources": [
+   {
+    "title": "ליברמן במכתב לקהילה הגאה: \"נדרוש נישואים אזרחיים במו\"מ הקואליציוני\"",
+    "outlet": "ynet",
+    "date": "2019",
+    "url": "https://www.ynet.co.il/articles/0,7340,L-5573716,00.html"
+   },
+   {
+    "title": "ליברמן סירב להתייחס לטענות ש\"ביקש להרחיק ממנו הומואים\"",
+    "outlet": "mako (N12)",
+    "date": "2021",
+    "url": "https://www.mako.co.il/news-israel-elections/2021_q1/Article-3e249f13c614871027.htm"
+   },
+   {
+    "title": "Everything you need to know: ToI's guide to the 37 parties that Israelis can choose from",
+    "outlet": "The Times of Israel",
+    "date": "2026-10",
+    "url": "https://www.timesofisrael.com/everything-you-need-to-know-tois-guide-to-the-37-parties-that-israelis-can-finally-choose-from/"
+   }
+  ]
  },
  {
   "party": "yisrael_beiteinu",
@@ -1884,10 +1983,23 @@
  {
   "party": "democrats",
   "statement": "eco_welfare_taxes",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "high",
+  "basis": "בתשובה לשאלון גלובס (אוקטובר 2026) הצהירו הדמוקרטים על תמיכה עקרונית בהעלאת מסים, ובכלל זה נכונות לשקול במידת הצורך מס על רווחי יתר של תאגידים כמו הבנקים. לפי mako הם מתחייבים לביטוח סיעודי ממלכתי ולהוספת מיטות אשפוז, ומציעים מס על קרקעות שבנייתן מעוכבת.",
+  "sources": [
+   {
+    "title": "הדמוקרטים: בנוגע ליוקר המחיה, גולן מוכן ללכת נגד הגוש",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560541"
+   },
+   {
+    "title": "רגע לפני הקלפי: מה המפלגות מבטיחות לעשות עם הכסף שלכם?",
+    "outlet": "mako (N12)",
+    "date": "2026",
+    "url": "https://www.mako.co.il/finances-magazine/Article-12fb0f1362451a1026.htm"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -2221,10 +2333,17 @@
  {
   "party": "democrats",
   "statement": "soc_same_sex",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "ב-22 באוקטובר 2026 התחייבו הדמוקרטים בראשות יאיר גולן לעגן בחוק שוויון זכויות מלא לקהילה הגאה, כולל זכויות שוות להורות, למשפחה ולנישואים, ולקדם נישואים אזרחיים.",
+  "sources": [
+   {
+    "title": "Democrats party vows to enshrine LGBTQ equality, marriage rights in law amid wave of violence",
+    "outlet": "The Times of Israel",
+    "date": "2026-10-22",
+    "url": "https://www.timesofisrael.com/liveblog_entry/democrats-party-vows-to-enshrine-lgbtq-equality-marriage-rights-in-law-amid-wave-of-violence"
+   }
+  ]
  },
  {
   "party": "democrats",
@@ -2637,10 +2756,17 @@
  {
   "party": "shas",
   "statement": "soc_same_sex",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "לפי מדריך המפלגות של טיימס אוף ישראל (אוקטובר 2026), ש\"ס מתנגדת בתוקף לנישואים אזרחיים ולזכויות להט\"ב. המפלגה לא פרסמה מצע לבחירות אלה.",
+  "sources": [
+   {
+    "title": "Everything you need to know: ToI's guide to the 37 parties that Israelis can choose from",
+    "outlet": "The Times of Israel",
+    "date": "2026-10",
+    "url": "https://www.timesofisrael.com/everything-you-need-to-know-tois-guide-to-the-37-parties-that-israelis-can-finally-choose-from/"
+   }
+  ]
  },
  {
   "party": "shas",
@@ -3008,10 +3134,17 @@
  {
   "party": "utj",
   "statement": "soc_same_sex",
-  "stance": null,
+  "stance": -2,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "ב-2025 תקף יו\"ר יהדות התורה יצחק גולדקנופף את הצבעת יו\"ר הכנסת אמיר אוחנה בעד הצעת חוק לנישואים אזרחיים, ותיאר אותה כפגיעה בוטה בתורה. העמדה לגבי בני אותו המין נגזרת מהתנגדות המפלגה לכל מסגרת נישואים אזרחית, ולא מהצהרה ייעודית בנושא.",
+  "sources": [
+   {
+    "title": "Knesset Speaker Ohana votes for civil marriage bill, enraging ultra-Orthodox parties",
+    "outlet": "The Times of Israel",
+    "date": "2025",
+    "url": "https://www.timesofisrael.com/liveblog_entry/knesset-speaker-ohana-votes-for-civil-marriage-bill-enraging-ultra-orthodox-parties/"
+   }
+  ]
  },
  {
   "party": "utj",
@@ -3398,10 +3531,17 @@
  {
   "party": "otzma",
   "statement": "soc_same_sex",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "סקירה בישראל היום (מדור מעריב לנוער) על עקרונות עוצמה יהודית מציגה את המפלגה כמתנגדת לזכויות להט\"ב (תאריך הפרסום לא אומת). לא נמצאה התייחסות ייעודית לברית זוגיות במצע 2026.",
+  "sources": [
+   {
+    "title": "תומכים בהתיישבות, מתנגדים לזכויות להט\"ב: העקרונות של \"עוצמה יהודית\"",
+    "outlet": "ישראל היום",
+    "date": null,
+    "url": "https://israelhayom.co.il/maariv-lanoar/teen-magazine/article/21684777"
+   }
+  ]
  },
  {
   "party": "otzma",
@@ -3800,10 +3940,23 @@
  {
   "party": "rzp",
   "statement": "soc_same_sex",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "יו\"ר המפלגה בצלאל סמוטריץ' אמר בראיון שפורסם באתר \"שומרים\" (ככל הנראה ב-2023) כי כל עוד הדבר תלוי בו לא תהיה הכרה בנישואים חד-מיניים. ב-2021 תקף את פסיקת בג\"ץ שחייבה לאפשר פונדקאות לזוגות חד-מיניים.",
+  "sources": [
+   {
+    "title": "שומרים - אח שלנו? זה מה שסמוטריץ' חושב על נשים, להט\"ב ועל נקמה ו\"תג מחיר\"",
+    "outlet": "שומרים",
+    "date": null,
+    "url": "https://www.shomrim.news/hebrew/smotrich-part2"
+   },
+   {
+    "title": "סמוטריץ' על בג\"ץ הפונדקאות: כרסום ביהדות",
+    "outlet": "סרוגים",
+    "date": "2021",
+    "url": "https://www.srugim.co.il/579493-%D7%A1%D7%9E%D7%95%D7%98%D7%A8%D7%99%D7%A5-%D7%A2%D7%9C-%D7%91%D7%92%D7%A5-%D7%94%D7%A4%D7%95%D7%A0%D7%93%D7%A7%D7%90%D7%95%D7%AA-%D7%9B%D7%A8%D7%A1%D7%95%D7%9D-%D7%91%D7%99%D7%94%D7%93%D7%95"
+   }
+  ]
  },
  {
   "party": "rzp",
@@ -4147,19 +4300,19 @@
   "statement": "soc_same_sex",
   "stance": -2,
   "confidence": "medium",
-  "basis": "ביולי 2020 הצביעו חברי הכנסת של רע\"מ נגד הצעת החוק לאיסור טיפולי המרה, ומנסור עבאס הודיע אז שהמשך קיומה של הרשימה המשותפת תלוי בהתנהלות חבריה, לאחר שח\"כי חד\"ש תמכו בה. המפלגה מחזיקה בעמדות שמרניות בנושאי להט\"ב; לא נמצאה התבטאות מ-2025–2026 על נישואים או ברית זוגיות לבני אותו המין.",
+  "basis": "ב-2020 הציב יו\"ר רע\"ם מנסור עבאס אולטימטום לשותפיו דאז ברשימה המשותפת ודרש שיפסיקו להצביע בעד שוויון זכויות לקהילה הגאה, בטענה שהחברה הערבית השמרנית מתנגדת לכך. לא נמצאה הצהרה עדכנית מ-2026.",
   "sources": [
    {
-    "title": "Despite internal conflicts, Israel’s Arab party not splitting",
-    "outlet": "Al-Monitor",
-    "date": "2020-08",
-    "url": "https://www.al-monitor.com/originals/2020/08/israel-ayman-odeh-ahmad-tibi-arab-joint-list-lgbtq-knesset.html"
+    "title": "\"אם מנסור עבאס רוצה מלחמה - הוא יקבל אחת ויפסיד\"",
+    "outlet": "mako (N12)",
+    "date": null,
+    "url": "https://www.mako.co.il/pride-blogs/Article-7e422130b940671026.htm"
    },
    {
-    "title": "Ra'am",
-    "outlet": "Wikipedia (English)",
-    "date": null,
-    "url": "https://en.wikipedia.org/wiki/Ra'am"
+    "title": "הומופוביה והוקרה לעזמי בשארה: המפלגה שהפכה ללשון המאזניים",
+    "outlet": "ynet",
+    "date": "2021",
+    "url": "https://www.ynet.co.il/news/article/HJIRSudN00"
    }
   ]
  },
@@ -4245,10 +4398,17 @@
  {
   "party": "joint",
   "statement": "eco_welfare_taxes",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון גלובס (אוקטובר 2026) תמכה הרשימה המשותפת בהעלאת מסים על בעלי הון ועל הכנסות גבוהות מנכסים, מהון ומדירות להשקעה, ובביטול הטבות מס לתאגידים פיננסיים ולחברות גדולות. לפי גלובס, היא גם הרשימה היחידה שהצהירה שיש להגדיל את החוב.",
+  "sources": [
+   {
+    "title": "הרשימה המשותפת: היחידה שמצהירה - צריך להגדיל את החוב",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560539"
+   }
+  ]
  },
  {
   "party": "joint",
@@ -4674,10 +4834,23 @@
  {
   "party": "reservists",
   "statement": "eco_welfare_taxes",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "high",
+  "basis": "המילואימניקים-הכלכלית (אוקטובר 2026) מבטיחים להשקיע בבריאות, בחינוך וברווחה, אך במקביל להפחית מס הכנסה, מס חברות, מס יסף ומע\"מ (מ-18% ל-12% בתוך שש שנים). את המימון הם מייחסים בין היתר לביטול הטבות מס לטייקונים ולהגברת התחרות, ולא להעלאת מסים.",
+  "sources": [
+   {
+    "title": "זליכה מבטיח לחסוך לכם 30 אלף שקל בשנה ודירה בזול. איך? פה מתגלים החורים",
+    "outlet": "TheMarker",
+    "date": "2026-10-20",
+    "url": "https://www.themarker.com/news/elections/2026-10-20/ty-article/.highlight/000001a1-53a2-d1de-a3a5-73bef5a00000"
+   },
+   {
+    "title": "המילואימניקים והכלכלית: להפסיק לפגוע ביבוא",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560537"
+   }
+  ]
  },
  {
   "party": "reservists",
@@ -4812,10 +4985,29 @@
  {
   "party": "reservists",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "המצע הכלכלי של המילואימניקים-הכלכלית (אוקטובר 2026) כולל ביטול מכסות יבוא והפחתת מכסים, \"הפסקת הפגיעה ביבוא\" ופירוק מועצות הייצור בענפי החלב, הביצים והדבש.",
+  "sources": [
+   {
+    "title": "זליכה מבטיח לחסוך לכם 30 אלף שקל בשנה ודירה בזול. איך? פה מתגלים החורים",
+    "outlet": "TheMarker",
+    "date": "2026-10-20",
+    "url": "https://www.themarker.com/news/elections/2026-10-20/ty-article/.highlight/000001a1-53a2-d1de-a3a5-73bef5a00000"
+   },
+   {
+    "title": "המילואימניקים והכלכלית: להפסיק לפגוע ביבוא",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560537"
+   },
+   {
+    "title": "בדקנו מה שוות התוכניות של המפלגות למלחמה ביוקר המחיה",
+    "outlet": "mako (N12)",
+    "date": "2026-10",
+    "url": "https://www.mako.co.il/news-money/2026_q4/Article-e8604f692cf51a1026.htm"
+   }
+  ]
  },
  {
   "party": "reservists",
@@ -4992,10 +5184,17 @@
  {
   "party": "amcha",
   "statement": "eco_welfare_taxes",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון גלובס (אוקטובר 2026) הצהירה עמך ישראל שהיא מתנגדת להעלאת מסים, ושאינה מוכנה לקצץ בתקציב הביטחון.",
+  "sources": [
+   {
+    "title": "עמך ישראל: נגד העלאת מסים, אך לא מוכנים לקצץ בביטחון",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560545"
+   }
+  ]
  },
  {
   "party": "amcha",
@@ -5168,10 +5367,23 @@
  {
   "party": "amcha",
   "statement": "eco_imports",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 1,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון גלובס (אוקטובר 2026) הציעה עמך ישראל לבטל בהדרגה מכסים על מזון ומוצרי צריכה שאין להם תחליף מקומי חזק, ולהחליף את מכסות היבוא והמכסים המגינים בחקלאות במנגנון מדורג שייפרס על פני שנים רבות.",
+  "sources": [
+   {
+    "title": "אנחנו שאלנו, המפלגות ענו: מה תעשו כדי להקל על יוקר המחיה?",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560369"
+   },
+   {
+    "title": "עמך ישראל: נגד העלאת מסים, אך לא מוכנים לקצץ בביטחון",
+    "outlet": "גלובס",
+    "date": "2026-10",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001560545"
+   }
+  ]
  },
  {
   "party": "amcha",
