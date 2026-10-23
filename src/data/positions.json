@@ -3781,10 +3781,23 @@
  {
   "party": "raam",
   "statement": "sec_gaza_control",
-  "stance": null,
+  "stance": -2,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "במסיבת עיתונאים (ככל הנראה בינואר 2025) האשים מנסור עבאס את ממשלת נתניהו בהתעלמות ממאמצי מצרים להסכם לסיום המלחמה, הכולל הסדר ביטחוני ונסיגה מלאה של צה\"ל מהרצועה, ובאוגוסט 2026 קרא להכיר במדינה פלסטינית. לא נמצאה התייחסות ישירה לנוכחות צה\"ל ברצועה אחרי פירוק חמאס מנשקו, והעמדה מוסקת מכך.",
+  "sources": [
+   {
+    "title": "منصور عباس في مؤتمر صحفي: سببان يمنعان التوصل لاتفاق ينهي الحرب، تركيبة حكومة نتنياهو وتجاهلها لليوم التالي للحرب في غزة",
+    "outlet": "كل العرب (Kul al-Arab)",
+    "date": "2025-01 (משוער)",
+    "url": "https://www.kul-alarab.com/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA/%D9%85%D9%86%D8%B5%D9%88%D8%B1-%D8%B9%D8%A8%D8%A7%D8%B3-%D9%81%D9%8A-%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%B5%D8%AD%D9%81%D9%8A-%D8%B3%D8%A8%D8%A8%D8%A7%D9%86-%D9%8A%D9%85%D9%86%D8%B9%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%84-%D9%84%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%8A%D9%86%D9%87%D9%8A-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%D8%A9-%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D9%86%D8%AA%D9%86%D9%8A/1100939"
+   },
+   {
+    "title": "Netanyahu Rival Eisenkot Vows No Palestinian State: 'Not Now, Not in Next Government'",
+    "outlet": "Haaretz",
+    "date": "2026-08-22",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-08-22/ty-article/.premium/eisenkot-vows-no-palestinian-state-after-arab-party-leader-urges-recognition/000001a0-2ad2-d293-a1e7-3ad27a6a0000"
+   }
+  ]
  },
  {
   "party": "raam",
@@ -3929,10 +3942,23 @@
  {
   "party": "raam",
   "statement": "sec_gaza_settle",
-  "stance": null,
+  "stance": -2,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "באוגוסט 2026 קרא מנסור עבאס \"לסיים את הכיבוש\" ולהכיר במדינה פלסטינית, וב-23.7.2025 הצביעו חברי רע\"מ נגד הצהרת הכנסת בעד החלת ריבונות ביהודה ושומרון / הגדה המערבית. לא נמצאה התייחסות ישירה לחידוש ההתיישבות ברצועת עזה, והעמדה מוסקת מכך.",
+  "sources": [
+   {
+    "title": "Netanyahu Rival Eisenkot Vows No Palestinian State: 'Not Now, Not in Next Government'",
+    "outlet": "Haaretz",
+    "date": "2026-08-22",
+    "url": "https://www.haaretz.com/israel-news/elections/2026-08-22/ty-article/.premium/eisenkot-vows-no-palestinian-state-after-arab-party-leader-urges-recognition/000001a0-2ad2-d293-a1e7-3ad27a6a0000"
+   },
+   {
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
+   }
+  ]
  },
  {
   "party": "raam",
@@ -3992,10 +4018,29 @@
  {
   "party": "raam",
   "statement": "draft_arab_service",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -1,
+  "confidence": "medium",
+  "basis": "ב-2026 הביע מנסור עבאס תמיכה בשירות אזרחי לצעירים ערבים (\"אנחנו בעד שירות אזרחי גם לערבים, אבל לא תחת משרד הביטחון או אורית סטרוק\", 14.7.2026), אך הבהיר שכוונתו לשירות קהילתי התנדבותי, שאינו צבאי ואינו חובה. כלומר, רע\"מ תומכת בשירות אזרחי מרצון ולא בחיוב.",
+  "sources": [
+   {
+    "title": "מנסור עבאס: \"אנחנו בעד שירות אזרחי גם לערבים, אבל לא תחת משרד הביטחון או אורית סטרוק\"",
+    "outlet": "TheMarker",
+    "date": "2026-07-14",
+    "url": "https://www.themarker.com/news/2026-07-14/ty-article/.premium/0000019f-6002-dc47-abbf-fff7a1230000"
+   },
+   {
+    "title": "אחרי דבריו על שירות לאומי לערבים: ההבהרה של מנסור עבאס",
+    "outlet": "ערוץ 7",
+    "date": "2026",
+    "url": "https://www.inn.co.il/news/696912"
+   },
+   {
+    "title": "מנסור עבאס תומך בשירות לאומי-אזרחי לערבים: \"בימין מוותרים על ריבונות לטובת ארגוני פשע\"",
+    "outlet": "ynet",
+    "date": "2026",
+    "url": "https://www.ynet.co.il/news/article/ryynfpnbgl"
+   }
+  ]
  },
  {
   "party": "raam",
@@ -4008,10 +4053,23 @@
  {
   "party": "raam",
   "statement": "soc_same_sex",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "ביולי 2020 הצביעו חברי הכנסת של רע\"מ נגד הצעת החוק לאיסור טיפולי המרה, ומנסור עבאס הודיע אז שהמשך קיומה של הרשימה המשותפת תלוי בהתנהלות חבריה, לאחר שח\"כי חד\"ש תמכו בה. המפלגה מחזיקה בעמדות שמרניות בנושאי להט\"ב; לא נמצאה התבטאות מ-2025–2026 על נישואים או ברית זוגיות לבני אותו המין.",
+  "sources": [
+   {
+    "title": "Despite internal conflicts, Israel’s Arab party not splitting",
+    "outlet": "Al-Monitor",
+    "date": "2020-08",
+    "url": "https://www.al-monitor.com/originals/2020/08/israel-ayman-odeh-ahmad-tibi-arab-joint-list-lgbtq-knesset.html"
+   },
+   {
+    "title": "Ra'am",
+    "outlet": "Wikipedia (English)",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Ra'am"
+   }
+  ]
  },
  {
   "party": "raam",
@@ -4053,29 +4111,42 @@
  {
   "party": "joint",
   "statement": "draft_haredi_sanctions",
-  "stance": null,
+  "stance": -1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "בתשובה לשאלון ynet על הגיוס (ספטמבר 2026) מסרה הרשימה שהיא מתנגדת לגיוס חרדים ולכל גיוס חובה, ושהמדינה אינה צריכה לכפות חובה כזו. לא נמצאה התייחסות ישירה לסנקציות כלכליות, וההתנגדות להן מוסקת מכך.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026-09 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   }
+  ]
  },
  {
   "party": "joint",
   "statement": "sec_gaza_control",
   "stance": -2,
   "confidence": "low",
-  "basis": "לפי סקירות בחירות בינלאומיות (אוקטובר 2026), מפלגות הרשימה (חד\"ש, תע\"ל ובל\"ד) מגנות את התנהלות ישראל בעזה ואת ההתנחלויות בגדה המערבית / ביהודה ושומרון ותומכות בפתרון שתי המדינות; ההתנגדות לנוכחות צבאית ישראלית ארוכת טווח ברצועה מוסקת מכך.",
+  "basis": "בתנאיה לתמיכה בממשלה חלופית (אוקטובר 2026) דרשה הרשימה אופק מדיני להקמת מדינה פלסטינית בגבולות 1967. יו\"ר חד\"ש יוסף ג'בארין מתח ב-2026 ביקורת חריפה על ההפצצות בעזה, וציין שחד\"ש גינתה גם את הטבח ב-7 באוקטובר. לא נמצאה התייחסות ישירה להחזקת שטחים ברצועה אחרי פירוק חמאס, והעמדה מוסקת מכך.",
   "sources": [
    {
-    "title": "Israelis are heading to the polls in their most seismic election in decades",
-    "outlet": "ABC News (Australia)",
-    "date": "2026-10-23",
-    "url": "https://www.abc.net.au/news/2026-10-23/israel-election-2026-explained/107287156"
+    "title": "תנאי הרשימה המשותפת לגוש השינוי: אופק מדיני למדינה פלסטינית",
+    "outlet": "ערוץ 7",
+    "date": "2026-10",
+    "url": "https://www.inn.co.il/news/708356"
    },
    {
-    "title": "Israel’s 2026 election: Who are the main leaders and where do they stand on the key issues?",
-    "outlet": "Middle East Eye",
-    "date": "2026 (משוער)",
-    "url": "https://www.middleeasteye.net/explainers/election-israel-gaza-netanyahu-eisenkot-policy-draft"
+    "title": "\"רשת ביטחון לחברה הערבית\": הרשימה המשותפת הציגה את תוכניתה לכנסת הבאה",
+    "outlet": "דבר",
+    "date": "2026-10",
+    "url": "https://www.davar1.co.il/702885/"
+   },
+   {
+    "title": "יו\"ר מפלגת חד\"ש: \"הפצצות בלתי אנושיות בעזה, ראינו זוועות\"",
+    "outlet": "ישראל היום",
+    "date": "2026",
+    "url": "https://www.israelhayom.co.il/news/politics/article/21544879"
    }
   ]
  },
@@ -4090,10 +4161,16 @@
  {
   "party": "joint",
   "statement": "jud_selection_politicians",
-  "stance": -1,
-  "confidence": "low",
-  "basis": "לפי סקירת mako (2026), הרשימה המשותפת תומכת באיזונים ובלמים בין הרשויות ובהגנה על זכויות האזרחים; הקידוד הוא היסק מעמדה כללית זו ולא מעמדה מפורשת על הרכב הוועדה.",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון ynet על מערכת המשפט (ספטמבר 2026) מסרה הרשימה שנדרש איזון בין הרשויות, \"ולא ממשלה שיכולה לעשות מה שבא לה בלי איזונים ובלמים\", וגם סקירת mako מציגה אותה כתומכת באיזונים ובלמים. נוסח תשובתה על הרכב הוועדה לבחירת שופטים לא אוחזר, והעמדה על החוק עצמו נגזרת מכך.",
   "sources": [
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026-09 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   },
    {
     "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
     "outlet": "mako (חדשות 12)",
@@ -4134,18 +4211,44 @@
  {
   "party": "joint",
   "statement": "inq_state_commission",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "בתשובה לשאלון ynet (אוקטובר 2026) מסרה הרשימה שהיא תומכת בהקמת ועדת חקירה ממלכתית לפי הדין הקיים, בראשות שופט עליון ובמינוי נשיא בית המשפט העליון. היא גם ביקשה להרחיב את המנדט של הוועדה למדיניות ממשלות נתניהו כלפי הפלסטינים.",
+  "sources": [
+   {
+    "title": "ממלכתית, \"לאומית\" או משהו אחר: איך המפלגות רוצות לחקור את 7/10?",
+    "outlet": "ynet / ידיעות אחרונות",
+    "date": "2026-10",
+    "url": "https://www.ynet.co.il/yedioth/article/yokra14915209"
+   }
+  ]
  },
  {
   "party": "joint",
   "statement": "arab_coalition",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": 2,
+  "confidence": "high",
+  "basis": "באוקטובר 2026 הודיע יו\"ר הרשימה יוסף ג'בארין שהרשימה תעניק רשת ביטחון פרלמנטרית לכל ממשלה שתחליף את ממשלת נתניהו. התנאים: תוכנית ממומנת למאבק בפשיעה, עצירת הריסות בתים ואופק מדיני להקמת מדינה פלסטינית. לא נמצאה הצהרה על כוונה להצטרף לקואליציה עצמה.",
+  "sources": [
+   {
+    "title": "הרשימה המשותפת: נעניק רשת ביטחון לכל ממשלה שתחליף את נתניהו",
+    "outlet": "ערוץ 7",
+    "date": "2026-10",
+    "url": "https://www.inn.co.il/news/708156"
+   },
+   {
+    "title": "הרשימה המשותפת: נעניק רשת ביטחון לכל ממשלה שתחליף את נתניהו",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026-10",
+    "url": "https://www.mako.co.il/news-politics/2026_q4/Article-bf2378e5bd621a1026.htm"
+   },
+   {
+    "title": "\"רשת ביטחון לחברה הערבית\": הרשימה המשותפת הציגה את תוכניתה לכנסת הבאה",
+    "outlet": "דבר",
+    "date": "2026-10",
+    "url": "https://www.davar1.co.il/702885/"
+   }
+  ]
  },
  {
   "party": "joint",
@@ -4212,19 +4315,19 @@
   "statement": "sec_gaza_settle",
   "stance": -2,
   "confidence": "low",
-  "basis": "לפי סקירות בחירות בינלאומיות (אוקטובר 2026), מפלגות הרשימה מגנות את ההתנחלויות בגדה המערבית / ביהודה ושומרון ואת התנהלות ישראל בעזה ותומכות בפתרון שתי המדינות; ההתנגדות לחידוש ההתיישבות ברצועה מוסקת מכך.",
+  "basis": "בתנאיה לתמיכה בממשלה חלופית (אוקטובר 2026) דרשה הרשימה אופק מדיני להקמת מדינה פלסטינית בגבולות 1967, הכוללים את רצועת עזה, וב-23.7.2025 הצביעו ח\"כי חד\"ש-תע\"ל נגד הצהרת הכנסת בעד החלת ריבונות ביהודה ושומרון / הגדה המערבית. לא נמצאה התייחסות ישירה לחידוש ההתיישבות ברצועה, והעמדה מוסקת מכך.",
   "sources": [
    {
-    "title": "Israelis are heading to the polls in their most seismic election in decades",
-    "outlet": "ABC News (Australia)",
-    "date": "2026-10-23",
-    "url": "https://www.abc.net.au/news/2026-10-23/israel-election-2026-explained/107287156"
+    "title": "תנאי הרשימה המשותפת לגוש השינוי: אופק מדיני למדינה פלסטינית",
+    "outlet": "ערוץ 7",
+    "date": "2026-10",
+    "url": "https://www.inn.co.il/news/708356"
    },
    {
-    "title": "Israel’s 2026 election: Who are the main leaders and where do they stand on the key issues?",
-    "outlet": "Middle East Eye",
-    "date": "2026 (משוער)",
-    "url": "https://www.middleeasteye.net/explainers/election-israel-gaza-netanyahu-eisenkot-policy-draft"
+    "title": "Knesset passes non-binding motion on Judea and Samaria sovereignty",
+    "outlet": "JNS",
+    "date": "2025-07-23",
+    "url": "https://www.jns.org/knesset-passes-non-binding-motion-on-judea-and-samaria-sovereignty/"
    }
   ]
  },
@@ -4254,10 +4357,23 @@
  {
   "party": "joint",
   "statement": "arab_shin_bet",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "high",
+  "basis": "בתגובה להחלטת הממשלה מיולי 2026 לשלב את השב\"כ במאבק בפשיעה בחברה הערבית אמר יוסף ג'בארין, העומד כיום בראש הרשימה, שההחלטה נועדה לחפות על כישלון הממשלה ועל התנהלות המשטרה. הוא כינה אותה תקדים מסוכן שמעביר סוגיה פלילית-אזרחית למסלול ביטחוני.",
+  "sources": [
+   {
+    "title": "يوسف جبارين: قرار إدخال الشاباك لمكافحة الجريمة يأتي للتغطية على فشل الحكومة وتواطؤ الشرطة",
+    "outlet": "القدس العربي",
+    "date": "2026-07 (משוער)",
+    "url": "https://www.alquds.co.uk/%D9%8A%D9%88%D8%B3%D9%81-%D8%AC%D8%A8%D8%A7%D8%B1%D9%8A%D9%86-%D9%82%D8%B1%D8%A7%D8%B1-%D8%A5%D8%AF%D8%AE%D8%A7%D9%84-%D8%A7%D9%84%D8%B4%D8%A7%D8%A8%D8%A7%D9%83-%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD/"
+   },
+   {
+    "title": "הממשלה אישרה: השב\"כ ייכנס למאבק למיגור הפשיעה בחברה הערבית",
+    "outlet": "ynet",
+    "date": "2026-07",
+    "url": "https://www.ynet.co.il/news/article/h1klnvb4zg"
+   }
+  ]
  },
  {
   "party": "joint",
@@ -4280,37 +4396,56 @@
   "statement": "sec_pa_gaza",
   "stance": 1,
   "confidence": "low",
-  "basis": "לפי סקירות בחירות בינלאומיות (אוקטובר 2026), מפלגות הרשימה תומכות בפתרון שתי המדינות; התמיכה בתפקיד לרשות הפלסטינית ברצועה מוסקת מכך, ולא נמצאה התייחסות ישירה של הרשימה או של מרכיביה לשאלה.",
+  "basis": "בתנאיה לתמיכה בממשלה חלופית (אוקטובר 2026) דרשה הרשימה אופק מדיני להקמת מדינה פלסטינית בגבולות 1967. לא נמצאה התייחסות ישירה של הרשימה או של מרכיביה לתפקיד הרשות הפלסטינית ברצועה, והתמיכה בכך מוסקת מעמדה זו.",
   "sources": [
    {
-    "title": "Israelis are heading to the polls in their most seismic election in decades",
-    "outlet": "ABC News (Australia)",
-    "date": "2026-10-23",
-    "url": "https://www.abc.net.au/news/2026-10-23/israel-election-2026-explained/107287156"
+    "title": "תנאי הרשימה המשותפת לגוש השינוי: אופק מדיני למדינה פלסטינית",
+    "outlet": "ערוץ 7",
+    "date": "2026-10",
+    "url": "https://www.inn.co.il/news/708356"
    },
    {
-    "title": "Israel’s 2026 election: Who are the main leaders and where do they stand on the key issues?",
-    "outlet": "Middle East Eye",
-    "date": "2026 (משוער)",
-    "url": "https://www.middleeasteye.net/explainers/election-israel-gaza-netanyahu-eisenkot-policy-draft"
+    "title": "הדרישות של הרשימה המשותפת לאחר ההכרזה על רשת הביטחון",
+    "outlet": "mako (חדשות 12)",
+    "date": "2026-10",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-b20b4b0c0da21a1026.htm"
    }
   ]
  },
  {
   "party": "joint",
   "statement": "draft_arab_service",
-  "stance": null,
-  "confidence": "low",
-  "basis": "",
-  "sources": []
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון ynet על הגיוס (ספטמבר 2026) מסרה הרשימה שהיא מתנגדת לכל גיוס חובה. בל\"ד, ממרכיבי הרשימה, תקפה ב-2026 את מנסור עבאס על תמיכתו בשירות אזרחי לערבים ודרשה ממנו להימנע מיוזמות הסותרות את עמדות ועדת המעקב העליונה.",
+  "sources": [
+   {
+    "title": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+    "outlet": "ynet",
+    "date": "2026-09 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14898966"
+   },
+   {
+    "title": "בל\"ד תוקפת את מנסור עבאס בעקבות תמיכתו בשירות אזרחי לערבים",
+    "outlet": "ערוץ 7",
+    "date": "2026",
+    "url": "https://www.inn.co.il/news/702870"
+   }
+  ]
  },
  {
   "party": "joint",
   "statement": "jud_ag_split",
-  "stance": -1,
-  "confidence": "low",
-  "basis": "לפי סקירת mako (2026), הרשימה המשותפת תומכת באיזונים ובלמים בין הרשויות ובהגנה על זכויות האזרחים; הקידוד הוא היסק מעמדה כללית זו ולא מעמדה מפורשת על תפקיד היועמ\"ש.",
+  "stance": -2,
+  "confidence": "medium",
+  "basis": "בתשובה לשאלון ynet על מערכת המשפט (ספטמבר 2026) מסרה הרשימה שנדרש איזון בין הרשויות, \"ולא ממשלה שיכולה לעשות מה שבא לה בלי איזונים ובלמים\", וגם סקירת mako מציגה אותה כתומכת באיזונים ובלמים. לא אוחזרה התייחסות ישירה למעמד חוות הדעת של היועמ\"ש, והעמדה על החוק נגזרת מכך.",
   "sources": [
+   {
+    "title": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+    "outlet": "ynet",
+    "date": "2026-09 (משוער)",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14903844"
+   },
    {
     "title": "רפורמה או מהפכה? עמדות המפלגות בנושא מערכת המשפט",
     "outlet": "mako (חדשות 12)",
@@ -4322,10 +4457,23 @@
  {
   "party": "joint",
   "statement": "soc_same_sex",
-  "stance": null,
+  "stance": 1,
   "confidence": "low",
-  "basis": "",
-  "sources": []
+  "basis": "חד\"ש, המפלגה המובילה ברשימה, תומכת במפורש בנישואים לבני אותו המין, וביולי 2020 תמכו ח\"כי חד\"ש בהצעת החוק לאיסור טיפולי המרה. לרשימה המשותפת כגוף אין עמדה רשמית בנושא, ולא נמצאה עמדה של תע\"ל ובל\"ד, כך שהקידוד מוסק מעמדת חד\"ש.",
+  "sources": [
+   {
+    "title": "Joint List",
+    "outlet": "Wikipedia (English)",
+    "date": null,
+    "url": "https://en.wikipedia.org/wiki/Joint_List"
+   },
+   {
+    "title": "Despite internal conflicts, Israel’s Arab party not splitting",
+    "outlet": "Al-Monitor",
+    "date": "2020-08",
+    "url": "https://www.al-monitor.com/originals/2020/08/israel-ayman-odeh-ahmad-tibi-arab-joint-list-lgbtq-knesset.html"
+   }
+  ]
  },
  {
   "party": "joint",
