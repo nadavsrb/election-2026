@@ -1,1 +1,306 @@
-[]
+[
+  {
+    "name": "ביחד בראשות נפתלי בנט",
+    "letters": "רק",
+    "leader": "נפתלי בנט",
+    "note": null,
+    "status": "running",
+    "main_id": "together"
+  },
+  {
+    "name": "ישר! בראשות גדי איזנקוט",
+    "letters": "דרך",
+    "leader": "גדי איזנקוט",
+    "note": null,
+    "status": "running",
+    "main_id": "yashar"
+  },
+  {
+    "name": "שרשר – לאהבה ואחדות העם",
+    "letters": "צדק",
+    "leader": "איתן שווילי",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "המילואימניקים והכלכלית",
+    "letters": "די",
+    "leader": "יועז הנדל",
+    "note": null,
+    "status": "running",
+    "main_id": "reservists"
+  },
+  {
+    "name": "הפיראטים – צפים לטוב",
+    "letters": "צף",
+    "leader": "אוהד שם טוב",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "עמך ישראל",
+    "letters": "ך",
+    "leader": "עופר וינטר",
+    "note": null,
+    "status": "running",
+    "main_id": "amcha"
+  },
+  {
+    "name": "ישראל תחילה",
+    "letters": "י",
+    "leader": "שרן השכל",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "גן עדן",
+    "letters": "ה",
+    "leader": "ישוע ישראל בן דוד",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "סדר חדש לכינון חוקה, להפרדת רשויות ולבחירות ישירות",
+    "letters": "קך",
+    "leader": null,
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "הליכוד בהנהגת בנימין נתניהו",
+    "letters": "מחל",
+    "leader": "בנימין נתניהו",
+    "note": null,
+    "status": "running",
+    "main_id": "likud"
+  },
+  {
+    "name": "ישראל ביתנו",
+    "letters": "ל",
+    "leader": "אביגדור ליברמן",
+    "note": null,
+    "status": "running",
+    "main_id": "yisrael_beiteinu"
+  },
+  {
+    "name": "עוצמה יהודית",
+    "letters": "ב",
+    "leader": "איתמר בן גביר",
+    "note": null,
+    "status": "running",
+    "main_id": "otzma"
+  },
+  {
+    "name": "הציונות הדתית וזהות",
+    "letters": "ט",
+    "leader": "בצלאל סמוטריץ'",
+    "note": null,
+    "status": "running",
+    "main_id": "rzp"
+  },
+  {
+    "name": "הדמוקרטים",
+    "letters": "אמת",
+    "leader": "יאיר גולן",
+    "note": null,
+    "status": "running",
+    "main_id": "democrats"
+  },
+  {
+    "name": "ש\"ס",
+    "letters": "שס",
+    "leader": "אריה דרעי",
+    "note": null,
+    "status": "running",
+    "main_id": "shas"
+  },
+  {
+    "name": "יהדות התורה",
+    "letters": "ג",
+    "leader": "יעקב אשר",
+    "note": null,
+    "status": "running",
+    "main_id": "utj"
+  },
+  {
+    "name": "כחול לבן",
+    "letters": "כן",
+    "leader": "בני גנץ",
+    "note": "פרשה מההתמודדות. הפתקים שלה הוצאו מהקלפיות, וקול עבורה ייפסל.",
+    "status": "withdrew",
+    "main_id": null
+  },
+  {
+    "name": "רע\"ם",
+    "letters": "עם",
+    "leader": "מנסור עבאס",
+    "note": null,
+    "status": "running",
+    "main_id": "raam"
+  },
+  {
+    "name": "הרשימה המשותפת חד\"ש-תע\"ל-בל\"ד",
+    "letters": "ודם",
+    "leader": "יוסף ג'בארין",
+    "note": null,
+    "status": "running",
+    "main_id": "joint"
+  },
+  {
+    "name": "קול הנשים",
+    "letters": "קה",
+    "leader": "עמיר ישראל שדמי",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "ביחד נצליח – רשימה ערבית יהודית",
+    "letters": "בד",
+    "leader": "אבי שקד",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "נעם",
+    "letters": "ני",
+    "leader": "אבי מעוז",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "הציבור החרדי",
+    "letters": "זך",
+    "leader": "מוטי לייטנר",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "התיקון לשיטת הבחירות והממשל",
+    "letters": "נקי",
+    "leader": null,
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "שמע",
+    "letters": "נף",
+    "leader": "נפתלי גולדמן",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "ברית עולם לגאולת ישראל",
+    "letters": "זץ",
+    "leader": null,
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "משפט צדק",
+    "letters": "קץ",
+    "leader": null,
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "בטח – ביטחון חברתי",
+    "letters": "ז",
+    "leader": "סמיון גרפמן",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "אורות השחר",
+    "letters": "בקר",
+    "leader": "ניסים לוק",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "ביטחון אישי",
+    "letters": "נץ",
+    "leader": null,
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "צבע שחור – מגן עולם התורה",
+    "letters": "נר",
+    "leader": null,
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "גה\"ת – גוש התנ\"כי",
+    "letters": "יק",
+    "leader": null,
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "צומת בית ישראל",
+    "letters": "בי",
+    "leader": null,
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "תקומה",
+    "letters": "ק",
+    "leader": "אלקנא פדרמן",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "תנועת אחי – תנועתו של הרב יורם אברג'ל זצ\"ל",
+    "letters": "צבי",
+    "leader": "הרב יובל אלימלך",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "הקהל – מפלגה כלל־חרדית שנציגיה נבחרים על ידי הציבור",
+    "letters": "רץ",
+    "leader": "הרב שלמה אלבוים",
+    "note": "דווח שהחליטה לפרוש, אבל לא מצאנו הודעה של ועדת הבחירות.",
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "אני ואתה – מפלגת העם הישראלית",
+    "letters": "פה",
+    "leader": null,
+    "note": null,
+    "status": "running",
+    "main_id": null
+  },
+  {
+    "name": "השותפות לכולם",
+    "letters": "ד",
+    "leader": "טלאל אלקרינאוי",
+    "note": null,
+    "status": "running",
+    "main_id": null
+  }
+]

@@ -9,7 +9,7 @@ const main = [...parties].sort((a, b) => a.short_name.localeCompare(b.short_name
 const all = [...lists].sort(byName);
 const STATUS: Record<string, string> = {
   running: '',
-  withdrew: 'הודיעה על פרישה, אבל הפתק עדיין בקלפי',
+  withdrew: '',
   conditional: 'אושרה בתנאי',
   disqualified: 'נפסלה',
 };
@@ -44,8 +44,8 @@ const STATUS: Record<string, string> = {
     <section class="wrap py-12" aria-labelledby="all-title">
       <h2 id="all-title" class="section-h2">כל הפתקים בקלפי</h2>
       <p class="page-note">
-        כל הרשימות שאישרה ועדת הבחירות המרכזית, עם האותיות שיופיעו על הפתק. כך תדעו איזה פתק לחפש מאחורי
-        הפרגוד.
+        כל {all.length} הרשימות שאישרה ועדת הבחירות המרכזית, עם האותיות שעל הפתק. כך תדעו איזה פתק לחפש מאחורי
+        הפרגוד. רשימות שמסומנות בקישור הן הרשימות המרכזיות, שיש להן פרופיל מלא.
       </p>
       <div class="table-wrap">
         <table class="lists-table">
@@ -66,7 +66,7 @@ const STATUS: Record<string, string> = {
                     <span class="row-note">{[STATUS[l.status], l.note].filter(Boolean).join('. ')}</span>
                   )}
                 </th>
-                <td>{l.leader ?? 'לא ידוע'}</td>
+                <td>{l.leader ?? 'לא אותר'}</td>
               </tr>
             ))}
           </tbody>
