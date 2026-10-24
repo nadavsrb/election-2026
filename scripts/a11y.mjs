@@ -7,7 +7,7 @@ const axeSource = readFileSync(new URL('../node_modules/axe-core/axe.min.js', im
 const base = process.env.BASE_URL ?? 'http://localhost:4321/election-2026/';
 const pages = process.argv.slice(2).length
   ? process.argv.slice(2)
-  : ['', 'quiz/?mode=quick', 'parties/', 'parties/likud/', 'issues/', 'issues/draft/', 'compare/?p=likud,yashar', 'how-to-vote/', 'about/'];
+  : ['', 'quiz/?mode=quick', 'parties/', 'parties/likud/', 'issues/', 'issues/draft/', 'compare/?p=likud,yashar', 'how-to-vote/', 'about/', 'polls/', 'quiz/#r=v1.q.cdbcadcebcdc'];
 
 const browser = await chromium.launch({ executablePath: process.env.CHROME_PATH ?? '/opt/pw-browsers/chromium' });
 let total = 0;
@@ -16,6 +16,8 @@ for (const scheme of ['light', 'dark']) {
   const page = await context.newPage();
   for (const p of pages) {
     await page.goto(base + p, { waitUntil: 'networkidle' });
+    // let entrance animations finish, or axe measures half-faded text
+    await page.evaluate(() => Promise.all(document.getAnimations().map((a) => a.finished)));
     await page.addScriptTag({ content: axeSource });
     const result = await page.evaluate(async () =>
       // @ts-ignore

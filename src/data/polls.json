@@ -1,3 +1,220 @@
 {
-  "polls": []
+  "polls": [
+    {
+      "id": "maariv-2026-10-23",
+      "outlet": "מעריב",
+      "pollster": "לזר מחקרים בשיתוף Panel4All",
+      "date": "2026-10-23",
+      "title": "סקר מנדטים של מעריב: עופר וינטר בחוץ - וגוש נתניהו נכנס לצרות",
+      "url": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+      "seats": {
+        "yashar": 21,
+        "likud": 19,
+        "together": 15,
+        "yisrael_beiteinu": 8,
+        "democrats": 10,
+        "shas": 8,
+        "utj": 7,
+        "otzma": 7,
+        "rzp": 7,
+        "raam": 5,
+        "joint": 9,
+        "reservists": 4,
+        "amcha": 0
+      },
+      "below_pct": {
+        "amcha": "3%"
+      },
+      "other": {}
+    },
+    {
+      "id": "kan-2026-10-23",
+      "outlet": "כאן חדשות",
+      "pollster": "קנטאר",
+      "date": "2026-10-23",
+      "title": "סקר אחרון של כאן: הקואליציה נחלשת במנדט",
+      "url": "https://www.zman.co.il/live/735892/",
+      "seats": {
+        "yashar": 22,
+        "likud": 20,
+        "together": 14,
+        "yisrael_beiteinu": 8,
+        "democrats": 8,
+        "shas": 7,
+        "utj": 8,
+        "otzma": 8,
+        "rzp": 7,
+        "raam": 5,
+        "joint": 9,
+        "reservists": 4,
+        "amcha": 0
+      },
+      "below_pct": {
+        "amcha": "2.9%"
+      },
+      "other": {}
+    },
+    {
+      "id": "c13-2026-10-23",
+      "outlet": "חדשות 13",
+      "pollster": null,
+      "date": "2026-10-23",
+      "title": "דרמה בסקר האחרון: איזנקוט מגדיל את הפער, וינטר והנדל בחוץ",
+      "url": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+      "seats": {
+        "yashar": 22,
+        "likud": 19,
+        "together": 14,
+        "yisrael_beiteinu": 8,
+        "democrats": 10,
+        "shas": 7,
+        "utj": 8,
+        "otzma": 8,
+        "rzp": 8,
+        "raam": 7,
+        "joint": 9,
+        "reservists": 0,
+        "amcha": 0
+      },
+      "below_pct": {
+        "reservists": "3.0%",
+        "amcha": "3.1%"
+      },
+      "other": {}
+    },
+    {
+      "id": "n12-2026-10-23",
+      "outlet": "חדשות 12",
+      "pollster": "מדגם (מנו גבע)",
+      "date": "2026-10-23",
+      "title": "סקר המנדטים האחרון של חדשות 12 לפני הבחירות",
+      "url": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+      "seats": {
+        "yashar": 23,
+        "likud": 21,
+        "together": 15,
+        "yisrael_beiteinu": 8,
+        "democrats": 10,
+        "shas": 8,
+        "utj": 7,
+        "otzma": 8,
+        "rzp": 6,
+        "raam": 5,
+        "joint": 9,
+        "reservists": 0,
+        "amcha": 0
+      },
+      "below_pct": {
+        "reservists": "2.4%",
+        "amcha": "2.5%"
+      },
+      "other": {}
+    },
+    {
+      "id": "i24-2026-10-23",
+      "outlet": "i24NEWS",
+      "pollster": "דיירקט פולס",
+      "date": "2026-10-23",
+      "title": "סקר מנדטים אחרון: וינטר עובר את אחוז החסימה - הקואליציה מתחזקת",
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+      "seats": {
+        "yashar": 21,
+        "likud": 26,
+        "together": 12,
+        "yisrael_beiteinu": 6,
+        "democrats": 8,
+        "shas": 8,
+        "utj": 7,
+        "otzma": 8,
+        "rzp": 6,
+        "raam": 5,
+        "joint": 9,
+        "reservists": 0,
+        "amcha": 4
+      },
+      "below_pct": {
+        "reservists": "2.2%"
+      },
+      "other": {}
+    },
+    {
+      "id": "c14-2026-10-22",
+      "outlet": "ערוץ 14",
+      "pollster": "NEXT DATA (ניתוח: שלמה פילבר)",
+      "date": "2026-10-22",
+      "title": "הסקר האחרון לפני הבחירות: אלו שתי המפלגות שמתרסקות לחלוטין",
+      "url": "https://www.c14.co.il/article/1750553",
+      "seats": {
+        "yashar": 20,
+        "likud": 30,
+        "together": 11,
+        "yisrael_beiteinu": 5,
+        "democrats": 8,
+        "shas": 9,
+        "utj": 8,
+        "otzma": 8,
+        "rzp": 7,
+        "raam": 6,
+        "joint": 8,
+        "reservists": 0,
+        "amcha": 0
+      },
+      "below_pct": {},
+      "other": {}
+    },
+    {
+      "id": "israelhayom-2026-10-22",
+      "outlet": "ישראל היום",
+      "pollster": "מכון קנטאר",
+      "date": "2026-10-22",
+      "title": "סקר המנדטים האחרון לפני הבחירות: בנט מזנק, ליברמן נחלש",
+      "url": "https://www.israelhayom.co.il/news/politics/article/21687549",
+      "seats": {
+        "yashar": 23,
+        "likud": 21,
+        "together": 14,
+        "yisrael_beiteinu": 7,
+        "democrats": 8,
+        "shas": 8,
+        "utj": 7,
+        "otzma": 8,
+        "rzp": 6,
+        "raam": 5,
+        "joint": 9,
+        "reservists": 4,
+        "amcha": 0
+      },
+      "below_pct": {
+        "amcha": "2.7%"
+      },
+      "other": {}
+    },
+    {
+      "id": "walla-2026-10-20",
+      "outlet": "וואלה",
+      "pollster": "לזר מחקרים בשיתוף Panel4All",
+      "date": "2026-10-20",
+      "title": "וינטר בחוץ, איזנקוט פותח פער מנתניהו ובנט מתחזק - מפת הגושים החדשה",
+      "url": "https://www.walla.co.il/news/politics/383958175",
+      "seats": {
+        "yashar": 23,
+        "likud": 19,
+        "together": 14,
+        "yisrael_beiteinu": 8,
+        "democrats": 9,
+        "shas": 8,
+        "utj": 7,
+        "otzma": 8,
+        "rzp": 6,
+        "raam": 6,
+        "joint": 8,
+        "reservists": 4,
+        "amcha": 0
+      },
+      "below_pct": {
+        "amcha": "2.9%"
+      },
+      "other": {}
+    }
+  ]
 }

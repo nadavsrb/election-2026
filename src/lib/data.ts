@@ -137,9 +137,9 @@ export function pollLine(partyId: string): string | null {
   const hi = Math.max(...above);
   const range = lo === hi ? `${lo} מושבים` : `בין ${lo} ל-${hi} מושבים`;
   if (!below) return range;
-  return below === 1
-    ? `${range}, ובסקר אחד מתוך ${n} מתחת לאחוז החסימה`
-    : `${range}, ומתחת לאחוז החסימה ב-${below} מתוך ${n} הסקרים`;
+  return above.length === 1
+    ? `עברה את אחוז החסימה בסקר אחד מתוך ${n} (${range})`
+    : `עברה את אחוז החסימה ב-${above.length} מתוך ${n} הסקרים (${range})`;
 }
 
 const positionIndex = new Map(positions.map((p) => [`${p.party}|${p.statement}`, p]));
