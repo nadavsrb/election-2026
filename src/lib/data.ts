@@ -7,6 +7,7 @@ import partiesJson from '../data/parties.json';
 import listsJson from '../data/lists.json';
 import positionsJson from '../data/positions.json';
 import metaJson from '../data/meta.json';
+import pollsJson from '../data/polls.json';
 import type { QuizData, Stance } from './scoring';
 
 const source = z.object({
@@ -92,6 +93,21 @@ const position = z.object({
   sources: z.array(source),
 });
 
+// The last poll each outlet published before the ban on new polls. Seats are copied from the source;
+// 0 means below the threshold and null means the source didn't report the list.
+const poll = z.object({
+  id: z.string(),
+  outlet: z.string(),
+  pollster: z.string(),
+  date: z.string(),
+  title: z.string(),
+  url: z.string().url(),
+  seats: z.record(z.string(), z.number().int().min(0).max(120).nullable()),
+  below_pct: z.record(z.string(), z.string()).default({}),
+  other: z.record(z.string(), z.number().int().min(0)).default({}),
+});
+
+export type Poll = z.infer<typeof poll>;
 export type Topic = z.infer<typeof topic>;
 export type Statement = z.infer<typeof statement>;
 export type Party = z.infer<typeof party>;
@@ -107,6 +123,24 @@ export const parties: Party[] = z.array(party).parse(partiesJson);
 export const lists: BallotList[] = z.array(list).parse(listsJson);
 export const positions: Position[] = z.array(position).parse(positionsJson);
 export const meta = metaJson;
+export const polls: Poll[] = z.object({ polls: z.array(poll) }).parse(pollsJson).polls;
+
+/** One line on how a list did in the published polls, or null when no poll reported it. */
+export function pollLine(partyId: string): string | null {
+  const values = polls.map((p) => p.seats[partyId]).filter((v): v is number => typeof v === 'number');
+  if (!values.length) return null;
+  const n = values.length;
+  const above = values.filter((v) => v > 0);
+  const below = n - above.length;
+  if (!above.length) return n === 1 ? 'מתחת לאחוז החסימה' : `מתחת לאחוז החסימה בכל ${n} הסקרים`;
+  const lo = Math.min(...above);
+  const hi = Math.max(...above);
+  const range = lo === hi ? `${lo} מושבים` : `בין ${lo} ל-${hi} מושבים`;
+  if (!below) return range;
+  return below === 1
+    ? `${range}, ובסקר אחד מתוך ${n} מתחת לאחוז החסימה`
+    : `${range}, ומתחת לאחוז החסימה ב-${below} מתוך ${n} הסקרים`;
+}
 
 const positionIndex = new Map(positions.map((p) => [`${p.party}|${p.statement}`, p]));
 export const positionOf = (partyId: string, statementId: string) =>
@@ -135,11 +169,13 @@ export function quizPayload(): QuizData {
       letters,
       leader,
       pm: { kind: pm.kind, summary: pm.summary, basis: pm.basis, sources: pm.sources.map(compactSource) },
+      polls: pollLine(id),
     })),
     positions: positions.map((p) => ({
       ...p,
       stance: p.stance as Stance | null,
       sources: p.sources.map(compactSource),
     })),
+    pollCount: polls.length,
   };
 }

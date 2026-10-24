@@ -13,6 +13,7 @@ import {
   type QuizData,
   type StatementRow,
 } from '../../lib/scoring';
+import { POLL_BAN_LABEL, POLL_BAN_SHORT, POLL_NOTE } from '../../lib/site';
 import AxesMap from './AxesMap';
 
 interface Props {
@@ -69,6 +70,13 @@ export default function Results({ data, answers, mode, baseUrl, onRestart, onCon
         <p class="r-note">
           לחצו על רשימה כדי לראות, טענה אחר טענה, מה עניתם ומה עמדתה. כשהאחוזים שווים, הסדר אקראי.
         </p>
+        {data.pollCount > 0 && (
+          <p class="r-polls-note" role="note">
+            <strong>{POLL_NOTE}</strong> ליד כל רשימה מופיעים מספרי המושבים שקיבלה בסקרים האחרונים שפורסמו עד{' '}
+            {POLL_BAN_LABEL}, שממנו אסור לפרסם סקרים חדשים. הסקרים לא משפיעים על אחוז ההתאמה.{' '}
+            <a href={`${baseUrl}polls/`}>פרטי הסקרים והמקורות</a>
+          </p>
+        )}
         <ol class="r-list r-reveal">
           {ranked.map((r, i) => (
             <PartyRow key={r.party.id} result={r} baseUrl={baseUrl} index={i} />
@@ -163,6 +171,11 @@ function PartyRow({
           <span class="r-row-name">{party.short_name}</span>
           <span class="r-row-leader">{party.leader}</span>
           <span class="r-row-pm">לראשות הממשלה: {party.pm.summary}</span>
+          {party.polls && (
+            <span class="r-row-polls">
+              סקרים עד {POLL_BAN_SHORT} (לא עדכניים): {party.polls}
+            </span>
+          )}
           <span class="r-bar" aria-hidden="true">
             <span style={{ width: `${width}%` }} />
           </span>

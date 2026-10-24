@@ -18,7 +18,9 @@ A neutral, static voting-advice site for Israel's 26th Knesset election (Tue 27 
 ## Neutrality rules (non-negotiable)
 - Every list gets the same template and size. Directories sort alphabetically; tied results and the home tray are random. No party logos or party colors.
 - About half of the statements should be phrased so that agreeing is the right/religious/government-strengthening position, and half the opposite. Today it is 12 of 26. Keep it balanced when editing.
-- Give contested terms both names ("יהודה ושומרון / הגדה המערבית"). No polls: they are banned by law from 23 Oct 23:59 until the polls close, and polls are out of scope anyway.
+- Give contested terms both names ("יהודה ושומרון / הגדה המערבית").
+- Polls: from 23 Oct 23:59 until the polls close the law bans publishing new polls; polls published earlier may be shown only with a prominent note that they are not current (`POLL_NOTE` in `src/lib/site.ts`). `polls.json` holds the last poll each major outlet published before the ban, picked by that rule and never by result, with seats copied as published. Polls never affect the match score, and the site computes no forecasts or probabilities from them.
+- `parties.json` → `pm` is what each list declared about whom it will recommend for prime minister, with sources. It is a declaration, not a prediction.
 - Never guess a party's position. Unknown stays `null` and shows as "אין עמדה ידועה".
 - Hebrew copy is gender-inclusive plural (אתם, בחרו). Write time ranges with words ("מ-07:00 עד 22:00"), because an en dash between numbers renders reversed in RTL.
 

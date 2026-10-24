@@ -19,6 +19,7 @@ const statements = load('statements.json', []);
 const parties = load('parties.json', []);
 const lists = load('lists.json', []);
 const positions = load('positions.json', []);
+const pollsFile = load('polls.json', { polls: [] });
 
 const unique = (arr, key, label) => {
   const seen = new Set();
@@ -83,6 +84,27 @@ if (lists.length && parties.length) {
   for (const p of parties) {
     if (!lists.some((l) => l.letters === p.letters)) warn(`party ${p.id}: letters "${p.letters}" not found in lists.json`);
   }
+}
+
+// Polls: only ones published before the ban, with every list reported and seats adding up to 120.
+const BAN_DATE = '2026-10-23';
+for (const poll of pollsFile.polls ?? []) {
+  const where = `poll ${poll.id}`;
+  for (const f of ['id', 'outlet', 'pollster', 'date', 'title']) {
+    if (!poll[f]?.toString().trim()) err(`${where}: missing ${f}`);
+  }
+  checkSources(where, [{ title: poll.title, url: poll.url }], true);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(poll.date ?? '') || poll.date > BAN_DATE) err(`${where}: date ${poll.date} is not before the ban`);
+  const seats = poll.seats ?? {};
+  for (const id of Object.keys(seats)) if (!partyIds.has(id)) err(`${where}: unknown party ${id}`);
+  for (const id of partyIds) {
+    if (!(id in seats)) err(`${where}: no value for ${id}`);
+    else if (seats[id] !== null && (!Number.isInteger(seats[id]) || seats[id] < 0 || (seats[id] > 0 && seats[id] < 4)))
+      err(`${where}: impossible seats for ${id}: ${seats[id]}`);
+  }
+  const total = [...Object.values(seats), ...Object.values(poll.other ?? {})].reduce((a, n) => a + (n ?? 0), 0);
+  if (Object.values(seats).some((n) => n === null)) warn(`${where}: some lists not reported`);
+  else if (total !== 120) err(`${where}: seats add up to ${total}, not 120`);
 }
 
 const seenPairs = new Set();

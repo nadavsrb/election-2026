@@ -45,6 +45,8 @@ export interface QuizParty {
   letters: string;
   leader: string;
   pm: PmRecommendation;
+  /** How the list did in the last polls published before the ban, as one line of text. */
+  polls: string | null;
 }
 
 export interface QuizPosition {
@@ -62,6 +64,7 @@ export interface QuizData {
   statements: QuizStatement[];
   parties: QuizParty[];
   positions: QuizPosition[];
+  pollCount: number;
 }
 
 export interface Answer {
