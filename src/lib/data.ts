@@ -98,7 +98,7 @@ const position = z.object({
 const poll = z.object({
   id: z.string(),
   outlet: z.string(),
-  pollster: z.string(),
+  pollster: z.string().nullable(),
   date: z.string(),
   title: z.string(),
   url: z.string().url(),

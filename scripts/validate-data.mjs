@@ -90,7 +90,7 @@ if (lists.length && parties.length) {
 const BAN_DATE = '2026-10-23';
 for (const poll of pollsFile.polls ?? []) {
   const where = `poll ${poll.id}`;
-  for (const f of ['id', 'outlet', 'pollster', 'date', 'title']) {
+  for (const f of ['id', 'outlet', 'date', 'title']) {
     if (!poll[f]?.toString().trim()) err(`${where}: missing ${f}`);
   }
   checkSources(where, [{ title: poll.title, url: poll.url }], true);

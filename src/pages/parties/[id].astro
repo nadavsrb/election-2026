@@ -102,7 +102,7 @@ const seatsText = (n: number) => (n === 0 ? 'מתחת לאחוז החסימה' :
           {partyPolls.map((p) => (
             <li>
               <a href={p.url} target="_blank" rel="noopener noreferrer">{p.outlet}</a>
-              <span class="poll-meta">({p.pollster}, {formatSourceDate(p.date)}):</span> {seatsText(p.seats[party.id] as number)}
+              <span class="poll-meta">({[p.pollster, formatSourceDate(p.date)].filter(Boolean).join(', ')}):</span> {seatsText(p.seats[party.id] as number)}
             </li>
           ))}
         </ul>

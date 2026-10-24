@@ -77,7 +77,7 @@ const hasOthers = polls.some((p) => Object.values(p.other).some((n) => n > 0));
             <li>
               <a class="source-link" href={p.url} target="_blank" rel="noopener noreferrer">{p.title}</a>
               <span class="meta">
-                {p.outlet}, סוקר: {p.pollster}, {formatSourceDate(p.date)}
+                {[p.outlet, p.pollster && `סוקר: ${p.pollster}`, formatSourceDate(p.date)].filter(Boolean).join(', ')}
               </span>
             </li>
           ))}
