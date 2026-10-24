@@ -15,11 +15,30 @@
     "founded": 2025,
     "description": "ישר! היא רשימה חדשה בראשות הרמטכ\"ל לשעבר גדי איזנקוט, שהקים אותה ב-2025 לאחר שעזב את המחנה הממלכתי. במקום השני ראש השב\"כ לשעבר יורם כהן. לדבריה, היא מתמקדת בביטחון, בשוויון בנטל השירות ובהקמת ועדת חקירה ממלכתית.",
     "pm": {
-      "kind": "unknown",
-      "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "kind": "self",
+      "candidate": "גדי איזנקוט",
+      "summary": "גדי איזנקוט (ראש הרשימה)",
+      "basis": "גדי איזנקוט מתמודד לראשות הממשלה ואמר שיעמיד את ממשלתו לאישור הכנסת גם בלי 61 מנדטים. ב-2026 הציע לראשי מפלגות הגוש שכולם ימליצו לנשיא על ראש המפלגה הגדולה בגוש.",
+      "sources": [
+        {
+          "title": "‘I am working to be prime minister, Netanyahu is worried,’ Eisenkot tells ynet",
+          "outlet": "ynetnews",
+          "date": null,
+          "url": "https://www.ynetnews.com/article/skjoa0w11gx"
+        },
+        {
+          "title": "Eisenkot said to propose to opposition chiefs they all agree to nominate leader of largest party for PM after election",
+          "outlet": "Times of Israel",
+          "date": null,
+          "url": "https://www.timesofisrael.com/liveblog_entry/eisenkot-said-to-propose-to-opposition-chiefs-they-all-agree-to-nominate-leader-of-largest-party-for-pm-after-election/"
+        },
+        {
+          "title": "Eisenkot vows to challenge Netanyahu for power after election, even without Knesset majority",
+          "outlet": "ynetnews",
+          "date": null,
+          "url": "https://www.ynetnews.com/article/bjym0xoofx"
+        }
+      ]
     },
     "sources": [
       {
@@ -82,11 +101,18 @@
     "founded": 1973,
     "description": "הליכוד, בראשות בנימין נתניהו, עמד בראש הממשלה היוצאת. לדבריו, הוא מבקש להמשיך את מדיניות הממשלה היוצאת בתחומי הביטחון והמדיניות, ולפי מצעו לקדם שינויים במערכת המשפט בהסכמה רחבה.",
     "pm": {
-      "kind": "unknown",
-      "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "kind": "self",
+      "candidate": "בנימין נתניהו",
+      "summary": "בנימין נתניהו (ראש הרשימה)",
+      "basis": "בנימין נתניהו, יו\"ר הליכוד וראש הממשלה המכהן, מתמודד בבחירות 2026 לכהונה נוספת כראש הממשלה.",
+      "sources": [
+        {
+          "title": "A look at the major candidates in Israel's election next week",
+          "outlet": "AP (ClickOrlando)",
+          "date": "2026-10-21",
+          "url": "https://www.clickorlando.com/news/world/2026/10/21/a-look-at-the-major-candidates-in-israels-election-next-week/"
+        }
+      ]
     },
     "sources": [
       {
@@ -140,11 +166,30 @@
     "founded": 2026,
     "description": "ביחד היא רשימה משותפת של \"בנט 2026\" בראשות ראש הממשלה לשעבר נפתלי בנט ושל \"יש עתיד\" בראשות יאיר לפיד, שהוקמה באפריל 2026. לדבריה, היא מציעה חובת שירות לכולם ללא פטורים, וראשיה הודיעו שלא יסתמכו על המפלגות הערביות.",
     "pm": {
-      "kind": "unknown",
-      "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "kind": "self",
+      "candidate": "נפתלי בנט",
+      "summary": "נפתלי בנט (ראש הרשימה)",
+      "basis": "נפתלי בנט עומד בראש ביחד ומתמודד לראשות הממשלה; באפריל 2026, בהכרזה על הריצה המשותפת, אמר יאיר לפיד שהמרכז צריך להתייצב מאחורי בנט. בריאיון לחדשות 12 נמנע בנט מלהתחייב להמליץ על איזנקוט אם יקבל פחות מנדטים ממנו.",
+      "sources": [
+        {
+          "title": "Seismic shift in Israeli politics as opposition leaders Lapid and Bennett form joint party",
+          "outlet": "JTA",
+          "date": "2026-04-26",
+          "url": "https://www.jta.org/2026/04/26/israel/seismic-shift-in-israeli-politics-as-opposition-leaders-lapid-and-bennett-form-joint-party"
+        },
+        {
+          "title": "בנט: אני ימין, לא אסתמך על המפלגות הערביות. לפיד: המרכז הישראלי צריך להתייצב מאחוריו",
+          "outlet": "ynet",
+          "date": "2026-04",
+          "url": "https://www.ynet.co.il/news/article/bjev03jpwl"
+        },
+        {
+          "title": "כתבה",
+          "outlet": "מעריב",
+          "date": null,
+          "url": "https://www.maariv.co.il/culture/tv/article-1348800"
+        }
+      ]
     },
     "sources": [
       {
@@ -195,11 +240,30 @@
     "founded": 1999,
     "description": "ישראל ביתנו, בראשות אביגדור ליברמן, הייתה באופוזיציה בכנסת היוצאת. לדבריה, היא מציעה חובת שירות לכל צעיר וצעירה בגיל 18, חקיקה שתמנע מנאשם בפלילים להרכיב ממשלה, וכינון חוקה שתובא למשאל עם.",
     "pm": {
-      "kind": "unknown",
-      "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "kind": "self",
+      "candidate": "אביגדור ליברמן",
+      "summary": "אביגדור ליברמן (ראש הרשימה)",
+      "basis": "אביגדור ליברמן אמר בקמפיין 2026 שהוא שואף להיות ראש הממשלה, ודחה את הצעת איזנקוט שראשי הגוש יתחייבו מראש להמליץ על ראש המפלגה הגדולה (\"היעד שלי הוא להביא לגוש ניצחון מוחץ ורק אחר כך ראשות ממשלה\"). הוא התחייב להקים ממשלה ציונית בלי המפלגות החרדיות ובלי המפלגות הערביות.",
+      "sources": [
+        {
+          "title": "ליברמן חושף את מהלך השח-מט שלו: \"ואז להיות ראש הממשלה\"",
+          "outlet": "מעריב",
+          "date": null,
+          "url": "https://www.maariv.co.il/news/politics/article-1339742"
+        },
+        {
+          "title": "מלחמת עולם בגוש השינוי: דרישת איזנקוט נענתה בשלילה - \"נאבד ארבעה מנדטים\" | האזינו",
+          "outlet": "מעריב",
+          "date": null,
+          "url": "https://www.maariv.co.il/news/elections-2026/article-1368350"
+        },
+        {
+          "title": "כתבה",
+          "outlet": "סרוגים",
+          "date": null,
+          "url": "https://www.srugim.co.il/1276848-ליברמן-מבטיח-נקים-ממשלה-בלי-החרדים-וב"
+        }
+      ]
     },
     "sources": [
       {
@@ -247,11 +311,18 @@
     "founded": 2024,
     "description": "הדמוקרטים, בראשות יאיר גולן, הוקמו ב-2024 מאיחוד מפלגת העבודה ומרצ. לדבריהם, מטרתם המרכזית היא חיזוק הדמוקרטיה ושלטון החוק; הם מתנגדים לסיפוח ביהודה ושומרון / בגדה המערבית ותומכים בשותפות עם מפלגות ערביות.",
     "pm": {
-      "kind": "unknown",
+      "kind": "conditional",
       "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "summary": "תמליץ על ראש המפלגה הגדולה בגוש האופוזיציה",
+      "basis": "יאיר גולן אמר שראש המפלגה הגדולה בגוש צריך לעמוד בראש הממשלה הבאה, ושכפי שהדברים נראים כעת גדי איזנקוט הוא המועמד הטבעי, אך ההכרעה תלויה בתוצאות הבחירות.",
+      "sources": [
+        {
+          "title": "Yair Golan: ‘If we win 15 seats, I’ll be defense minister’",
+          "outlet": "ynetnews",
+          "date": null,
+          "url": "https://www.ynetnews.com/article/syys00erge"
+        }
+      ]
     },
     "sources": [
       {
@@ -296,11 +367,30 @@
     "founded": 1984,
     "description": "ש\"ס, בראשות אריה דרעי, היא מפלגה חרדית-ספרדית. לדבריה, היא תומכת בפטור משירות צבאי לתלמידי ישיבות, ודרעי מתנה את הצטרפותה לממשלה הבאה בחקיקה שתסדיר את מעמדם.",
     "pm": {
-      "kind": "unknown",
-      "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "kind": "candidate",
+      "candidate": "בנימין נתניהו",
+      "summary": "תמליץ על בנימין נתניהו",
+      "basis": "בסוף יולי 2026 אמר אריה דרעי שש\"ס תומכת בבנימין נתניהו בראש המחנה ושהוא יהיה ראש הממשלה, ושלל שיתוף פעולה עם גדי איזנקוט אחרי הבחירות. באוקטובר 2026 אמר שש\"ס לא תקים ולא תשביע ממשלה בלי הסדרת מעמד תלמידי הישיבות, ושבלי חוק הגיוס \"נלך לבחירות חוזרות\".",
+      "sources": [
+        {
+          "title": "אחרי השלמת הדיל, דרעי סוגר את הדלת לאיזנקוט: \"נתניהו הוא המנהיג שלנו\"",
+          "outlet": "ynet",
+          "date": "2026-07",
+          "url": "https://www.ynet.co.il/news/article/b1bebqlnml"
+        },
+        {
+          "title": "\"תומכים בנתניהו, נקודה\"",
+          "outlet": "ערוץ 7",
+          "date": "2026-07",
+          "url": "https://www.inn.co.il/news/701704"
+        },
+        {
+          "title": "אריה דרעי מצהיר: \"בלי חוק הגיוס נלך לבחירות חוזרות\"",
+          "outlet": "אמס",
+          "date": "2026-10",
+          "url": "https://www.emess.co.il/radio/1948643"
+        }
+      ]
     },
     "sources": [
       {
@@ -348,11 +438,24 @@
     "founded": 1992,
     "description": "יהדות התורה, בראשות יעקב אשר, היא רשימה חרדית-אשכנזית של דגל התורה ואגודת ישראל. לדבריה, היא תומכת בפטור משירות צבאי לתלמידי ישיבות ובשמירה על האוטונומיה של מוסדות החינוך החרדיים.",
     "pm": {
-      "kind": "unknown",
+      "kind": "conditional",
       "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "summary": "טרם החליטה על מי תמליץ",
+      "basis": "יו\"ר הרשימה יעקב אשר אמר בריאיון ל-i24NEWS במערכת הבחירות 2026 שיהדות התורה טרם החליטה על תמיכה במועמד לראשות הממשלה, ושההכרעה תתקבל אחרי הבחירות לפי הנחיית גדולי ישראל. באוקטובר 2026 אמר יצחק גולדקנופף (אגודת ישראל) שאינו מתחייב להמליץ על בנימין נתניהו גם אם יהיה לו רוב של 61, והתנה זאת בהסדרים חתומים על מעמד תלמידי הישיבות.",
+      "sources": [
+        {
+          "title": "לא פוסל ישיבה עם איזנקוט: יו\"ר יהדות התורה יעקב אשר בריאיון מיוחד",
+          "outlet": "i24NEWS",
+          "date": null,
+          "url": "https://www.i24news.tv/he/news/israel-elections-2026/artc-95dd4cda"
+        },
+        {
+          "title": "גם עם 61 אין התחייבות: התנאי שמציב גולדקנופף לנתניהו",
+          "outlet": "אמס",
+          "date": "2026-10",
+          "url": "https://www.emess.co.il/radio/1949465"
+        }
+      ]
     },
     "sources": [
       {
@@ -397,11 +500,30 @@
     "founded": 2012,
     "description": "עוצמה יהודית, בראשות איתמר בן גביר, מתמודדת בבחירות האלה בנפרד מהציונות הדתית. לדבריה, היא תומכת בהחלת ריבונות ביהודה ושומרון / בגדה המערבית, בהתיישבות ברצועת עזה ובעונש מוות למחבלים.",
     "pm": {
-      "kind": "unknown",
-      "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "kind": "candidate",
+      "candidate": "בנימין נתניהו",
+      "summary": "תמליץ על בנימין נתניהו",
+      "basis": "באוקטובר 2026 אמר איתמר בן גביר שהוא נשאר מחויב לכך שבנימין נתניהו יהיה ראש הממשלה, ובריאיון למגזין TIME אמר: \"אני רוצה שנתניהו יהיה ראש הממשלה\".",
+      "sources": [
+        {
+          "title": "Ben-Gvir claims Netanyahu promised EU leaders to exclude him from next government",
+          "outlet": "Ynetnews",
+          "date": "2026-10",
+          "url": "https://www.ynetnews.com/article/syurwvm3fg"
+        },
+        {
+          "title": "Ben Gvir says Netanyahu pledged to exclude him from next government as election nears",
+          "outlet": "The Times of Israel",
+          "date": "2026-10",
+          "url": "https://www.timesofisrael.com/ben-gvir-says-netanyahu-pledged-to-exclude-him-from-next-government-as-election-nears/"
+        },
+        {
+          "title": "Exclusive: Ben-Gvir’s Plan to Push Netanyahu Further Right",
+          "outlet": "TIME",
+          "date": "2026-10-22",
+          "url": "https://time.com/article/2026/10/22/ben-gvir-interview/"
+        }
+      ]
     },
     "sources": [
       {
@@ -454,11 +576,24 @@
     "founded": null,
     "description": "הציונות הדתית-זהות היא רשימה משותפת של הציונות הדתית בראשות בצלאל סמוטריץ' ושל זהות בראשות משה פייגלין. לדבריה, היא תומכת בהחלת ריבונות ביהודה ושומרון / בגדה המערבית ובהמשך השינויים במערכת המשפט.",
     "pm": {
-      "kind": "unknown",
-      "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "kind": "candidate",
+      "candidate": "בנימין נתניהו",
+      "summary": "תמליץ על בנימין נתניהו",
+      "basis": "לפי דיווח של כאן חדשות שצוטט בסרוגים, בהסכם הריצה המשותפת של הציונות הדתית וזהות לבחירות 2026 נכלל סעיף שבו שתי המפלגות מתחייבות להמליץ לנשיא על בנימין נתניהו להרכבת הממשלה. משה פייגלין אמר במערכת הבחירות שמפלגתו תמליץ על נתניהו ללא תנאים, אך תדרוש שינוי מדיניות אם תצטרף לקואליציה.",
+      "sources": [
+        {
+          "title": "לא סומך עליו? התנאי של סמוטריץ' לפייגלין לפני האיחוד",
+          "outlet": "סרוגים",
+          "date": null,
+          "url": "https://www.srugim.co.il/101010218-%D7%9C%D7%90-%D7%A1%D7%95%D7%9E%D7%9A-%D7%A2%D7%9C%D7%99%D7%95-%D7%94%D7%AA%D7%A0%D7%90%D7%99-%D7%A9%D7%9C-%D7%A1%D7%9E%D7%95%D7%98%D7%A8%D7%99%D7%A5-%D7%9C%D7%A4%D7%99%D7%99%D7%92%D7%9C%D7%99%D7%9F"
+        },
+        {
+          "title": "ימליץ על נתניהו - ומאשים אותו באחריות ל־7 באוקטובר",
+          "outlet": "ערוץ 7",
+          "date": null,
+          "url": "https://www.inn.co.il/news/708368"
+        }
+      ]
     },
     "sources": [
       {
@@ -497,11 +632,24 @@
     "founded": 1996,
     "description": "רע\"ם, בראשות מנסור עבאס, היא מפלגה ערבית שב-2021 הייתה המפלגה הערבית העצמאית הראשונה שהצטרפה לקואליציה. לדבריה, היא רואה בהשתתפות בממשלה דרך להשיג תקציבים ולהיאבק בפשיעה בחברה הערבית, ותומכת בפתרון שתי המדינות.",
     "pm": {
-      "kind": "unknown",
+      "kind": "conditional",
       "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "summary": "תתמוך בממשלה שתחליף את ממשלת נתניהו",
+      "basis": "באוקטובר 2026 אמר מנסור עבאס שרע\"ם פועלת להבטיח הקמת ממשלת שינוי שתחליף את הממשלה הנוכחית. לא מצאנו הצהרה של רע\"ם על מועמד מסוים שעליו תמליץ לראשות הממשלה.",
+      "sources": [
+        {
+          "title": "מנסור עבאס מסמן יעד: הולכים להבטיח ממשלת שינוי חדשה",
+          "outlet": "כל רגע",
+          "date": "2026-10-19",
+          "url": "https://www.kore.co.il/viewArticle/223503"
+        },
+        {
+          "title": "\"אנחנו נבטיח הקמת ממשלת שינוי\": המסר של עבאס לציבור הערבי - דרך התקשורת הבינלאומית",
+          "outlet": "ישראל היום",
+          "date": null,
+          "url": "https://www.israelhayom.co.il/news/politics/article/21656659"
+        }
+      ]
     },
     "sources": [
       {
@@ -544,11 +692,30 @@
     "founded": 2026,
     "description": "הרשימה המשותפת היא איחוד של חד\"ש, תע\"ל ובל\"ד שסוכם באוגוסט 2026, בראשות יוסף ג'בארין ובמקום השני אחמד טיבי. לדבריה, היא תומכת בפתרון שתי המדינות ובשוויון אזרחי מלא, ומתנגדת להתיישבות ביהודה ושומרון / בגדה המערבית.",
     "pm": {
-      "kind": "unknown",
+      "kind": "conditional",
       "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "summary": "רשת ביטחון לממשלה שתחליף את ממשלת נתניהו",
+      "basis": "באוקטובר 2026 הודיע יו\"ר הרשימה המשותפת יוסף ג'בארין שהרשימה תעניק רשת ביטחון פרלמנטרית לכל ממשלה שתחליף את ממשלת נתניהו, בתנאי שיתקיים משא ומתן על דרישותיה, ואמר שהרשימה אינה נותנת צ'ק פתוח לאיש. לא מצאנו הצהרה של הרשימה על מועמד מסוים שעליו תמליץ.",
+      "sources": [
+        {
+          "title": "יו\"ר הרשימה המשותפת: נעניק רשת ביטחון לכל ממשלה שתחליף את נתניהו",
+          "outlet": "ynet",
+          "date": "2026-10",
+          "url": "https://www.ynet.co.il/news/elections2026/article/sykomzuomx"
+        },
+        {
+          "title": "Joint List chairman: 'We will provide safety net for any government that replaces Netanyahu'",
+          "outlet": "ynetnews",
+          "date": "2026-10",
+          "url": "https://www.ynetnews.com/article/6bb1zzfy7"
+        },
+        {
+          "title": "Arab parties offer to back any government that replaces Netanyahu, but warns: ‘No blank check’",
+          "outlet": "ynetnews",
+          "date": "2026-10",
+          "url": "https://www.ynetnews.com/article/rjshx11difl"
+        }
+      ]
     },
     "sources": [
       {
@@ -601,11 +768,24 @@
     "founded": null,
     "description": "המילואימניקים-הכלכלית היא רשימה משותפת של מפלגת המילואימניקים בראשות יועז הנדל ושל המפלגה הכלכלית החדשה בראשות ירון זליכה. לדבריה, היא מתמקדת בשוויון בנטל, בוועדת חקירה ממלכתית בהסכמה רחבה ובשינויים במערכת המשפט באמצעות חוק יסוד: החקיקה.",
     "pm": {
-      "kind": "unknown",
+      "kind": "conditional",
       "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "summary": "תמליץ על מי שיביא הכי הרבה מנדטים ציוניים",
+      "basis": "יועז הנדל אמר שהמילואימניקים ימליצו על המועמד שיביא את המספר הגדול ביותר של מנדטים ציוניים, ושהרשימה לא תשב בממשלה עם המפלגות החרדיות או עם המפלגות הערביות. באוקטובר 2026 קרא לעופר וינטר להתחייב יחד איתו לשבת רק בממשלה ציונית בלי המפלגות האלה.",
+      "sources": [
+        {
+          "title": "Yoaz Hendel: 'We'll recommend whoever brings the most Zionist seats'",
+          "outlet": "ynetnews",
+          "date": null,
+          "url": "https://www.ynetnews.com/article/2ixdc53d3"
+        },
+        {
+          "title": "יועז הנדל לעופר וינטר: \"חזור בך מהתמיכה בנתניהו. נקים גוש חוסם לממשלות לא-ציוניות\"",
+          "outlet": "ynet",
+          "date": "2026-10",
+          "url": "https://www.ynet.co.il/news/elections2026/article/hk00uzebszx"
+        }
+      ]
     },
     "sources": [
       {
@@ -662,11 +842,30 @@
     "founded": 2026,
     "description": "עמך ישראל היא רשימה חדשה שהקים באוגוסט 2026 תא\"ל (מיל') עופר וינטר, ובה אנשי מילואים ובני משפחות שכולות. וינטר מגדיר אותה כמפלגת ימין והודיע שימליץ על נתניהו; לדבריה, היא מתנגדת למדינה פלסטינית ותומכת בגיוס חרדים.",
     "pm": {
-      "kind": "unknown",
-      "candidate": null,
-      "summary": "לא מצאנו הודעה",
-      "basis": "",
-      "sources": []
+      "kind": "candidate",
+      "candidate": "בנימין נתניהו",
+      "summary": "תמליץ על בנימין נתניהו",
+      "basis": "באוגוסט 2026 הודיע עופר וינטר שעמך ישראל שייכת למחנה הימין, שמנהיג המחנה הוא בנימין נתניהו ושרק עליו תמליץ. בהמשך אמר שההמלצה אינה התחייבות להצטרף לממשלת נתניהו, ושהרשימה לא תצטרף לממשלה שלא תחוקק חוק גיוס לפני הקמתה.",
+      "sources": [
+        {
+          "title": "וינטר מבהיר: \"רק על נתניהו נמליץ\"",
+          "outlet": "ערוץ 7",
+          "date": null,
+          "url": "https://www.israelnationalnews.com/news/432350"
+        },
+        {
+          "title": "אחרי החשש בסביבת נתניהו: עופר וינטר הכריע על מי ימליץ",
+          "outlet": "כיפה",
+          "date": null,
+          "url": "https://www.kipa.co.il/חדשות/1230449-0/"
+        },
+        {
+          "title": "וינטר חזר והצהיר \"אנחנו בימין\" - אבל סימן קו אדום לנתניהו",
+          "outlet": "מעריב",
+          "date": null,
+          "url": "https://www.maariv.co.il/news/elections-2026/article-1362429"
+        }
+      ]
     },
     "sources": [
       {
