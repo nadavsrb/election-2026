@@ -59,9 +59,24 @@ const checkSources = (where, sources, required) => {
   }
 };
 
+const PM_KINDS = new Set(['self', 'candidate', 'conditional', 'none', 'unknown']);
 for (const p of parties) {
   for (const f of ['name', 'short_name', 'letters', 'leader', 'description']) {
     if (!p[f]?.toString().trim()) err(`party ${p.id}: missing ${f}`);
+  }
+  // the declared PM recommendation follows the same rule as positions: a claim needs a source
+  const pm = p.pm;
+  if (!pm || !PM_KINDS.has(pm.kind)) {
+    err(`party ${p.id}: missing or invalid pm`);
+    continue;
+  }
+  if (!pm.summary?.trim()) err(`party ${p.id}: pm without summary`);
+  if (['self', 'candidate'].includes(pm.kind) && !pm.candidate?.trim()) err(`party ${p.id}: pm ${pm.kind} without candidate`);
+  if (pm.kind === 'unknown') {
+    if (pm.sources?.length) err(`party ${p.id}: unknown pm should have no sources`);
+  } else {
+    if (!pm.basis?.trim()) err(`party ${p.id}: pm without basis`);
+    checkSources(`party ${p.id} pm`, pm.sources, true);
   }
 }
 if (lists.length && parties.length) {

@@ -18,6 +18,7 @@ const BLOC: Record<string, string> = {
 };
 const facts = [
   { label: 'בראש הרשימה', value: party.leader },
+  { label: 'לראשות הממשלה', value: party.pm.summary },
   party.components.length ? { label: 'מרכיבי הרשימה', value: party.components.join(', ') } : null,
   party.results_2022 ? { label: 'בבחירות 2022', value: party.results_2022 } : null,
   party.bloc_status && BLOC[party.bloc_status] ? { label: 'מעמד בכנסת היוצאת', value: BLOC[party.bloc_status] } : null,
@@ -70,6 +71,22 @@ const reportUrl = `${ISSUES_URL}?title=${encodeURIComponent(`תיקון: ${party
         </ol>
       </section>
     )}
+
+    <section class="mt-10" id="pm" aria-labelledby="pm-title">
+      <h2 id="pm-title" class="h2">ראשות הממשלה</h2>
+      <p class="note">
+        את מי הרשימה הודיעה שתמליץ לנשיא להטיל עליו את הרכבת הממשלה אחרי הבחירות. זו הצהרה של הרשימה, לא תחזית.
+      </p>
+      {party.pm.kind === 'unknown' ? (
+        <p class="pm-summary">לא מצאנו הודעה של הרשימה בנושא.</p>
+      ) : (
+        <>
+          <p class="pm-summary">{party.pm.summary}</p>
+          <p class="pos-basis">{party.pm.basis}</p>
+          <SourceList sources={party.pm.sources} />
+        </>
+      )}
+    </section>
 
     <section class="mt-12" aria-labelledby="pos-title">
       <h2 id="pos-title" class="h2">העמדות לפי נושא</h2>
@@ -150,6 +167,7 @@ const reportUrl = `${ISSUES_URL}?title=${encodeURIComponent(`תיקון: ${party
   .top10 { list-style: decimal; padding-inline-start: 1.6rem; margin-top: 0.8rem; columns: 2; column-gap: 2rem; }
   .top10 li { padding-block: 0.2rem; break-inside: avoid; }
 
+  .pm-summary { margin-top: 0.8rem; font-weight: 600; font-size: 1.1rem; }
   .pos-list { margin-top: 0.5rem; }
   .pos { padding-block: 1rem; border-top: 1px solid var(--color-line); }
   .pos-text { font-weight: 600; margin-bottom: 0.5rem; }

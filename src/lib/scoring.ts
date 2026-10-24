@@ -28,12 +28,23 @@ export interface QuizTopic {
   summary?: string;
 }
 
+/** Whom a list says it will recommend for prime minister. A declaration, not a prediction. */
+export type PmKind = 'self' | 'candidate' | 'conditional' | 'none' | 'unknown';
+
+export interface PmRecommendation {
+  kind: PmKind;
+  summary: string;
+  basis: string;
+  sources: Source[];
+}
+
 export interface QuizParty {
   id: string;
   name: string;
   short_name: string;
   letters: string;
   leader: string;
+  pm: PmRecommendation;
 }
 
 export interface QuizPosition {

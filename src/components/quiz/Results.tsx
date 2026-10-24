@@ -162,6 +162,7 @@ function PartyRow({
         <span class="r-row-main">
           <span class="r-row-name">{party.short_name}</span>
           <span class="r-row-leader">{party.leader}</span>
+          <span class="r-row-pm">לראשות הממשלה: {party.pm.summary}</span>
           <span class="r-bar" aria-hidden="true">
             <span style={{ width: `${width}%` }} />
           </span>
@@ -177,6 +178,23 @@ function PartyRow({
             מבוסס על {used} מתוך {answered} התשובות שלכם.{' '}
             <a href={`${baseUrl}parties/${party.id}/`}>לפרופיל המלא של הרשימה</a>
           </p>
+          <div class="r-pm">
+            <p>
+              <span class="r-conf">לראשות הממשלה:</span>{' '}
+              {party.pm.kind === 'unknown' ? 'לא מצאנו הודעה של הרשימה על מי תמליץ.' : party.pm.basis}
+            </p>
+            {party.pm.sources.length > 0 && (
+              <ul class="r-sources">
+                {party.pm.sources.map((s) => (
+                  <li key={s.url}>
+                    <a class="source-link" href={s.url} target="_blank" rel="noopener noreferrer">
+                      {sourceLabel(s)}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
           <ul class="r-breakdown">
             {result.rows.map((row) => (
               <BreakdownItem key={row.statement.id} row={row} />

@@ -5,6 +5,7 @@ import {
   indexPositions,
   sourceLabel,
   type QuizData,
+  type QuizParty,
   type QuizPosition,
   type Stance,
 } from '../../lib/scoring';
@@ -99,6 +100,17 @@ export default function Compare({ dataUrl, baseUrl }: Props) {
               </a>
             ))}
           </div>
+          <section class="c-topic">
+            <h2 class="c-topic-title">ראשות הממשלה</h2>
+            <div class="c-row">
+              <p class="c-text">את מי הרשימה הודיעה שתמליץ לנשיא להטיל עליו את הרכבת הממשלה</p>
+              <div class="c-cells">
+                {chosen.map((p) => (
+                  <PmCell key={p.id} party={p} />
+                ))}
+              </div>
+            </div>
+          </section>
           {data.topics.map((t) => {
             const items = statements.filter((s) => s.topic === t.id);
             if (!items.length) return null;
@@ -121,6 +133,38 @@ export default function Compare({ dataUrl, baseUrl }: Props) {
             );
           })}
         </div>
+      )}
+    </div>
+  );
+}
+
+function PmCell({ party }: { party: QuizParty }) {
+  const [open, setOpen] = useState(false);
+  const { pm } = party;
+  return (
+    <div class="c-cell">
+      <span class="c-cell-party">{party.short_name}</span>
+      <span class="c-label">{pm.summary}</span>
+      {pm.kind !== 'unknown' && (
+        <>
+          <button type="button" class="c-more" aria-expanded={open} onClick={() => setOpen(!open)}>
+            {open ? 'להסתיר' : 'על מה זה מבוסס'}
+          </button>
+          {open && (
+            <div class="c-basis">
+              <p>{pm.basis}</p>
+              <ul>
+                {pm.sources.map((src) => (
+                  <li key={src.url}>
+                    <a class="source-link" href={src.url} target="_blank" rel="noopener noreferrer">
+                      {sourceLabel(src)}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </>
       )}
     </div>
   );

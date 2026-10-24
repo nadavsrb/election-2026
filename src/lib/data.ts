@@ -41,6 +41,15 @@ const statement = z.object({
   }),
 });
 
+// What the list said about whom it will recommend to the President to form the government.
+const pm = z.object({
+  kind: z.enum(['self', 'candidate', 'conditional', 'none', 'unknown']),
+  candidate: z.string().nullable(),
+  summary: z.string().min(1),
+  basis: z.string(),
+  sources: z.array(source),
+});
+
 const party = z.object({
   id: z.string(),
   name: z.string(),
@@ -60,6 +69,7 @@ const party = z.object({
   founded: z.number().int().nullable().optional(),
   description: z.string(),
   inclusion_note: z.string().nullable().optional(),
+  pm,
   sources: z.array(source).default([]),
 });
 
@@ -105,22 +115,31 @@ export const topicOf = (id: string) => topics.find((t) => t.id === id);
 export const partyOf = (id: string) => parties.find((p) => p.id === id);
 export const statementsOfTopic = (topicId: string) => statements.filter((s) => s.topic === topicId);
 
+const compactSource = (s: z.infer<typeof source>) => ({
+  title: s.title,
+  outlet: s.outlet ?? undefined,
+  date: s.date ?? undefined,
+  url: s.url,
+});
+
 /** The compact payload the quiz and compare islands fetch at runtime. */
 export function quizPayload(): QuizData {
   return {
     updated: meta.lastUpdated,
     topics: topics.map(({ id, title, question, summary }) => ({ id, title, question, summary })),
     statements: statements.map(({ id, order, quick, topic, text, context, axis }) => ({ id, order, quick, topic, text, context, axis })),
-    parties: parties.map(({ id, name, short_name, letters, leader }) => ({ id, name, short_name, letters, leader })),
+    parties: parties.map(({ id, name, short_name, letters, leader, pm }) => ({
+      id,
+      name,
+      short_name,
+      letters,
+      leader,
+      pm: { kind: pm.kind, summary: pm.summary, basis: pm.basis, sources: pm.sources.map(compactSource) },
+    })),
     positions: positions.map((p) => ({
       ...p,
       stance: p.stance as Stance | null,
-      sources: p.sources.map((s) => ({
-        title: s.title,
-        outlet: s.outlet ?? undefined,
-        date: s.date ?? undefined,
-        url: s.url,
-      })),
+      sources: p.sources.map(compactSource),
     })),
   };
 }
